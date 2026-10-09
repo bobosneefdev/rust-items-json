@@ -1,0 +1,3302 @@
+[
+ {
+  "prefab": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+  "name": "Floor Frame",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/floor.triangle.frame/floor.triangle.frame.prefab",
+  "name": "Floor Triangle Frame",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 75
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 7
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+  "name": "Floor Triangle",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 75
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 7
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/floor/floor.prefab",
+  "name": "Floor",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/foundation.steps/foundation.steps.prefab",
+  "name": "Steps",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+  "name": "Triangle Foundation",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/foundation/foundation.prefab",
+  "name": "Foundation",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/ramp/ramp.prefab",
+  "name": "A ramp",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+  "name": "Roof Triangle",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/roof/roof.prefab",
+  "name": "Roof",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/stairs.l/block.stair.lshape.prefab",
+  "name": "Stairs L Shape",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/stairs.spiral.triangle/block.stair.spiral.triangle.prefab",
+  "name": "Stairs Spiral Triangle",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/stairs.spiral/block.stair.spiral.prefab",
+  "name": "Stairs Spiral",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/stairs.u/block.stair.ushape.prefab",
+  "name": "U Shaped Stairs",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall.doorway/wall.doorway.prefab",
+  "name": "Doorway",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 35
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 140
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 210
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 140
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 18
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+  "name": "Wall Frame",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall.half/wall.half.prefab",
+  "name": "Half Wall",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall.low/wall.low.prefab",
+  "name": "Low Wall",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 150
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 100
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 13
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall.window/wall.window.prefab",
+  "name": "Window",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 35
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 140
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 210
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 140
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 18
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ },
+ {
+  "prefab": "assets/prefabs/building core/wall/wall.prefab",
+  "name": "Wall",
+  "grades": [
+   {
+    "grade": "twig",
+    "health": 10.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 50
+     }
+    ],
+    "protection": {
+     "name": "BlockTwig",
+     "amounts": {
+      "generic": 0.95,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 0.5,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.8,
+      "slash": 0.8,
+      "blunt": 0.8,
+      "fall": 0.7,
+      "radiation": 1.0,
+      "stab": 0.8,
+      "arrow": 0.8,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "wood",
+    "health": 250.0,
+    "cost": [
+     {
+      "item": "wood",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockWood",
+     "amounts": {
+      "generic": 0.9,
+      "heat": 0.9,
+      "bullet": 0.97,
+      "slash": 0.8,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.9,
+      "explosion": 0.1,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "stone",
+    "health": 500.0,
+    "cost": [
+     {
+      "item": "stones",
+      "amount": 300
+     }
+    ],
+    "protection": {
+     "name": "BlockStone",
+     "amounts": {
+      "generic": 0.99,
+      "hunger": 0.7,
+      "thirst": 0.7,
+      "cold": 0.7,
+      "drowned": 0.7,
+      "heat": 1.0,
+      "bleeding": 0.7,
+      "poison": 0.7,
+      "suicide": 0.7,
+      "bullet": 0.99,
+      "slash": 0.98,
+      "blunt": 0.98,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.95,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "metal",
+    "health": 1000.0,
+    "cost": [
+     {
+      "item": "metal.fragments",
+      "amount": 200
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   },
+   {
+    "grade": "armored",
+    "health": 2000.0,
+    "cost": [
+     {
+      "item": "metal.refined",
+      "amount": 25
+     }
+    ],
+    "protection": {
+     "name": "BlockMetal",
+     "amounts": {
+      "generic": 0.98,
+      "heat": 1.0,
+      "bullet": 0.9999,
+      "slash": 0.99,
+      "blunt": 0.99,
+      "radiation": 1.0,
+      "bite": 0.99,
+      "stab": 0.98,
+      "explosion": 0.5,
+      "arrow": 1.0,
+      "antiVehicle": 1.0,
+      "collision": 1.0,
+      "paintball": 1.0,
+      "cannon": 1.0
+     }
+    }
+   }
+  ],
+  "softSide": null
+ }
+]

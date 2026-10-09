@@ -1,0 +1,10172 @@
+{
+ "containers": {
+  "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-1.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.Barrel",
+   "rolls": 1,
+   "scrap": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-2.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.Barrel",
+   "rolls": 1,
+   "scrap": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/autospawn/resource/loot/trash-pile-1.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.TrashPile",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/asset_store/hiddenhackablecrate.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.RadTownElite",
+     "rolls": 6,
+     "chance": 1.0
+    },
+    {
+     "table": "Collection.Rifles",
+     "rolls": 1,
+     "chance": 1.0
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_min_build_radius.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "minigun with ammo",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 2,
+     "chance": 0.5
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "MetalPlateInsert",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ResourceRoll_Components",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HighendRifles",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "advanceblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ItemModsRareChance",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "autoturret#2",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.125
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_no_build_radius.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "minigun with ammo",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 2,
+     "chance": 0.5
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "MetalPlateInsert",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ResourceRoll_Components",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HighendRifles",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "advanceblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ItemModsRareChance",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "autoturret#2",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.125
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_basic.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "WorkbenchTier_0",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_0",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "scrap": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_elite.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.RadTownElite",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "Collection.Weapons",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "MLRSAmmo",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "scrap": 25,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "supply.signal",
+     "rolls": 1,
+     "chance": 0.01
+    }
+   ],
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_1",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "Radsuit",
+     "rolls": 1,
+     "chance": 0.04
+    },
+    {
+     "table": "diving",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 0,
+     "chance": 0.04
+    },
+    {
+     "table": "Collection",
+     "rolls": 1,
+     "chance": 0.15
+    }
+   ],
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2_food.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.FoodCrate",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2_medical.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.MedicalCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_tools.prefab": {
+   "type": "town",
+   "table": "LootSpawn.BlackBox",
+   "rolls": 1,
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_foodbox.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodBox",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_vehicle_parts.prefab": {
+   "type": "town",
+   "table": "EngineComponents",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_basic.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "WorkbenchTier_0",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_0",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "scrap": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_basic_jungle.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.CrateJungle",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "BlowpipeWithAmmo",
+     "rolls": 1,
+     "chance": 0.33
+    }
+   ],
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_mine.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.MineCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.FoodCrate",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.MedicalCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_tools.prefab": {
+   "type": "town",
+   "table": "LootSpawn.BlackBox",
+   "rolls": 1,
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_underwater_advanced.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier1",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HQMetal_Medium",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "basicblueprintfragmentloot_single",
+     "rolls": 1,
+     "chance": 0.1
+    }
+   ],
+   "scrap": 10,
+   "class": "FreeableLootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_underwater_basic.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.BlackBox",
+     "rolls": 1,
+     "chance": 0.667
+    },
+    {
+     "table": "LootSpawn.Components.Tier1",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 0.334
+    }
+   ],
+   "scrap": 5,
+   "class": "FreeableLootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm ammo.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.AmmoCrate",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm c4.prefab": {
+   "type": "generic",
+   "table": "explosive.timed",
+   "rolls": 4,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm construction resources.prefab": {
+   "type": "generic",
+   "table": "DM.ConstructionResources",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm construction tools.prefab": {
+   "type": "generic",
+   "table": "DM.ConstructionTools",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm food.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.FoodCrate",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm medical.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.MedicalCrate",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm res.prefab": {
+   "type": "generic",
+   "table": "DM.ConstructionResourcesAlt",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm tier1 lootbox.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.T1",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm tier2 lootbox.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.T2",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/dmloot/dm tier3 lootbox.prefab": {
+   "type": "generic",
+   "table": "DM.LootSpawn.T3",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/foodbox.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodBox",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/loot_component_test.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Components.Tier1",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/loot_trash.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Components.Tier0",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/minecart.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.MineCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_ammunition.prefab": {
+   "type": "generic",
+   "table": "Ammo",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_elite.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.RadTownElite",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "Collection.Weapons",
+     "rolls": 1,
+     "chance": 0.65
+    },
+    {
+     "table": "MLRSAmmo",
+     "rolls": 1,
+     "chance": 0.2
+    },
+    {
+     "table": "advanceblueprintfragmentlootsingle",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.075
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.1
+    }
+   ],
+   "scrap": 25,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_food_1.prefab": {
+   "type": "town",
+   "table": "LootSpawn.FoodCrate",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_food_2.prefab": {
+   "type": "town",
+   "table": "LootSpawn.FoodBox",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_fuel.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.OilBarrel",
+   "rolls": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_medical.prefab": {
+   "type": "town",
+   "table": "LootSpawn.MedicalCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_normal.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "supply.signal",
+     "rolls": 1,
+     "chance": 0.01
+    },
+    {
+     "table": "WorkbenchUpgrades.Medium",
+     "rolls": 1,
+     "chance": 0.05
+    },
+    {
+     "table": "HeavyFuse",
+     "rolls": 1,
+     "chance": 0.06
+    }
+   ],
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_normal_2.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_1",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "Radsuit",
+     "rolls": 1,
+     "chance": 0.04
+    },
+    {
+     "table": "diving",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 0,
+     "chance": 0.04
+    },
+    {
+     "table": "Collection",
+     "rolls": 1,
+     "chance": 0.15
+    },
+    {
+     "table": "WorkbenchUpgrades.Low",
+     "rolls": 1,
+     "chance": 0.025
+    },
+    {
+     "table": "HeavyFuse",
+     "rolls": 1,
+     "chance": 0.03
+    }
+   ],
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/crate_tools.prefab": {
+   "type": "town",
+   "table": "LootSpawn.BlackBox",
+   "rolls": 1,
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/tech_parts_1.prefab": {
+   "type": "town",
+   "table": "LootSpawn.Components.Tier2",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/tech_parts_2.prefab": {
+   "type": "town",
+   "table": "LootSpawn.Components.Tier3",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/underwater_labs/vehicle_parts.prefab": {
+   "type": "town",
+   "table": "EngineComponents",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/vehicle_parts.prefab": {
+   "type": "town",
+   "table": "EngineComponents",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/vehicle_parts_advanced.prefab": {
+   "type": "town",
+   "table": "EngineComponents.Advanced",
+   "rolls": 2,
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign1.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign2.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign3.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign4.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign5.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign6.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign7.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign8.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/props/roadsigns/roadsign9.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Roadsign",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "supply.signal",
+     "rolls": 1,
+     "chance": 0.01
+    }
+   ],
+   "scrap": 11,
+   "class": "LootContainer"
+  },
+  "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_1",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "Radsuit",
+     "rolls": 1,
+     "chance": 0.04
+    },
+    {
+     "table": "diving",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 0,
+     "chance": 0.04
+    },
+    {
+     "table": "Collection",
+     "rolls": 1,
+     "chance": 0.15
+    }
+   ],
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2_food.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.FoodCrate",
+   "rolls": 3,
+   "class": "LootContainer"
+  },
+  "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2_medical.prefab": {
+   "type": "town",
+   "table": "DM.LootSpawn.MedicalCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "minigun with ammo",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 2,
+     "chance": 0.5
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "MetalPlateInsert",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ResourceRoll_Components",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HighendRifles",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "advanceblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ItemModsRareChance",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "autoturret#2",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.125
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_oilrig.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "minigun with ammo",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 2,
+     "chance": 0.5
+    },
+    {
+     "table": "MedievalRoll",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "MetalPlateInsert",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ResourceRoll_Components",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HighendRifles",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "advanceblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ItemModsRareChance",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "autoturret#2",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.125
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/prefabs/misc/food cache/food_cache_001.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodCache",
+   "rolls": 6,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/food cache/food_cache_002.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodCache",
+   "rolls": 6,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/food cache/food_cache_003.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodCache",
+   "rolls": 6,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/food cache/food_cache_004.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodCache",
+   "rolls": 6,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/food cache/food_cache_005.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.FoodCache",
+   "rolls": 6,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/xmas/giftbox/giftbox_loot.prefab": {
+   "type": "generic",
+   "table": "WorldGiftBox",
+   "rolls": 5,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/misc/xmas/sleigh/presentdrop.prefab": {
+   "type": "airdrop",
+   "slots": [
+    {
+     "table": "ResourceRoll",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "GunRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "Ammo",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "Gifts",
+     "rolls": 2,
+     "chance": 1.0
+    }
+   ],
+   "class": "SupplyDrop"
+  },
+  "assets/prefabs/misc/xmas/stockings/stocking_large_deployed.prefab": {
+   "type": "generic",
+   "table": "SUPERStocking",
+   "rolls": 3,
+   "class": "Stocking"
+  },
+  "assets/prefabs/misc/xmas/stockings/stocking_small_deployed.prefab": {
+   "type": "generic",
+   "table": "SmallStocking",
+   "rolls": 2,
+   "class": "Stocking"
+  },
+  "assets/prefabs/missions/entities/deepseatreasuremission_box.prefab": {
+   "type": "generic",
+   "table": "DeepSeaTreasureSpawn_ArmorPlates",
+   "rolls": 1,
+   "class": "SingleUseMissionStorageContainer"
+  },
+  "assets/prefabs/missions/entities/logstash.prefab": {
+   "type": "town",
+   "table": "LogSpawn",
+   "rolls": 1,
+   "class": "WhitelistLootContainer"
+  },
+  "assets/prefabs/missions/entities/missionlootbox_basic.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "scrap": 5,
+   "class": "WhitelistLootContainer"
+  },
+  "assets/prefabs/missions/entities/missionstash.prefab": {
+   "type": "town",
+   "table": "BottleSpawn",
+   "rolls": 1,
+   "class": "WhitelistLootContainer"
+  },
+  "assets/prefabs/missions/entities/tacklebox.prefab": {
+   "type": "town",
+   "table": "TackleSpawn",
+   "rolls": 1,
+   "class": "WhitelistLootContainer"
+  },
+  "assets/prefabs/missions/portal/proceduraldungeon/xmastunnels/loot/xmastunnellootbox.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "supply.signal",
+     "rolls": 1,
+     "chance": 0.01
+    },
+    {
+     "table": "XmasTunnelCrateExtra",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    }
+   ],
+   "scrap": 15,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/missions/tutorialisland/crate_elite_tutorial.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "LootSpawn.TutorialHiddenCrate",
+     "rolls": 1,
+     "chance": 1.0
+    }
+   ],
+   "class": "LootContainerAchievement"
+  },
+  "assets/prefabs/missions/tutorialisland/loot-barrel-tutorial.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.BarrelTutorial",
+   "rolls": 1,
+   "scrap": 2,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/npc/m2bradley/bradley_crate.prefab": {
+   "type": "crashsite",
+   "slots": [
+    {
+     "table": "HighEndWeapons",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "ItemModsRare",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "HighEndOrdinance",
+     "rolls": 2,
+     "chance": 0.4
+    },
+    {
+     "table": "TechPartsLarge",
+     "rolls": 1,
+     "chance": 0.25
+    },
+    {
+     "table": "RareBaseParts",
+     "rolls": 1,
+     "chance": 0.75
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "MLRSAmmo",
+     "rolls": 1,
+     "chance": 1.0
+    }
+   ],
+   "class": "LockedByEntCrate"
+  },
+  "assets/prefabs/npc/patrol helicopter/heli_crate.prefab": {
+   "type": "crashsite",
+   "table": "HeliLoot",
+   "rolls": 1,
+   "class": "LockedByEntCrate"
+  },
+  "assets/prefabs/resource/diesel barrel/diesel_barrel_world.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.OilBarrel",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/prefabs/resource/natural beehive/beehive.natural.prefab": {
+   "type": "generic",
+   "table": "LootSpawn.NaturalBeehive",
+   "rolls": 1,
+   "class": "NaturalBeehive"
+  },
+  "assets/prefabs/satellitecrash/crates/satellite_crate_1.entity.prefab": {
+   "type": "crashsite",
+   "slots": [
+    {
+     "table": "SatelliteCrashLoot",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "techparts",
+     "rolls": 2,
+     "chance": 1.0
+    }
+   ],
+   "class": "LockedByEntCrate"
+  },
+  "assets/prefabs/satellitecrash/crates/satellite_crate_2.entity.prefab": {
+   "type": "crashsite",
+   "slots": [
+    {
+     "table": "SatelliteCrashLoot",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "techparts",
+     "rolls": 2,
+     "chance": 1.0
+    }
+   ],
+   "class": "LockedByEntCrate"
+  },
+  "assets/prefabs/satellitecrash/crates/satellite_crate_3.entity.prefab": {
+   "type": "crashsite",
+   "slots": [
+    {
+     "table": "SatelliteCrashLoot",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "techparts",
+     "rolls": 2,
+     "chance": 1.0
+    }
+   ],
+   "class": "LockedByEntCrate"
+  },
+  "assets/scripts/entity/misc/visualstoragecontainer/visualshelvestest.prefab": {
+   "type": "generic",
+   "table": "HeliLoot",
+   "rolls": 2,
+   "class": "VisualStorageContainer"
+  }
+ },
+ "tables": {
+  "1000stone": {
+   "items": [
+    {
+     "item": "stones",
+     "min": 1000.0,
+     "max": 1000.0
+    }
+   ]
+  },
+  "150stone": {
+   "items": [
+    {
+     "item": "stones",
+     "min": 100.0,
+     "max": 200.0
+    }
+   ]
+  },
+  "25metalfragments": {
+   "items": [
+    {
+     "item": "metal.fragments",
+     "min": 25.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "300wood": {
+   "items": [
+    {
+     "item": "wood",
+     "min": 200.0,
+     "max": 400.0
+    }
+   ]
+  },
+  "AK47 With Ammo": {
+   "items": [
+    {
+     "item": "rifle.ak",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 12.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "ANDSwitch": {
+   "items": [
+    {
+     "item": "electric.andswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Advanced": {
+   "pick": [
+    {
+     "table": "Counter",
+     "weight": 10
+    },
+    {
+     "table": "DoorController",
+     "weight": 10
+    },
+    {
+     "table": "LargeBattery",
+     "weight": 10
+    },
+    {
+     "table": "LaserDetector",
+     "weight": 10
+    },
+    {
+     "table": "MemoryCell",
+     "weight": 10
+    },
+    {
+     "table": "RootCombiner",
+     "weight": 10
+    },
+    {
+     "table": "SolarLarge",
+     "weight": 10
+    },
+    {
+     "table": "HFHB",
+     "weight": 8
+    },
+    {
+     "table": "Flasher",
+     "weight": 10
+    },
+    {
+     "table": "SirenLight",
+     "weight": 10
+    },
+    {
+     "table": "RFBroadcaster",
+     "weight": 8
+    },
+    {
+     "table": "RFReceiver",
+     "weight": 8
+    },
+    {
+     "table": "Pager",
+     "weight": 5
+    },
+    {
+     "table": "Detonator",
+     "weight": 5
+    },
+    {
+     "table": "FuelGenerator",
+     "weight": 5
+    },
+    {
+     "table": "TeslaCoil",
+     "weight": 5
+    }
+   ]
+  },
+  "Ammo": {
+   "pick": [
+    {
+     "table": "Pistol",
+     "weight": 40
+    },
+    {
+     "table": "Rifle",
+     "weight": 20
+    },
+    {
+     "table": "Shotgun",
+     "weight": 40
+    }
+   ]
+  },
+  "Apple": {
+   "items": [
+    {
+     "item": "apple",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ArmorBasic": {
+   "pick": [
+    {
+     "table": "hoodie",
+     "weight": 5
+    },
+    {
+     "table": "pants",
+     "weight": 10
+    },
+    {
+     "table": "tshirt.long",
+     "weight": 10
+    },
+    {
+     "table": "WoodArmorSet",
+     "weight": 10
+    },
+    {
+     "table": "diving",
+     "weight": 10
+    }
+   ]
+  },
+  "ArmorMedium": {
+   "pick": [
+    {
+     "table": "coffeecan.helmet",
+     "weight": 40
+    },
+    {
+     "table": "bucket.helmet",
+     "weight": 40
+    },
+    {
+     "table": "jacket.snow",
+     "weight": 50
+    },
+    {
+     "table": "riot.helmet",
+     "weight": 40
+    },
+    {
+     "table": "hoodie",
+     "weight": 40
+    },
+    {
+     "table": "pants",
+     "weight": 40
+    }
+   ]
+  },
+  "ArmorRare": {
+   "pick": [
+    {
+     "table": "metal.plate.torso",
+     "weight": 50
+    },
+    {
+     "table": "metal.facemask",
+     "weight": 50
+    }
+   ]
+  },
+  "ArmorRoll": {
+   "pick": [
+    {
+     "table": "ArmorMedium",
+     "weight": 100
+    },
+    {
+     "table": "Armor_Supplydrop_rare",
+     "weight": 50
+    }
+   ]
+  },
+  "Armor_Supplydrop_rare": {
+   "pick": [
+    {
+     "table": "roadsign.jacket",
+     "weight": 50
+    },
+    {
+     "table": "roadsign.kilt",
+     "weight": 50
+    },
+    {
+     "table": "roadsign.gloves",
+     "weight": 50
+    }
+   ]
+  },
+  "ArrowHeads": {
+   "items": [
+    {
+     "item": "arrow.bone",
+     "min": 5.0,
+     "max": 10.0
+    },
+    {
+     "item": "arrow.fire",
+     "min": 3.0,
+     "max": 6.0
+    }
+   ]
+  },
+  "Ballista": {
+   "items": [
+    {
+     "item": "ballista.mounted",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ballista.bolt.piercer",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "BallistaAmmo": {
+   "pick": [
+    {
+     "table": "BallistaAmmo_Fire",
+     "weight": 100,
+     "extra": 2
+    },
+    {
+     "table": "BallistaAmmo_Piercer",
+     "weight": 100,
+     "extra": 3
+    },
+    {
+     "table": "BallistaAmmo_Pitchfork",
+     "weight": 100,
+     "extra": 2
+    },
+    {
+     "table": "BallistaAmmo_Hammerhead",
+     "weight": 100
+    }
+   ]
+  },
+  "BallistaAmmo_Fire": {
+   "items": [
+    {
+     "item": "ballista.bolt.incendiary",
+     "min": 5.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "BallistaAmmo_Hammerhead": {
+   "items": [
+    {
+     "item": "ballista.bolt.hammerhead",
+     "min": 5.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "BallistaAmmo_Piercer": {
+   "items": [
+    {
+     "item": "ballista.bolt.piercer",
+     "min": 5.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "BallistaAmmo_Pitchfork": {
+   "items": [
+    {
+     "item": "ballista.bolt.pitchfork",
+     "min": 5.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "BallistaStatic": {
+   "items": [
+    {
+     "item": "ballista.static",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ballista.bolt.piercer",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "Ballistas": {
+   "pick": [
+    {
+     "table": "BallistaStatic",
+     "weight": 60
+    },
+    {
+     "table": "Ballista",
+     "weight": 40
+    }
+   ]
+  },
+  "BallisticArmor": {
+   "pick": [
+    {
+     "table": "ballistic.legarmor",
+     "weight": 1
+    },
+    {
+     "table": "ballistic.vest",
+     "weight": 1
+    },
+    {
+     "table": "ballistic.helmet",
+     "weight": 1
+    }
+   ]
+  },
+  "Bandage": {
+   "items": [
+    {
+     "item": "bandage",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Basic": {
+   "pick": [
+    {
+     "table": "ANDSwitch",
+     "weight": 10
+    },
+    {
+     "table": "Blocker",
+     "weight": 10
+    },
+    {
+     "table": "Branch",
+     "weight": 10
+    },
+    {
+     "table": "ORSwitch",
+     "weight": 10
+    },
+    {
+     "table": "PressurePad",
+     "weight": 10
+    },
+    {
+     "table": "SmallBattery",
+     "weight": 10
+    },
+    {
+     "table": "SolarLarge",
+     "weight": 10
+    },
+    {
+     "table": "Splitter",
+     "weight": 10
+    },
+    {
+     "table": "Timer",
+     "weight": 10
+    },
+    {
+     "table": "XORSwitch",
+     "weight": 10
+    },
+    {
+     "table": "Switch",
+     "weight": 10
+    },
+    {
+     "table": "RandSwitch",
+     "weight": 10
+    },
+    {
+     "table": "MediumBattery",
+     "weight": 5
+    },
+    {
+     "table": "Igniter",
+     "weight": 10
+    }
+   ]
+  },
+  "BasicWeapons": {
+   "pick": [
+    {
+     "table": "salvaged.sword",
+     "weight": 10
+    },
+    {
+     "table": "Mace",
+     "weight": 10
+    },
+    {
+     "table": "salvaged.cleaver",
+     "weight": 10
+    },
+    {
+     "table": "Bow And Arrow",
+     "weight": 10
+    },
+    {
+     "table": "Crossbow",
+     "weight": 5
+    },
+    {
+     "table": "ArrowHeads",
+     "weight": 10
+    },
+    {
+     "table": "knife.combat",
+     "weight": 5
+    }
+   ]
+  },
+  "BatteringRam": {
+   "items": [
+    {
+     "item": "batteringram",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "metal.refined",
+     "min": 80.0,
+     "max": 200.0
+    }
+   ]
+  },
+  "Binoculars": {
+   "items": [
+    {
+     "item": "tool.binoculars",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Blocker": {
+   "items": [
+    {
+     "item": "electric.blocker",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "BlowpipeSpecialAmmo": {
+   "items": [
+    {
+     "item": "dart.scatter",
+     "min": 5.0,
+     "max": 12.0
+    },
+    {
+     "item": "dart.radiation",
+     "min": 5.0,
+     "max": 12.0
+    },
+    {
+     "item": "dart.incapacitate",
+     "min": 3.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "BlowpipeWithAmmo": {
+   "items": [
+    {
+     "item": "blowpipe",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "dart.wood",
+     "min": 10.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "Blueberries": {
+   "items": [
+    {
+     "item": "blueberries",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Bolt Rifle With Ammo": {
+   "items": [
+    {
+     "item": "rifle.bolt",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 8.0,
+     "max": 8.0
+    }
+   ]
+  },
+  "BottleSpawn": {
+   "items": [
+    {
+     "item": "bottle.vodka",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Bow And Arrow": {
+   "items": [
+    {
+     "item": "bow.hunting",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "arrow.wooden",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Branch": {
+   "items": [
+    {
+     "item": "electrical.branch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "C4": {
+   "items": [
+    {
+     "item": "explosive.timed",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Catapult": {
+   "items": [
+    {
+     "item": "catapult",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "catapult.ammo.boulder",
+     "min": 8.0,
+     "max": 12.0
+    },
+    {
+     "item": "catapult.ammo.incendiary",
+     "min": 2.0,
+     "max": 4.0
+    },
+    {
+     "item": "catapult.ammo.explosive",
+     "min": 2.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "Catapult Ammo": {
+   "items": [
+    {
+     "item": "catapult",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "catapult.ammo.boulder",
+     "min": 15.0,
+     "max": 20.0
+    },
+    {
+     "item": "catapult.ammo.incendiary",
+     "min": 8.0,
+     "max": 10.0
+    },
+    {
+     "item": "catapult.ammo.explosive",
+     "min": 6.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "Chainsaw with fuel": {
+   "items": [
+    {
+     "item": "chainsaw",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 20.0,
+     "max": 40.0
+    }
+   ]
+  },
+  "Collection": {
+   "pick": [
+    {
+     "table": "Basic",
+     "weight": 75
+    },
+    {
+     "table": "Advanced",
+     "weight": 25
+    }
+   ]
+  },
+  "Collection.Rifles": {
+   "pick": [
+    {
+     "table": "AK47 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "SMG with Ammo",
+     "weight": 25
+    },
+    {
+     "table": "Bolt Rifle With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "Custom Smg With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "LR300 With Ammo",
+     "weight": 15
+    },
+    {
+     "table": "MP5 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "M92 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "Spas12 With Ammo",
+     "weight": 10
+    },
+    {
+     "table": "L96 Scope Ammo",
+     "weight": 10
+    },
+    {
+     "table": "m39 with ammo",
+     "weight": 15
+    },
+    {
+     "table": "P17 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "M4 With Ammo",
+     "weight": 15
+    }
+   ]
+  },
+  "Collection.Weapons": {
+   "pick": [
+    {
+     "table": "Collection.Rifles",
+     "weight": 30
+    },
+    {
+     "table": "Collection.Weapons.Low",
+     "weight": 70
+    }
+   ]
+  },
+  "Collection.Weapons.Low": {
+   "pick": [
+    {
+     "table": "grenade.beancan",
+     "weight": 100,
+     "extra": 1
+    },
+    {
+     "table": "grenade.f1",
+     "weight": 100,
+     "extra": 3
+    },
+    {
+     "table": "grenade.flashbang",
+     "weight": 100,
+     "extra": 2
+    },
+    {
+     "table": "grenade.molotov",
+     "weight": 100,
+     "extra": 3
+    },
+    {
+     "table": "pistol.semiauto",
+     "weight": 100
+    },
+    {
+     "table": "Double Shotgun with ammo",
+     "weight": 100
+    },
+    {
+     "table": "Flamethrower",
+     "weight": 100
+    }
+   ]
+  },
+  "Counter": {
+   "items": [
+    {
+     "item": "electric.counter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Crossbow": {
+   "items": [
+    {
+     "item": "crossbow",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "arrow.wooden",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Custom Smg With Ammo": {
+   "items": [
+    {
+     "item": "smg.2",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM AK47": {
+   "items": [
+    {
+     "item": "rifle.ak",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 90.0,
+     "max": 90.0
+    }
+   ]
+  },
+  "DM Ammo (handmade)": {
+   "items": [
+    {
+     "item": "ammo.handmade.shell",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (pistol fire)": {
+   "items": [
+    {
+     "item": "ammo.pistol.fire",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (pistol hv)": {
+   "items": [
+    {
+     "item": "ammo.pistol.hv",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (pistol)": {
+   "items": [
+    {
+     "item": "ammo.pistol",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (rifle explosive)": {
+   "items": [
+    {
+     "item": "ammo.rifle.explosive",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (rifle fire)": {
+   "items": [
+    {
+     "item": "ammo.rifle.incendiary",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (rifle hv)": {
+   "items": [
+    {
+     "item": "ammo.rifle.hv",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (rifle)": {
+   "items": [
+    {
+     "item": "ammo.rifle",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "DM Ammo (rocket fire)": {
+   "items": [
+    {
+     "item": "ammo.rocket.fire",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "DM Ammo (rocket hv)": {
+   "items": [
+    {
+     "item": "ammo.rocket.hv",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "DM Ammo (rocket)": {
+   "items": [
+    {
+     "item": "ammo.rocket.basic",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "DM Ammo (shotgun)": {
+   "items": [
+    {
+     "item": "ammo.shotgun",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Ammo (slugs)": {
+   "items": [
+    {
+     "item": "ammo.shotgun.slug",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Augments": {
+   "items": [
+    {
+     "item": "weapon.mod.small.scope",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.muzzleboost",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Augments 2": {
+   "items": [
+    {
+     "item": "weapon.mod.holosight",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.muzzlebrake",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Augments 3": {
+   "items": [
+    {
+     "item": "weapon.mod.lasersight",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.silencer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Beancan grenade": {
+   "items": [
+    {
+     "item": "grenade.beancan",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.beancan",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.beancan",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.beancan",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Bolt Rifle": {
+   "items": [
+    {
+     "item": "rifle.bolt",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 32.0,
+     "max": 32.0
+    }
+   ]
+  },
+  "DM Bone club": {
+   "items": [
+    {
+     "item": "bone.club",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Bone knife": {
+   "items": [
+    {
+     "item": "knife.bone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Bow": {
+   "items": [
+    {
+     "item": "bow.hunting",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "arrow.wooden",
+     "min": 20.0,
+     "max": 20.0
+    },
+    {
+     "item": "arrow.fire",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "DM Compound Bow": {
+   "items": [
+    {
+     "item": "bow.compound",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "arrow.wooden",
+     "min": 20.0,
+     "max": 20.0
+    },
+    {
+     "item": "arrow.fire",
+     "min": 4.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "DM Crossbow": {
+   "items": [
+    {
+     "item": "crossbow",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "arrow.wooden",
+     "min": 20.0,
+     "max": 20.0
+    },
+    {
+     "item": "arrow.fire",
+     "min": 4.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "DM Custom SMG": {
+   "items": [
+    {
+     "item": "smg.2",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 96.0,
+     "max": 96.0
+    }
+   ]
+  },
+  "DM Double shotgun": {
+   "items": [
+    {
+     "item": "shotgun.double",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Eoka": {
+   "items": [
+    {
+     "item": "pistol.eoka",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.handmade.shell",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM F1 grenade": {
+   "items": [
+    {
+     "item": "grenade.f1",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.f1",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.f1",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "grenade.f1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Guitar": {
+   "items": [
+    {
+     "item": "fun.guitar",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM L96": {
+   "items": [
+    {
+     "item": "rifle.l96",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "DM LR300": {
+   "items": [
+    {
+     "item": "rifle.lr300",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 90.0,
+     "max": 90.0
+    }
+   ]
+  },
+  "DM Longsword": {
+   "items": [
+    {
+     "item": "longsword",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM M39": {
+   "items": [
+    {
+     "item": "rifle.m39",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 64.0,
+     "max": 64.0
+    }
+   ]
+  },
+  "DM MP5": {
+   "items": [
+    {
+     "item": "smg.mp5",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 80.0,
+     "max": 80.0
+    }
+   ]
+  },
+  "DM Mace": {
+   "items": [
+    {
+     "item": "mace",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Machete": {
+   "items": [
+    {
+     "item": "machete",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Pump shotgun": {
+   "items": [
+    {
+     "item": "shotgun.pump",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Pump shotgun (slug)": {
+   "items": [
+    {
+     "item": "shotgun.pump",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun.slug",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Python": {
+   "items": [
+    {
+     "item": "pistol.python",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 36.0,
+     "max": 36.0
+    }
+   ]
+  },
+  "DM Revolver": {
+   "items": [
+    {
+     "item": "pistol.revolver",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 36.0,
+     "max": 36.0
+    }
+   ]
+  },
+  "DM Rocketlauncher": {
+   "items": [
+    {
+     "item": "rocket.launcher",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rocket.basic",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "DM Rocketlauncher (fire)": {
+   "items": [
+    {
+     "item": "rocket.launcher",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rocket.fire",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "DM SAR": {
+   "items": [
+    {
+     "item": "rifle.semiauto",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 32.0,
+     "max": 32.0
+    }
+   ]
+  },
+  "DM Salv cleaver": {
+   "items": [
+    {
+     "item": "salvaged.cleaver",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Salv sword": {
+   "items": [
+    {
+     "item": "salvaged.sword",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Semiauto pistol": {
+   "items": [
+    {
+     "item": "pistol.semiauto",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 48.0,
+     "max": 48.0
+    }
+   ]
+  },
+  "DM Signal": {
+   "items": [
+    {
+     "item": "supply.signal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Spas12 shotgun": {
+   "items": [
+    {
+     "item": "shotgun.spas12",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun.fire",
+     "min": 20.0,
+     "max": 20.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Spear (Stone)": {
+   "items": [
+    {
+     "item": "spear.stone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Spear (Wood)": {
+   "items": [
+    {
+     "item": "spear.wooden",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM Thompson": {
+   "items": [
+    {
+     "item": "smg.thompson",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 80.0,
+     "max": 80.0
+    }
+   ]
+  },
+  "DM Waterpipe shotgun": {
+   "items": [
+    {
+     "item": "shotgun.waterpipe",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM Waterpipe shotgun (slug)": {
+   "items": [
+    {
+     "item": "shotgun.waterpipe",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun.slug",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "DM chainsaw": {
+   "items": [
+    {
+     "item": "chainsaw",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 150.0,
+     "max": 150.0
+    }
+   ]
+  },
+  "DM flamethrower": {
+   "items": [
+    {
+     "item": "flamethrower",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 150.0,
+     "max": 150.0
+    }
+   ]
+  },
+  "DM nailgun": {
+   "items": [
+    {
+     "item": "pistol.nailgun",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.nailgun.nails",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "DM.ConstructionResources": {
+   "items": [
+    {
+     "item": "wood",
+     "min": 5000.0,
+     "max": 5000.0
+    },
+    {
+     "item": "stones",
+     "min": 5000.0,
+     "max": 5000.0
+    },
+    {
+     "item": "cloth",
+     "min": 200.0,
+     "max": 200.0
+    },
+    {
+     "item": "metal.ore",
+     "min": 2500.0,
+     "max": 2500.0
+    },
+    {
+     "item": "fat.animal",
+     "min": 100.0,
+     "max": 100.0
+    },
+    {
+     "item": "sulfur",
+     "min": 900.0,
+     "max": 900.0
+    }
+   ]
+  },
+  "DM.ConstructionResourcesAlt": {
+   "items": [
+    {
+     "item": "wood",
+     "min": 8000.0,
+     "max": 8000.0
+    },
+    {
+     "item": "stones",
+     "min": 5000.0,
+     "max": 5000.0
+    },
+    {
+     "item": "sulfur.ore",
+     "min": 2750.0,
+     "max": 2750.0
+    },
+    {
+     "item": "metal.ore",
+     "min": 10000.0,
+     "max": 10000.0
+    },
+    {
+     "item": "hq.metal.ore",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "DM.ConstructionTools": {
+   "items": [
+    {
+     "item": "hammer",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "building.planner",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "axe.salvaged",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "icepick.salvaged",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DM.Food": {
+   "pick": [
+    {
+     "table": "Apple",
+     "weight": 100
+    },
+    {
+     "table": "black.raspberries",
+     "weight": 100
+    },
+    {
+     "table": "Blueberries",
+     "weight": 100
+    },
+    {
+     "table": "can.beans",
+     "weight": 100
+    },
+    {
+     "table": "can.tuna",
+     "weight": 100
+    },
+    {
+     "table": "chocholate",
+     "weight": 100
+    },
+    {
+     "table": "granolabar",
+     "weight": 100
+    },
+    {
+     "table": "pumpkin",
+     "weight": 100
+    },
+    {
+     "table": "smallwaterbottle",
+     "weight": 400
+    },
+    {
+     "table": "WaterJug",
+     "weight": 100
+    }
+   ]
+  },
+  "DM.LootSpawn.AmmoCrate": {
+   "pick": [
+    {
+     "table": "DM Ammo (handmade)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (pistol fire)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (pistol hv)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (pistol)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (rifle explosive)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (rifle fire)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (rifle hv)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (rifle)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (rocket fire)",
+     "weight": 10
+    },
+    {
+     "table": "DM Ammo (rocket hv)",
+     "weight": 10
+    },
+    {
+     "table": "DM Ammo (rocket)",
+     "weight": 10
+    },
+    {
+     "table": "DM Ammo (shotgun)",
+     "weight": 20
+    },
+    {
+     "table": "DM Ammo (slugs)",
+     "weight": 20
+    }
+   ]
+  },
+  "DM.LootSpawn.FoodCrate": {
+   "pick": [
+    {
+     "table": "DM.Food",
+     "weight": 100
+    }
+   ]
+  },
+  "DM.LootSpawn.MedicalCrate": {
+   "pick": [
+    {
+     "table": "Bandage",
+     "weight": 40
+    },
+    {
+     "table": "largemedkit",
+     "weight": 50
+    },
+    {
+     "table": "syringe.medical",
+     "weight": 10
+    }
+   ]
+  },
+  "DM.LootSpawn.T1": {
+   "pick": [
+    {
+     "table": "DM.LootSpawn.T1.Armour",
+     "weight": 60
+    },
+    {
+     "table": "DM.LootSpawn.T1.Weapon",
+     "weight": 40
+    }
+   ]
+  },
+  "DM.LootSpawn.T1.Armour": {
+   "pick": [
+    {
+     "table": "wood.armor.jacket",
+     "weight": 25
+    },
+    {
+     "table": "wood.armor.pants",
+     "weight": 25
+    },
+    {
+     "table": "burlap.gloves",
+     "weight": 35
+    },
+    {
+     "table": "burlap.headwrap",
+     "weight": 35
+    },
+    {
+     "table": "burlap.shirt",
+     "weight": 35
+    },
+    {
+     "table": "burlap.shoes",
+     "weight": 35
+    },
+    {
+     "table": "burlap.trousers",
+     "weight": 35
+    },
+    {
+     "table": "hat.candle",
+     "weight": 5
+    },
+    {
+     "table": "mask.bandana",
+     "weight": 50
+    },
+    {
+     "table": "hat.cap",
+     "weight": 50
+    },
+    {
+     "table": "hat.boonie",
+     "weight": 50
+    },
+    {
+     "table": "pumpkin",
+     "weight": 25
+    },
+    {
+     "table": "tshirt",
+     "weight": 50
+    },
+    {
+     "table": "hoodie",
+     "weight": 25
+    }
+   ]
+  },
+  "DM.LootSpawn.T1.Weapon": {
+   "pick": [
+    {
+     "table": "DM Bone club",
+     "weight": 30
+    },
+    {
+     "table": "DM Bone knife",
+     "weight": 30
+    },
+    {
+     "table": "DM Bow",
+     "weight": 50
+    },
+    {
+     "table": "DM Crossbow",
+     "weight": 50
+    },
+    {
+     "table": "DM Eoka",
+     "weight": 35
+    },
+    {
+     "table": "DM Guitar",
+     "weight": 5
+    },
+    {
+     "table": "DM Spear (Stone)",
+     "weight": 30
+    },
+    {
+     "table": "DM Spear (Wood)",
+     "weight": 50
+    },
+    {
+     "table": "DM chainsaw",
+     "weight": 10
+    },
+    {
+     "table": "DM nailgun",
+     "weight": 10
+    },
+    {
+     "table": "DM Compound Bow",
+     "weight": 30
+    }
+   ]
+  },
+  "DM.LootSpawn.T2": {
+   "pick": [
+    {
+     "table": "DM.LootSpawn.T2.Armour",
+     "weight": 60
+    },
+    {
+     "table": "DM.LootSpawn.T2.Weapon",
+     "weight": 40
+    }
+   ]
+  },
+  "DM.LootSpawn.T2.Armour": {
+   "pick": [
+    {
+     "table": "bone.armor.jacket",
+     "weight": 40
+    },
+    {
+     "table": "bone.armor.pants",
+     "weight": 40
+    },
+    {
+     "table": "attire.hide.boots",
+     "weight": 50
+    },
+    {
+     "table": "attire.hide.pants",
+     "weight": 50
+    },
+    {
+     "table": "attire.hide.poncho",
+     "weight": 50
+    },
+    {
+     "table": "attire.hide.vest",
+     "weight": 50
+    },
+    {
+     "table": "hat.wolf",
+     "weight": 50
+    },
+    {
+     "table": "jacket.snow",
+     "weight": 35
+    },
+    {
+     "table": "riot.helmet",
+     "weight": 35
+    },
+    {
+     "table": "mask.balaclava",
+     "weight": 5
+    },
+    {
+     "table": "hazmatsuit",
+     "weight": 5
+    }
+   ]
+  },
+  "DM.LootSpawn.T2.Weapon": {
+   "pick": [
+    {
+     "table": "DM Beancan grenade",
+     "weight": 50
+    },
+    {
+     "table": "DM Bolt Rifle",
+     "weight": 50
+    },
+    {
+     "table": "DM Longsword",
+     "weight": 50
+    },
+    {
+     "table": "DM Mace",
+     "weight": 50
+    },
+    {
+     "table": "DM Machete",
+     "weight": 50
+    },
+    {
+     "table": "DM Revolver",
+     "weight": 50
+    },
+    {
+     "table": "DM Salv cleaver",
+     "weight": 50
+    },
+    {
+     "table": "DM Salv sword",
+     "weight": 50
+    },
+    {
+     "table": "DM Semiauto pistol",
+     "weight": 50
+    },
+    {
+     "table": "DM Waterpipe shotgun",
+     "weight": 50
+    },
+    {
+     "table": "DM Waterpipe shotgun (slug)",
+     "weight": 50
+    },
+    {
+     "table": "DM SAR",
+     "weight": 50
+    },
+    {
+     "table": "DM Python",
+     "weight": 50
+    },
+    {
+     "table": "DM flamethrower",
+     "weight": 50
+    },
+    {
+     "table": "DM Double shotgun",
+     "weight": 50
+    },
+    {
+     "table": "DM M39",
+     "weight": 50
+    }
+   ]
+  },
+  "DM.LootSpawn.T3": {
+   "pick": [
+    {
+     "table": "DM.LootSpawn.T3.Armour",
+     "weight": 50
+    },
+    {
+     "table": "DM.LootSpawn.T3.Weapon",
+     "weight": 50
+    }
+   ]
+  },
+  "DM.LootSpawn.T3.Armour": {
+   "pick": [
+    {
+     "table": "roadsign.jacket",
+     "weight": 50
+    },
+    {
+     "table": "roadsign.kilt",
+     "weight": 50
+    },
+    {
+     "table": "metal.plate.torso",
+     "weight": 35
+    },
+    {
+     "table": "shoes.boots",
+     "weight": 50
+    },
+    {
+     "table": "metal.facemask",
+     "weight": 35
+    },
+    {
+     "table": "coffeecan.helmet",
+     "weight": 35
+    }
+   ]
+  },
+  "DM.LootSpawn.T3.Weapon": {
+   "pick": [
+    {
+     "table": "DM AK47",
+     "weight": 15
+    },
+    {
+     "table": "DM Custom SMG",
+     "weight": 40
+    },
+    {
+     "table": "DM F1 grenade",
+     "weight": 50
+    },
+    {
+     "table": "DM Pump shotgun",
+     "weight": 50
+    },
+    {
+     "table": "DM Pump shotgun (slug)",
+     "weight": 50
+    },
+    {
+     "table": "DM Rocketlauncher",
+     "weight": 25
+    },
+    {
+     "table": "DM Rocketlauncher (fire)",
+     "weight": 25
+    },
+    {
+     "table": "DM Signal",
+     "weight": 5
+    },
+    {
+     "table": "DM Augments",
+     "weight": 5
+    },
+    {
+     "table": "DM Augments 2",
+     "weight": 5
+    },
+    {
+     "table": "DM Augments 3",
+     "weight": 5
+    },
+    {
+     "table": "DM Thompson",
+     "weight": 35
+    },
+    {
+     "table": "DM LR300",
+     "weight": 20
+    },
+    {
+     "table": "DM MP5",
+     "weight": 15
+    },
+    {
+     "table": "DM Spas12 shotgun",
+     "weight": 20
+    },
+    {
+     "table": "DM L96",
+     "weight": 10
+    }
+   ]
+  },
+  "DeepSeaTreasureSpawn_ArmorPlates": {
+   "items": [
+    {
+     "item": "note",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "clothing.mod.armorinsert_metal",
+     "min": 4.0,
+     "max": 4.0
+    },
+    {
+     "item": "scrap",
+     "min": 100.0,
+     "max": 100.0
+    }
+   ]
+  },
+  "Detonator": {
+   "items": [
+    {
+     "item": "rf.detonator",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "DoorController": {
+   "items": [
+    {
+     "item": "electric.doorcontroller",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Double Shotgun with ammo": {
+   "items": [
+    {
+     "item": "shotgun.double",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "EngineComponents": {
+   "pick": [
+    {
+     "table": "carburtor",
+     "weight": 10
+    },
+    {
+     "table": "crankshaft",
+     "weight": 10
+    },
+    {
+     "table": "pistions",
+     "weight": 15
+    },
+    {
+     "table": "sparkplugs",
+     "weight": 15
+    },
+    {
+     "table": "valves",
+     "weight": 15
+    }
+   ]
+  },
+  "EngineComponents.Advanced": {
+   "pick": [
+    {
+     "table": "carburtor_advanced",
+     "weight": 10
+    },
+    {
+     "table": "crankshaft_advanced",
+     "weight": 10
+    },
+    {
+     "table": "pistions_advanced",
+     "weight": 15
+    },
+    {
+     "table": "sparkplugs_advanced",
+     "weight": 15
+    },
+    {
+     "table": "valves_advanced",
+     "weight": 15
+    }
+   ]
+  },
+  "Explosives": {
+   "items": [
+    {
+     "item": "explosives",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ExplosivesCollection": {
+   "items": [
+    {
+     "item": "explosive.timed",
+     "min": 2.0,
+     "max": 2.0
+    },
+    {
+     "item": "ammo.rocket.basic",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "Flamethrower": {
+   "items": [
+    {
+     "item": "flamethrower",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 35.0,
+     "max": 35.0
+    }
+   ]
+  },
+  "Flasher": {
+   "items": [
+    {
+     "item": "electric.flasherlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "FuelGenerator": {
+   "items": [
+    {
+     "item": "electric.fuelgenerator.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Gears": {
+   "items": [
+    {
+     "item": "gears",
+     "min": 2.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "GearsLarge": {
+   "items": [
+    {
+     "item": "gears",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Gifts": {
+   "items": [
+    {
+     "item": "xmas.present.small",
+     "min": 2.0,
+     "max": 6.0
+    },
+    {
+     "item": "xmas.present.medium",
+     "min": 2.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "Grenades": {
+   "items": [
+    {
+     "item": "grenade.f1",
+     "min": 2.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "GunRoll": {
+   "pick": [
+    {
+     "table": "GunRoll_Medium",
+     "weight": 100,
+     "extra": 1
+    },
+    {
+     "table": "GunRoll_Rare",
+     "weight": 100
+    }
+   ]
+  },
+  "GunRoll_Medium": {
+   "pick": [
+    {
+     "table": "GunRoll_Sub_Medium",
+     "weight": 100
+    },
+    {
+     "table": "GunRoll_Sub_Medium",
+     "weight": 100
+    }
+   ]
+  },
+  "GunRoll_Rare": {
+   "pick": [
+    {
+     "table": "MP5 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "Spas12 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "M92 With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "m39 with ammo",
+     "weight": 25
+    },
+    {
+     "table": "LR300 With Ammo",
+     "weight": 5
+    },
+    {
+     "table": "P17 With Ammo",
+     "weight": 25
+    }
+   ]
+  },
+  "GunRoll_Sub_Medium": {
+   "pick": [
+    {
+     "table": "Pump With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "SAR with ammo",
+     "weight": 25
+    },
+    {
+     "table": "Custom Smg With Ammo",
+     "weight": 25
+    },
+    {
+     "table": "SMG with Ammo",
+     "weight": 25
+    }
+   ]
+  },
+  "HFHB": {
+   "items": [
+    {
+     "item": "electric.hbhfsensor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "HQMetal": {
+   "items": [
+    {
+     "item": "metal.refined",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "HQMetal_Large": {
+   "items": [
+    {
+     "item": "metal.refined",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "HQMetal_Medium": {
+   "items": [
+    {
+     "item": "metal.refined",
+     "min": 15.0,
+     "max": 25.0
+    }
+   ]
+  },
+  "Hat Candle with fuel": {
+   "items": [
+    {
+     "item": "lowgradefuel",
+     "min": 2.0,
+     "max": 5.0
+    },
+    {
+     "item": "hat.candle",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Hat Mining with fuel": {
+   "items": [
+    {
+     "item": "lowgradefuel",
+     "min": 5.0,
+     "max": 5.0
+    },
+    {
+     "item": "hat.miner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Hatchet": {
+   "items": [
+    {
+     "item": "hatchet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "HeavyFuse": {
+   "items": [
+    {
+     "item": "fuse.highgrade",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "HeliLoot": {
+   "pick": [
+    {
+     "table": "RifleAmmoCollection",
+     "weight": 30
+    },
+    {
+     "table": "RocketAmmoCollection",
+     "weight": 30
+    },
+    {
+     "table": "ExplosivesCollection",
+     "weight": 50
+    },
+    {
+     "table": "Collection.Rifles",
+     "weight": 30
+    },
+    {
+     "table": "m249 with ammo",
+     "weight": 20
+    },
+    {
+     "table": "ItemModsRare",
+     "weight": 15
+    },
+    {
+     "table": "WorkbenchTier_3",
+     "weight": 25
+    }
+   ]
+  },
+  "HighDecor": {
+   "pick": [
+    {
+     "table": "star",
+     "weight": 25
+    },
+    {
+     "table": "balls",
+     "weight": 25
+    },
+    {
+     "table": "lights",
+     "weight": 10
+    }
+   ]
+  },
+  "HighEndOrdinance": {
+   "pick": [
+    {
+     "table": "RocketAmmoCollection",
+     "weight": 50
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "weight": 50
+    },
+    {
+     "table": "C4",
+     "weight": 50
+    },
+    {
+     "table": "C4",
+     "weight": 50
+    }
+   ]
+  },
+  "HighEndWeapons": {
+   "pick": [
+    {
+     "table": "L96 Scope Ammo",
+     "weight": 50
+    },
+    {
+     "table": "m249 with ammo",
+     "weight": 50
+    },
+    {
+     "table": "Collection.Rifles",
+     "weight": 50
+    }
+   ]
+  },
+  "HighendRifles": {
+   "pick": [
+    {
+     "table": "rocket.launcher",
+     "weight": 10
+    },
+    {
+     "table": "rifle.lr300",
+     "weight": 40
+    },
+    {
+     "table": "rifle.l96",
+     "weight": 10
+    },
+    {
+     "table": "rifle.bolt",
+     "weight": 30
+    },
+    {
+     "table": "rifle.ak",
+     "weight": 40
+    },
+    {
+     "table": "shotgun.m4",
+     "weight": 15
+    },
+    {
+     "table": "m16a2",
+     "weight": 20
+    }
+   ]
+  },
+  "HorseStuff": {
+   "items": [
+    {
+     "item": "horse.shoes.advanced",
+     "min": 2.0,
+     "max": 3.0
+    },
+    {
+     "item": "horse.armor.roadsign",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "IceFences": {
+   "items": [
+    {
+     "item": "wall.ice.wall",
+     "min": 3.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Igniter": {
+   "items": [
+    {
+     "item": "electric.igniter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ItemModsRare": {
+   "items": [
+    {
+     "item": "weapon.mod.lasersight",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.small.scope",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.burstmodule",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.extendedmags",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ItemModsRareChance": {
+   "pick": [
+    {
+     "table": "weapon.mod.lasersight",
+     "weight": 50
+    },
+    {
+     "table": "weapon.mod.small.scope",
+     "weight": 50
+    },
+    {
+     "table": "weapon.mod.burstmodule",
+     "weight": 50
+    },
+    {
+     "table": "weapon.mod.extendedmags",
+     "weight": 50
+    }
+   ]
+  },
+  "Items.Common.Food": {
+   "pick": [
+    {
+     "table": "Apple",
+     "weight": 100
+    },
+    {
+     "table": "bread.loaf",
+     "weight": 100
+    },
+    {
+     "table": "can.beans",
+     "weight": 100
+    },
+    {
+     "table": "can.tuna",
+     "weight": 100
+    },
+    {
+     "table": "chocolate#2",
+     "weight": 100
+    },
+    {
+     "table": "granolabar",
+     "weight": 100
+    },
+    {
+     "table": "smallwaterbottle",
+     "weight": 100
+    },
+    {
+     "table": "potato",
+     "weight": 100
+    },
+    {
+     "table": "corn",
+     "weight": 100
+    },
+    {
+     "table": "honeycomb",
+     "weight": 100
+    }
+   ]
+  },
+  "KnightLoadouts": {
+   "items": [
+    {
+     "item": "minicrossbow",
+     "min": 2.0,
+     "max": 3.0
+    },
+    {
+     "item": "arrow.fire",
+     "min": 10.0,
+     "max": 15.0
+    },
+    {
+     "item": "metal.shield",
+     "min": 1.0,
+     "max": 2.0
+    },
+    {
+     "item": "salvaged.sword",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "L96 Scope Ammo": {
+   "items": [
+    {
+     "item": "rifle.l96",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "weapon.mod.8x.scope",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 8.0,
+     "max": 15.0
+    }
+   ]
+  },
+  "LR300 With Ammo": {
+   "items": [
+    {
+     "item": "rifle.lr300",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 20.0,
+     "max": 20.0
+    }
+   ]
+  },
+  "LargeBattery": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "LaserDetector": {
+   "items": [
+    {
+     "item": "electric.laserdetector",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "LogSpawn": {
+   "items": [
+    {
+     "item": "captainslog",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Longsword": {
+   "items": [
+    {
+     "item": "longsword",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "LootSpawn.Barrel": {
+   "pick": [
+    {
+     "table": "WorkbenchTier_0",
+     "weight": 35
+    },
+    {
+     "table": "LootSpawn.Components.Tier1",
+     "weight": 55
+    },
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "weight": 10
+    }
+   ]
+  },
+  "LootSpawn.BarrelTutorial": {
+   "items": [
+    {
+     "item": "scrap",
+     "min": 50.0,
+     "max": 50.0
+    },
+    {
+     "item": "metalblade",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "LootSpawn.BlackBox": {
+   "pick": [
+    {
+     "table": "Tools",
+     "weight": 50
+    },
+    {
+     "table": "ArmorBasic",
+     "weight": 50
+    },
+    {
+     "table": "BasicWeapons",
+     "weight": 50
+    },
+    {
+     "table": "TurretParts",
+     "weight": 10
+    },
+    {
+     "table": "Ammo",
+     "weight": 10
+    }
+   ]
+  },
+  "LootSpawn.Components.Tier0": {
+   "pick": [
+    {
+     "table": "Metal",
+     "weight": 25
+    },
+    {
+     "table": "Wood",
+     "weight": 75
+    }
+   ]
+  },
+  "LootSpawn.Components.Tier1": {
+   "pick": [
+    {
+     "table": "Rope",
+     "weight": 25
+    },
+    {
+     "table": "Metal Blades",
+     "weight": 25
+    },
+    {
+     "table": "Propane Tank",
+     "weight": 13
+    },
+    {
+     "table": "Tarps",
+     "weight": 13
+    },
+    {
+     "table": "SewingKits",
+     "weight": 13
+    }
+   ]
+  },
+  "LootSpawn.Components.Tier2": {
+   "pick": [
+    {
+     "table": "Gears",
+     "weight": 25
+    },
+    {
+     "table": "Pipes",
+     "weight": 25
+    },
+    {
+     "table": "Springs",
+     "weight": 25
+    },
+    {
+     "table": "Roadsigns",
+     "weight": 25
+    },
+    {
+     "table": "Sheetmetal",
+     "weight": 25
+    },
+    {
+     "table": "SemiBody",
+     "weight": 25
+    },
+    {
+     "table": "fuse",
+     "weight": 25
+    }
+   ]
+  },
+  "LootSpawn.Components.Tier3": {
+   "pick": [
+    {
+     "table": "SMGBody",
+     "weight": 120
+    },
+    {
+     "table": "RifleBody",
+     "weight": 80
+    },
+    {
+     "table": "TechParts",
+     "weight": 100
+    },
+    {
+     "table": "Pipes_large",
+     "weight": 100
+    },
+    {
+     "table": "TurretParts",
+     "weight": 100
+    },
+    {
+     "table": "HQMetal_Medium",
+     "weight": 100
+    }
+   ]
+  },
+  "LootSpawn.CrateJungle": {
+   "pick": [
+    {
+     "table": "Rope",
+     "weight": 100
+    },
+    {
+     "table": "ladder.wooden.wall",
+     "weight": 100
+    },
+    {
+     "table": "RadPills_Large",
+     "weight": 100
+    },
+    {
+     "table": "medicalsyringe",
+     "weight": 100
+    },
+    {
+     "table": "largemedkit",
+     "weight": 100
+    },
+    {
+     "table": "BlowpipeSpecialAmmo",
+     "weight": 100
+    }
+   ]
+  },
+  "LootSpawn.FoodBox": {
+   "pick": [
+    {
+     "table": "RadPills",
+     "weight": 10
+    },
+    {
+     "table": "Items.Common.Food",
+     "weight": 50
+    },
+    {
+     "table": "WaterJug",
+     "weight": 10
+    },
+    {
+     "table": "Pickles",
+     "weight": 5
+    }
+   ]
+  },
+  "LootSpawn.FoodCache": {
+   "pick": [
+    {
+     "table": "Teas",
+     "weight": 20
+    },
+    {
+     "table": "Items.Common.Food",
+     "weight": 50
+    },
+    {
+     "table": "LootSpawn.FoodCache_Food",
+     "weight": 50
+    }
+   ]
+  },
+  "LootSpawn.FoodCache_Food": {
+   "pick": [
+    {
+     "table": "chicken.cooked",
+     "weight": 100
+    },
+    {
+     "table": "deermeat.cooked",
+     "weight": 100
+    },
+    {
+     "table": "bearmeat.cooked",
+     "weight": 100
+    },
+    {
+     "table": "wolfmeat.cooked",
+     "weight": 100
+    },
+    {
+     "table": "meat.pork.cooked",
+     "weight": 100
+    },
+    {
+     "table": "waterjug",
+     "weight": 100
+    },
+    {
+     "table": "green.berry",
+     "weight": 100
+    },
+    {
+     "table": "red.berry",
+     "weight": 100
+    },
+    {
+     "table": "white.berry",
+     "weight": 100
+    },
+    {
+     "table": "yellow.berry",
+     "weight": 100
+    },
+    {
+     "table": "corn",
+     "weight": 100
+    },
+    {
+     "table": "potato",
+     "weight": 100
+    },
+    {
+     "table": "pumpkin",
+     "weight": 100
+    },
+    {
+     "table": "Apple",
+     "weight": 300
+    }
+   ]
+  },
+  "LootSpawn.FoodCrate": {
+   "pick": [
+    {
+     "table": "Items.Common.Food",
+     "weight": 50
+    }
+   ]
+  },
+  "LootSpawn.MedicalCrate": {
+   "pick": [
+    {
+     "table": "Bandage",
+     "weight": 50
+    },
+    {
+     "table": "largemedkit",
+     "weight": 20
+    },
+    {
+     "table": "syringe.medical",
+     "weight": 20
+    },
+    {
+     "table": "medical.honey.bandage",
+     "weight": 20
+    }
+   ]
+  },
+  "LootSpawn.MineCrate": {
+   "pick": [
+    {
+     "table": "Hat Mining with fuel",
+     "weight": 10
+    },
+    {
+     "table": "Hat Candle with fuel",
+     "weight": 10
+    },
+    {
+     "table": "HQMetal",
+     "weight": 5
+    },
+    {
+     "table": "ToolsBasic",
+     "weight": 5
+    },
+    {
+     "table": "Mining Gunpowder",
+     "weight": 5
+    },
+    {
+     "table": "Mining metalfrags",
+     "weight": 10
+    },
+    {
+     "table": "ToolsPrimitive",
+     "weight": 10
+    },
+    {
+     "table": "flare",
+     "weight": 5
+    },
+    {
+     "table": "flashlight.held",
+     "weight": 5
+    }
+   ]
+  },
+  "LootSpawn.NaturalBeehive": {
+   "items": [
+    {
+     "item": "honeycomb",
+     "min": 4.0,
+     "max": 7.0
+    }
+   ]
+  },
+  "LootSpawn.OilBarrel": {
+   "items": [
+    {
+     "item": "crude.oil",
+     "min": 15.0,
+     "max": 20.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 5.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "LootSpawn.RadTown1": {
+   "pick": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "weight": 98
+    },
+    {
+     "table": "supply.signal",
+     "weight": 2
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "weight": 40
+    }
+   ]
+  },
+  "LootSpawn.RadTownElite": {
+   "pick": [
+    {
+     "table": "LootSpawn.RadTown1",
+     "weight": 90
+    },
+    {
+     "table": "WorkbenchTier_3",
+     "weight": 20
+    }
+   ]
+  },
+  "LootSpawn.Roadsign": {
+   "items": [
+    {
+     "item": "metalpipe",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "roadsigns",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "LootSpawn.TrashPile": {
+   "pick": [
+    {
+     "table": "Nothing",
+     "weight": 1
+    },
+    {
+     "table": "Items.Common.Food",
+     "weight": 30
+    },
+    {
+     "table": "RadPills",
+     "weight": 5
+    }
+   ]
+  },
+  "LootSpawn.TutorialHiddenCrate": {
+   "items": [
+    {
+     "item": "pistol.revolver",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 6.0,
+     "max": 6.0
+    }
+   ]
+  },
+  "LowDecor": {
+   "pick": [
+    {
+     "table": "pinecones",
+     "weight": 25
+    },
+    {
+     "table": "canedecor",
+     "weight": 25
+    },
+    {
+     "table": "tinsel",
+     "weight": 25
+    },
+    {
+     "table": "gingermen",
+     "weight": 25
+    }
+   ]
+  },
+  "M4 With Ammo": {
+   "items": [
+    {
+     "item": "shotgun.m4",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 8.0,
+     "max": 12.0
+    },
+    {
+     "item": "ammo.shotgun.slug",
+     "min": 8.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "M92 With Ammo": {
+   "items": [
+    {
+     "item": "pistol.m92",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "MLRSAmmo": {
+   "items": [
+    {
+     "item": "ammo.rocket.mlrs",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "MP5 With Ammo": {
+   "items": [
+    {
+     "item": "smg.mp5",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 30.0,
+     "max": 30.0
+    }
+   ]
+  },
+  "Mace": {
+   "items": [
+    {
+     "item": "mace",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "MedievalRoll": {
+   "pick": [
+    {
+     "table": "Ballistas",
+     "weight": 100
+    },
+    {
+     "table": "BallistaAmmo",
+     "weight": 100
+    },
+    {
+     "table": "HorseStuff",
+     "weight": 100
+    },
+    {
+     "table": "KnightLoadouts",
+     "weight": 100
+    },
+    {
+     "table": "BatteringRam",
+     "weight": 100
+    },
+    {
+     "table": "Catapult",
+     "weight": 100
+    },
+    {
+     "table": "SiegeTower",
+     "weight": 100
+    },
+    {
+     "table": "Catapult Ammo",
+     "weight": 100
+    }
+   ]
+  },
+  "MediumBattery": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.medium",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "MediumGift": {
+   "items": [
+    {
+     "item": "xmas.present.medium",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "MediumGift-Contents": {
+   "pick": [
+    {
+     "table": "1000stone",
+     "weight": 10
+    },
+    {
+     "table": "pookie",
+     "weight": 5
+    },
+    {
+     "table": "salvaged.cleaver",
+     "weight": 4
+    },
+    {
+     "table": "stockingsmall",
+     "weight": 5
+    },
+    {
+     "table": "waterpipe_w_ammo",
+     "weight": 5
+    },
+    {
+     "table": "fuel",
+     "weight": 3
+    },
+    {
+     "table": "medicalsyringe",
+     "weight": 3
+    },
+    {
+     "table": "HighDecor",
+     "weight": 3
+    },
+    {
+     "table": "IceFences",
+     "weight": 3
+    },
+    {
+     "table": "snowballgun",
+     "weight": 3
+    },
+    {
+     "table": "sled",
+     "weight": 3
+    }
+   ]
+  },
+  "MemoryCell": {
+   "items": [
+    {
+     "item": "electrical.memorycell",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Metal": {
+   "items": [
+    {
+     "item": "metal.fragments",
+     "min": 10.0,
+     "max": 15.0
+    }
+   ]
+  },
+  "Metal Blades": {
+   "items": [
+    {
+     "item": "metalblade",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "MetalPlateInsert": {
+   "items": [
+    {
+     "item": "clothing.mod.armorinsert_metal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Mining Gunpowder": {
+   "items": [
+    {
+     "item": "gunpowder",
+     "min": 15.0,
+     "max": 25.0
+    }
+   ]
+  },
+  "Mining metalfrags": {
+   "items": [
+    {
+     "item": "metal.fragments",
+     "min": 30.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "Nothing": {},
+  "ORSwitch": {
+   "items": [
+    {
+     "item": "electric.orswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "P17 With Ammo": {
+   "items": [
+    {
+     "item": "pistol.prototype17",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 48.0,
+     "max": 48.0
+    }
+   ]
+  },
+  "Pager": {
+   "items": [
+    {
+     "item": "rf_pager",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Pickles": {
+   "items": [
+    {
+     "item": "jar.pickle",
+     "min": 1.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "Pipes": {
+   "items": [
+    {
+     "item": "metalpipe",
+     "min": 1.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Pipes_large": {
+   "items": [
+    {
+     "item": "metalpipe",
+     "min": 5.0,
+     "max": 6.0
+    }
+   ]
+  },
+  "Pistol": {
+   "pick": [
+    {
+     "table": "PistolRegular",
+     "weight": 50
+    },
+    {
+     "table": "PistolFire",
+     "weight": 20
+    },
+    {
+     "table": "PistolHV",
+     "weight": 10
+    }
+   ]
+  },
+  "PistolFire": {
+   "items": [
+    {
+     "item": "ammo.pistol.fire",
+     "min": 10.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "PistolHV": {
+   "items": [
+    {
+     "item": "ammo.pistol.hv",
+     "min": 10.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "PistolRegular": {
+   "items": [
+    {
+     "item": "ammo.pistol",
+     "min": 15.0,
+     "max": 15.0
+    }
+   ]
+  },
+  "PressurePad": {
+   "items": [
+    {
+     "item": "electric.pressurepad",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Propane Tank": {
+   "items": [
+    {
+     "item": "propanetank",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Pump With Ammo": {
+   "items": [
+    {
+     "item": "shotgun.pump",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 8.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "RFBroadcaster": {
+   "items": [
+    {
+     "item": "electric.rf.broadcaster",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "RFReceiver": {
+   "items": [
+    {
+     "item": "electric.rf.receiver",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "RadPills": {
+   "items": [
+    {
+     "item": "antiradpills",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "RadPills_Large": {
+   "items": [
+    {
+     "item": "antiradpills",
+     "min": 4.0,
+     "max": 8.0
+    }
+   ]
+  },
+  "Radsuit": {
+   "items": [
+    {
+     "item": "hazmatsuit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "RandSwitch": {
+   "items": [
+    {
+     "item": "electric.random.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "RareBaseParts": {
+   "pick": [
+    {
+     "table": "door.double.hinged.toptier",
+     "weight": 25
+    },
+    {
+     "table": "door.hinged.toptier",
+     "weight": 50
+    },
+    {
+     "table": "floor.ladder.hatch",
+     "weight": 50
+    }
+   ]
+  },
+  "ResourceRoll": {
+   "pick": [
+    {
+     "table": "ResourceRoll_Components",
+     "weight": 100
+    },
+    {
+     "table": "ResourceRoll_Scrap",
+     "weight": 100
+    },
+    {
+     "table": "ResourceRoll_HQM",
+     "weight": 100
+    }
+   ]
+  },
+  "ResourceRoll_Components": {
+   "pick": [
+    {
+     "table": "GearsLarge",
+     "weight": 100
+    },
+    {
+     "table": "Pipes_large",
+     "weight": 100
+    },
+    {
+     "table": "SheetmetalLarge",
+     "weight": 100
+    },
+    {
+     "table": "TechParts5",
+     "weight": 100
+    }
+   ]
+  },
+  "ResourceRoll_HQM": {
+   "items": [
+    {
+     "item": "metal.refined",
+     "min": 32.0,
+     "max": 40.0
+    }
+   ]
+  },
+  "ResourceRoll_Scrap": {
+   "items": [
+    {
+     "item": "scrap",
+     "min": 140.0,
+     "max": 160.0
+    }
+   ]
+  },
+  "Rifle": {
+   "pick": [
+    {
+     "table": "RifleRegular",
+     "weight": 50
+    },
+    {
+     "table": "RifleFire",
+     "weight": 20
+    },
+    {
+     "table": "RifleHV",
+     "weight": 10
+    },
+    {
+     "table": "RifleEXP",
+     "weight": 10
+    }
+   ]
+  },
+  "RifleAmmoCollection": {
+   "items": [
+    {
+     "item": "ammo.rifle",
+     "min": 120.0,
+     "max": 120.0
+    },
+    {
+     "item": "ammo.rifle.incendiary",
+     "min": 60.0,
+     "max": 60.0
+    },
+    {
+     "item": "ammo.rifle.explosive",
+     "min": 30.0,
+     "max": 30.0
+    },
+    {
+     "item": "ammo.rifle.hv",
+     "min": 40.0,
+     "max": 40.0
+    }
+   ]
+  },
+  "RifleBody": {
+   "items": [
+    {
+     "item": "riflebody",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "RifleEXP": {
+   "items": [
+    {
+     "item": "ammo.rifle.explosive",
+     "min": 8.0,
+     "max": 8.0
+    }
+   ]
+  },
+  "RifleFire": {
+   "items": [
+    {
+     "item": "ammo.rifle.incendiary",
+     "min": 8.0,
+     "max": 8.0
+    }
+   ]
+  },
+  "RifleHV": {
+   "items": [
+    {
+     "item": "ammo.rifle.hv",
+     "min": 10.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "RifleRegular": {
+   "items": [
+    {
+     "item": "ammo.rifle",
+     "min": 12.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "Roadsigns": {
+   "items": [
+    {
+     "item": "roadsigns",
+     "min": 2.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "RocketAmmoCollection": {
+   "items": [
+    {
+     "item": "ammo.rocket.fire",
+     "min": 5.0,
+     "max": 5.0
+    },
+    {
+     "item": "ammo.rocket.hv",
+     "min": 3.0,
+     "max": 3.0
+    },
+    {
+     "item": "ammo.rocket.mlrs",
+     "min": 2.0,
+     "max": 2.0
+    },
+    {
+     "item": "ammo.rocket.seeker",
+     "min": 4.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "RootCombiner": {
+   "items": [
+    {
+     "item": "electrical.combiner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Rope": {
+   "items": [
+    {
+     "item": "rope",
+     "min": 1.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "SAR with ammo": {
+   "items": [
+    {
+     "item": "rifle.semiauto",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 35.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "SMG with Ammo": {
+   "items": [
+    {
+     "item": "smg.thompson",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.pistol",
+     "min": 15.0,
+     "max": 15.0
+    }
+   ]
+  },
+  "SMGBody": {
+   "items": [
+    {
+     "item": "smgbody",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SUPERStocking": {
+   "pick": [
+    {
+     "table": "SmallGift-Contents",
+     "weight": 8
+    },
+    {
+     "table": "coalspawn",
+     "weight": 1
+    },
+    {
+     "table": "MediumGift-Contents",
+     "weight": 1
+    }
+   ]
+  },
+  "Satchels": {
+   "items": [
+    {
+     "item": "explosive.satchel",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SatelliteCrashLoot": {
+   "pick": [
+    {
+     "table": "cctv_camera",
+     "weight": 25,
+     "extra": 1
+    },
+    {
+     "table": "targeting_computer",
+     "weight": 25,
+     "extra": 1
+    },
+    {
+     "table": "TechParts5",
+     "weight": 15
+    },
+    {
+     "table": "HQMetal_Large",
+     "weight": 25
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "weight": 5
+    }
+   ]
+  },
+  "ScrapSmall": {
+   "items": [
+    {
+     "item": "scrap",
+     "min": 8.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "SemiBody": {
+   "items": [
+    {
+     "item": "semibody",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SewingKits": {
+   "items": [
+    {
+     "item": "sewingkit",
+     "min": 3.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Sheetmetal": {
+   "items": [
+    {
+     "item": "sheetmetal",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "SheetmetalLarge": {
+   "items": [
+    {
+     "item": "sheetmetal",
+     "min": 5.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "Shotgun": {
+   "pick": [
+    {
+     "table": "ShotgunShells",
+     "weight": 50
+    },
+    {
+     "table": "ShotgunSlugs",
+     "weight": 30
+    },
+    {
+     "table": "ShotgunIncendiary",
+     "weight": 30
+    }
+   ]
+  },
+  "ShotgunIncendiary": {
+   "items": [
+    {
+     "item": "ammo.shotgun.fire",
+     "min": 4.0,
+     "max": 8.0
+    }
+   ]
+  },
+  "ShotgunShells": {
+   "items": [
+    {
+     "item": "ammo.shotgun",
+     "min": 6.0,
+     "max": 6.0
+    }
+   ]
+  },
+  "ShotgunSlugs": {
+   "items": [
+    {
+     "item": "ammo.shotgun.slug",
+     "min": 4.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "SiegeTower": {
+   "items": [
+    {
+     "item": "siegetower",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "wood",
+     "min": 5000.0,
+     "max": 5000.0
+    },
+    {
+     "item": "metal.shield",
+     "min": 3.0,
+     "max": 3.0
+    },
+    {
+     "item": "salvaged.sword",
+     "min": 3.0,
+     "max": 3.0
+    }
+   ]
+  },
+  "SirenLight": {
+   "items": [
+    {
+     "item": "electric.sirenlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SmallBattery": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SmallGift": {
+   "items": [
+    {
+     "item": "xmas.present.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "SmallGift-Contents": {
+   "pick": [
+    {
+     "table": "candycane",
+     "weight": 10
+    },
+    {
+     "table": "150stone",
+     "weight": 10
+    },
+    {
+     "table": "300wood",
+     "weight": 10
+    },
+    {
+     "table": "25metalfragments",
+     "weight": 10
+    },
+    {
+     "table": "chocolate",
+     "weight": 10
+    },
+    {
+     "table": "santahat",
+     "weight": 2
+    },
+    {
+     "table": "reindeerhat",
+     "weight": 5
+    },
+    {
+     "table": "eoka_w_ammo",
+     "weight": 5
+    },
+    {
+     "table": "LowDecor",
+     "weight": 5
+    },
+    {
+     "table": "ScrapSmall",
+     "weight": 5
+    },
+    {
+     "table": "snowball",
+     "weight": 5
+    }
+   ]
+  },
+  "SmallStocking": {
+   "pick": [
+    {
+     "table": "SmallGift-Contents",
+     "weight": 8
+    },
+    {
+     "table": "coalspawn",
+     "weight": 1
+    }
+   ]
+  },
+  "SolarLarge": {
+   "items": [
+    {
+     "item": "electric.solarpanel.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Spas12 With Ammo": {
+   "items": [
+    {
+     "item": "shotgun.spas12",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.shotgun",
+     "min": 8.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "Splitter": {
+   "items": [
+    {
+     "item": "electric.splitter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Springs": {
+   "items": [
+    {
+     "item": "metalspring",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "Switch": {
+   "items": [
+    {
+     "item": "electric.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "TackleSpawn": {
+   "items": [
+    {
+     "item": "fishing.tackle",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "rope",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "Tarps": {
+   "items": [
+    {
+     "item": "tarp",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "Teas": {
+   "pick": [
+    {
+     "table": "healingtea",
+     "weight": 30
+    },
+    {
+     "table": "oretea",
+     "weight": 30
+    },
+    {
+     "table": "radiationresisttea",
+     "weight": 30
+    },
+    {
+     "table": "scraptea",
+     "weight": 30
+    },
+    {
+     "table": "woodtea",
+     "weight": 30
+    }
+   ]
+  },
+  "TechParts": {
+   "items": [
+    {
+     "item": "techparts",
+     "min": 2.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "TechParts5": {
+   "items": [
+    {
+     "item": "techparts",
+     "min": 4.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "TechPartsLarge": {
+   "items": [
+    {
+     "item": "techparts",
+     "min": 10.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "TeslaCoil": {
+   "items": [
+    {
+     "item": "electric.teslacoil",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "Timer": {
+   "items": [
+    {
+     "item": "electric.timer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ToolRoll": {
+   "pick": [
+    {
+     "table": "ToolRoll_Sub_Tools",
+     "weight": 100
+    },
+    {
+     "table": "Grenades",
+     "weight": 100,
+     "extra": 2
+    },
+    {
+     "table": "Satchels",
+     "weight": 100,
+     "extra": 1
+    },
+    {
+     "table": "C4",
+     "weight": 50
+    }
+   ]
+  },
+  "ToolRoll_Sub_Tools": {
+   "pick": [
+    {
+     "table": "chainsaw",
+     "weight": 100
+    },
+    {
+     "table": "jackhammer",
+     "weight": 100
+    }
+   ]
+  },
+  "Tools": {
+   "pick": [
+    {
+     "table": "ToolsBasic",
+     "weight": 80
+    },
+    {
+     "table": "ToolsMedium",
+     "weight": 20
+    }
+   ]
+  },
+  "ToolsBasic": {
+   "pick": [
+    {
+     "table": "Hatchet",
+     "weight": 1
+    },
+    {
+     "table": "pickaxe",
+     "weight": 1
+    },
+    {
+     "table": "Binoculars",
+     "weight": 1
+    }
+   ]
+  },
+  "ToolsMedium": {
+   "pick": [
+    {
+     "table": "icepick.salvaged",
+     "weight": 2
+    },
+    {
+     "table": "axe.salvaged",
+     "weight": 2
+    },
+    {
+     "table": "Chainsaw with fuel",
+     "weight": 1
+    },
+    {
+     "table": "jackhammer",
+     "weight": 1
+    }
+   ]
+  },
+  "ToolsPrimitive": {
+   "pick": [
+    {
+     "table": "stonehatchet",
+     "weight": 1
+    },
+    {
+     "table": "stone.pickaxe",
+     "weight": 1
+    }
+   ]
+  },
+  "TurretParts": {
+   "pick": [
+    {
+     "table": "targeting_computer",
+     "weight": 55
+    },
+    {
+     "table": "cctv_camera",
+     "weight": 45
+    },
+    {
+     "table": "autoturret",
+     "weight": 5
+    }
+   ]
+  },
+  "WaterJug": {
+   "items": [
+    {
+     "item": "waterjug",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "Wood": {
+   "items": [
+    {
+     "item": "wood",
+     "min": 100.0,
+     "max": 150.0
+    }
+   ]
+  },
+  "WoodArmorSet": {
+   "items": [
+    {
+     "item": "wood.armor.jacket",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "wood.armor.pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "WorkbenchTier_0": {
+   "pick": [
+    {
+     "table": "shutter.wood.a",
+     "weight": 100
+    },
+    {
+     "table": "burlap.gloves",
+     "weight": 100
+    },
+    {
+     "table": "hat.beenie",
+     "weight": 100
+    },
+    {
+     "table": "hat.boonie",
+     "weight": 100
+    },
+    {
+     "table": "hat.cap",
+     "weight": 100
+    },
+    {
+     "table": "mask.balaclava",
+     "weight": 100
+    },
+    {
+     "table": "mask.bandana",
+     "weight": 100
+    },
+    {
+     "table": "pants.shorts",
+     "weight": 100
+    },
+    {
+     "table": "shirt.tanktop",
+     "weight": 100
+    },
+    {
+     "table": "barricade.wood.cover",
+     "weight": 100
+    },
+    {
+     "table": "barricade.stone",
+     "weight": 100
+    },
+    {
+     "table": "barricade.wood",
+     "weight": 100
+    },
+    {
+     "table": "fireplace.stone",
+     "weight": 100
+    },
+    {
+     "table": "spikes.floor",
+     "weight": 100
+    },
+    {
+     "table": "water.barrel",
+     "weight": 100
+    },
+    {
+     "table": "mailbox",
+     "weight": 100
+    },
+    {
+     "table": "planter.large",
+     "weight": 100
+    },
+    {
+     "table": "planter.triangle",
+     "weight": 100
+    },
+    {
+     "table": "electric.igniter",
+     "weight": 100
+    },
+    {
+     "table": "rug.bear",
+     "weight": 100
+    },
+    {
+     "table": "rug",
+     "weight": 100
+    },
+    {
+     "table": "shelves",
+     "weight": 100
+    },
+    {
+     "table": "sign.wooden.huge",
+     "weight": 100
+    },
+    {
+     "table": "sign.wooden.large",
+     "weight": 100
+    },
+    {
+     "table": "spinner.wheel",
+     "weight": 100
+    },
+    {
+     "table": "table",
+     "weight": 100
+    },
+    {
+     "table": "tunalight",
+     "weight": 100
+    },
+    {
+     "table": "fun.guitar",
+     "weight": 100
+    },
+    {
+     "table": "tool.binoculars",
+     "weight": 100
+    },
+    {
+     "table": "paddle",
+     "weight": 100
+    },
+    {
+     "table": "bucket.water",
+     "weight": 100
+    }
+   ]
+  },
+  "WorkbenchTier_1": {
+   "pick": [
+    {
+     "table": "kayak",
+     "weight": 100
+    },
+    {
+     "table": "siegetower",
+     "weight": 100
+    },
+    {
+     "table": "floor.grill",
+     "weight": 100
+    },
+    {
+     "table": "floor.triangle.grill",
+     "weight": 100
+    },
+    {
+     "table": "gates.external.high.wood",
+     "weight": 100
+    },
+    {
+     "table": "ladder.wooden.wall",
+     "weight": 100
+    },
+    {
+     "table": "wall.external.high",
+     "weight": 100
+    },
+    {
+     "table": "wall.frame.fence.gate",
+     "weight": 100
+    },
+    {
+     "table": "wall.frame.fence",
+     "weight": 100
+    },
+    {
+     "table": "wall.window.bars.metal",
+     "weight": 100
+    },
+    {
+     "table": "watchtower.wood",
+     "weight": 100
+    },
+    {
+     "table": "bucket.helmet",
+     "weight": 100
+    },
+    {
+     "table": "hat.miner",
+     "weight": 100
+    },
+    {
+     "table": "prisonerhood",
+     "weight": 100
+    },
+    {
+     "table": "riot.helmet",
+     "weight": 100
+    },
+    {
+     "table": "jacket.snow",
+     "weight": 100
+    },
+    {
+     "table": "jacket",
+     "weight": 100
+    },
+    {
+     "table": "pants",
+     "weight": 100
+    },
+    {
+     "table": "shirt.collared",
+     "weight": 100
+    },
+    {
+     "table": "tshirt",
+     "weight": 100
+    },
+    {
+     "table": "tshirt.long",
+     "weight": 100
+    },
+    {
+     "table": "clothing.mod.armorinsert_wood",
+     "weight": 100
+    },
+    {
+     "table": "barricade.sandbags",
+     "weight": 100,
+     "extra": 3
+    },
+    {
+     "table": "barricade.woodwire",
+     "weight": 100
+    },
+    {
+     "table": "trap.bear",
+     "weight": 100
+    },
+    {
+     "table": "bed",
+     "weight": 100
+    },
+    {
+     "table": "beehive",
+     "weight": 100
+    },
+    {
+     "table": "ceilinglight",
+     "weight": 100
+    },
+    {
+     "table": "chair",
+     "weight": 100
+    },
+    {
+     "table": "chickencoop",
+     "weight": 100
+    },
+    {
+     "table": "cookingworkbench",
+     "weight": 100
+    },
+    {
+     "table": "dropbox",
+     "weight": 100
+    },
+    {
+     "table": "fridge",
+     "weight": 100
+    },
+    {
+     "table": "hopper",
+     "weight": 100
+    },
+    {
+     "table": "hab.armor",
+     "weight": 100
+    },
+    {
+     "table": "iotable",
+     "weight": 100
+    },
+    {
+     "table": "mixingtable",
+     "weight": 100
+    },
+    {
+     "table": "electric.audioalarm",
+     "weight": 100
+    },
+    {
+     "table": "electric.battery.rechargable.small",
+     "weight": 100
+    },
+    {
+     "table": "electric.button",
+     "weight": 100
+    },
+    {
+     "table": "electric.pressurepad",
+     "weight": 100
+    },
+    {
+     "table": "tincan.alarm",
+     "weight": 100
+    },
+    {
+     "table": "electric.doorcontroller",
+     "weight": 100
+    },
+    {
+     "table": "electric.heater",
+     "weight": 100
+    },
+    {
+     "table": "fluid.combiner",
+     "weight": 100
+    },
+    {
+     "table": "fluid.splitter",
+     "weight": 100
+    },
+    {
+     "table": "fluid.switch",
+     "weight": 100
+    },
+    {
+     "table": "electric.blocker",
+     "weight": 100
+    },
+    {
+     "table": "electrical.branch",
+     "weight": 100
+    },
+    {
+     "table": "electrical.combiner",
+     "weight": 100
+    },
+    {
+     "table": "electric.orswitch",
+     "weight": 100
+    },
+    {
+     "table": "electric.xorswitch",
+     "weight": 100
+    },
+    {
+     "table": "electric.solarpanel.large",
+     "weight": 100
+    },
+    {
+     "table": "storageadaptor",
+     "weight": 100
+    },
+    {
+     "table": "industrial.combiner",
+     "weight": 100
+    },
+    {
+     "table": "industrial.conveyor",
+     "weight": 100
+    },
+    {
+     "table": "industrial.splitter",
+     "weight": 100
+    },
+    {
+     "table": "electric.flasherlight",
+     "weight": 100
+    },
+    {
+     "table": "electric.sirenlight",
+     "weight": 100
+    },
+    {
+     "table": "electric.switch",
+     "weight": 100
+    },
+    {
+     "table": "electric.splitter",
+     "weight": 100
+    },
+    {
+     "table": "electric.sprinkler",
+     "weight": 100
+    },
+    {
+     "table": "electric.timer",
+     "weight": 100
+    },
+    {
+     "table": "target.reactive",
+     "weight": 100
+    },
+    {
+     "table": "guntrap",
+     "weight": 100
+    },
+    {
+     "table": "water.catcher.small",
+     "weight": 100
+    },
+    {
+     "table": "flameturret",
+     "weight": 100
+    },
+    {
+     "table": "flare",
+     "weight": 100
+    },
+    {
+     "table": "metal.detector",
+     "weight": 100
+    },
+    {
+     "table": "telephone",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.flashlight",
+     "weight": 100
+    },
+    {
+     "table": "grenade.beancan",
+     "weight": 100
+    },
+    {
+     "table": "grenade.bee",
+     "weight": 100
+    },
+    {
+     "table": "boomerang",
+     "weight": 100
+    },
+    {
+     "table": "salvaged.cleaver",
+     "weight": 100
+    },
+    {
+     "table": "bow.compound",
+     "weight": 100
+    },
+    {
+     "table": "shotgun.double",
+     "weight": 100
+    },
+    {
+     "table": "Hatchet",
+     "weight": 100
+    },
+    {
+     "table": "knife.combat",
+     "weight": 100
+    },
+    {
+     "table": "Mace",
+     "weight": 100
+    },
+    {
+     "table": "minicrossbow",
+     "weight": 100
+    },
+    {
+     "table": "pickaxe",
+     "weight": 100
+    },
+    {
+     "table": "shotgun.waterpipe",
+     "weight": 100
+    },
+    {
+     "table": "reinforced.wooden.shield",
+     "weight": 100
+    },
+    {
+     "table": "pistol.revolver",
+     "weight": 100
+    },
+    {
+     "table": "hammer.salvaged",
+     "weight": 100
+    },
+    {
+     "table": "explosive.satchel",
+     "weight": 100
+    },
+    {
+     "table": "speargun",
+     "weight": 100
+    },
+    {
+     "table": "salvaged.sword",
+     "weight": 100
+    },
+    {
+     "table": "t1_smg",
+     "weight": 100
+    }
+   ]
+  },
+  "WorkbenchTier_2": {
+   "pick": [
+    {
+     "table": "skidoo",
+     "weight": 100
+    },
+    {
+     "table": "horse.armor.roadsign",
+     "weight": 100
+    },
+    {
+     "table": "horse.shoes.advanced",
+     "weight": 100
+    },
+    {
+     "table": "ballista.mounted",
+     "weight": 100
+    },
+    {
+     "table": "ballista.static",
+     "weight": 100
+    },
+    {
+     "table": "batteringram",
+     "weight": 100
+    },
+    {
+     "table": "catapult",
+     "weight": 100
+    },
+    {
+     "table": "floor.ladder.hatch",
+     "weight": 100
+    },
+    {
+     "table": "floor.triangle.ladder.hatch",
+     "weight": 100
+    },
+    {
+     "table": "gates.external.high.stone",
+     "weight": 100
+    },
+    {
+     "table": "wall.external.high.stone",
+     "weight": 100
+    },
+    {
+     "table": "wall.frame.cell.gate",
+     "weight": 100
+    },
+    {
+     "table": "wall.frame.cell",
+     "weight": 100
+    },
+    {
+     "table": "wall.frame.garagedoor",
+     "weight": 100
+    },
+    {
+     "table": "shutter.metal.embrasure.a",
+     "weight": 100
+    },
+    {
+     "table": "shutter.metal.embrasure.b",
+     "weight": 100
+    },
+    {
+     "table": "wall.window.glass.reinforced",
+     "weight": 100
+    },
+    {
+     "table": "roadsign.gloves",
+     "weight": 100
+    },
+    {
+     "table": "coffeecan.helmet",
+     "weight": 100
+    },
+    {
+     "table": "heavy.plate.helmet",
+     "weight": 100
+    },
+    {
+     "table": "hoodie",
+     "weight": 100
+    },
+    {
+     "table": "heavy.plate.jacket",
+     "weight": 100
+    },
+    {
+     "table": "nightvisiongoggles",
+     "weight": 100
+    },
+    {
+     "table": "heavy.plate.pants",
+     "weight": 100
+    },
+    {
+     "table": "roadsign.kilt",
+     "weight": 100
+    },
+    {
+     "table": "shoes.boots",
+     "weight": 100
+    },
+    {
+     "table": "hazmatsuit",
+     "weight": 100
+    },
+    {
+     "table": "roadsign.jacket",
+     "weight": 100
+    },
+    {
+     "table": "clothing.mod.armorinsert_asbestos",
+     "weight": 100
+    },
+    {
+     "table": "clothing.mod.armorinsert_lead",
+     "weight": 100
+    },
+    {
+     "table": "barricade.concrete",
+     "weight": 100
+    },
+    {
+     "table": "barricade.metal",
+     "weight": 100
+    },
+    {
+     "table": "computerstation",
+     "weight": 100
+    },
+    {
+     "table": "drone",
+     "weight": 100
+    },
+    {
+     "table": "elevator",
+     "weight": 100
+    },
+    {
+     "table": "furnace.large",
+     "weight": 100
+    },
+    {
+     "table": "trap.landmine",
+     "weight": 100
+    },
+    {
+     "table": "locker",
+     "weight": 100
+    },
+    {
+     "table": "modularcarlift",
+     "weight": 100
+    },
+    {
+     "table": "small.oil.refinery",
+     "weight": 100
+    },
+    {
+     "table": "smart.alarm",
+     "weight": 100
+    },
+    {
+     "table": "smart.switch",
+     "weight": 100
+    },
+    {
+     "table": "storage.monitor",
+     "weight": 100
+    },
+    {
+     "table": "electric.battery.rechargable.large",
+     "weight": 100
+    },
+    {
+     "table": "electric.battery.rechargable.medium",
+     "weight": 100
+    },
+    {
+     "table": "electric.counter",
+     "weight": 100
+    },
+    {
+     "table": "electric.hbhfsensor",
+     "weight": 100
+    },
+    {
+     "table": "electric.laserdetector",
+     "weight": 100
+    },
+    {
+     "table": "electric.digitalclock",
+     "weight": 100
+    },
+    {
+     "table": "electric.furnace",
+     "weight": 100
+    },
+    {
+     "table": "electric.andswitch",
+     "weight": 100
+    },
+    {
+     "table": "electrical.memorycell",
+     "weight": 100
+    },
+    {
+     "table": "electric.random.switch",
+     "weight": 100
+    },
+    {
+     "table": "electric.rf.broadcaster",
+     "weight": 100
+    },
+    {
+     "table": "electric.rf.receiver",
+     "weight": 100
+    },
+    {
+     "table": "electric.fuelgenerator.small",
+     "weight": 100
+    },
+    {
+     "table": "industrial.crafter",
+     "weight": 100
+    },
+    {
+     "table": "powered.water.purifier",
+     "weight": 100
+    },
+    {
+     "table": "electric.seismicsensor",
+     "weight": 100
+    },
+    {
+     "table": "electric.teslacoil",
+     "weight": 100
+    },
+    {
+     "table": "waterpump",
+     "weight": 100
+    },
+    {
+     "table": "ptz.cctv.camera",
+     "weight": 100
+    },
+    {
+     "table": "searchlight",
+     "weight": 100
+    },
+    {
+     "table": "water.catcher.large",
+     "weight": 100
+    },
+    {
+     "table": "generator.wind.scrap",
+     "weight": 100
+    },
+    {
+     "table": "parachute",
+     "weight": 100
+    },
+    {
+     "table": "autoturret#2",
+     "weight": 100
+    },
+    {
+     "table": "rf.detonator",
+     "weight": 100
+    },
+    {
+     "table": "handcuffs",
+     "weight": 100
+    },
+    {
+     "table": "largemedkit",
+     "weight": 100
+    },
+    {
+     "table": "syringe.medical",
+     "weight": 100
+    },
+    {
+     "table": "rf_pager",
+     "weight": 100
+    },
+    {
+     "table": "grenade.smoke",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.extendedmags",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.gascompressionovedrive",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.holosight",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.muzzleboost",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.muzzlebrake",
+     "weight": 100
+    },
+    {
+     "table": "chainsaw",
+     "weight": 100
+    },
+    {
+     "table": "grenade.f1",
+     "weight": 100
+    },
+    {
+     "table": "flamethrower",
+     "weight": 100
+    },
+    {
+     "table": "grenade.flashbang",
+     "weight": 100
+    },
+    {
+     "table": "revolver.hc",
+     "weight": 100
+    },
+    {
+     "table": "homingmissile.launcher",
+     "weight": 100
+    },
+    {
+     "table": "metal.shield",
+     "weight": 100
+    },
+    {
+     "table": "grenade.molotov",
+     "weight": 100
+    },
+    {
+     "table": "pistol.python",
+     "weight": 100
+    },
+    {
+     "table": "rocket.launcher",
+     "weight": 100
+    },
+    {
+     "table": "axe.salvaged",
+     "weight": 100
+    },
+    {
+     "table": "icepick.salvaged",
+     "weight": 100
+    },
+    {
+     "table": "shotgun.pump",
+     "weight": 100
+    },
+    {
+     "table": "pistol.semiauto",
+     "weight": 100
+    },
+    {
+     "table": "rifle.semiauto",
+     "weight": 100
+    },
+    {
+     "table": "smg.2",
+     "weight": 100
+    },
+    {
+     "table": "Longsword",
+     "weight": 100
+    },
+    {
+     "table": "smg.thompson",
+     "weight": 100
+    }
+   ]
+  },
+  "WorkbenchTier_3": {
+   "pick": [
+    {
+     "table": "door.double.hinged.toptier",
+     "weight": 100
+    },
+    {
+     "table": "door.hinged.toptier",
+     "weight": 100
+    },
+    {
+     "table": "floor.ladder.hatch.toptier",
+     "weight": 100
+    },
+    {
+     "table": "floor.triangle.ladder.hatch.toptier",
+     "weight": 100
+    },
+    {
+     "table": "wall.window.bars.toptier",
+     "weight": 100
+    },
+    {
+     "table": "metal.facemask",
+     "weight": 100
+    },
+    {
+     "table": "metal.plate.torso",
+     "weight": 100
+    },
+    {
+     "table": "Explosives",
+     "weight": 100
+    },
+    {
+     "table": "explosive.timed",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.lasersight",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.small.scope",
+     "weight": 100
+    },
+    {
+     "table": "rifle.ak",
+     "weight": 100
+    },
+    {
+     "table": "rifle.bolt",
+     "weight": 100
+    },
+    {
+     "table": "hmlmg",
+     "weight": 100
+    },
+    {
+     "table": "smg.mp5",
+     "weight": 100
+    },
+    {
+     "table": "rifle.sks",
+     "weight": 100
+    },
+    {
+     "table": "bdu.shirt",
+     "weight": 100
+    },
+    {
+     "table": "bdu.pants",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.silencer",
+     "weight": 100
+    }
+   ]
+  },
+  "WorkbenchUpgrades.High": {
+   "pick": [
+    {
+     "table": "workbench.upgrade.accelerated",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.salvage",
+     "weight": 1
+    }
+   ]
+  },
+  "WorkbenchUpgrades.Low": {
+   "pick": [
+    {
+     "table": "workbench.upgrade.comfort",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.defensive",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.recyclebin",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.range",
+     "weight": 1
+    }
+   ]
+  },
+  "WorkbenchUpgrades.Medium": {
+   "pick": [
+    {
+     "table": "workbench.upgrade.prototype",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.reinforced",
+     "weight": 1
+    },
+    {
+     "table": "workbench.upgrade.efficiency",
+     "weight": 1
+    }
+   ]
+  },
+  "Workbench_Experiment_Tier_3": {
+   "pick": [
+    {
+     "table": "ammo.rifle.explosive",
+     "weight": 100
+    },
+    {
+     "table": "ammo.rifle.incendiary",
+     "weight": 100
+    },
+    {
+     "table": "ammo.rifle.hv",
+     "weight": 100
+    },
+    {
+     "table": "ammo.rocket.basic",
+     "weight": 100
+    },
+    {
+     "table": "door.double.hinged.toptier",
+     "weight": 100
+    },
+    {
+     "table": "door.hinged.toptier",
+     "weight": 100
+    },
+    {
+     "table": "wall.window.bars.toptier",
+     "weight": 100
+    },
+    {
+     "table": "metal.facemask",
+     "weight": 100
+    },
+    {
+     "table": "metal.plate.torso",
+     "weight": 100
+    },
+    {
+     "table": "Explosives",
+     "weight": 100
+    },
+    {
+     "table": "explosive.timed",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.lasersight",
+     "weight": 100
+    },
+    {
+     "table": "weapon.mod.small.scope",
+     "weight": 100
+    },
+    {
+     "table": "rifle.ak",
+     "weight": 100
+    },
+    {
+     "table": "rifle.bolt",
+     "weight": 100
+    },
+    {
+     "table": "hmlmg",
+     "weight": 100
+    },
+    {
+     "table": "smg.mp5",
+     "weight": 100
+    },
+    {
+     "table": "rifle.sks",
+     "weight": 100
+    }
+   ]
+  },
+  "WorldGiftBox": {
+   "pick": [
+    {
+     "table": "SmallGift",
+     "weight": 90
+    },
+    {
+     "table": "MediumGift",
+     "weight": 10
+    }
+   ]
+  },
+  "XORSwitch": {
+   "items": [
+    {
+     "item": "electric.xorswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "XmasTunnelCrateExtra": {
+   "pick": [
+    {
+     "table": "SmallGift",
+     "weight": 75
+    },
+    {
+     "table": "MediumGift",
+     "weight": 25
+    }
+   ]
+  },
+  "advanceblueprintfragmentloot": {
+   "items": [
+    {
+     "item": "advancedblueprintfragment",
+     "min": 2.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "advanceblueprintfragmentlootsingle": {
+   "items": [
+    {
+     "item": "advancedblueprintfragment",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "aiming.module.mlrs": {
+   "items": [
+    {
+     "item": "aiming.module.mlrs",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ammo.rifle.explosive": {
+   "items": [
+    {
+     "item": "ammo.rifle.explosive",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ammo.rifle.hv": {
+   "items": [
+    {
+     "item": "ammo.rifle.hv",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ammo.rifle.incendiary": {
+   "items": [
+    {
+     "item": "ammo.rifle.incendiary",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ammo.rocket.basic": {
+   "items": [
+    {
+     "item": "ammo.rocket.basic",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "attire.hide.boots": {
+   "items": [
+    {
+     "item": "attire.hide.boots",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "attire.hide.pants": {
+   "items": [
+    {
+     "item": "attire.hide.pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "attire.hide.poncho": {
+   "items": [
+    {
+     "item": "attire.hide.poncho",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "attire.hide.vest": {
+   "items": [
+    {
+     "item": "attire.hide.vest",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "autoturret": {
+   "items": [
+    {
+     "item": "autoturret",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "autoturret#2": {
+   "items": [
+    {
+     "item": "autoturret",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "axe.salvaged": {
+   "items": [
+    {
+     "item": "axe.salvaged",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ballista.mounted": {
+   "items": [
+    {
+     "item": "ballista.mounted",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ballista.static": {
+   "items": [
+    {
+     "item": "ballista.static",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ballistic.helmet": {
+   "items": [
+    {
+     "item": "ballistic.helmet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ballistic.legarmor": {
+   "items": [
+    {
+     "item": "ballistic.legarmor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ballistic.vest": {
+   "items": [
+    {
+     "item": "ballistic.vest",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "balls": {
+   "items": [
+    {
+     "item": "xmas.decoration.baubels",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.concrete": {
+   "items": [
+    {
+     "item": "barricade.concrete",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.metal": {
+   "items": [
+    {
+     "item": "barricade.metal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.sandbags": {
+   "items": [
+    {
+     "item": "barricade.sandbags",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.stone": {
+   "items": [
+    {
+     "item": "barricade.stone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.wood": {
+   "items": [
+    {
+     "item": "barricade.wood",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.wood.cover": {
+   "items": [
+    {
+     "item": "barricade.wood.cover",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "barricade.woodwire": {
+   "items": [
+    {
+     "item": "barricade.woodwire",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "basicblueprintfragmentloot_single": {
+   "items": [
+    {
+     "item": "basicblueprintfragment",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "batteringram": {
+   "items": [
+    {
+     "item": "batteringram",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bdu.pants": {
+   "items": [
+    {
+     "item": "bdu.pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bdu.shirt": {
+   "items": [
+    {
+     "item": "bdu.shirt",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bearmeat.cooked": {
+   "items": [
+    {
+     "item": "bearmeat.cooked",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bed": {
+   "items": [
+    {
+     "item": "bed",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "beehive": {
+   "items": [
+    {
+     "item": "beehive",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "black.raspberries": {
+   "items": [
+    {
+     "item": "black.raspberries",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bone.armor.jacket": {
+   "items": [
+    {
+     "item": "bone.armor.suit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bone.armor.pants": {
+   "items": [
+    {
+     "item": "bone.armor.suit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "boomerang": {
+   "items": [
+    {
+     "item": "boomerang",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bow.compound": {
+   "items": [
+    {
+     "item": "bow.compound",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bread.loaf": {
+   "items": [
+    {
+     "item": "bread.loaf",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bucket.helmet": {
+   "items": [
+    {
+     "item": "bucket.helmet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "bucket.water": {
+   "items": [
+    {
+     "item": "bucket.water",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "burlap.gloves": {
+   "items": [
+    {
+     "item": "burlap.gloves",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "burlap.headwrap": {
+   "items": [
+    {
+     "item": "burlap.headwrap",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "burlap.shirt": {
+   "items": [
+    {
+     "item": "burlap.shirt",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "burlap.shoes": {
+   "items": [
+    {
+     "item": "burlap.shoes",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "burlap.trousers": {
+   "items": [
+    {
+     "item": "burlap.trousers",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "can.beans": {
+   "items": [
+    {
+     "item": "can.beans",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "can.tuna": {
+   "items": [
+    {
+     "item": "can.tuna",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "candycane": {
+   "items": [
+    {
+     "item": "candycaneclub",
+     "min": 1.0,
+     "max": 2.0
+    },
+    {
+     "item": "wrappingpaper",
+     "min": 1.0,
+     "max": 2.0
+    },
+    {
+     "item": "snowball",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "canedecor": {
+   "items": [
+    {
+     "item": "xmas.decoration.candycanes",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "carburtor": {
+   "items": [
+    {
+     "item": "carburetor1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "carburtor_advanced": {
+   "items": [
+    {
+     "item": "carburetor2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "catapult": {
+   "items": [
+    {
+     "item": "catapult",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "cctv_camera": {
+   "items": [
+    {
+     "item": "cctv.camera",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ceilinglight": {
+   "items": [
+    {
+     "item": "ceilinglight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chainsaw": {
+   "items": [
+    {
+     "item": "chainsaw",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chair": {
+   "items": [
+    {
+     "item": "chair",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chicken.cooked": {
+   "items": [
+    {
+     "item": "chicken.cooked",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chickencoop": {
+   "items": [
+    {
+     "item": "chickencoop",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chocholate": {
+   "items": [
+    {
+     "item": "chocolate",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "chocolate": {
+   "items": [
+    {
+     "item": "chocolate",
+     "min": 3.0,
+     "max": 5.0
+    }
+   ]
+  },
+  "chocolate#2": {
+   "items": [
+    {
+     "item": "chocolate",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "clothing.mod.armorinsert_asbestos": {
+   "items": [
+    {
+     "item": "clothing.mod.armorinsert_asbestos",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "clothing.mod.armorinsert_lead": {
+   "items": [
+    {
+     "item": "clothing.mod.armorinsert_lead",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "clothing.mod.armorinsert_wood": {
+   "items": [
+    {
+     "item": "clothing.mod.armorinsert_wood",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "coalspawn": {
+   "items": [
+    {
+     "item": "coal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "coffeecan.helmet": {
+   "items": [
+    {
+     "item": "coffeecan.helmet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "computerstation": {
+   "items": [
+    {
+     "item": "computerstation",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "cookingworkbench": {
+   "items": [
+    {
+     "item": "cookingworkbench",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "corn": {
+   "items": [
+    {
+     "item": "corn",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "crankshaft": {
+   "items": [
+    {
+     "item": "crankshaft1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "crankshaft_advanced": {
+   "items": [
+    {
+     "item": "crankshaft2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "deermeat.cooked": {
+   "items": [
+    {
+     "item": "deermeat.cooked",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "diving": {
+   "pick": [
+    {
+     "table": "diving.mask",
+     "weight": 50
+    },
+    {
+     "table": "diving.tank",
+     "weight": 30
+    },
+    {
+     "table": "diving.wetsuit",
+     "weight": 20
+    },
+    {
+     "table": "diving.fins",
+     "weight": 20
+    }
+   ]
+  },
+  "diving.fins": {
+   "items": [
+    {
+     "item": "diving.fins",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "diving.mask": {
+   "items": [
+    {
+     "item": "diving.mask",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "diving.tank": {
+   "items": [
+    {
+     "item": "diving.tank",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "diving.wetsuit": {
+   "items": [
+    {
+     "item": "diving.wetsuit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "door.double.hinged.toptier": {
+   "items": [
+    {
+     "item": "door.double.hinged.toptier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "door.hinged.toptier": {
+   "items": [
+    {
+     "item": "door.hinged.toptier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "drone": {
+   "items": [
+    {
+     "item": "drone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "dropbox": {
+   "items": [
+    {
+     "item": "dropbox",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.andswitch": {
+   "items": [
+    {
+     "item": "electric.andswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.audioalarm": {
+   "items": [
+    {
+     "item": "electric.audioalarm",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.battery.rechargable.large": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.battery.rechargable.medium": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.medium",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.battery.rechargable.small": {
+   "items": [
+    {
+     "item": "electric.battery.rechargable.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.blocker": {
+   "items": [
+    {
+     "item": "electric.blocker",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.button": {
+   "items": [
+    {
+     "item": "electric.button",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.counter": {
+   "items": [
+    {
+     "item": "electric.counter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.digitalclock": {
+   "items": [
+    {
+     "item": "electric.digitalclock",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.doorcontroller": {
+   "items": [
+    {
+     "item": "electric.doorcontroller",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.flasherlight": {
+   "items": [
+    {
+     "item": "electric.flasherlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.fuelgenerator.small": {
+   "items": [
+    {
+     "item": "electric.fuelgenerator.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.furnace": {
+   "items": [
+    {
+     "item": "electric.furnace",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.hbhfsensor": {
+   "items": [
+    {
+     "item": "electric.hbhfsensor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.heater": {
+   "items": [
+    {
+     "item": "electric.heater",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.igniter": {
+   "items": [
+    {
+     "item": "electric.igniter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.laserdetector": {
+   "items": [
+    {
+     "item": "electric.laserdetector",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.orswitch": {
+   "items": [
+    {
+     "item": "electric.orswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.pressurepad": {
+   "items": [
+    {
+     "item": "electric.pressurepad",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.random.switch": {
+   "items": [
+    {
+     "item": "electric.random.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.rf.broadcaster": {
+   "items": [
+    {
+     "item": "electric.rf.broadcaster",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.rf.receiver": {
+   "items": [
+    {
+     "item": "electric.rf.receiver",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.seismicsensor": {
+   "items": [
+    {
+     "item": "electric.seismicsensor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.sirenlight": {
+   "items": [
+    {
+     "item": "electric.sirenlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.solarpanel.large": {
+   "items": [
+    {
+     "item": "electric.solarpanel.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.splitter": {
+   "items": [
+    {
+     "item": "electric.splitter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.sprinkler": {
+   "items": [
+    {
+     "item": "electric.sprinkler",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.switch": {
+   "items": [
+    {
+     "item": "electric.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.teslacoil": {
+   "items": [
+    {
+     "item": "electric.teslacoil",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.timer": {
+   "items": [
+    {
+     "item": "electric.timer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electric.xorswitch": {
+   "items": [
+    {
+     "item": "electric.xorswitch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electrical.branch": {
+   "items": [
+    {
+     "item": "electrical.branch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electrical.combiner": {
+   "items": [
+    {
+     "item": "electrical.combiner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "electrical.memorycell": {
+   "items": [
+    {
+     "item": "electrical.memorycell",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "elevator": {
+   "items": [
+    {
+     "item": "elevator",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "eoka_w_ammo": {
+   "items": [
+    {
+     "item": "pistol.eoka",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.handmade.shell",
+     "min": 8.0,
+     "max": 12.0
+    }
+   ]
+  },
+  "explosive.satchel": {
+   "items": [
+    {
+     "item": "explosive.satchel",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "explosive.timed": {
+   "items": [
+    {
+     "item": "explosive.timed",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fireplace.stone": {
+   "items": [
+    {
+     "item": "fireplace.stone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "flamethrower": {
+   "items": [
+    {
+     "item": "flamethrower",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "flameturret": {
+   "items": [
+    {
+     "item": "flameturret",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "flare": {
+   "items": [
+    {
+     "item": "flare",
+     "min": 4.0,
+     "max": 6.0
+    }
+   ]
+  },
+  "flashlight.held": {
+   "items": [
+    {
+     "item": "flashlight.held",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.grill": {
+   "items": [
+    {
+     "item": "floor.grill",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.ladder.hatch": {
+   "items": [
+    {
+     "item": "floor.ladder.hatch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.ladder.hatch.toptier": {
+   "items": [
+    {
+     "item": "floor.ladder.hatch.toptier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.triangle.grill": {
+   "items": [
+    {
+     "item": "floor.triangle.grill",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.triangle.ladder.hatch": {
+   "items": [
+    {
+     "item": "floor.triangle.ladder.hatch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "floor.triangle.ladder.hatch.toptier": {
+   "items": [
+    {
+     "item": "floor.triangle.ladder.hatch.toptier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fluid.combiner": {
+   "items": [
+    {
+     "item": "fluid.combiner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fluid.splitter": {
+   "items": [
+    {
+     "item": "fluid.splitter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fluid.switch": {
+   "items": [
+    {
+     "item": "fluid.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fridge": {
+   "items": [
+    {
+     "item": "fridge",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fuel": {
+   "items": [
+    {
+     "item": "lowgradefuel",
+     "min": 150.0,
+     "max": 150.0
+    }
+   ]
+  },
+  "fun.guitar": {
+   "items": [
+    {
+     "item": "fun.guitar",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "furnace.large": {
+   "items": [
+    {
+     "item": "furnace.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "fuse": {
+   "items": [
+    {
+     "item": "fuse",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "gates.external.high.stone": {
+   "items": [
+    {
+     "item": "gates.external.high.stone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "gates.external.high.wood": {
+   "items": [
+    {
+     "item": "gates.external.high.wood",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "generator.wind.scrap": {
+   "items": [
+    {
+     "item": "generator.wind.scrap",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "gingermen": {
+   "items": [
+    {
+     "item": "xmas.decoration.gingerbreadmen",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "granolabar": {
+   "items": [
+    {
+     "item": "granolabar",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "green.berry": {
+   "items": [
+    {
+     "item": "green.berry",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.beancan": {
+   "items": [
+    {
+     "item": "grenade.beancan",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.bee": {
+   "items": [
+    {
+     "item": "grenade.bee",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.f1": {
+   "items": [
+    {
+     "item": "grenade.f1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.flashbang": {
+   "items": [
+    {
+     "item": "grenade.flashbang",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.molotov": {
+   "items": [
+    {
+     "item": "grenade.molotov",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "grenade.smoke": {
+   "items": [
+    {
+     "item": "grenade.smoke",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "guntrap": {
+   "items": [
+    {
+     "item": "guntrap",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hab.armor": {
+   "items": [
+    {
+     "item": "hab.armor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hammer.salvaged": {
+   "items": [
+    {
+     "item": "hammer.salvaged",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "handcuffs": {
+   "items": [
+    {
+     "item": "handcuffs",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.beenie": {
+   "items": [
+    {
+     "item": "hat.beenie",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.boonie": {
+   "items": [
+    {
+     "item": "hat.boonie",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.candle": {
+   "items": [
+    {
+     "item": "hat.candle",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.cap": {
+   "items": [
+    {
+     "item": "hat.cap",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.miner": {
+   "items": [
+    {
+     "item": "hat.miner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hat.wolf": {
+   "items": [
+    {
+     "item": "hat.wolf",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hazmatsuit": {
+   "items": [
+    {
+     "item": "hazmatsuit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "healingtea": {
+   "items": [
+    {
+     "item": "healingtea",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "heavy.plate.helmet": {
+   "items": [
+    {
+     "item": "heavy.plate.helmet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "heavy.plate.jacket": {
+   "items": [
+    {
+     "item": "heavy.plate.jacket",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "heavy.plate.pants": {
+   "items": [
+    {
+     "item": "heavy.plate.pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hmlmg": {
+   "items": [
+    {
+     "item": "hmlmg",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "homingmissile.launcher": {
+   "items": [
+    {
+     "item": "homingmissile.launcher",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "honeycomb": {
+   "items": [
+    {
+     "item": "honeycomb",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hoodie": {
+   "items": [
+    {
+     "item": "hoodie",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "hopper": {
+   "items": [
+    {
+     "item": "hopper",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "horse.armor.roadsign": {
+   "items": [
+    {
+     "item": "horse.armor.roadsign",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "horse.shoes.advanced": {
+   "items": [
+    {
+     "item": "horse.shoes.advanced",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "icepick.salvaged": {
+   "items": [
+    {
+     "item": "icepick.salvaged",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "industrial.combiner": {
+   "items": [
+    {
+     "item": "industrial.combiner",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "industrial.conveyor": {
+   "items": [
+    {
+     "item": "industrial.conveyor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "industrial.crafter": {
+   "items": [
+    {
+     "item": "industrial.crafter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "industrial.splitter": {
+   "items": [
+    {
+     "item": "industrial.splitter",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "iotable": {
+   "items": [
+    {
+     "item": "iotable",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "jacket": {
+   "items": [
+    {
+     "item": "jacket",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "jacket.snow": {
+   "items": [
+    {
+     "item": "jacket.snow",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "jackhammer": {
+   "items": [
+    {
+     "item": "jackhammer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "kayak": {
+   "items": [
+    {
+     "item": "kayak",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "knife.combat": {
+   "items": [
+    {
+     "item": "knife.combat",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ladder.wooden.wall": {
+   "items": [
+    {
+     "item": "ladder.wooden.wall",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "largemedkit": {
+   "items": [
+    {
+     "item": "largemedkit",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "lights": {
+   "items": [
+    {
+     "item": "xmas.decoration.lights",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "locker": {
+   "items": [
+    {
+     "item": "locker",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "m16a2": {
+   "items": [
+    {
+     "item": "m16a2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "m249 with ammo": {
+   "items": [
+    {
+     "item": "lmg.m249",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "m39 with ammo": {
+   "items": [
+    {
+     "item": "rifle.m39",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "mailbox": {
+   "items": [
+    {
+     "item": "mailbox",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "mask.balaclava": {
+   "items": [
+    {
+     "item": "mask.balaclava",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "mask.bandana": {
+   "items": [
+    {
+     "item": "mask.bandana",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "meat.pork.cooked": {
+   "items": [
+    {
+     "item": "meat.pork.cooked",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "medical.honey.bandage": {
+   "items": [
+    {
+     "item": "medical.honey.bandage",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "medicalsyringe": {
+   "items": [
+    {
+     "item": "syringe.medical",
+     "min": 1.0,
+     "max": 2.0
+    }
+   ]
+  },
+  "metal.detector": {
+   "items": [
+    {
+     "item": "metal.detector",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "metal.facemask": {
+   "items": [
+    {
+     "item": "metal.facemask",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "metal.plate.torso": {
+   "items": [
+    {
+     "item": "metal.plate.torso",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "metal.shield": {
+   "items": [
+    {
+     "item": "metal.shield",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "minicrossbow": {
+   "items": [
+    {
+     "item": "minicrossbow",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "minigun with ammo": {
+   "items": [
+    {
+     "item": "minigun",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.rifle",
+     "min": 50.0,
+     "max": 50.0
+    }
+   ]
+  },
+  "mixingtable": {
+   "items": [
+    {
+     "item": "mixingtable",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "modularcarlift": {
+   "items": [
+    {
+     "item": "modularcarlift",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "nightvisiongoggles": {
+   "items": [
+    {
+     "item": "nightvisiongoggles",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "oretea": {
+   "items": [
+    {
+     "item": "oretea",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "paddle": {
+   "items": [
+    {
+     "item": "paddle",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pants": {
+   "items": [
+    {
+     "item": "pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pants.shorts": {
+   "items": [
+    {
+     "item": "pants.shorts",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "parachute": {
+   "items": [
+    {
+     "item": "parachute",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pickaxe": {
+   "items": [
+    {
+     "item": "pickaxe",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pinecones": {
+   "items": [
+    {
+     "item": "xmas.decoration.pinecone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pistions": {
+   "items": [
+    {
+     "item": "piston1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pistions_advanced": {
+   "items": [
+    {
+     "item": "piston2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pistol.python": {
+   "items": [
+    {
+     "item": "pistol.python",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pistol.revolver": {
+   "items": [
+    {
+     "item": "pistol.revolver",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pistol.semiauto": {
+   "items": [
+    {
+     "item": "pistol.semiauto",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "planter.large": {
+   "items": [
+    {
+     "item": "planter.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "planter.triangle": {
+   "items": [
+    {
+     "item": "planter.triangle",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pookie": {
+   "items": [
+    {
+     "item": "pookie.bear",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "potato": {
+   "items": [
+    {
+     "item": "potato",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "powered.water.purifier": {
+   "items": [
+    {
+     "item": "powered.water.purifier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "prisonerhood": {
+   "items": [
+    {
+     "item": "prisonerhood",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "ptz.cctv.camera": {
+   "items": [
+    {
+     "item": "ptz.cctv.camera",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "pumpkin": {
+   "items": [
+    {
+     "item": "pumpkin",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "radiationresisttea": {
+   "items": [
+    {
+     "item": "radiationresisttea",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "red.berry": {
+   "items": [
+    {
+     "item": "red.berry",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "reindeerhat": {
+   "items": [
+    {
+     "item": "attire.reindeer.headband",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "reinforced.wooden.shield": {
+   "items": [
+    {
+     "item": "reinforced.wooden.shield",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "revolver.hc": {
+   "items": [
+    {
+     "item": "revolver.hc",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rf.detonator": {
+   "items": [
+    {
+     "item": "rf.detonator",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rf_pager": {
+   "items": [
+    {
+     "item": "rf_pager",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.ak": {
+   "items": [
+    {
+     "item": "rifle.ak",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.bolt": {
+   "items": [
+    {
+     "item": "rifle.bolt",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.l96": {
+   "items": [
+    {
+     "item": "rifle.l96",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.lr300": {
+   "items": [
+    {
+     "item": "rifle.lr300",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.semiauto": {
+   "items": [
+    {
+     "item": "rifle.semiauto",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rifle.sks": {
+   "items": [
+    {
+     "item": "rifle.sks",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "riot.helmet": {
+   "items": [
+    {
+     "item": "riot.helmet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "roadsign.gloves": {
+   "items": [
+    {
+     "item": "roadsign.gloves",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "roadsign.jacket": {
+   "items": [
+    {
+     "item": "roadsign.jacket",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "roadsign.kilt": {
+   "items": [
+    {
+     "item": "roadsign.kilt",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rocket.launcher": {
+   "items": [
+    {
+     "item": "rocket.launcher",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rug": {
+   "items": [
+    {
+     "item": "rug",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "rug.bear": {
+   "items": [
+    {
+     "item": "rug.bear",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "salvaged.cleaver": {
+   "items": [
+    {
+     "item": "salvaged.cleaver",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "salvaged.sword": {
+   "items": [
+    {
+     "item": "salvaged.sword",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "santahat": {
+   "items": [
+    {
+     "item": "santahat",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "scraptea": {
+   "items": [
+    {
+     "item": "scraptea",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "searchlight": {
+   "items": [
+    {
+     "item": "searchlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shelves": {
+   "items": [
+    {
+     "item": "shelves",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shirt.collared": {
+   "items": [
+    {
+     "item": "shirt.collared",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shirt.tanktop": {
+   "items": [
+    {
+     "item": "shirt.tanktop",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shoes.boots": {
+   "items": [
+    {
+     "item": "shoes.boots",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shotgun.double": {
+   "items": [
+    {
+     "item": "shotgun.double",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shotgun.m4": {
+   "items": [
+    {
+     "item": "shotgun.m4",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shotgun.pump": {
+   "items": [
+    {
+     "item": "shotgun.pump",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shotgun.waterpipe": {
+   "items": [
+    {
+     "item": "shotgun.waterpipe",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shutter.metal.embrasure.a": {
+   "items": [
+    {
+     "item": "shutter.metal.embrasure.a",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shutter.metal.embrasure.b": {
+   "items": [
+    {
+     "item": "shutter.metal.embrasure.b",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "shutter.wood.a": {
+   "items": [
+    {
+     "item": "shutter.wood.a",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "siegetower": {
+   "items": [
+    {
+     "item": "siegetower",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "sign.wooden.huge": {
+   "items": [
+    {
+     "item": "sign.wooden.huge",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "sign.wooden.large": {
+   "items": [
+    {
+     "item": "sign.wooden.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "skidoo": {
+   "items": [
+    {
+     "item": "skidoo",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "sled": {
+   "items": [
+    {
+     "item": "sled.xmas",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "snowball",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "small.oil.refinery": {
+   "items": [
+    {
+     "item": "small.oil.refinery",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smallwaterbottle": {
+   "items": [
+    {
+     "item": "smallwaterbottle",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smart.alarm": {
+   "items": [
+    {
+     "item": "smart.alarm",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smart.switch": {
+   "items": [
+    {
+     "item": "smart.switch",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smg.2": {
+   "items": [
+    {
+     "item": "smg.2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smg.mp5": {
+   "items": [
+    {
+     "item": "smg.mp5",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "smg.thompson": {
+   "items": [
+    {
+     "item": "smg.thompson",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "snowball": {
+   "items": [
+    {
+     "item": "snowball",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "lowgradefuel",
+     "min": 25.0,
+     "max": 35.0
+    },
+    {
+     "item": "snowball",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "snowballgun": {
+   "items": [
+    {
+     "item": "snowballgun",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "snowball",
+     "min": 4.0,
+     "max": 4.0
+    }
+   ]
+  },
+  "sparkplugs": {
+   "items": [
+    {
+     "item": "sparkplug1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "sparkplugs_advanced": {
+   "items": [
+    {
+     "item": "sparkplug2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "speargun": {
+   "items": [
+    {
+     "item": "speargun",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "spikes.floor": {
+   "items": [
+    {
+     "item": "spikes.floor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "spinner.wheel": {
+   "items": [
+    {
+     "item": "spinner.wheel",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "star": {
+   "items": [
+    {
+     "item": "xmas.decoration.star",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "stockingsmall": {
+   "items": [
+    {
+     "item": "stocking.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "stone.pickaxe": {
+   "items": [
+    {
+     "item": "stone.pickaxe",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "stonehatchet": {
+   "items": [
+    {
+     "item": "stonehatchet",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "storage.monitor": {
+   "items": [
+    {
+     "item": "storage.monitor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "storageadaptor": {
+   "items": [
+    {
+     "item": "storageadaptor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "supply.signal": {
+   "items": [
+    {
+     "item": "supply.signal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "syringe.medical": {
+   "items": [
+    {
+     "item": "syringe.medical",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "t1_smg": {
+   "items": [
+    {
+     "item": "t1_smg",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "table": {
+   "items": [
+    {
+     "item": "table",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "target.reactive": {
+   "items": [
+    {
+     "item": "target.reactive",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "targeting_computer": {
+   "items": [
+    {
+     "item": "targeting.computer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "techparts": {
+   "items": [
+    {
+     "item": "techparts",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "telephone": {
+   "items": [
+    {
+     "item": "telephone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tincan.alarm": {
+   "items": [
+    {
+     "item": "tincan.alarm",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tinsel": {
+   "items": [
+    {
+     "item": "xmas.decoration.tinsel",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tool.binoculars": {
+   "items": [
+    {
+     "item": "tool.binoculars",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "trap.bear": {
+   "items": [
+    {
+     "item": "trap.bear",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "trap.landmine": {
+   "items": [
+    {
+     "item": "trap.landmine",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tshirt": {
+   "items": [
+    {
+     "item": "tshirt",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tshirt.long": {
+   "items": [
+    {
+     "item": "tshirt.long",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "tunalight": {
+   "items": [
+    {
+     "item": "tunalight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "valves": {
+   "items": [
+    {
+     "item": "valve1",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "valves_advanced": {
+   "items": [
+    {
+     "item": "valve2",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.external.high": {
+   "items": [
+    {
+     "item": "wall.external.high",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.external.high.stone": {
+   "items": [
+    {
+     "item": "wall.external.high.stone",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.frame.cell": {
+   "items": [
+    {
+     "item": "wall.frame.cell",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.frame.cell.gate": {
+   "items": [
+    {
+     "item": "wall.frame.cell.gate",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.frame.fence": {
+   "items": [
+    {
+     "item": "wall.frame.fence",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.frame.fence.gate": {
+   "items": [
+    {
+     "item": "wall.frame.fence.gate",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.frame.garagedoor": {
+   "items": [
+    {
+     "item": "wall.frame.garagedoor",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.window.bars.metal": {
+   "items": [
+    {
+     "item": "wall.window.bars.metal",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.window.bars.toptier": {
+   "items": [
+    {
+     "item": "wall.window.bars.toptier",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wall.window.glass.reinforced": {
+   "items": [
+    {
+     "item": "wall.window.glass.reinforced",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "watchtower.wood": {
+   "items": [
+    {
+     "item": "watchtower.wood",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "water.barrel": {
+   "items": [
+    {
+     "item": "water.barrel",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "water.catcher.large": {
+   "items": [
+    {
+     "item": "water.catcher.large",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "water.catcher.small": {
+   "items": [
+    {
+     "item": "water.catcher.small",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "waterjug": {
+   "items": [
+    {
+     "item": "waterjug",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "waterpipe_w_ammo": {
+   "items": [
+    {
+     "item": "shotgun.waterpipe",
+     "min": 1.0,
+     "max": 1.0
+    },
+    {
+     "item": "ammo.handmade.shell",
+     "min": 10.0,
+     "max": 10.0
+    }
+   ]
+  },
+  "waterpump": {
+   "items": [
+    {
+     "item": "waterpump",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.burstmodule": {
+   "items": [
+    {
+     "item": "weapon.mod.burstmodule",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.extendedmags": {
+   "items": [
+    {
+     "item": "weapon.mod.extendedmags",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.flashlight": {
+   "items": [
+    {
+     "item": "weapon.mod.flashlight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.gascompressionovedrive": {
+   "items": [
+    {
+     "item": "weapon.mod.gascompressionovedrive",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.holosight": {
+   "items": [
+    {
+     "item": "weapon.mod.holosight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.lasersight": {
+   "items": [
+    {
+     "item": "weapon.mod.lasersight",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.muzzleboost": {
+   "items": [
+    {
+     "item": "weapon.mod.muzzleboost",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.muzzlebrake": {
+   "items": [
+    {
+     "item": "weapon.mod.muzzlebrake",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.silencer": {
+   "items": [
+    {
+     "item": "weapon.mod.silencer",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "weapon.mod.small.scope": {
+   "items": [
+    {
+     "item": "weapon.mod.small.scope",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "white.berry": {
+   "items": [
+    {
+     "item": "white.berry",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wolfmeat.cooked": {
+   "items": [
+    {
+     "item": "wolfmeat.cooked",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wood.armor.jacket": {
+   "items": [
+    {
+     "item": "wood.armor.jacket",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "wood.armor.pants": {
+   "items": [
+    {
+     "item": "wood.armor.pants",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "woodtea": {
+   "items": [
+    {
+     "item": "woodtea",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.accelerated": {
+   "items": [
+    {
+     "item": "workbench.upgrade.accelerated",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.comfort": {
+   "items": [
+    {
+     "item": "workbench.upgrade.comfort",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.defensive": {
+   "items": [
+    {
+     "item": "workbench.upgrade.defensive",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.efficiency": {
+   "items": [
+    {
+     "item": "workbench.upgrade.efficiency",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.prototype": {
+   "items": [
+    {
+     "item": "workbench.upgrade.prototype",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.range": {
+   "items": [
+    {
+     "item": "workbench.upgrade.range",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.recyclebin": {
+   "items": [
+    {
+     "item": "workbench.upgrade.recyclebin",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.reinforced": {
+   "items": [
+    {
+     "item": "workbench.upgrade.reinforced",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "workbench.upgrade.salvage": {
+   "items": [
+    {
+     "item": "workbench.upgrade.salvage",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  },
+  "yellow.berry": {
+   "items": [
+    {
+     "item": "yellow.berry",
+     "min": 1.0,
+     "max": 1.0
+    }
+   ]
+  }
+ }
+}

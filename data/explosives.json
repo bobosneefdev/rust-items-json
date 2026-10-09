@@ -1,0 +1,300 @@
+[
+ {
+  "item": "ammo.grenadelauncher.he",
+  "prefab": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_he.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 35.0,
+   "blunt": 55.0
+  },
+  "radius": 4.0,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.mortar.basic",
+  "prefab": "assets/prefabs/deployable/mortar/mortar_shell_basic.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 60.0,
+   "blunt": 75.0,
+   "antiVehicle": 100.0
+  },
+  "radius": 4.5,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.mortar.fragment",
+  "prefab": "assets/prefabs/deployable/mortar/mortar_shell_fragment.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "blunt": 75.0,
+   "antiVehicle": 50.0
+  },
+  "radius": 6.0,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.rifle.explosive",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "explosion": 5.0
+  },
+  "radius": 1.5,
+  "minRadius": 0
+ },
+ {
+  "item": "ammo.rocket.basic",
+  "prefab": "assets/prefabs/ammo/rocket/rocket_basic.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 275.0,
+   "blunt": 75.0
+  },
+  "radius": 3.8,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.rocket.fire",
+  "prefab": "assets/prefabs/ammo/rocket/rocket_fire.prefab",
+  "class": "FlameExplosive",
+  "damage": {
+   "heat": 50.0
+  },
+  "radius": 5.0,
+  "minRadius": 5.0
+ },
+ {
+  "item": "ammo.rocket.hv",
+  "prefab": "assets/prefabs/ammo/rocket/rocket_hv.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 30.0,
+   "bullet": 150.0,
+   "antiVehicle": 300.0
+  },
+  "radius": 3.5,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.rocket.mlrs",
+  "prefab": "assets/content/vehicles/mlrs/rocket_mlrs.prefab",
+  "class": "MLRSRocket",
+  "damage": {
+   "explosion": 350.0,
+   "blunt": 75.0,
+   "antiVehicle": 75.0
+  },
+  "radius": 15.0,
+  "minRadius": 10.0
+ },
+ {
+  "item": "ammo.rocket.seeker",
+  "prefab": "assets/prefabs/ammo/rocket/rocket_heatseeker.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 10.0,
+   "bullet": 20.0,
+   "antiVehicle": 500.0
+  },
+  "radius": 3.5,
+  "minRadius": 1.0
+ },
+ {
+  "item": "ammo.rocket.smoke",
+  "prefab": "assets/prefabs/ammo/rocket/rocket_smoke.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "poison": 5.0
+  },
+  "radius": 5.0,
+  "minRadius": 5.0
+ },
+ {
+  "item": "ammo.snowballgun",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "blunt": 3.0
+  },
+  "radius": 1.25,
+  "minRadius": 0
+ },
+ {
+  "item": "arrow.fire",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "heat": 20.0
+  },
+  "radius": 3.0,
+  "minRadius": 0
+ },
+ {
+  "item": "ballista.bolt.hammerhead",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "explosion": 25.0
+  },
+  "radius": 1.0,
+  "minRadius": 0
+ },
+ {
+  "item": "ballista.bolt.incendiary",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "heat": 35.0
+  },
+  "radius": 2.0,
+  "minRadius": 0
+ },
+ {
+  "item": "ballista.bolt.pitchfork",
+  "class": "ItemModProjectileRadialDamage",
+  "damage": {
+   "arrow": 40.0
+  },
+  "radius": 1.5,
+  "minRadius": 0
+ },
+ {
+  "item": "catapult.ammo.bee",
+  "prefab": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_bee.prefab",
+  "class": "BeeGrenade",
+  "damage": {
+   "blunt": 20.0
+  },
+  "radius": 3.0,
+  "minRadius": 1.0
+ },
+ {
+  "item": "catapult.ammo.boulder",
+  "prefab": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_mid.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "blunt": 40.0,
+   "antiVehicle": 25.0
+  },
+  "radius": 3.0,
+  "minRadius": 1.0
+ },
+ {
+  "item": "catapult.ammo.explosive",
+  "prefab": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_explosive.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 275.0,
+   "blunt": 75.0
+  },
+  "radius": 5.2,
+  "minRadius": 1.0
+ },
+ {
+  "item": "catapult.ammo.incendiary",
+  "prefab": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_incendiary.prefab",
+  "class": "FlameExplosive",
+  "damage": {
+   "heat": 50.0
+  },
+  "radius": 6.0,
+  "minRadius": 5.0
+ },
+ {
+  "item": "explosive.satchel",
+  "prefab": "assets/prefabs/weapons/satchelcharge/explosive.satchel.deployed.prefab",
+  "class": "DudTimedExplosive",
+  "damage": {
+   "explosion": 75.0,
+   "blunt": 200.0,
+   "stab": 200.0
+  },
+  "radius": 4.0,
+  "minRadius": 0.0
+ },
+ {
+  "item": "explosive.timed",
+  "prefab": "assets/prefabs/tools/c4/explosive.timed.deployed.prefab",
+  "class": "RFTimedExplosive",
+  "damage": {
+   "explosion": 550.0
+  },
+  "radius": 4.0,
+  "minRadius": 0.0
+ },
+ {
+  "item": "grenade.beancan",
+  "prefab": "assets/prefabs/weapons/beancan grenade/grenade.beancan.deployed.prefab",
+  "class": "DudTimedExplosive",
+  "damage": {
+   "explosion": 15.0,
+   "blunt": 50.0,
+   "stab": 50.0
+  },
+  "radius": 4.5,
+  "minRadius": 1.5
+ },
+ {
+  "item": "grenade.bee",
+  "prefab": "assets/prefabs/weapons/bee grenade/grenade.bee.deployed.prefab",
+  "class": "BeeGrenade",
+  "damage": {
+   "blunt": 10.0,
+   "slash": 10.0
+  },
+  "radius": 4.0,
+  "minRadius": 2.0
+ },
+ {
+  "item": "grenade.f1",
+  "prefab": "assets/prefabs/weapons/f1 grenade/grenade.f1.deployed.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "blunt": 100.0,
+   "antiVehicle": 50.0,
+   "bullet": 75.0
+  },
+  "radius": 6.0,
+  "minRadius": 2.0
+ },
+ {
+  "item": "grenade.flashbang",
+  "prefab": "assets/prefabs/weapons/flashbang/grenade.flashbang.deployed.prefab",
+  "class": "Flashbang",
+  "damage": {
+   "blunt": 20.0
+  },
+  "radius": 6.0,
+  "minRadius": 3.0
+ },
+ {
+  "item": "grenade.molotov",
+  "prefab": "assets/prefabs/weapons/molotov cocktail/grenade.molotov.deployed.prefab",
+  "class": "FlameExplosive",
+  "damage": {
+   "heat": 35.0
+  },
+  "radius": 3.0,
+  "minRadius": 1.0
+ },
+ {
+  "item": "submarine.torpedo.straight",
+  "prefab": "assets/prefabs/ammo/torpedo/torpedostraight.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "explosion": 10.0,
+   "antiVehicle": 300.0,
+   "bullet": 120.0
+  },
+  "radius": 5.0,
+  "minRadius": 5.0
+ },
+ {
+  "item": "trap.landmine",
+  "prefab": "assets/prefabs/deployable/landmine/landmine.prefab",
+  "class": "Landmine",
+  "damage": {
+   "bite": 25.0,
+   "blunt": 50.0,
+   "explosion": 25.0
+  },
+  "radius": 3.0,
+  "minRadius": 2.0
+ }
+]

@@ -79,8 +79,12 @@ jobs:
       - name: Extract
         if: steps.build.outputs.changed == 'true'
         run: |
-          rm -rf data/icons
-          uv run extractor/extract.py game/server game/client/Bundles/shared data
+          uv run extractor/main.py game/server game/client/Bundles/shared new-data
+          uv run extractor/changelog.py data new-data "${{ steps.build.outputs.build }}" > notes.md
+          rm -rf data/icons && mkdir -p data && cp -r new-data/. data/
+          if [ -s notes.md ]; then
+            { cat notes.md; echo; cat CHANGELOG.md 2>/dev/null; } > CHANGELOG.new && mv CHANGELOG.new CHANGELOG.md
+          fi
 
       - name: Record check
         if: steps.clock.outputs.go != 'false'
@@ -95,8 +99,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+          git add data CHANGELOG.md 2>/dev/null || git add data
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           if [ "${{ steps.build.outputs.changed }}" = "true" ]; then msg="Rust build ${{ steps.build.outputs.build }}"; else msg="Check: no new Rust build"; fi
           git commit -q -m "$msg"
           git push
+
+      - name: Release
+        if: steps.build.outputs.changed == 'true' && hashFiles('notes.md') != ''
+        run: |
+          [ -s notes.md ] || exit 0
+          tag="build-${{ steps.build.outputs.build }}"
+          (cd data && zip -qr ../rust-data.zip .)
+          gh release create "$tag" rust-data.zip --title "Rust build ${{ steps.build.outputs.build }}" --notes-file notes.md --target "$(git rev-parse HEAD)" \
+            || gh release upload "$tag" rust-data.zip --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}

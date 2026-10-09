@@ -1,0 +1,38 @@
+[
+ {
+  "type": "green",
+  "efficiency": 0.5,
+  "seconds": 5.0,
+  "powergrid": {
+   "requiredStage": 0,
+   "efficiencyStage": 2,
+   "efficiency": 0.6,
+   "durationStage": 4,
+   "seconds": 4.5
+  }
+ },
+ {
+  "type": "yellow",
+  "efficiency": 0.4,
+  "seconds": 8.0,
+  "powergrid": {
+   "requiredStage": 0,
+   "efficiencyStage": 0,
+   "efficiency": 0.0,
+   "durationStage": 0,
+   "seconds": 0.0
+  }
+ },
+ {
+  "type": "red",
+  "efficiency": 0.75,
+  "seconds": 4.0,
+  "powergrid": {
+   "requiredStage": 4,
+   "efficiencyStage": 0,
+   "efficiency": 0.0,
+   "durationStage": 0,
+   "seconds": 0.0
+  }
+ }
+]

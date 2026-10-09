@@ -1,0 +1,21 @@
+name: Package
+
+on:
+  push:
+    branches: [master]
+    paths: ["package/**", "data/*.json"]
+  pull_request:
+    paths: ["package/**"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: npm install
+        working-directory: package
+      - run: npm run build && npm test
+        working-directory: package

@@ -1,0 +1,1881 @@
+[
+ {
+  "name": "Attire",
+  "orders": [
+   {
+    "sell": "tshirt",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 5
+   },
+   {
+    "sell": "tshirt.long",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 10
+   },
+   {
+    "sell": "jacket.snow",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "shoes.boots",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "tactical.gloves",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   }
+  ]
+ },
+ {
+  "name": "Bandit_Farming",
+  "orders": [
+   {
+    "sell": "composter",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "planter.large",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "water.barrel",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "electric.sprinkler",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 15
+   },
+   {
+    "sell": "fluid.switch",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "fluid.splitter",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "ceilinglight",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   }
+  ]
+ },
+ {
+  "name": "Bandit_ProduceExchange",
+  "orders": [
+   {
+    "sell": "scrap",
+    "amount": 10,
+    "currency": "corn",
+    "price": 15
+   },
+   {
+    "sell": "scrap",
+    "amount": 10,
+    "currency": "cloth",
+    "price": 80
+   },
+   {
+    "sell": "scrap",
+    "amount": 5,
+    "currency": "fish.troutsmall",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 3,
+    "currency": "fertilizer",
+    "price": 2
+   },
+   {
+    "sell": "scrap",
+    "amount": 2,
+    "currency": "honey",
+    "price": 1
+   }
+  ]
+ },
+ {
+  "name": "BoatVendor",
+  "orders": [
+   {
+    "sell": "kayak",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "paddle",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 25
+   },
+   {
+    "sell": "submarine.torpedo.straight",
+    "amount": 2,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "skidoo",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 200
+   }
+  ]
+ },
+ {
+  "name": "Building",
+  "orders": [
+   {
+    "sell": "small.oil.refinery",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 125
+   },
+   {
+    "sell": "furnace.large",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 350
+   },
+   {
+    "sell": "computerstation",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 300
+   },
+   {
+    "sell": "electric.fuelgenerator.small",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 125
+   },
+   {
+    "sell": "electric.teslacoil",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "electric.solarpanel.large",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "electric.igniter",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   }
+  ]
+ },
+ {
+  "name": "BuyResources",
+  "orders": [
+   {
+    "sell": "scrap",
+    "amount": 1,
+    "currency": "crude.oil",
+    "price": 6
+   },
+   {
+    "sell": "scrap",
+    "amount": 1,
+    "currency": "metal.fragments",
+    "price": 20
+   },
+   {
+    "sell": "scrap",
+    "amount": 2,
+    "currency": "metal.refined",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 10,
+    "currency": "antiradpills",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 15,
+    "currency": "keycard_green",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 40,
+    "currency": "keycard_blue",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 80,
+    "currency": "keycard_red",
+    "price": 1
+   }
+  ]
+ },
+ {
+  "name": "Components",
+  "orders": [
+   {
+    "sell": "sheetmetal",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "gears",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 125
+   },
+   {
+    "sell": "metalspring",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 60
+   },
+   {
+    "sell": "metalpipe",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "metalblade",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 15
+   },
+   {
+    "sell": "rope",
+    "amount": 1,
+    "currency": "cloth",
+    "price": 30
+   }
+  ]
+ },
+ {
+  "name": "Compound_Extra1",
+  "orders": [
+   {
+    "sell": "fluid.switch",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "fluid.splitter",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "waterpump",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 200
+   },
+   {
+    "sell": "fluid.combiner",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "powered.water.purifier",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150
+   },
+   {
+    "sell": "electric.heater",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "grenade.smoke",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 5
+   }
+  ]
+ },
+ {
+  "name": "Compound_Extra2",
+  "orders": [
+   {
+    "sell": "elevator",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "smart.alarm",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "smart.switch",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "electric.button",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 30
+   },
+   {
+    "sell": "barricade.wood.cover",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "storage.monitor",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "telephone",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   }
+  ]
+ },
+ {
+  "name": "FishExchange",
+  "orders": [
+   {
+    "sell": "scrap",
+    "amount": 30,
+    "currency": "fish.troutsmall",
+    "price": 5
+   },
+   {
+    "sell": "scrap",
+    "amount": 50,
+    "currency": "fish.yellowperch",
+    "price": 5
+   },
+   {
+    "sell": "scrap",
+    "amount": 90,
+    "currency": "fish.smallshark",
+    "price": 2
+   },
+   {
+    "sell": "scrap",
+    "amount": 55,
+    "currency": "fish.salmon",
+    "price": 2
+   },
+   {
+    "sell": "scrap",
+    "amount": 75,
+    "currency": "fish.orangeroughy",
+    "price": 2
+   },
+   {
+    "sell": "scrap",
+    "amount": 65,
+    "currency": "fish.catfish",
+    "price": 2
+   }
+  ]
+ },
+ {
+  "name": "Fishing_Village",
+  "orders": [
+   {
+    "sell": "diving.mask",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 15
+   },
+   {
+    "sell": "diving.tank",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 35
+   },
+   {
+    "sell": "diving.fins",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 25
+   },
+   {
+    "sell": "diving.wetsuit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "worm",
+    "amount": 5,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "fishingrod.handmade",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 80
+   }
+  ]
+ },
+ {
+  "name": "FloatingCity_BoatVendor",
+  "orders": [
+   {
+    "sell": "boat.planner",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "sail",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "steeringwheel.boat",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "anchor",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "skidoo",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 100
+   },
+   {
+    "sell": "smallengine",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   }
+  ]
+ },
+ {
+  "name": "FoodVendor",
+  "orders": [
+   {
+    "sell": "can.tuna",
+    "amount": 5,
+    "currency": "scrap",
+    "price": 10
+   },
+   {
+    "sell": "jar.pickle",
+    "amount": 6,
+    "currency": "scrap",
+    "price": 1
+   },
+   {
+    "sell": "waterjug",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 5
+   },
+   {
+    "sell": "seed.corn",
+    "amount": 20,
+    "currency": "scrap",
+    "price": 10
+   },
+   {
+    "sell": "ammo.grenadelauncher.buckshot",
+    "amount": 6,
+    "currency": "scrap",
+    "price": 15
+   },
+   {
+    "sell": "mixingtable",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 175
+   }
+  ]
+ },
+ {
+  "name": "HapisVendor",
+  "orders": [
+   {
+    "sell": "tool.camera",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "seed.pumpkin",
+    "amount": 10,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "seed.hemp",
+    "amount": 10,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "hazmatsuit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 125
+   },
+   {
+    "sell": "metal.ore",
+    "amount": 100,
+    "currency": "stones",
+    "price": 300
+   },
+   {
+    "sell": "lowgradefuel",
+    "amount": 125,
+    "currency": "diesel_barrel",
+    "price": 1
+   }
+  ]
+ },
+ {
+  "name": "Resources",
+  "orders": [
+   {
+    "sell": "stones",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "wood",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "metal.fragments",
+    "amount": 250,
+    "currency": "scrap",
+    "price": 25
+   },
+   {
+    "sell": "stones",
+    "amount": 150,
+    "currency": "wood",
+    "price": 500
+   },
+   {
+    "sell": "wood",
+    "amount": 500,
+    "currency": "stones",
+    "price": 150
+   },
+   {
+    "sell": "lowgradefuel",
+    "amount": 20,
+    "currency": "scrap",
+    "price": 10
+   },
+   {
+    "sell": "diesel_barrel",
+    "amount": 1,
+    "currency": "lowgradefuel",
+    "price": 300
+   }
+  ]
+ },
+ {
+  "name": "Tools",
+  "orders": [
+   {
+    "sell": "pickaxe",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 50
+   },
+   {
+    "sell": "hatchet",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "chainsaw",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 125
+   },
+   {
+    "sell": "rf_pager",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "jackhammer",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150
+   },
+   {
+    "sell": "rf.detonator",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   }
+  ]
+ },
+ {
+  "name": "TravellingVendor",
+  "orders": [
+   {
+    "sell": "supply.signal",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 1000,
+     "max": 2000
+    }
+   },
+   {
+    "sell": "explosive.timed",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 1000,
+     "max": 2000
+    }
+   },
+   {
+    "sell": "explosive.satchel",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 400,
+     "max": 600
+    }
+   },
+   {
+    "sell": "military flamethrower",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 2000,
+     "max": 4000
+    }
+   },
+   {
+    "sell": "jackhammer",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 180
+    }
+   },
+   {
+    "sell": "minigun",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 2000,
+     "max": 4000
+    }
+   },
+   {
+    "sell": "lmg.m249",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 1500,
+     "max": 2500
+    }
+   },
+   {
+    "sell": "rifle.l96",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 550,
+     "max": 800
+    }
+   },
+   {
+    "sell": "smg.mp5",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 250,
+     "max": 300
+    }
+   },
+   {
+    "sell": "rifle.lr300",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 450,
+     "max": 550
+    }
+   },
+   {
+    "sell": "shotgun.m4",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 350,
+     "max": 500
+    }
+   },
+   {
+    "sell": "shotgun.spas12",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "rifle.bolt",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 300,
+     "max": 350
+    }
+   },
+   {
+    "sell": "rocket.launcher",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 300,
+     "max": 350
+    }
+   },
+   {
+    "sell": "rifle.m39",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 350,
+     "max": 500
+    }
+   },
+   {
+    "sell": "pistol.m92",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 250,
+     "max": 300
+    }
+   },
+   {
+    "sell": "smg.thompson",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "pistol.python",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "rifle.ak",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 300,
+     "max": 350
+    }
+   },
+   {
+    "sell": "pistol.prototype17",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "pistol.semiauto",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 150,
+     "max": 200
+    }
+   },
+   {
+    "sell": "shotgun.pump",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "hmlmg",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "flamethrower",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   },
+   {
+    "sell": "pistol.revolver",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 100,
+     "max": 150
+    }
+   },
+   {
+    "sell": "pistol.nailgun",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 50,
+     "max": 100
+    }
+   },
+   {
+    "sell": "stones",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 30,
+     "max": 100
+    }
+   },
+   {
+    "sell": "wood",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 30,
+     "max": 100
+    }
+   },
+   {
+    "sell": "metal.fragments",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 150
+    }
+   },
+   {
+    "sell": "keycard_red",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 400,
+     "max": 600
+    }
+   },
+   {
+    "sell": "keycard_blue",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 120
+    }
+   },
+   {
+    "sell": "chainsaw",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 60,
+     "max": 180
+    }
+   }
+  ]
+ },
+ {
+  "name": "TravellingVendorLite",
+  "orders": [
+   {
+    "sell": "jackhammer",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 120
+    }
+   },
+   {
+    "sell": "chainsaw",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 120
+    }
+   },
+   {
+    "sell": "smg.2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 125,
+     "max": 150
+    }
+   },
+   {
+    "sell": "rifle.semiauto",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 100,
+     "max": 120
+    }
+   },
+   {
+    "sell": "smg.thompson",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 150,
+     "max": 200
+    }
+   },
+   {
+    "sell": "pistol.python",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 80,
+     "max": 120
+    }
+   },
+   {
+    "sell": "shotgun.pump",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 50,
+     "max": 75
+    }
+   },
+   {
+    "sell": "hmlmg",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 300,
+     "max": 350
+    }
+   },
+   {
+    "sell": "stones",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 30,
+     "max": 50
+    }
+   },
+   {
+    "sell": "wood",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 15,
+     "max": 20
+    }
+   },
+   {
+    "sell": "metal.fragments",
+    "amount": 250,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 20,
+     "max": 25
+    }
+   },
+   {
+    "sell": "metal.refined",
+    "amount": 50,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 100,
+     "max": 120
+    }
+   },
+   {
+    "sell": "gears",
+    "amount": 10,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 120,
+     "max": 150
+    }
+   },
+   {
+    "sell": "smgbody",
+    "amount": 5,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 90,
+     "max": 120
+    }
+   },
+   {
+    "sell": "riflebody",
+    "amount": 5,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 150,
+     "max": 175
+    }
+   },
+   {
+    "sell": "semibody",
+    "amount": 5,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 90,
+     "max": 120
+    }
+   }
+  ]
+ },
+ {
+  "name": "TravellingVendor_Primitive",
+  "orders": [
+   {
+    "sell": "stones",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "wood",
+    "amount": 1000,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "metal.fragments",
+    "amount": 250,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "metal.refined",
+    "amount": 50,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 100,
+     "max": 120
+    }
+   },
+   {
+    "sell": "gears",
+    "amount": 10,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 120,
+     "max": 150
+    }
+   },
+   {
+    "sell": "icepick.salvaged",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "stock": 5,
+    "randomPrice": {
+     "min": 50,
+     "max": 100
+    }
+   },
+   {
+    "sell": "axe.salvaged",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "stock": 5,
+    "randomPrice": {
+     "min": 50,
+     "max": 100
+    }
+   },
+   {
+    "sell": "sewingkit",
+    "amount": 3,
+    "currency": "scrap",
+    "price": 0,
+    "randomPrice": {
+     "min": 25,
+     "max": 35
+    }
+   },
+   {
+    "sell": "largebackpack",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 0,
+    "stock": 2,
+    "randomPrice": {
+     "min": 200,
+     "max": 250
+    }
+   }
+  ]
+ },
+ {
+  "name": "Vehicles",
+  "orders": [
+   {
+    "sell": "piston2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "crankshaft2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 65
+   },
+   {
+    "sell": "valve2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "sparkplug2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "carburetor2",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 65
+   },
+   {
+    "sell": "modularcarlift",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150
+   },
+   {
+    "sell": "hab.armor",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 70
+   }
+  ]
+ },
+ {
+  "name": "Vehicles2",
+  "orders": [
+   {
+    "sell": "piston3",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 70
+   },
+   {
+    "sell": "crankshaft3",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 100
+   },
+   {
+    "sell": "valve3",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 70
+   },
+   {
+    "sell": "sparkplug3",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 70
+   },
+   {
+    "sell": "carburetor3",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 100
+   }
+  ]
+ },
+ {
+  "name": "WaterWell",
+  "orders": [
+   {
+    "sell": "scraptea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 50,
+     "max": 60
+    }
+   },
+   {
+    "sell": "woodtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "oretea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 35,
+     "max": 45
+    }
+   },
+   {
+    "sell": "maxhealthtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "healingtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "pickaxe",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "hatchet",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "pistol.revolver",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 100,
+     "max": 125
+    }
+   },
+   {
+    "sell": "shotgun.double",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 100,
+     "max": 125
+    }
+   },
+   {
+    "sell": "syringe.medical",
+    "amount": 2,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "medical.honey.bandage",
+    "amount": 3,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "largemedkit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 20,
+     "max": 30
+    }
+   },
+   {
+    "sell": "jackhammer",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 200,
+    "randomPrice": {
+     "min": 150,
+     "max": 200
+    }
+   },
+   {
+    "sell": "chainsaw",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 80,
+     "max": 125
+    }
+   },
+   {
+    "sell": "hazmatsuit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 80,
+     "max": 100
+    }
+   },
+   {
+    "sell": "ammo.pistol",
+    "amount": 20,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 20,
+     "max": 25
+    }
+   },
+   {
+    "sell": "apple",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 10,
+    "stock": 10,
+    "randomPrice": {
+     "min": 10,
+     "max": 30
+    }
+   },
+   {
+    "sell": "advanceharvestingtea",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 50,
+     "max": 60
+    }
+   },
+   {
+    "sell": "advancedcraftingtea_quality",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 50,
+     "max": 60
+    }
+   }
+  ]
+ },
+ {
+  "name": "WaterWell_Primitive",
+  "orders": [
+   {
+    "sell": "scraptea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 50,
+     "max": 60
+    }
+   },
+   {
+    "sell": "woodtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "oretea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 35,
+     "max": 45
+    }
+   },
+   {
+    "sell": "maxhealthtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "healingtea.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "pickaxe",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "hatchet",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 30,
+     "max": 40
+    }
+   },
+   {
+    "sell": "syringe.medical",
+    "amount": 2,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "medical.honey.bandage",
+    "amount": 3,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 10,
+     "max": 15
+    }
+   },
+   {
+    "sell": "largemedkit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "stock": 10,
+    "randomPrice": {
+     "min": 20,
+     "max": 30
+    }
+   },
+   {
+    "sell": "hazmatsuit",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150,
+    "randomPrice": {
+     "min": 80,
+     "max": 100
+    }
+   }
+  ]
+ },
+ {
+  "name": "Weapons",
+  "orders": [
+   {
+    "sell": "guntrap",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 150
+   },
+   {
+    "sell": "flameturret",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "autoturret",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 400
+   },
+   {
+    "sell": "pistol.revolver",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 200
+   },
+   {
+    "sell": "shotgun.double",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "samsite",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 500
+   },
+   {
+    "sell": "ammo.rocket.sam",
+    "amount": 6,
+    "currency": "scrap",
+    "price": 75
+   }
+  ]
+ },
+ {
+  "name": "Weapons_Bandit",
+  "orders": [
+   {
+    "sell": "rifle.lr300",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 500
+   },
+   {
+    "sell": "pistol.m92",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "shotgun.spas12",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "grenade.f1",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 8
+   },
+   {
+    "sell": "nightvisiongoggles",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 250
+   },
+   {
+    "sell": "rifle.m39",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 400
+   },
+   {
+    "sell": "weapon.mod.8x.scope",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 300
+   }
+  ]
+ },
+ {
+  "name": "attire_bandit",
+  "orders": [
+   {
+    "sell": "tshirt",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 5
+   },
+   {
+    "sell": "tshirt.long",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 10
+   },
+   {
+    "sell": "jacket.snow",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "shoes.boots",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 20
+   },
+   {
+    "sell": "horse.armor.roadsign",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 100
+   }
+  ]
+ },
+ {
+  "name": "building_bandit",
+  "orders": [
+   {
+    "sell": "dropbox",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "shelves",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 25
+   },
+   {
+    "sell": "tunalight",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 5
+   },
+   {
+    "sell": "locker",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "roadsign.gloves",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "generator.wind.scrap",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 500
+   },
+   {
+    "sell": "electric.battery.rechargable.medium",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   }
+  ]
+ },
+ {
+  "name": "stables",
+  "orders": [
+   {
+    "sell": "horse.saddle.single",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 75
+   },
+   {
+    "sell": "horse.saddle.double",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 90
+   },
+   {
+    "sell": "horse.armor.roadsign",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 100
+   },
+   {
+    "sell": "horse.shoes.advanced",
+    "amount": 1,
+    "currency": "scrap",
+    "price": 40
+   },
+   {
+    "sell": "scrap",
+    "amount": 50,
+    "currency": "rose",
+    "price": 12
+   },
+   {
+    "sell": "scrap",
+    "amount": 3,
+    "currency": "sunflower",
+    "price": 1
+   },
+   {
+    "sell": "scrap",
+    "amount": 8,
+    "currency": "orchid",
+    "price": 1
+   }
+  ]
+ }
+]

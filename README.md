@@ -1,53 +1,67 @@
 # rust-items-json
 
-Item data for [Rust](https://rust.facepunch.com/), extracted straight from the game files every week.
+Game data for [Rust](https://rust.facepunch.com/), extracted straight from the game files every week. Nothing is scraped from other sites or entered by hand.
 
-Every item has its id, shortname, name, description, category, stack size and condition, plus:
+| File | What's in it |
+| --- | --- |
+| `data/items.json` | Every item: id, shortname, name, description, category, stack size, rarity, condition, plus **IO wiring**, **crafting**, **research cost** and **recycling yield** |
+| `data/icons/<shortname>.webp` | The in-game inventory icon (256×256), decoded from the game's own textures |
+| `data/techtree.json` | Workbench tech trees: nodes, unlock paths and scrap costs |
+| `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
+| `data/loot.json` | Loot containers (barrels, crates, airdrops...) and the weighted loot tables they roll |
+| `data/vending.json` | NPC shops (outpost, bandit camp, fishing villages): what they sell and for how much |
+| `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
+| `data/explosives.json` | Everything that explodes: damage by type and blast radius |
+| `data/raid.json` | How many of each explosive destroys each building block, door and wall, hard and soft side |
+| `data/meta.json` | The Rust build the data came from, when it last changed and when it was last checked |
+| `CHANGELOG.md` | What changed in each Rust update |
 
-- **`icon`**: the in-game inventory icon (256×256 WebP), decoded from the game's own textures.
-- **`io`**: wiring for anything with power, water or industrial connections: each input and output slot with its name, type (`electric`, `fluid`, `industrial`) and 3D position on the model.
-- **`crafting`**: ingredients, amount, craft time, workbench level, research cost.
-- **`recycle`**: scrap from recycling.
-- **`entity`**: the prefab the item places or spawns.
-
-Everything is keyed by item `id` and `shortname`.
+Everything is keyed by item `shortname` (and `id` in `items.json`), so files join cleanly.
 
 ## Use it
+
+### JavaScript / TypeScript
+
+```sh
+npm install rust-items-json
+```
+
+```ts
+import { items, raid, iconUrl } from "rust-items-json";
+
+const all = await items(); // fully typed
+const branch = all.find((i) => i.shortname === "electrical.branch");
+branch?.io?.outputs; // [{ name: "Power Out", type: "electric", position: [...] }, ...]
+iconUrl(branch!); // https://raw.githubusercontent.com/.../icons/electrical.branch.webp
+
+// Pin to a Rust build instead of tracking the latest:
+await raid({ ref: "build-25824447" });
+```
+
+### Anything else
 
 ```
 https://raw.githubusercontent.com/bobosneefdev/rust-items-json/master/data/items.json
 https://raw.githubusercontent.com/bobosneefdev/rust-items-json/master/data/icons/<shortname>.webp
 ```
 
-`data/meta.json` has the Rust build id the data came from (`build`), when it last changed (`updated`) and when it was last checked (`checked`).
+Each Rust update is also published as a [release](https://github.com/bobosneefdev/rust-items-json/releases) tagged `build-<id>`, with the full `data/` folder attached as a zip.
 
-```json
-{
-  "id": -1448252298,
-  "shortname": "electrical.branch",
-  "name": "Electrical Branch",
-  "category": "Electrical",
-  "io": {
-    "class": "ElectricalBranch",
-    "ioType": "electric",
-    "inputs": [{ "name": "Power In", "type": "electric", "position": [0, -0.12, 0.03] }],
-    "outputs": [
-      { "name": "Power Out", "type": "electric", "position": [-0.03, 0.13, 0.03] },
-      { "name": "Branch Out", "type": "electric", "position": [0.03, 0.13, 0.03] }
-    ]
-  },
-  "crafting": { "ingredients": [{ "item": "metal.fragments", "amount": 75 }], "amount": 1, "time": 30, "workbench": 1, "...": "..." },
-  "icon": "icons/electrical.branch.webp"
-}
-```
+## Notes on the data
+
+- **IO positions** are 3D plug positions on the model, in metres.
+- **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
+- **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
+- **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
+- **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
 
 ## How it updates
 
 A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch day), with a backup run Friday at the same time. It checks the current Rust build and only re-extracts when it changed:
 
-1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (needs an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
+1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
 2. Reads them with [UnityPy](https://github.com/K0lb3/UnityPy). Bundles are read by byte range, so the 6–7 GB texture bundles never load into memory.
-3. Commits the result.
+3. Writes the changelog, commits, and publishes a release.
 
 ### Run it yourself
 
@@ -55,9 +69,9 @@ A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch 
 uv sync
 # needs STEAM_USERNAME, STEAM_PASSWORD, STEAM_SHARED_SECRET for the client bundles
 DD=/path/to/DepotDownloader scripts/fetch.sh
-uv run extractor/extract.py game/server game/client/Bundles/shared data
+uv run extractor/main.py game/server game/client/Bundles/shared data
 ```
 
 ## License
 
-The extraction code is MIT. The data and icons are from Rust and belong to Facepunch Studios. This project is not affiliated with or endorsed by Facepunch.
+The extraction code and npm package are MIT. The data and icons are from Rust and belong to Facepunch Studios. This project is not affiliated with or endorsed by Facepunch.

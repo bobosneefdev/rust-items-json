@@ -1,0 +1,21 @@
+{
+  "name": "rust-items-json",
+  "version": "0.1.0",
+  "description": "Typed access to Rust game data (items, IO wiring, crafting, recycling, loot, raid costs, icons) extracted weekly from the game files.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/bobosneefdev/rust-items-json.git", "directory": "package" },
+  "homepage": "https://github.com/bobosneefdev/rust-items-json",
+  "keywords": ["rust", "facepunch", "rust-game", "items", "electrical", "raid", "loot", "game-data"],
+  "type": "module",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,8936 @@
+[
+ {
+  "name": "TechTree",
+  "workbench": 1,
+  "vanilla": true,
+  "eras": [],
+  "nodes": [
+   {
+    "id": 18,
+    "inputs": [],
+    "outputs": [],
+    "item": "spinner.wheel",
+    "scrap": 15
+   },
+   {
+    "id": 19,
+    "inputs": [],
+    "outputs": [],
+    "item": "table",
+    "scrap": 15
+   },
+   {
+    "id": 20,
+    "inputs": [],
+    "outputs": [],
+    "item": "tunalight",
+    "scrap": 15
+   },
+   {
+    "id": 21,
+    "inputs": [],
+    "outputs": [],
+    "item": "fun.guitar",
+    "scrap": 15
+   },
+   {
+    "id": 54,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.wood.cover",
+    "scrap": 15
+   },
+   {
+    "id": 58,
+    "inputs": [],
+    "outputs": [],
+    "item": "bed",
+    "scrap": 30
+   },
+   {
+    "id": 59,
+    "inputs": [],
+    "outputs": [],
+    "item": "ceilinglight",
+    "scrap": 15
+   },
+   {
+    "id": 60,
+    "inputs": [],
+    "outputs": [],
+    "item": "chair",
+    "scrap": 15
+   },
+   {
+    "id": 61,
+    "inputs": [],
+    "outputs": [],
+    "item": "dropbox",
+    "scrap": 30
+   },
+   {
+    "id": 62,
+    "inputs": [],
+    "outputs": [],
+    "item": "fridge",
+    "scrap": 15
+   },
+   {
+    "id": 63,
+    "inputs": [],
+    "outputs": [],
+    "item": "mixingtable",
+    "scrap": 30
+   },
+   {
+    "id": 64,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.audioalarm",
+    "scrap": 15
+   },
+   {
+    "id": 65,
+    "inputs": [],
+    "outputs": [],
+    "item": "smart.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 66,
+    "inputs": [],
+    "outputs": [],
+    "item": "smart.switch",
+    "scrap": 15
+   },
+   {
+    "id": 67,
+    "inputs": [],
+    "outputs": [],
+    "item": "storage.monitor",
+    "scrap": 30
+   },
+   {
+    "id": 68,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.battery.rechargable.small",
+    "scrap": 15
+   },
+   {
+    "id": 69,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.button",
+    "scrap": 15
+   },
+   {
+    "id": 70,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.laserdetector",
+    "scrap": 30
+   },
+   {
+    "id": 71,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.pressurepad",
+    "scrap": 15
+   },
+   {
+    "id": 72,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.doorcontroller",
+    "scrap": 30
+   },
+   {
+    "id": 73,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.heater",
+    "scrap": 30
+   },
+   {
+    "id": 74,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 75,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 76,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.switch",
+    "scrap": 15
+   },
+   {
+    "id": 77,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.blocker",
+    "scrap": 15
+   },
+   {
+    "id": 78,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.branch",
+    "scrap": 15
+   },
+   {
+    "id": 79,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.combiner",
+    "scrap": 30
+   },
+   {
+    "id": 80,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.memorycell",
+    "scrap": 30
+   },
+   {
+    "id": 81,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.orswitch",
+    "scrap": 15
+   },
+   {
+    "id": 82,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.random.switch",
+    "scrap": 15
+   },
+   {
+    "id": 83,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.xorswitch",
+    "scrap": 15
+   },
+   {
+    "id": 84,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.solarpanel.large",
+    "scrap": 30
+   },
+   {
+    "id": 85,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.flasherlight",
+    "scrap": 15
+   },
+   {
+    "id": 86,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sirenlight",
+    "scrap": 15
+   },
+   {
+    "id": 87,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.switch",
+    "scrap": 15
+   },
+   {
+    "id": 88,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 89,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sprinkler",
+    "scrap": 15
+   },
+   {
+    "id": 90,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.teslacoil",
+    "scrap": 15
+   },
+   {
+    "id": 91,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.timer",
+    "scrap": 15
+   },
+   {
+    "id": 92,
+    "inputs": [],
+    "outputs": [],
+    "item": "target.reactive",
+    "scrap": 15
+   },
+   {
+    "id": 93,
+    "inputs": [],
+    "outputs": [],
+    "item": "guntrap",
+    "scrap": 60
+   },
+   {
+    "id": 94,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.small",
+    "scrap": 15
+   },
+   {
+    "id": 95,
+    "inputs": [],
+    "outputs": [],
+    "item": "flameturret",
+    "scrap": 30
+   },
+   {
+    "id": 96,
+    "inputs": [],
+    "outputs": [],
+    "item": "tool.binoculars",
+    "scrap": 30
+   },
+   {
+    "id": 97,
+    "inputs": [],
+    "outputs": [],
+    "item": "rf.detonator",
+    "scrap": 15
+   },
+   {
+    "id": 98,
+    "inputs": [],
+    "outputs": [],
+    "item": "flare",
+    "scrap": 15
+   },
+   {
+    "id": 99,
+    "inputs": [],
+    "outputs": [],
+    "item": "weapon.mod.flashlight",
+    "scrap": 30
+   },
+   {
+    "id": 100,
+    "inputs": [],
+    "outputs": [],
+    "item": "weapon.mod.silencer",
+    "scrap": 30
+   },
+   {
+    "id": 101,
+    "inputs": [],
+    "outputs": [],
+    "item": "grenade.beancan",
+    "scrap": 30
+   },
+   {
+    "id": 103,
+    "inputs": [],
+    "outputs": [],
+    "item": "shotgun.double",
+    "scrap": 60
+   },
+   {
+    "id": 107,
+    "inputs": [],
+    "outputs": [],
+    "item": "paddle",
+    "scrap": 15
+   },
+   {
+    "id": 109,
+    "inputs": [],
+    "outputs": [],
+    "item": "shotgun.waterpipe",
+    "scrap": 30
+   },
+   {
+    "id": 110,
+    "inputs": [],
+    "outputs": [],
+    "item": "pistol.revolver",
+    "scrap": 30
+   },
+   {
+    "id": 111,
+    "inputs": [],
+    "outputs": [],
+    "item": "hammer.salvaged",
+    "scrap": 30
+   },
+   {
+    "id": 112,
+    "inputs": [],
+    "outputs": [],
+    "item": "explosive.satchel",
+    "scrap": 60
+   },
+   {
+    "id": 114,
+    "inputs": [],
+    "outputs": [],
+    "item": "horse.armor.roadsign",
+    "scrap": 60
+   },
+   {
+    "id": 115,
+    "inputs": [],
+    "outputs": [],
+    "item": "horse.shoes.advanced",
+    "scrap": 30
+   },
+   {
+    "id": 25,
+    "inputs": [],
+    "outputs": [],
+    "item": "ammo.pistol",
+    "scrap": 30
+   },
+   {
+    "id": 44,
+    "inputs": [],
+    "outputs": [],
+    "item": "pants",
+    "scrap": 30
+   },
+   {
+    "id": 22,
+    "inputs": [],
+    "outputs": [],
+    "item": "bucket.water",
+    "scrap": 15
+   },
+   {
+    "id": 30,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.external.high",
+    "scrap": 60
+   },
+   {
+    "id": 125,
+    "inputs": [
+     28,
+     31,
+     32
+    ],
+    "outputs": [
+     17,
+     16
+    ],
+    "group": "New Group"
+   },
+   {
+    "id": 16,
+    "inputs": [
+     125
+    ],
+    "outputs": [],
+    "item": "sign.wooden.huge",
+    "scrap": 30
+   },
+   {
+    "id": 126,
+    "inputs": [],
+    "outputs": [
+     28,
+     32,
+     31
+    ],
+    "group": "New Group"
+   },
+   {
+    "id": 32,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "wall.frame.fence",
+    "scrap": 15
+   },
+   {
+    "id": 31,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "wall.frame.fence.gate",
+    "scrap": 15
+   },
+   {
+    "id": 28,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "gates.external.high.wood",
+    "scrap": 60
+   },
+   {
+    "id": 17,
+    "inputs": [
+     125
+    ],
+    "outputs": [],
+    "item": "sign.wooden.large",
+    "scrap": 30
+   },
+   {
+    "id": 108,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     118
+    ],
+    "item": "pickaxe",
+    "scrap": 30
+   },
+   {
+    "id": 117,
+    "inputs": [],
+    "outputs": [
+     104,
+     108
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 104,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     119
+    ],
+    "item": "hatchet",
+    "scrap": 30
+   },
+   {
+    "id": 2,
+    "inputs": [
+     45
+    ],
+    "outputs": [
+     1
+    ],
+    "item": "hat.beenie",
+    "scrap": 15
+   },
+   {
+    "id": 122,
+    "inputs": [
+     39,
+     40,
+     41
+    ],
+    "outputs": [
+     42,
+     43
+    ],
+    "group": "Jackets"
+   },
+   {
+    "id": 42,
+    "inputs": [
+     122
+    ],
+    "outputs": [],
+    "item": "jacket.snow",
+    "scrap": 15
+   },
+   {
+    "id": 43,
+    "inputs": [
+     122
+    ],
+    "outputs": [
+     3
+    ],
+    "item": "jacket",
+    "scrap": 15
+   },
+   {
+    "id": 118,
+    "inputs": [
+     108
+    ],
+    "outputs": [
+     102,
+     106,
+     113
+    ],
+    "group": "Weapons"
+   },
+   {
+    "id": 105,
+    "inputs": [
+     55,
+     56,
+     57
+    ],
+    "outputs": [
+     120,
+     121,
+     123
+    ],
+    "item": "knife.combat",
+    "scrap": 30
+   },
+   {
+    "id": 106,
+    "inputs": [
+     118
+    ],
+    "outputs": [
+     124
+    ],
+    "item": "mace",
+    "scrap": 30
+   },
+   {
+    "id": 113,
+    "inputs": [
+     118
+    ],
+    "outputs": [
+     124
+    ],
+    "item": "salvaged.sword",
+    "scrap": 15
+   },
+   {
+    "id": 102,
+    "inputs": [
+     118
+    ],
+    "outputs": [
+     124
+    ],
+    "item": "salvaged.cleaver",
+    "scrap": 30
+   },
+   {
+    "id": 119,
+    "inputs": [
+     104
+    ],
+    "outputs": [
+     56,
+     55,
+     57
+    ],
+    "group": "Traps"
+   },
+   {
+    "id": 57,
+    "inputs": [
+     119
+    ],
+    "outputs": [
+     105
+    ],
+    "item": "trap.bear",
+    "scrap": 30
+   },
+   {
+    "id": 55,
+    "inputs": [
+     119
+    ],
+    "outputs": [
+     105
+    ],
+    "item": "barricade.sandbags",
+    "scrap": 15
+   },
+   {
+    "id": 56,
+    "inputs": [
+     119
+    ],
+    "outputs": [
+     105
+    ],
+    "item": "barricade.woodwire",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     24
+    ],
+    "item": "wall.window.bars.metal",
+    "scrap": 30
+   },
+   {
+    "id": 123,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     41,
+     40,
+     39
+    ],
+    "group": "Helmets"
+   },
+   {
+    "id": 39,
+    "inputs": [
+     123
+    ],
+    "outputs": [
+     122
+    ],
+    "item": "bucket.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 40,
+    "inputs": [
+     123
+    ],
+    "outputs": [
+     122,
+     41
+    ],
+    "item": "hat.miner",
+    "scrap": 15
+   },
+   {
+    "id": 41,
+    "inputs": [
+     40,
+     123
+    ],
+    "outputs": [
+     122
+    ],
+    "item": "riot.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 120,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     53,
+     49,
+     52,
+     51,
+     50
+    ],
+    "group": "vehicleParts"
+   },
+   {
+    "id": 50,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "crankshaft1",
+    "scrap": 15
+   },
+   {
+    "id": 51,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "piston1",
+    "scrap": 15
+   },
+   {
+    "id": 52,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "sparkplug1",
+    "scrap": 15
+   },
+   {
+    "id": 49,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "carburetor1",
+    "scrap": 15
+   },
+   {
+    "id": 53,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "valve1",
+    "scrap": 15
+   },
+   {
+    "id": 46,
+    "inputs": [
+     121
+    ],
+    "outputs": [],
+    "item": "shirt.tanktop",
+    "scrap": 15
+   },
+   {
+    "id": 47,
+    "inputs": [
+     121
+    ],
+    "outputs": [],
+    "item": "tshirt",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [
+     121
+    ],
+    "outputs": [],
+    "item": "tshirt.long",
+    "scrap": 15
+   },
+   {
+    "id": 45,
+    "inputs": [
+     121
+    ],
+    "outputs": [
+     2
+    ],
+    "item": "shirt.collared",
+    "scrap": 30
+   },
+   {
+    "id": 121,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     48,
+     47,
+     46,
+     45
+    ],
+    "group": "Shirts"
+   },
+   {
+    "id": 35,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     24
+    ],
+    "item": "shutter.metal.embrasure.a",
+    "scrap": 15
+   },
+   {
+    "id": 36,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     24
+    ],
+    "item": "shutter.metal.embrasure.b",
+    "scrap": 15
+   },
+   {
+    "id": 37,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     24
+    ],
+    "item": "wall.window.glass.reinforced",
+    "scrap": 30
+   },
+   {
+    "id": 124,
+    "inputs": [
+     102,
+     106,
+     113
+    ],
+    "outputs": [
+     37,
+     36,
+     35,
+     34
+    ],
+    "group": "New Group"
+   },
+   {
+    "id": 4,
+    "inputs": [],
+    "outputs": [],
+    "item": "pants.shorts",
+    "scrap": 15
+   },
+   {
+    "id": 7,
+    "inputs": [],
+    "outputs": [],
+    "item": "fireplace.stone",
+    "scrap": 15
+   },
+   {
+    "id": 8,
+    "inputs": [],
+    "outputs": [],
+    "item": "spikes.floor",
+    "scrap": 15
+   },
+   {
+    "id": 9,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.barrel",
+    "scrap": 15
+   },
+   {
+    "id": 15,
+    "inputs": [],
+    "outputs": [],
+    "item": "shelves",
+    "scrap": 30
+   },
+   {
+    "id": 38,
+    "inputs": [],
+    "outputs": [],
+    "item": "watchtower.wood",
+    "scrap": 30
+   },
+   {
+    "id": 10,
+    "inputs": [],
+    "outputs": [],
+    "item": "mailbox",
+    "scrap": 15
+   },
+   {
+    "id": 11,
+    "inputs": [],
+    "outputs": [],
+    "item": "planter.large",
+    "scrap": 15
+   },
+   {
+    "id": 12,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.igniter",
+    "scrap": 15
+   },
+   {
+    "id": 13,
+    "inputs": [],
+    "outputs": [],
+    "item": "rug.bear",
+    "scrap": 15
+   },
+   {
+    "id": 14,
+    "inputs": [],
+    "outputs": [],
+    "item": "rug",
+    "scrap": 15
+   },
+   {
+    "id": 33,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.frame.garagedoor",
+    "scrap": 30
+   },
+   {
+    "id": 29,
+    "inputs": [],
+    "outputs": [],
+    "item": "ladder.wooden.wall",
+    "scrap": 60
+   },
+   {
+    "id": 5,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.stone",
+    "scrap": 15
+   },
+   {
+    "id": 24,
+    "inputs": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "outputs": [
+     3,
+     23
+    ],
+    "item": "arrow.fire",
+    "scrap": 15
+   },
+   {
+    "id": 23,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     0
+    ],
+    "item": "kayak",
+    "scrap": 15
+   },
+   {
+    "id": 1,
+    "inputs": [
+     2
+    ],
+    "outputs": [
+     6
+    ],
+    "item": "burlap.gloves",
+    "scrap": 15
+   },
+   {
+    "id": 6,
+    "inputs": [
+     1
+    ],
+    "outputs": [],
+    "item": "barricade.wood",
+    "scrap": 15
+   },
+   {
+    "id": 0,
+    "inputs": [
+     23
+    ],
+    "outputs": [
+     116
+    ],
+    "item": "shutter.wood.a",
+    "scrap": 15
+   },
+   {
+    "id": 116,
+    "inputs": [
+     0
+    ],
+    "outputs": [
+     27,
+     26
+    ],
+    "group": "Shit"
+   },
+   {
+    "id": 26,
+    "inputs": [
+     116
+    ],
+    "outputs": [],
+    "item": "floor.grill",
+    "scrap": 30
+   },
+   {
+    "id": 27,
+    "inputs": [
+     116
+    ],
+    "outputs": [],
+    "item": "floor.triangle.grill",
+    "scrap": 30
+   },
+   {
+    "id": 3,
+    "inputs": [
+     24,
+     43
+    ],
+    "outputs": [],
+    "item": "mask.balaclava",
+    "scrap": 15
+   }
+  ]
+ },
+ {
+  "name": "TechTreeIO",
+  "workbench": 1,
+  "vanilla": true,
+  "eras": [
+   "none",
+   "primitive"
+  ],
+  "nodes": [
+   {
+    "id": 87,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     943
+    ],
+    "item": "electric.switch",
+    "scrap": 15
+   },
+   {
+    "id": 117,
+    "inputs": [],
+    "outputs": [
+     87
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 84,
+    "inputs": [
+     943
+    ],
+    "outputs": [
+     68
+    ],
+    "item": "electric.solarpanel.large",
+    "scrap": 30
+   },
+   {
+    "id": 68,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     505,
+     88,
+     79,
+     59,
+     130,
+     796,
+     858
+    ],
+    "item": "electric.battery.rechargable.small",
+    "scrap": 15
+   },
+   {
+    "id": 88,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     78
+    ],
+    "item": "electric.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 59,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     86,
+     73,
+     91,
+     85
+    ],
+    "item": "ceilinglight",
+    "scrap": 15
+   },
+   {
+    "id": 79,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     77
+    ],
+    "item": "electrical.combiner",
+    "scrap": 30
+   },
+   {
+    "id": 130,
+    "inputs": [
+     68
+    ],
+    "outputs": [],
+    "item": "metal.detector",
+    "scrap": 30
+   },
+   {
+    "id": 78,
+    "inputs": [
+     88
+    ],
+    "outputs": [
+     64
+    ],
+    "item": "electrical.branch",
+    "scrap": 15
+   },
+   {
+    "id": 91,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     72,
+     71
+    ],
+    "item": "electric.timer",
+    "scrap": 15
+   },
+   {
+    "id": 85,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.flasherlight",
+    "scrap": 15
+   },
+   {
+    "id": 86,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     661
+    ],
+    "item": "electric.sirenlight",
+    "scrap": 15
+   },
+   {
+    "id": 64,
+    "inputs": [
+     78
+    ],
+    "outputs": [
+     99,
+     356
+    ],
+    "item": "electric.audioalarm",
+    "scrap": 15
+   },
+   {
+    "id": 661,
+    "inputs": [
+     86
+    ],
+    "outputs": [],
+    "item": "searchlight",
+    "scrap": 30
+   },
+   {
+    "id": 71,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     120
+    ],
+    "item": "electric.pressurepad",
+    "scrap": 15
+   },
+   {
+    "id": 72,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     12
+    ],
+    "item": "electric.doorcontroller",
+    "scrap": 30
+   },
+   {
+    "id": 99,
+    "inputs": [
+     64
+    ],
+    "outputs": [
+     366
+    ],
+    "item": "telephone",
+    "scrap": 30
+   },
+   {
+    "id": 356,
+    "inputs": [
+     64
+    ],
+    "outputs": [],
+    "item": "electric.digitalclock",
+    "scrap": 30
+   },
+   {
+    "id": 120,
+    "inputs": [
+     71
+    ],
+    "outputs": [
+     92,
+     353,
+     354,
+     355
+    ],
+    "item": "electric.button",
+    "scrap": 15
+   },
+   {
+    "id": 12,
+    "inputs": [
+     72
+    ],
+    "outputs": [],
+    "item": "electric.igniter",
+    "scrap": 15
+   },
+   {
+    "id": 92,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "target.reactive",
+    "scrap": 15
+   },
+   {
+    "id": 353,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "electric.counter",
+    "scrap": 30
+   },
+   {
+    "id": 354,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "electric.hbhfsensor",
+    "scrap": 30
+   },
+   {
+    "id": 366,
+    "inputs": [
+     99
+    ],
+    "outputs": [],
+    "item": "electric.seismicsensor",
+    "scrap": 30
+   },
+   {
+    "id": 73,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.heater",
+    "scrap": 30
+   },
+   {
+    "id": 355,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "electric.laserdetector",
+    "scrap": 30
+   },
+   {
+    "id": 553,
+    "inputs": [
+     796
+    ],
+    "outputs": [
+     179
+    ],
+    "item": "water.barrel",
+    "scrap": 15
+   },
+   {
+    "id": 179,
+    "inputs": [
+     553
+    ],
+    "outputs": [
+     176
+    ],
+    "item": "electric.sprinkler",
+    "scrap": 15
+   },
+   {
+    "id": 176,
+    "inputs": [
+     179
+    ],
+    "outputs": [
+     177
+    ],
+    "item": "fluid.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 177,
+    "inputs": [
+     176
+    ],
+    "outputs": [
+     178
+    ],
+    "item": "fluid.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 796,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     553
+    ],
+    "item": "water.catcher.small",
+    "scrap": 15
+   },
+   {
+    "id": 505,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     385,
+     387,
+     386,
+     383
+    ],
+    "item": "modularcarlift",
+    "scrap": 60
+   },
+   {
+    "id": 383,
+    "inputs": [
+     505
+    ],
+    "outputs": [
+     384
+    ],
+    "item": "vehicle.1mod.cockpit",
+    "scrap": 60
+   },
+   {
+    "id": 386,
+    "inputs": [
+     505
+    ],
+    "outputs": [
+     391
+    ],
+    "item": "vehicle.1mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 384,
+    "inputs": [
+     383
+    ],
+    "outputs": [
+     438
+    ],
+    "item": "vehicle.1mod.cockpit.with.engine",
+    "scrap": 60
+   },
+   {
+    "id": 391,
+    "inputs": [
+     386
+    ],
+    "outputs": [
+     392
+    ],
+    "item": "vehicle.2mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 392,
+    "inputs": [
+     391
+    ],
+    "outputs": [
+     388
+    ],
+    "item": "vehicle.2mod.fuel.tank",
+    "scrap": 60
+   },
+   {
+    "id": 388,
+    "inputs": [
+     392
+    ],
+    "outputs": [
+     390
+    ],
+    "item": "vehicle.1mod.storage",
+    "scrap": 60
+   },
+   {
+    "id": 387,
+    "inputs": [
+     505
+    ],
+    "outputs": [
+     393
+    ],
+    "item": "vehicle.1mod.rear.seats",
+    "scrap": 60
+   },
+   {
+    "id": 161,
+    "inputs": [
+     385
+    ],
+    "outputs": [
+     492
+    ],
+    "item": "carburetor1",
+    "scrap": 15
+   },
+   {
+    "id": 393,
+    "inputs": [
+     387
+    ],
+    "outputs": [
+     389
+    ],
+    "item": "vehicle.2mod.passengers",
+    "scrap": 60
+   },
+   {
+    "id": 492,
+    "inputs": [
+     161
+    ],
+    "outputs": [
+     426
+    ],
+    "item": "carburetor2",
+    "scrap": 15
+   },
+   {
+    "id": 389,
+    "inputs": [
+     393
+    ],
+    "outputs": [
+     439
+    ],
+    "item": "vehicle.1mod.taxi",
+    "scrap": 60
+   },
+   {
+    "id": 439,
+    "inputs": [
+     389
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.passengers.armored",
+    "scrap": 60
+   },
+   {
+    "id": 426,
+    "inputs": [
+     492
+    ],
+    "outputs": [],
+    "item": "carburetor3",
+    "scrap": 15
+   },
+   {
+    "id": 493,
+    "inputs": [
+     162
+    ],
+    "outputs": [
+     427
+    ],
+    "item": "crankshaft2",
+    "scrap": 15
+   },
+   {
+    "id": 427,
+    "inputs": [
+     493
+    ],
+    "outputs": [],
+    "item": "crankshaft3",
+    "scrap": 15
+   },
+   {
+    "id": 163,
+    "inputs": [
+     385
+    ],
+    "outputs": [
+     494
+    ],
+    "item": "piston1",
+    "scrap": 15
+   },
+   {
+    "id": 164,
+    "inputs": [
+     385
+    ],
+    "outputs": [
+     495
+    ],
+    "item": "sparkplug1",
+    "scrap": 15
+   },
+   {
+    "id": 165,
+    "inputs": [
+     385
+    ],
+    "outputs": [
+     496
+    ],
+    "item": "valve1",
+    "scrap": 15
+   },
+   {
+    "id": 496,
+    "inputs": [
+     165
+    ],
+    "outputs": [
+     430
+    ],
+    "item": "valve2",
+    "scrap": 15
+   },
+   {
+    "id": 495,
+    "inputs": [
+     164
+    ],
+    "outputs": [
+     429
+    ],
+    "item": "sparkplug2",
+    "scrap": 15
+   },
+   {
+    "id": 494,
+    "inputs": [
+     163
+    ],
+    "outputs": [
+     428
+    ],
+    "item": "piston2",
+    "scrap": 15
+   },
+   {
+    "id": 428,
+    "inputs": [
+     494
+    ],
+    "outputs": [],
+    "item": "piston3",
+    "scrap": 15
+   },
+   {
+    "id": 429,
+    "inputs": [
+     495
+    ],
+    "outputs": [],
+    "item": "sparkplug3",
+    "scrap": 15
+   },
+   {
+    "id": 430,
+    "inputs": [
+     496
+    ],
+    "outputs": [],
+    "item": "valve3",
+    "scrap": 15
+   },
+   {
+    "id": 385,
+    "inputs": [
+     505
+    ],
+    "outputs": [
+     161,
+     162,
+     164,
+     165,
+     163
+    ],
+    "item": "vehicle.1mod.engine",
+    "scrap": 60
+   },
+   {
+    "id": 162,
+    "inputs": [
+     385
+    ],
+    "outputs": [
+     493
+    ],
+    "item": "crankshaft1",
+    "scrap": 15
+   },
+   {
+    "id": 438,
+    "inputs": [
+     384
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.cockpit.armored",
+    "scrap": 60
+   },
+   {
+    "id": 178,
+    "inputs": [
+     177
+    ],
+    "outputs": [
+     510
+    ],
+    "item": "fluid.switch",
+    "scrap": 15
+   },
+   {
+    "id": 510,
+    "inputs": [
+     178
+    ],
+    "outputs": [
+     365
+    ],
+    "item": "water.catcher.large",
+    "scrap": 30
+   },
+   {
+    "id": 365,
+    "inputs": [
+     510
+    ],
+    "outputs": [
+     368
+    ],
+    "item": "powered.water.purifier",
+    "scrap": 30
+   },
+   {
+    "id": 368,
+    "inputs": [
+     365
+    ],
+    "outputs": [],
+    "item": "waterpump",
+    "scrap": 30
+   },
+   {
+    "id": 858,
+    "inputs": [
+     68
+    ],
+    "outputs": [],
+    "item": "mini fridge",
+    "scrap": 15
+   },
+   {
+    "id": 390,
+    "inputs": [
+     388
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.camper",
+    "scrap": 60
+   },
+   {
+    "id": 77,
+    "inputs": [
+     79
+    ],
+    "outputs": [
+     81
+    ],
+    "item": "electric.blocker",
+    "scrap": 15
+   },
+   {
+    "id": 81,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     83
+    ],
+    "item": "electric.orswitch",
+    "scrap": 15
+   },
+   {
+    "id": 83,
+    "inputs": [
+     81
+    ],
+    "outputs": [
+     352
+    ],
+    "item": "electric.xorswitch",
+    "scrap": 15
+   },
+   {
+    "id": 352,
+    "inputs": [
+     83
+    ],
+    "outputs": [
+     363
+    ],
+    "item": "electric.battery.rechargable.medium",
+    "scrap": 30
+   },
+   {
+    "id": 363,
+    "inputs": [
+     352
+    ],
+    "outputs": [
+     659,
+     380,
+     727
+    ],
+    "item": "electric.fuelgenerator.small",
+    "scrap": 30
+   },
+   {
+    "id": 380,
+    "inputs": [
+     363
+    ],
+    "outputs": [
+     348,
+     361,
+     362,
+     350,
+     349,
+     376,
+     360
+    ],
+    "item": "rf_pager",
+    "scrap": 15
+   },
+   {
+    "id": 360,
+    "inputs": [
+     380
+    ],
+    "outputs": [
+     359,
+     358
+    ],
+    "item": "electric.random.switch",
+    "scrap": 15
+   },
+   {
+    "id": 348,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "smart.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 361,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "electric.rf.broadcaster",
+    "scrap": 15
+   },
+   {
+    "id": 362,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "electric.rf.receiver",
+    "scrap": 15
+   },
+   {
+    "id": 350,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "storage.monitor",
+    "scrap": 30
+   },
+   {
+    "id": 376,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "rf.detonator",
+    "scrap": 15
+   },
+   {
+    "id": 349,
+    "inputs": [
+     380
+    ],
+    "outputs": [],
+    "item": "smart.switch",
+    "scrap": 15
+   },
+   {
+    "id": 358,
+    "inputs": [
+     360
+    ],
+    "outputs": [
+     340
+    ],
+    "item": "electric.andswitch",
+    "scrap": 15
+   },
+   {
+    "id": 359,
+    "inputs": [
+     360
+    ],
+    "outputs": [],
+    "item": "electrical.memorycell",
+    "scrap": 30
+   },
+   {
+    "id": 340,
+    "inputs": [
+     358
+    ],
+    "outputs": [
+     367,
+     341,
+     660
+    ],
+    "item": "computerstation",
+    "scrap": 30
+   },
+   {
+    "id": 367,
+    "inputs": [
+     340
+    ],
+    "outputs": [
+     662
+    ],
+    "item": "electric.teslacoil",
+    "scrap": 15
+   },
+   {
+    "id": 341,
+    "inputs": [
+     340
+    ],
+    "outputs": [],
+    "item": "drone",
+    "scrap": 60
+   },
+   {
+    "id": 660,
+    "inputs": [
+     340
+    ],
+    "outputs": [],
+    "item": "ptz.cctv.camera",
+    "scrap": 30
+   },
+   {
+    "id": 662,
+    "inputs": [
+     367
+    ],
+    "outputs": [
+     351
+    ],
+    "item": "generator.wind.scrap",
+    "scrap": 60
+   },
+   {
+    "id": 351,
+    "inputs": [
+     662
+    ],
+    "outputs": [
+     374,
+     501
+    ],
+    "item": "electric.battery.rechargable.large",
+    "scrap": 30
+   },
+   {
+    "id": 374,
+    "inputs": [
+     351
+    ],
+    "outputs": [],
+    "item": "autoturret",
+    "scrap": 120
+   },
+   {
+    "id": 501,
+    "inputs": [
+     351
+    ],
+    "outputs": [],
+    "item": "elevator",
+    "scrap": 60
+   },
+   {
+    "id": 659,
+    "inputs": [
+     363
+    ],
+    "outputs": [
+     124
+    ],
+    "item": "electric.furnace",
+    "scrap": 30
+   },
+   {
+    "id": 126,
+    "inputs": [
+     124,
+     124
+    ],
+    "outputs": [
+     127
+    ],
+    "item": "industrial.conveyor",
+    "scrap": 15
+   },
+   {
+    "id": 125,
+    "inputs": [
+     127
+    ],
+    "outputs": [
+     728
+    ],
+    "item": "industrial.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 364,
+    "inputs": [
+     728
+    ],
+    "outputs": [],
+    "item": "industrial.crafter",
+    "scrap": 30
+   },
+   {
+    "id": 728,
+    "inputs": [
+     125
+    ],
+    "outputs": [
+     364
+    ],
+    "item": "hopper",
+    "scrap": 15
+   },
+   {
+    "id": 127,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "industrial.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 124,
+    "inputs": [
+     659
+    ],
+    "outputs": [
+     126,
+     126
+    ],
+    "item": "storageadaptor",
+    "scrap": 15
+   },
+   {
+    "id": 727,
+    "inputs": [
+     363
+    ],
+    "outputs": [],
+    "item": "fridge",
+    "scrap": 15
+   },
+   {
+    "id": 943,
+    "inputs": [
+     87
+    ],
+    "outputs": [
+     84
+    ],
+    "item": "generator.water",
+    "scrap": 60
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT0",
+  "workbench": 1,
+  "vanilla": true,
+  "eras": [
+   "none"
+  ],
+  "nodes": [
+   {
+    "id": 49,
+    "inputs": [],
+    "outputs": [],
+    "item": "carburetor1",
+    "scrap": 15
+   },
+   {
+    "id": 50,
+    "inputs": [],
+    "outputs": [],
+    "item": "crankshaft1",
+    "scrap": 15
+   },
+   {
+    "id": 51,
+    "inputs": [],
+    "outputs": [],
+    "item": "piston1",
+    "scrap": 15
+   },
+   {
+    "id": 52,
+    "inputs": [],
+    "outputs": [],
+    "item": "sparkplug1",
+    "scrap": 15
+   },
+   {
+    "id": 53,
+    "inputs": [],
+    "outputs": [],
+    "item": "valve1",
+    "scrap": 15
+   },
+   {
+    "id": 21,
+    "inputs": [],
+    "outputs": [],
+    "item": "fun.guitar",
+    "scrap": 15
+   },
+   {
+    "id": 9,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.barrel",
+    "scrap": 15
+   },
+   {
+    "id": 94,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.small",
+    "scrap": 15
+   },
+   {
+    "id": 62,
+    "inputs": [],
+    "outputs": [],
+    "item": "fridge",
+    "scrap": 15
+   },
+   {
+    "id": 77,
+    "inputs": [
+     79
+    ],
+    "outputs": [
+     81
+    ],
+    "item": "electric.blocker",
+    "scrap": 15
+   },
+   {
+    "id": 81,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     83
+    ],
+    "item": "electric.orswitch",
+    "scrap": 15
+   },
+   {
+    "id": 88,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     78
+    ],
+    "item": "electric.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 64,
+    "inputs": [
+     78
+    ],
+    "outputs": [
+     99
+    ],
+    "item": "electric.audioalarm",
+    "scrap": 15
+   },
+   {
+    "id": 99,
+    "inputs": [
+     64
+    ],
+    "outputs": [],
+    "item": "telephone",
+    "scrap": 30
+   },
+   {
+    "id": 78,
+    "inputs": [
+     88
+    ],
+    "outputs": [
+     64
+    ],
+    "item": "electrical.branch",
+    "scrap": 15
+   },
+   {
+    "id": 83,
+    "inputs": [
+     81
+    ],
+    "outputs": [],
+    "item": "electric.xorswitch",
+    "scrap": 15
+   },
+   {
+    "id": 59,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     86,
+     73,
+     91,
+     85
+    ],
+    "item": "ceilinglight",
+    "scrap": 15
+   },
+   {
+    "id": 91,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     72,
+     71
+    ],
+    "item": "electric.timer",
+    "scrap": 15
+   },
+   {
+    "id": 71,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     120
+    ],
+    "item": "electric.pressurepad",
+    "scrap": 15
+   },
+   {
+    "id": 85,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.flasherlight",
+    "scrap": 15
+   },
+   {
+    "id": 73,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.heater",
+    "scrap": 30
+   },
+   {
+    "id": 86,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.sirenlight",
+    "scrap": 15
+   },
+   {
+    "id": 72,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     12
+    ],
+    "item": "electric.doorcontroller",
+    "scrap": 30
+   },
+   {
+    "id": 120,
+    "inputs": [
+     71
+    ],
+    "outputs": [
+     92
+    ],
+    "item": "electric.button",
+    "scrap": 15
+   },
+   {
+    "id": 92,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "target.reactive",
+    "scrap": 15
+   },
+   {
+    "id": 12,
+    "inputs": [
+     72
+    ],
+    "outputs": [],
+    "item": "electric.igniter",
+    "scrap": 15
+   },
+   {
+    "id": 79,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     77
+    ],
+    "item": "electrical.combiner",
+    "scrap": 30
+   },
+   {
+    "id": 124,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     126
+    ],
+    "item": "storageadaptor",
+    "scrap": 15
+   },
+   {
+    "id": 126,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     127
+    ],
+    "item": "industrial.conveyor",
+    "scrap": 15
+   },
+   {
+    "id": 125,
+    "inputs": [
+     127
+    ],
+    "outputs": [],
+    "item": "industrial.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 127,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "industrial.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 130,
+    "inputs": [
+     84
+    ],
+    "outputs": [],
+    "item": "metal.detector",
+    "scrap": 30
+   },
+   {
+    "id": 68,
+    "inputs": [
+     87
+    ],
+    "outputs": [
+     84
+    ],
+    "item": "electric.battery.rechargable.small",
+    "scrap": 15
+   },
+   {
+    "id": 87,
+    "inputs": [],
+    "outputs": [
+     68
+    ],
+    "item": "electric.switch",
+    "scrap": 15
+   },
+   {
+    "id": 84,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     88,
+     79,
+     59,
+     124,
+     130
+    ],
+    "item": "electric.solarpanel.large",
+    "scrap": 30
+   },
+   {
+    "id": 76,
+    "inputs": [],
+    "outputs": [
+     74
+    ],
+    "item": "fluid.switch",
+    "scrap": 15
+   },
+   {
+    "id": 74,
+    "inputs": [
+     76
+    ],
+    "outputs": [
+     75
+    ],
+    "item": "fluid.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 75,
+    "inputs": [
+     74
+    ],
+    "outputs": [],
+    "item": "fluid.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 89,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sprinkler",
+    "scrap": 15
+   },
+   {
+    "id": 154,
+    "inputs": [],
+    "outputs": [],
+    "item": "hopper",
+    "scrap": 15
+   },
+   {
+    "id": 117,
+    "inputs": [],
+    "outputs": [
+     112,
+     46,
+     22
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 173,
+    "inputs": [],
+    "outputs": [],
+    "item": "smallengine",
+    "scrap": 15
+   },
+   {
+    "id": 129,
+    "inputs": [
+     112
+    ],
+    "outputs": [],
+    "item": "hab.armor",
+    "scrap": 30
+   },
+   {
+    "id": 166,
+    "inputs": [
+     23
+    ],
+    "outputs": [
+     176
+    ],
+    "item": "boatbuildingstation",
+    "scrap": 30
+   },
+   {
+    "id": 176,
+    "inputs": [
+     166
+    ],
+    "outputs": [
+     174
+    ],
+    "item": "boat.planner",
+    "scrap": 30
+   },
+   {
+    "id": 174,
+    "inputs": [
+     176
+    ],
+    "outputs": [
+     171
+    ],
+    "item": "steeringwheel.boat",
+    "scrap": 15
+   },
+   {
+    "id": 113,
+    "inputs": [
+     102
+    ],
+    "outputs": [],
+    "item": "explosive.satchel",
+    "scrap": 60
+   },
+   {
+    "id": 95,
+    "inputs": [
+     24
+    ],
+    "outputs": [],
+    "item": "flameturret",
+    "scrap": 30
+   },
+   {
+    "id": 20,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     14
+    ],
+    "item": "tunalight",
+    "scrap": 15
+   },
+   {
+    "id": 14,
+    "inputs": [
+     20
+    ],
+    "outputs": [
+     17
+    ],
+    "item": "rug",
+    "scrap": 15
+   },
+   {
+    "id": 17,
+    "inputs": [
+     14
+    ],
+    "outputs": [
+     13
+    ],
+    "item": "sign.wooden.large",
+    "scrap": 30
+   },
+   {
+    "id": 13,
+    "inputs": [
+     17
+    ],
+    "outputs": [
+     16
+    ],
+    "item": "rug.bear",
+    "scrap": 15
+   },
+   {
+    "id": 16,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "sign.wooden.huge",
+    "scrap": 30
+   },
+   {
+    "id": 18,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     61
+    ],
+    "item": "spinner.wheel",
+    "scrap": 15
+   },
+   {
+    "id": 61,
+    "inputs": [
+     18
+    ],
+    "outputs": [],
+    "item": "dropbox",
+    "scrap": 30
+   },
+   {
+    "id": 46,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     47,
+     2
+    ],
+    "item": "shirt.tanktop",
+    "scrap": 15
+   },
+   {
+    "id": 45,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     4
+    ],
+    "item": "shirt.collared",
+    "scrap": 30
+   },
+   {
+    "id": 47,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     45
+    ],
+    "item": "tshirt",
+    "scrap": 15
+   },
+   {
+    "id": 4,
+    "inputs": [
+     45
+    ],
+    "outputs": [
+     44
+    ],
+    "item": "pants.shorts",
+    "scrap": 15
+   },
+   {
+    "id": 112,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     105,
+     108,
+     129,
+     150
+    ],
+    "item": "hammer.salvaged",
+    "scrap": 30
+   },
+   {
+    "id": 44,
+    "inputs": [
+     4
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "pants",
+    "scrap": 30
+   },
+   {
+    "id": 114,
+    "inputs": [
+     109
+    ],
+    "outputs": [
+     136
+    ],
+    "item": "salvaged.sword",
+    "scrap": 15
+   },
+   {
+    "id": 109,
+    "inputs": [
+     150
+    ],
+    "outputs": [
+     114
+    ],
+    "item": "pickaxe",
+    "scrap": 30
+   },
+   {
+    "id": 150,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     109
+    ],
+    "item": "iotable",
+    "scrap": 60
+   },
+   {
+    "id": 136,
+    "inputs": [
+     114
+    ],
+    "outputs": [
+     123
+    ],
+    "item": "reinforced.wooden.shield",
+    "scrap": 60
+   },
+   {
+    "id": 222,
+    "inputs": [
+     123
+    ],
+    "outputs": [
+     107
+    ],
+    "item": "minicrossbow",
+    "scrap": 30
+   },
+   {
+    "id": 107,
+    "inputs": [
+     222
+    ],
+    "outputs": [
+     103
+    ],
+    "item": "mace",
+    "scrap": 30
+   },
+   {
+    "id": 111,
+    "inputs": [
+     25
+    ],
+    "outputs": [
+     24,
+     102,
+     134
+    ],
+    "item": "pistol.revolver",
+    "scrap": 30
+   },
+   {
+    "id": 98,
+    "inputs": [
+     110
+    ],
+    "outputs": [
+     25
+    ],
+    "item": "flare",
+    "scrap": 15
+   },
+   {
+    "id": 25,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     111,
+     159
+    ],
+    "item": "ammo.pistol",
+    "scrap": 30
+   },
+   {
+    "id": 105,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     54,
+     20,
+     29
+    ],
+    "item": "hatchet",
+    "scrap": 30
+   },
+   {
+    "id": 54,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     5
+    ],
+    "item": "barricade.wood.cover",
+    "scrap": 15
+   },
+   {
+    "id": 29,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     6
+    ],
+    "item": "ladder.wooden.wall",
+    "scrap": 60
+   },
+   {
+    "id": 6,
+    "inputs": [
+     29
+    ],
+    "outputs": [
+     56
+    ],
+    "item": "barricade.wood",
+    "scrap": 15
+   },
+   {
+    "id": 5,
+    "inputs": [
+     54
+    ],
+    "outputs": [
+     55
+    ],
+    "item": "barricade.stone",
+    "scrap": 15
+   },
+   {
+    "id": 56,
+    "inputs": [
+     6
+    ],
+    "outputs": [
+     8
+    ],
+    "item": "barricade.woodwire",
+    "scrap": 30
+   },
+   {
+    "id": 55,
+    "inputs": [
+     5
+    ],
+    "outputs": [
+     32
+    ],
+    "item": "barricade.sandbags",
+    "scrap": 15
+   },
+   {
+    "id": 8,
+    "inputs": [
+     56
+    ],
+    "outputs": [
+     38,
+     0,
+     57
+    ],
+    "item": "spikes.floor",
+    "scrap": 15
+   },
+   {
+    "id": 32,
+    "inputs": [
+     55
+    ],
+    "outputs": [
+     31
+    ],
+    "item": "wall.frame.fence",
+    "scrap": 15
+   },
+   {
+    "id": 123,
+    "inputs": [
+     136
+    ],
+    "outputs": [
+     222
+    ],
+    "item": "bow.compound",
+    "scrap": 30
+   },
+   {
+    "id": 57,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     133
+    ],
+    "item": "trap.bear",
+    "scrap": 30
+   },
+   {
+    "id": 0,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     34
+    ],
+    "item": "shutter.wood.a",
+    "scrap": 15
+   },
+   {
+    "id": 38,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     30
+    ],
+    "item": "watchtower.wood",
+    "scrap": 30
+   },
+   {
+    "id": 133,
+    "inputs": [
+     57
+    ],
+    "outputs": [],
+    "item": "tincan.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [
+     0
+    ],
+    "outputs": [],
+    "item": "wall.window.bars.metal",
+    "scrap": 30
+   },
+   {
+    "id": 30,
+    "inputs": [
+     38
+    ],
+    "outputs": [
+     28
+    ],
+    "item": "wall.external.high",
+    "scrap": 60
+   },
+   {
+    "id": 28,
+    "inputs": [
+     30
+    ],
+    "outputs": [
+     135
+    ],
+    "item": "gates.external.high.wood",
+    "scrap": 60
+   },
+   {
+    "id": 135,
+    "inputs": [
+     28
+    ],
+    "outputs": [],
+    "item": "siegetower",
+    "scrap": 15
+   },
+   {
+    "id": 31,
+    "inputs": [
+     32
+    ],
+    "outputs": [
+     26
+    ],
+    "item": "wall.frame.fence.gate",
+    "scrap": 15
+   },
+   {
+    "id": 26,
+    "inputs": [
+     31
+    ],
+    "outputs": [
+     27
+    ],
+    "item": "floor.grill",
+    "scrap": 30
+   },
+   {
+    "id": 27,
+    "inputs": [
+     26
+    ],
+    "outputs": [],
+    "item": "floor.triangle.grill",
+    "scrap": 30
+   },
+   {
+    "id": 103,
+    "inputs": [
+     107
+    ],
+    "outputs": [
+     110
+    ],
+    "item": "salvaged.cleaver",
+    "scrap": 30
+   },
+   {
+    "id": 110,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     104,
+     98,
+     106
+    ],
+    "item": "shotgun.waterpipe",
+    "scrap": 30
+   },
+   {
+    "id": 104,
+    "inputs": [
+     110
+    ],
+    "outputs": [
+     93
+    ],
+    "item": "shotgun.double",
+    "scrap": 60
+   },
+   {
+    "id": 106,
+    "inputs": [
+     110
+    ],
+    "outputs": [
+     96
+    ],
+    "item": "knife.combat",
+    "scrap": 30
+   },
+   {
+    "id": 96,
+    "inputs": [
+     106
+    ],
+    "outputs": [
+     100
+    ],
+    "item": "tool.binoculars",
+    "scrap": 30
+   },
+   {
+    "id": 93,
+    "inputs": [
+     104
+    ],
+    "outputs": [],
+    "item": "guntrap",
+    "scrap": 60
+   },
+   {
+    "id": 100,
+    "inputs": [
+     96
+    ],
+    "outputs": [],
+    "item": "weapon.mod.flashlight",
+    "scrap": 30
+   },
+   {
+    "id": 159,
+    "inputs": [
+     25
+    ],
+    "outputs": [],
+    "item": "weapon.mod.sodacansilencer",
+    "scrap": 15
+   },
+   {
+    "id": 24,
+    "inputs": [
+     111
+    ],
+    "outputs": [
+     95
+    ],
+    "item": "arrow.fire",
+    "scrap": 15
+   },
+   {
+    "id": 134,
+    "inputs": [
+     111
+    ],
+    "outputs": [],
+    "item": "t1_smg",
+    "scrap": 60
+   },
+   {
+    "id": 102,
+    "inputs": [
+     111
+    ],
+    "outputs": [
+     113
+    ],
+    "item": "grenade.beancan",
+    "scrap": 30
+   },
+   {
+    "id": 2,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     3
+    ],
+    "item": "hat.beenie",
+    "scrap": 15
+   },
+   {
+    "id": 3,
+    "inputs": [
+     2
+    ],
+    "outputs": [
+     40,
+     48
+    ],
+    "item": "mask.balaclava",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [
+     3
+    ],
+    "outputs": [
+     42
+    ],
+    "item": "tshirt.long",
+    "scrap": 15
+   },
+   {
+    "id": 40,
+    "inputs": [
+     3
+    ],
+    "outputs": [
+     41
+    ],
+    "item": "hat.miner",
+    "scrap": 15
+   },
+   {
+    "id": 41,
+    "inputs": [
+     40
+    ],
+    "outputs": [],
+    "item": "riot.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 42,
+    "inputs": [
+     48
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "jacket.snow",
+    "scrap": 15
+   },
+   {
+    "id": 43,
+    "inputs": [
+     42,
+     44
+    ],
+    "outputs": [
+     153
+    ],
+    "item": "jacket",
+    "scrap": 15
+   },
+   {
+    "id": 153,
+    "inputs": [
+     43
+    ],
+    "outputs": [],
+    "item": "clothing.mod.armorinsert_wood",
+    "scrap": 60
+   },
+   {
+    "id": 22,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     39,
+     10,
+     11
+    ],
+    "item": "bucket.water",
+    "scrap": 15
+   },
+   {
+    "id": 39,
+    "inputs": [
+     22
+    ],
+    "outputs": [],
+    "item": "bucket.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 60,
+    "inputs": [
+     10
+    ],
+    "outputs": [
+     15,
+     19
+    ],
+    "item": "chair",
+    "scrap": 15
+   },
+   {
+    "id": 10,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     60
+    ],
+    "item": "mailbox",
+    "scrap": 15
+   },
+   {
+    "id": 11,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     138,
+     147,
+     224
+    ],
+    "item": "planter.large",
+    "scrap": 15
+   },
+   {
+    "id": 15,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     58
+    ],
+    "item": "shelves",
+    "scrap": 30
+   },
+   {
+    "id": 58,
+    "inputs": [
+     15
+    ],
+    "outputs": [
+     7
+    ],
+    "item": "bed",
+    "scrap": 30
+   },
+   {
+    "id": 7,
+    "inputs": [
+     58
+    ],
+    "outputs": [],
+    "item": "fireplace.stone",
+    "scrap": 15
+   },
+   {
+    "id": 19,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     182
+    ],
+    "item": "table",
+    "scrap": 15
+   },
+   {
+    "id": 138,
+    "inputs": [
+     11
+    ],
+    "outputs": [],
+    "item": "planter.triangle",
+    "scrap": 15
+   },
+   {
+    "id": 147,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     146
+    ],
+    "item": "chickencoop",
+    "scrap": 15
+   },
+   {
+    "id": 146,
+    "inputs": [
+     147
+    ],
+    "outputs": [
+     63,
+     152
+    ],
+    "item": "beehive",
+    "scrap": 15
+   },
+   {
+    "id": 63,
+    "inputs": [
+     146
+    ],
+    "outputs": [],
+    "item": "mixingtable",
+    "scrap": 30
+   },
+   {
+    "id": 152,
+    "inputs": [
+     146
+    ],
+    "outputs": [
+     194
+    ],
+    "item": "grenade.bee",
+    "scrap": 15
+   },
+   {
+    "id": 108,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     23
+    ],
+    "item": "paddle",
+    "scrap": 15
+   },
+   {
+    "id": 23,
+    "inputs": [
+     108
+    ],
+    "outputs": [
+     122,
+     166
+    ],
+    "item": "kayak",
+    "scrap": 15
+   },
+   {
+    "id": 122,
+    "inputs": [
+     23
+    ],
+    "outputs": [
+     121
+    ],
+    "item": "speargun",
+    "scrap": 15
+   },
+   {
+    "id": 121,
+    "inputs": [
+     122
+    ],
+    "outputs": [],
+    "item": "speargun.spear",
+    "scrap": 15
+   },
+   {
+    "id": 171,
+    "inputs": [
+     174
+    ],
+    "outputs": [
+     167,
+     170
+    ],
+    "item": "sail",
+    "scrap": 15
+   },
+   {
+    "id": 167,
+    "inputs": [
+     171
+    ],
+    "outputs": [],
+    "item": "anchor",
+    "scrap": 15
+   },
+   {
+    "id": 170,
+    "inputs": [
+     171
+    ],
+    "outputs": [
+     172
+    ],
+    "item": "plank",
+    "scrap": 15
+   },
+   {
+    "id": 172,
+    "inputs": [
+     170
+    ],
+    "outputs": [
+     169
+    ],
+    "item": "small_ramp",
+    "scrap": 15
+   },
+   {
+    "id": 168,
+    "inputs": [
+     169
+    ],
+    "outputs": [],
+    "item": "cannon",
+    "scrap": 15
+   },
+   {
+    "id": 169,
+    "inputs": [
+     172
+    ],
+    "outputs": [
+     168
+    ],
+    "item": "cannonball",
+    "scrap": 30
+   },
+   {
+    "id": 182,
+    "inputs": [
+     19
+    ],
+    "outputs": [],
+    "item": "clantable",
+    "scrap": 30
+   },
+   {
+    "id": 187,
+    "inputs": [],
+    "outputs": [],
+    "item": "dart.incapacitate",
+    "scrap": 30
+   },
+   {
+    "id": 188,
+    "inputs": [],
+    "outputs": [],
+    "item": "dart.radiation",
+    "scrap": 30
+   },
+   {
+    "id": 189,
+    "inputs": [],
+    "outputs": [],
+    "item": "dart.scatter",
+    "scrap": 30
+   },
+   {
+    "id": 190,
+    "inputs": [],
+    "outputs": [],
+    "item": "dart.wood",
+    "scrap": 30
+   },
+   {
+    "id": 191,
+    "inputs": [],
+    "outputs": [],
+    "item": "mini fridge",
+    "scrap": 15
+   },
+   {
+    "id": 192,
+    "inputs": [],
+    "outputs": [],
+    "item": "generator.water",
+    "scrap": 60
+   },
+   {
+    "id": 193,
+    "inputs": [],
+    "outputs": [],
+    "item": "blowpipe",
+    "scrap": 30
+   },
+   {
+    "id": 194,
+    "inputs": [
+     152
+    ],
+    "outputs": [],
+    "item": "medical.honey.bandage",
+    "scrap": 15
+   },
+   {
+    "id": 224,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     225
+    ],
+    "item": "wall.animal.fence",
+    "scrap": 15
+   },
+   {
+    "id": 225,
+    "inputs": [
+     224
+    ],
+    "outputs": [
+     223
+    ],
+    "item": "wall.animal.fence.gate",
+    "scrap": 30
+   },
+   {
+    "id": 223,
+    "inputs": [
+     225
+    ],
+    "outputs": [],
+    "item": "generator.biofuel",
+    "scrap": 30
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT0_Primitive",
+  "workbench": 1,
+  "vanilla": false,
+  "eras": [
+   "primitive"
+  ],
+  "nodes": [
+   {
+    "id": 112,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     105,
+     108,
+     129,
+     152
+    ],
+    "item": "hammer.salvaged",
+    "scrap": 30
+   },
+   {
+    "id": 68,
+    "inputs": [
+     87
+    ],
+    "outputs": [
+     84
+    ],
+    "item": "electric.battery.rechargable.small",
+    "scrap": 15
+   },
+   {
+    "id": 87,
+    "inputs": [],
+    "outputs": [
+     68
+    ],
+    "item": "electric.switch",
+    "scrap": 15
+   },
+   {
+    "id": 84,
+    "inputs": [
+     68
+    ],
+    "outputs": [
+     88,
+     79,
+     59,
+     124,
+     130
+    ],
+    "item": "electric.solarpanel.large",
+    "scrap": 30
+   },
+   {
+    "id": 88,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     78
+    ],
+    "item": "electric.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 64,
+    "inputs": [
+     78
+    ],
+    "outputs": [
+     99
+    ],
+    "item": "electric.audioalarm",
+    "scrap": 15
+   },
+   {
+    "id": 99,
+    "inputs": [
+     64
+    ],
+    "outputs": [],
+    "item": "telephone",
+    "scrap": 30
+   },
+   {
+    "id": 78,
+    "inputs": [
+     88
+    ],
+    "outputs": [
+     64
+    ],
+    "item": "electrical.branch",
+    "scrap": 15
+   },
+   {
+    "id": 124,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     126
+    ],
+    "item": "storageadaptor",
+    "scrap": 15
+   },
+   {
+    "id": 126,
+    "inputs": [
+     124
+    ],
+    "outputs": [
+     127
+    ],
+    "item": "industrial.conveyor",
+    "scrap": 15
+   },
+   {
+    "id": 125,
+    "inputs": [
+     127
+    ],
+    "outputs": [],
+    "item": "industrial.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 127,
+    "inputs": [
+     126
+    ],
+    "outputs": [
+     125
+    ],
+    "item": "industrial.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 77,
+    "inputs": [
+     79
+    ],
+    "outputs": [
+     81
+    ],
+    "item": "electric.blocker",
+    "scrap": 15
+   },
+   {
+    "id": 81,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     83
+    ],
+    "item": "electric.orswitch",
+    "scrap": 15
+   },
+   {
+    "id": 83,
+    "inputs": [
+     81
+    ],
+    "outputs": [],
+    "item": "electric.xorswitch",
+    "scrap": 15
+   },
+   {
+    "id": 79,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     77
+    ],
+    "item": "electrical.combiner",
+    "scrap": 30
+   },
+   {
+    "id": 59,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     86,
+     73,
+     91,
+     85
+    ],
+    "item": "ceilinglight",
+    "scrap": 15
+   },
+   {
+    "id": 91,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     72,
+     71
+    ],
+    "item": "electric.timer",
+    "scrap": 15
+   },
+   {
+    "id": 72,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     12
+    ],
+    "item": "electric.doorcontroller",
+    "scrap": 30
+   },
+   {
+    "id": 12,
+    "inputs": [
+     72
+    ],
+    "outputs": [],
+    "item": "electric.igniter",
+    "scrap": 15
+   },
+   {
+    "id": 71,
+    "inputs": [
+     91
+    ],
+    "outputs": [
+     120
+    ],
+    "item": "electric.pressurepad",
+    "scrap": 15
+   },
+   {
+    "id": 85,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.flasherlight",
+    "scrap": 15
+   },
+   {
+    "id": 73,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.heater",
+    "scrap": 30
+   },
+   {
+    "id": 86,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "electric.sirenlight",
+    "scrap": 15
+   },
+   {
+    "id": 120,
+    "inputs": [
+     71
+    ],
+    "outputs": [
+     92
+    ],
+    "item": "electric.button",
+    "scrap": 15
+   },
+   {
+    "id": 92,
+    "inputs": [
+     120
+    ],
+    "outputs": [],
+    "item": "target.reactive",
+    "scrap": 15
+   },
+   {
+    "id": 130,
+    "inputs": [
+     84
+    ],
+    "outputs": [],
+    "item": "metal.detector",
+    "scrap": 30
+   },
+   {
+    "id": 94,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.small",
+    "scrap": 15
+   },
+   {
+    "id": 74,
+    "inputs": [],
+    "outputs": [
+     75
+    ],
+    "item": "fluid.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 75,
+    "inputs": [
+     74
+    ],
+    "outputs": [],
+    "item": "fluid.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 9,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.barrel",
+    "scrap": 15
+   },
+   {
+    "id": 89,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sprinkler",
+    "scrap": 15
+   },
+   {
+    "id": 76,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.switch",
+    "scrap": 15
+   },
+   {
+    "id": 62,
+    "inputs": [],
+    "outputs": [],
+    "item": "fridge",
+    "scrap": 15
+   },
+   {
+    "id": 109,
+    "inputs": [
+     152
+    ],
+    "outputs": [
+     140
+    ],
+    "item": "pickaxe",
+    "scrap": 30
+   },
+   {
+    "id": 152,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     109
+    ],
+    "item": "iotable",
+    "scrap": 60
+   },
+   {
+    "id": 140,
+    "inputs": [
+     109
+    ],
+    "outputs": [
+     114
+    ],
+    "item": "reinforced.wooden.shield",
+    "scrap": 60
+   },
+   {
+    "id": 114,
+    "inputs": [
+     140
+    ],
+    "outputs": [
+     123
+    ],
+    "item": "salvaged.sword",
+    "scrap": 15
+   },
+   {
+    "id": 123,
+    "inputs": [
+     114
+    ],
+    "outputs": [
+     107
+    ],
+    "item": "bow.compound",
+    "scrap": 30
+   },
+   {
+    "id": 107,
+    "inputs": [
+     123
+    ],
+    "outputs": [
+     103
+    ],
+    "item": "mace",
+    "scrap": 30
+   },
+   {
+    "id": 93,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     102
+    ],
+    "item": "guntrap",
+    "scrap": 60
+   },
+   {
+    "id": 102,
+    "inputs": [
+     93
+    ],
+    "outputs": [
+     211
+    ],
+    "item": "grenade.beancan",
+    "scrap": 30
+   },
+   {
+    "id": 211,
+    "inputs": [
+     102
+    ],
+    "outputs": [],
+    "item": "explosive.satchel",
+    "scrap": 60
+   },
+   {
+    "id": 98,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     24
+    ],
+    "item": "flare",
+    "scrap": 15
+   },
+   {
+    "id": 106,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     96
+    ],
+    "item": "knife.combat",
+    "scrap": 30
+   },
+   {
+    "id": 24,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     95
+    ],
+    "item": "arrow.fire",
+    "scrap": 15
+   },
+   {
+    "id": 96,
+    "inputs": [
+     106
+    ],
+    "outputs": [
+     100
+    ],
+    "item": "tool.binoculars",
+    "scrap": 30
+   },
+   {
+    "id": 95,
+    "inputs": [
+     24
+    ],
+    "outputs": [],
+    "item": "flameturret",
+    "scrap": 30
+   },
+   {
+    "id": 100,
+    "inputs": [
+     96
+    ],
+    "outputs": [],
+    "item": "weapon.mod.flashlight",
+    "scrap": 30
+   },
+   {
+    "id": 7,
+    "inputs": [
+     58
+    ],
+    "outputs": [],
+    "item": "fireplace.stone",
+    "scrap": 15
+   },
+   {
+    "id": 22,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     39,
+     10,
+     11
+    ],
+    "item": "bucket.water",
+    "scrap": 15
+   },
+   {
+    "id": 39,
+    "inputs": [
+     22
+    ],
+    "outputs": [],
+    "item": "bucket.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 60,
+    "inputs": [
+     10
+    ],
+    "outputs": [
+     19,
+     15
+    ],
+    "item": "chair",
+    "scrap": 15
+   },
+   {
+    "id": 10,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     60
+    ],
+    "item": "mailbox",
+    "scrap": 15
+   },
+   {
+    "id": 19,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     170
+    ],
+    "item": "table",
+    "scrap": 15
+   },
+   {
+    "id": 15,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     58
+    ],
+    "item": "shelves",
+    "scrap": 30
+   },
+   {
+    "id": 58,
+    "inputs": [
+     15
+    ],
+    "outputs": [
+     7
+    ],
+    "item": "bed",
+    "scrap": 30
+   },
+   {
+    "id": 11,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     149,
+     146,
+     311
+    ],
+    "item": "planter.large",
+    "scrap": 15
+   },
+   {
+    "id": 149,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     148
+    ],
+    "item": "chickencoop",
+    "scrap": 15
+   },
+   {
+    "id": 148,
+    "inputs": [
+     149
+    ],
+    "outputs": [
+     153,
+     63
+    ],
+    "item": "beehive",
+    "scrap": 15
+   },
+   {
+    "id": 146,
+    "inputs": [
+     11
+    ],
+    "outputs": [],
+    "item": "planter.triangle",
+    "scrap": 15
+   },
+   {
+    "id": 63,
+    "inputs": [
+     148
+    ],
+    "outputs": [],
+    "item": "mixingtable",
+    "scrap": 30
+   },
+   {
+    "id": 46,
+    "inputs": [
+     117
+    ],
+    "outputs": [
+     47,
+     2
+    ],
+    "item": "shirt.tanktop",
+    "scrap": 15
+   },
+   {
+    "id": 45,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     4
+    ],
+    "item": "shirt.collared",
+    "scrap": 30
+   },
+   {
+    "id": 47,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     45
+    ],
+    "item": "tshirt",
+    "scrap": 15
+   },
+   {
+    "id": 4,
+    "inputs": [
+     45
+    ],
+    "outputs": [
+     44
+    ],
+    "item": "pants.shorts",
+    "scrap": 15
+   },
+   {
+    "id": 44,
+    "inputs": [
+     4
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "pants",
+    "scrap": 30
+   },
+   {
+    "id": 2,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     3
+    ],
+    "item": "hat.beenie",
+    "scrap": 15
+   },
+   {
+    "id": 3,
+    "inputs": [
+     2
+    ],
+    "outputs": [
+     40,
+     48
+    ],
+    "item": "mask.balaclava",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [
+     3
+    ],
+    "outputs": [
+     42
+    ],
+    "item": "tshirt.long",
+    "scrap": 15
+   },
+   {
+    "id": 40,
+    "inputs": [
+     3
+    ],
+    "outputs": [
+     41
+    ],
+    "item": "hat.miner",
+    "scrap": 15
+   },
+   {
+    "id": 41,
+    "inputs": [
+     40
+    ],
+    "outputs": [],
+    "item": "riot.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 42,
+    "inputs": [
+     48
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "jacket.snow",
+    "scrap": 15
+   },
+   {
+    "id": 43,
+    "inputs": [
+     42,
+     44
+    ],
+    "outputs": [
+     147
+    ],
+    "item": "jacket",
+    "scrap": 15
+   },
+   {
+    "id": 147,
+    "inputs": [
+     43
+    ],
+    "outputs": [],
+    "item": "clothing.mod.armorinsert_wood",
+    "scrap": 60
+   },
+   {
+    "id": 20,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     14
+    ],
+    "item": "tunalight",
+    "scrap": 15
+   },
+   {
+    "id": 14,
+    "inputs": [
+     20
+    ],
+    "outputs": [
+     17
+    ],
+    "item": "rug",
+    "scrap": 15
+   },
+   {
+    "id": 17,
+    "inputs": [
+     14
+    ],
+    "outputs": [
+     13
+    ],
+    "item": "sign.wooden.large",
+    "scrap": 30
+   },
+   {
+    "id": 13,
+    "inputs": [
+     17
+    ],
+    "outputs": [
+     16
+    ],
+    "item": "rug.bear",
+    "scrap": 15
+   },
+   {
+    "id": 16,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "sign.wooden.huge",
+    "scrap": 30
+   },
+   {
+    "id": 18,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     61
+    ],
+    "item": "spinner.wheel",
+    "scrap": 15
+   },
+   {
+    "id": 61,
+    "inputs": [
+     18
+    ],
+    "outputs": [],
+    "item": "dropbox",
+    "scrap": 30
+   },
+   {
+    "id": 54,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     5
+    ],
+    "item": "barricade.wood.cover",
+    "scrap": 15
+   },
+   {
+    "id": 5,
+    "inputs": [
+     54
+    ],
+    "outputs": [
+     55
+    ],
+    "item": "barricade.stone",
+    "scrap": 15
+   },
+   {
+    "id": 55,
+    "inputs": [
+     5
+    ],
+    "outputs": [
+     32
+    ],
+    "item": "barricade.sandbags",
+    "scrap": 15
+   },
+   {
+    "id": 32,
+    "inputs": [
+     55
+    ],
+    "outputs": [
+     31
+    ],
+    "item": "wall.frame.fence",
+    "scrap": 15
+   },
+   {
+    "id": 38,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     30
+    ],
+    "item": "watchtower.wood",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [
+     0
+    ],
+    "outputs": [],
+    "item": "wall.window.bars.metal",
+    "scrap": 30
+   },
+   {
+    "id": 133,
+    "inputs": [
+     57
+    ],
+    "outputs": [],
+    "item": "tincan.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 30,
+    "inputs": [
+     38
+    ],
+    "outputs": [
+     28
+    ],
+    "item": "wall.external.high",
+    "scrap": 60
+   },
+   {
+    "id": 28,
+    "inputs": [
+     30
+    ],
+    "outputs": [
+     141
+    ],
+    "item": "gates.external.high.wood",
+    "scrap": 60
+   },
+   {
+    "id": 141,
+    "inputs": [
+     28
+    ],
+    "outputs": [],
+    "item": "siegetower",
+    "scrap": 15
+   },
+   {
+    "id": 31,
+    "inputs": [
+     32
+    ],
+    "outputs": [
+     26
+    ],
+    "item": "wall.frame.fence.gate",
+    "scrap": 15
+   },
+   {
+    "id": 26,
+    "inputs": [
+     31
+    ],
+    "outputs": [
+     27
+    ],
+    "item": "floor.grill",
+    "scrap": 30
+   },
+   {
+    "id": 27,
+    "inputs": [
+     26
+    ],
+    "outputs": [],
+    "item": "floor.triangle.grill",
+    "scrap": 30
+   },
+   {
+    "id": 105,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     54,
+     20,
+     29
+    ],
+    "item": "hatchet",
+    "scrap": 30
+   },
+   {
+    "id": 117,
+    "inputs": [],
+    "outputs": [
+     112,
+     46,
+     22
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 57,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     133
+    ],
+    "item": "trap.bear",
+    "scrap": 30
+   },
+   {
+    "id": 29,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     6
+    ],
+    "item": "ladder.wooden.wall",
+    "scrap": 60
+   },
+   {
+    "id": 6,
+    "inputs": [
+     29
+    ],
+    "outputs": [
+     56
+    ],
+    "item": "barricade.wood",
+    "scrap": 15
+   },
+   {
+    "id": 56,
+    "inputs": [
+     6
+    ],
+    "outputs": [
+     8
+    ],
+    "item": "barricade.woodwire",
+    "scrap": 30
+   },
+   {
+    "id": 8,
+    "inputs": [
+     56
+    ],
+    "outputs": [
+     38,
+     0,
+     57
+    ],
+    "item": "spikes.floor",
+    "scrap": 15
+   },
+   {
+    "id": 103,
+    "inputs": [
+     107
+    ],
+    "outputs": [
+     93,
+     98,
+     106
+    ],
+    "item": "salvaged.cleaver",
+    "scrap": 30
+   },
+   {
+    "id": 163,
+    "inputs": [
+     161
+    ],
+    "outputs": [],
+    "item": "anchor",
+    "scrap": 15
+   },
+   {
+    "id": 164,
+    "inputs": [
+     161
+    ],
+    "outputs": [
+     165
+    ],
+    "item": "plank",
+    "scrap": 15
+   },
+   {
+    "id": 165,
+    "inputs": [
+     164
+    ],
+    "outputs": [
+     160
+    ],
+    "item": "small_ramp",
+    "scrap": 15
+   },
+   {
+    "id": 160,
+    "inputs": [
+     165
+    ],
+    "outputs": [
+     159
+    ],
+    "item": "cannonball",
+    "scrap": 30
+   },
+   {
+    "id": 159,
+    "inputs": [
+     160
+    ],
+    "outputs": [],
+    "item": "cannon",
+    "scrap": 15
+   },
+   {
+    "id": 161,
+    "inputs": [
+     162
+    ],
+    "outputs": [
+     164,
+     163
+    ],
+    "item": "sail",
+    "scrap": 15
+   },
+   {
+    "id": 162,
+    "inputs": [
+     155
+    ],
+    "outputs": [
+     161
+    ],
+    "item": "steeringwheel.boat",
+    "scrap": 15
+   },
+   {
+    "id": 108,
+    "inputs": [
+     112
+    ],
+    "outputs": [
+     23
+    ],
+    "item": "paddle",
+    "scrap": 15
+   },
+   {
+    "id": 129,
+    "inputs": [
+     112
+    ],
+    "outputs": [],
+    "item": "hab.armor",
+    "scrap": 30
+   },
+   {
+    "id": 23,
+    "inputs": [
+     108
+    ],
+    "outputs": [
+     122,
+     156
+    ],
+    "item": "kayak",
+    "scrap": 15
+   },
+   {
+    "id": 121,
+    "inputs": [
+     122
+    ],
+    "outputs": [],
+    "item": "speargun.spear",
+    "scrap": 15
+   },
+   {
+    "id": 155,
+    "inputs": [
+     156
+    ],
+    "outputs": [
+     162
+    ],
+    "item": "boat.planner",
+    "scrap": 30
+   },
+   {
+    "id": 122,
+    "inputs": [
+     23
+    ],
+    "outputs": [
+     121
+    ],
+    "item": "speargun",
+    "scrap": 15
+   },
+   {
+    "id": 156,
+    "inputs": [
+     23
+    ],
+    "outputs": [
+     155
+    ],
+    "item": "boatbuildingstation",
+    "scrap": 30
+   },
+   {
+    "id": 0,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     34
+    ],
+    "item": "shutter.wood.a",
+    "scrap": 15
+   },
+   {
+    "id": 170,
+    "inputs": [
+     19
+    ],
+    "outputs": [],
+    "item": "clantable",
+    "scrap": 30
+   },
+   {
+    "id": 153,
+    "inputs": [
+     148
+    ],
+    "outputs": [
+     309
+    ],
+    "item": "grenade.bee",
+    "scrap": 15
+   },
+   {
+    "id": 310,
+    "inputs": [
+     311
+    ],
+    "outputs": [
+     312
+    ],
+    "item": "wall.animal.fence.gate",
+    "scrap": 30
+   },
+   {
+    "id": 311,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     310
+    ],
+    "item": "wall.animal.fence",
+    "scrap": 15
+   },
+   {
+    "id": 309,
+    "inputs": [
+     153
+    ],
+    "outputs": [],
+    "item": "medical.honey.bandage",
+    "scrap": 15
+   },
+   {
+    "id": 312,
+    "inputs": [
+     310
+    ],
+    "outputs": [],
+    "item": "generator.biofuel",
+    "scrap": 30
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT1",
+  "workbench": 2,
+  "vanilla": true,
+  "eras": [
+   "none",
+   "primitive"
+  ],
+  "nodes": [
+   {
+    "id": 47,
+    "inputs": [],
+    "outputs": [],
+    "item": "tshirt",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [],
+    "outputs": [],
+    "item": "tshirt.long",
+    "scrap": 15
+   },
+   {
+    "id": 49,
+    "inputs": [],
+    "outputs": [],
+    "item": "carburetor1",
+    "scrap": 15
+   },
+   {
+    "id": 50,
+    "inputs": [],
+    "outputs": [],
+    "item": "crankshaft1",
+    "scrap": 15
+   },
+   {
+    "id": 51,
+    "inputs": [],
+    "outputs": [],
+    "item": "piston1",
+    "scrap": 15
+   },
+   {
+    "id": 52,
+    "inputs": [],
+    "outputs": [],
+    "item": "sparkplug1",
+    "scrap": 15
+   },
+   {
+    "id": 53,
+    "inputs": [],
+    "outputs": [],
+    "item": "valve1",
+    "scrap": 15
+   },
+   {
+    "id": 54,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.wood.cover",
+    "scrap": 15
+   },
+   {
+    "id": 55,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.sandbags",
+    "scrap": 15
+   },
+   {
+    "id": 56,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.woodwire",
+    "scrap": 30
+   },
+   {
+    "id": 57,
+    "inputs": [],
+    "outputs": [],
+    "item": "trap.bear",
+    "scrap": 30
+   },
+   {
+    "id": 58,
+    "inputs": [],
+    "outputs": [],
+    "item": "bed",
+    "scrap": 30
+   },
+   {
+    "id": 59,
+    "inputs": [],
+    "outputs": [],
+    "item": "ceilinglight",
+    "scrap": 15
+   },
+   {
+    "id": 60,
+    "inputs": [],
+    "outputs": [],
+    "item": "chair",
+    "scrap": 15
+   },
+   {
+    "id": 61,
+    "inputs": [],
+    "outputs": [],
+    "item": "dropbox",
+    "scrap": 30
+   },
+   {
+    "id": 62,
+    "inputs": [],
+    "outputs": [],
+    "item": "fridge",
+    "scrap": 15
+   },
+   {
+    "id": 63,
+    "inputs": [],
+    "outputs": [],
+    "item": "mixingtable",
+    "scrap": 30
+   },
+   {
+    "id": 64,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.audioalarm",
+    "scrap": 15
+   },
+   {
+    "id": 65,
+    "inputs": [],
+    "outputs": [],
+    "item": "smart.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 66,
+    "inputs": [],
+    "outputs": [],
+    "item": "smart.switch",
+    "scrap": 15
+   },
+   {
+    "id": 67,
+    "inputs": [],
+    "outputs": [],
+    "item": "storage.monitor",
+    "scrap": 30
+   },
+   {
+    "id": 68,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.battery.rechargable.small",
+    "scrap": 15
+   },
+   {
+    "id": 69,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.button",
+    "scrap": 15
+   },
+   {
+    "id": 70,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.laserdetector",
+    "scrap": 30
+   },
+   {
+    "id": 71,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.pressurepad",
+    "scrap": 15
+   },
+   {
+    "id": 72,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.doorcontroller",
+    "scrap": 30
+   },
+   {
+    "id": 73,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.heater",
+    "scrap": 30
+   },
+   {
+    "id": 74,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.combiner",
+    "scrap": 15
+   },
+   {
+    "id": 75,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 76,
+    "inputs": [],
+    "outputs": [],
+    "item": "fluid.switch",
+    "scrap": 15
+   },
+   {
+    "id": 77,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.blocker",
+    "scrap": 15
+   },
+   {
+    "id": 78,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.branch",
+    "scrap": 15
+   },
+   {
+    "id": 79,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.combiner",
+    "scrap": 30
+   },
+   {
+    "id": 80,
+    "inputs": [],
+    "outputs": [],
+    "item": "electrical.memorycell",
+    "scrap": 30
+   },
+   {
+    "id": 81,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.orswitch",
+    "scrap": 15
+   },
+   {
+    "id": 82,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.random.switch",
+    "scrap": 15
+   },
+   {
+    "id": 83,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.xorswitch",
+    "scrap": 15
+   },
+   {
+    "id": 84,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.solarpanel.large",
+    "scrap": 30
+   },
+   {
+    "id": 85,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.flasherlight",
+    "scrap": 15
+   },
+   {
+    "id": 86,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sirenlight",
+    "scrap": 15
+   },
+   {
+    "id": 87,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.switch",
+    "scrap": 15
+   },
+   {
+    "id": 88,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.splitter",
+    "scrap": 15
+   },
+   {
+    "id": 89,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.sprinkler",
+    "scrap": 15
+   },
+   {
+    "id": 90,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.teslacoil",
+    "scrap": 15
+   },
+   {
+    "id": 91,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.timer",
+    "scrap": 15
+   },
+   {
+    "id": 92,
+    "inputs": [],
+    "outputs": [],
+    "item": "target.reactive",
+    "scrap": 15
+   },
+   {
+    "id": 93,
+    "inputs": [],
+    "outputs": [],
+    "item": "guntrap",
+    "scrap": 60
+   },
+   {
+    "id": 94,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.small",
+    "scrap": 15
+   },
+   {
+    "id": 95,
+    "inputs": [],
+    "outputs": [],
+    "item": "flameturret",
+    "scrap": 30
+   },
+   {
+    "id": 96,
+    "inputs": [],
+    "outputs": [],
+    "item": "tool.binoculars",
+    "scrap": 30
+   },
+   {
+    "id": 97,
+    "inputs": [],
+    "outputs": [],
+    "item": "rf.detonator",
+    "scrap": 15
+   },
+   {
+    "id": 98,
+    "inputs": [],
+    "outputs": [],
+    "item": "flare",
+    "scrap": 15
+   },
+   {
+    "id": 99,
+    "inputs": [],
+    "outputs": [],
+    "item": "telephone",
+    "scrap": 30
+   },
+   {
+    "id": 100,
+    "inputs": [],
+    "outputs": [],
+    "item": "weapon.mod.flashlight",
+    "scrap": 30
+   },
+   {
+    "id": 101,
+    "inputs": [],
+    "outputs": [],
+    "item": "weapon.mod.silencer",
+    "scrap": 30
+   },
+   {
+    "id": 102,
+    "inputs": [],
+    "outputs": [],
+    "item": "grenade.beancan",
+    "scrap": 30
+   },
+   {
+    "id": 103,
+    "inputs": [],
+    "outputs": [],
+    "item": "salvaged.cleaver",
+    "scrap": 30
+   },
+   {
+    "id": 104,
+    "inputs": [],
+    "outputs": [],
+    "item": "shotgun.double",
+    "scrap": 60
+   },
+   {
+    "id": 105,
+    "inputs": [],
+    "outputs": [],
+    "item": "hatchet",
+    "scrap": 30
+   },
+   {
+    "id": 106,
+    "inputs": [],
+    "outputs": [],
+    "item": "knife.combat",
+    "scrap": 30
+   },
+   {
+    "id": 107,
+    "inputs": [],
+    "outputs": [],
+    "item": "mace",
+    "scrap": 30
+   },
+   {
+    "id": 108,
+    "inputs": [],
+    "outputs": [],
+    "item": "paddle",
+    "scrap": 15
+   },
+   {
+    "id": 109,
+    "inputs": [],
+    "outputs": [],
+    "item": "pickaxe",
+    "scrap": 30
+   },
+   {
+    "id": 110,
+    "inputs": [],
+    "outputs": [],
+    "item": "shotgun.waterpipe",
+    "scrap": 30
+   },
+   {
+    "id": 111,
+    "inputs": [],
+    "outputs": [],
+    "item": "pistol.revolver",
+    "scrap": 30
+   },
+   {
+    "id": 112,
+    "inputs": [],
+    "outputs": [],
+    "item": "hammer.salvaged",
+    "scrap": 30
+   },
+   {
+    "id": 113,
+    "inputs": [],
+    "outputs": [],
+    "item": "explosive.satchel",
+    "scrap": 60
+   },
+   {
+    "id": 114,
+    "inputs": [],
+    "outputs": [],
+    "item": "salvaged.sword",
+    "scrap": 15
+   },
+   {
+    "id": 115,
+    "inputs": [],
+    "outputs": [],
+    "item": "horse.armor.roadsign",
+    "scrap": 60
+   },
+   {
+    "id": 116,
+    "inputs": [],
+    "outputs": [],
+    "item": "horse.shoes.advanced",
+    "scrap": 30
+   },
+   {
+    "id": 23,
+    "inputs": [],
+    "outputs": [],
+    "item": "kayak",
+    "scrap": 15
+   },
+   {
+    "id": 24,
+    "inputs": [],
+    "outputs": [],
+    "item": "arrow.fire",
+    "scrap": 15
+   },
+   {
+    "id": 25,
+    "inputs": [],
+    "outputs": [],
+    "item": "ammo.pistol",
+    "scrap": 30
+   },
+   {
+    "id": 26,
+    "inputs": [],
+    "outputs": [],
+    "item": "floor.grill",
+    "scrap": 30
+   },
+   {
+    "id": 27,
+    "inputs": [],
+    "outputs": [],
+    "item": "floor.triangle.grill",
+    "scrap": 30
+   },
+   {
+    "id": 28,
+    "inputs": [],
+    "outputs": [],
+    "item": "gates.external.high.wood",
+    "scrap": 60
+   },
+   {
+    "id": 29,
+    "inputs": [],
+    "outputs": [],
+    "item": "ladder.wooden.wall",
+    "scrap": 60
+   },
+   {
+    "id": 30,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.external.high",
+    "scrap": 60
+   },
+   {
+    "id": 31,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.frame.fence.gate",
+    "scrap": 15
+   },
+   {
+    "id": 32,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.frame.fence",
+    "scrap": 15
+   },
+   {
+    "id": 33,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.frame.garagedoor",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.window.bars.metal",
+    "scrap": 30
+   },
+   {
+    "id": 35,
+    "inputs": [],
+    "outputs": [],
+    "item": "shutter.metal.embrasure.a",
+    "scrap": 15
+   },
+   {
+    "id": 36,
+    "inputs": [],
+    "outputs": [],
+    "item": "shutter.metal.embrasure.b",
+    "scrap": 15
+   },
+   {
+    "id": 12,
+    "inputs": [],
+    "outputs": [],
+    "item": "electric.igniter",
+    "scrap": 15
+   },
+   {
+    "id": 37,
+    "inputs": [],
+    "outputs": [],
+    "item": "wall.window.glass.reinforced",
+    "scrap": 30
+   },
+   {
+    "id": 38,
+    "inputs": [],
+    "outputs": [],
+    "item": "watchtower.wood",
+    "scrap": 30
+   },
+   {
+    "id": 15,
+    "inputs": [],
+    "outputs": [],
+    "item": "shelves",
+    "scrap": 30
+   },
+   {
+    "id": 39,
+    "inputs": [],
+    "outputs": [],
+    "item": "bucket.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 40,
+    "inputs": [],
+    "outputs": [],
+    "item": "hat.miner",
+    "scrap": 15
+   },
+   {
+    "id": 16,
+    "inputs": [],
+    "outputs": [],
+    "item": "sign.wooden.huge",
+    "scrap": 30
+   },
+   {
+    "id": 17,
+    "inputs": [],
+    "outputs": [],
+    "item": "sign.wooden.large",
+    "scrap": 30
+   },
+   {
+    "id": 41,
+    "inputs": [],
+    "outputs": [],
+    "item": "riot.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 42,
+    "inputs": [],
+    "outputs": [],
+    "item": "jacket.snow",
+    "scrap": 15
+   },
+   {
+    "id": 43,
+    "inputs": [],
+    "outputs": [],
+    "item": "jacket",
+    "scrap": 15
+   },
+   {
+    "id": 44,
+    "inputs": [],
+    "outputs": [],
+    "item": "pants",
+    "scrap": 30
+   },
+   {
+    "id": 45,
+    "inputs": [],
+    "outputs": [],
+    "item": "shirt.collared",
+    "scrap": 30
+   },
+   {
+    "id": 46,
+    "inputs": [],
+    "outputs": [],
+    "item": "shirt.tanktop",
+    "scrap": 15
+   },
+   {
+    "id": 117,
+    "inputs": [],
+    "outputs": [],
+    "group": "Entry"
+   },
+   {
+    "id": 0,
+    "inputs": [],
+    "outputs": [],
+    "item": "shutter.wood.a",
+    "scrap": 15
+   },
+   {
+    "id": 1,
+    "inputs": [],
+    "outputs": [],
+    "item": "burlap.gloves",
+    "scrap": 15
+   },
+   {
+    "id": 2,
+    "inputs": [],
+    "outputs": [],
+    "item": "hat.beenie",
+    "scrap": 15
+   },
+   {
+    "id": 3,
+    "inputs": [],
+    "outputs": [],
+    "item": "mask.balaclava",
+    "scrap": 15
+   },
+   {
+    "id": 4,
+    "inputs": [],
+    "outputs": [],
+    "item": "pants.shorts",
+    "scrap": 15
+   },
+   {
+    "id": 5,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.stone",
+    "scrap": 15
+   },
+   {
+    "id": 6,
+    "inputs": [],
+    "outputs": [],
+    "item": "barricade.wood",
+    "scrap": 15
+   },
+   {
+    "id": 7,
+    "inputs": [],
+    "outputs": [],
+    "item": "fireplace.stone",
+    "scrap": 15
+   },
+   {
+    "id": 8,
+    "inputs": [],
+    "outputs": [],
+    "item": "spikes.floor",
+    "scrap": 15
+   },
+   {
+    "id": 9,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.barrel",
+    "scrap": 15
+   },
+   {
+    "id": 10,
+    "inputs": [],
+    "outputs": [],
+    "item": "mailbox",
+    "scrap": 15
+   },
+   {
+    "id": 11,
+    "inputs": [],
+    "outputs": [],
+    "item": "planter.large",
+    "scrap": 15
+   },
+   {
+    "id": 18,
+    "inputs": [],
+    "outputs": [],
+    "item": "spinner.wheel",
+    "scrap": 15
+   },
+   {
+    "id": 19,
+    "inputs": [],
+    "outputs": [],
+    "item": "table",
+    "scrap": 15
+   },
+   {
+    "id": 20,
+    "inputs": [],
+    "outputs": [],
+    "item": "tunalight",
+    "scrap": 15
+   },
+   {
+    "id": 21,
+    "inputs": [],
+    "outputs": [],
+    "item": "fun.guitar",
+    "scrap": 15
+   },
+   {
+    "id": 22,
+    "inputs": [],
+    "outputs": [],
+    "item": "bucket.water",
+    "scrap": 15
+   },
+   {
+    "id": 14,
+    "inputs": [],
+    "outputs": [],
+    "item": "rug",
+    "scrap": 15
+   },
+   {
+    "id": 13,
+    "inputs": [],
+    "outputs": [],
+    "item": "rug.bear",
+    "scrap": 15
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT2",
+  "workbench": 2,
+  "vanilla": true,
+  "eras": [
+   "none"
+  ],
+  "nodes": [
+   {
+    "id": 29,
+    "inputs": [],
+    "outputs": [],
+    "item": "metalblade",
+    "scrap": 30
+   },
+   {
+    "id": 30,
+    "inputs": [],
+    "outputs": [],
+    "item": "propanetank",
+    "scrap": 30
+   },
+   {
+    "id": 58,
+    "inputs": [],
+    "outputs": [],
+    "item": "surveycharge",
+    "scrap": 120
+   },
+   {
+    "id": 43,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     50
+    ],
+    "item": "electric.hbhfsensor",
+    "scrap": 30
+   },
+   {
+    "id": 47,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     48,
+     102,
+     103
+    ],
+    "item": "electric.fuelgenerator.small",
+    "scrap": 30
+   },
+   {
+    "id": 102,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     42
+    ],
+    "item": "electrical.memorycell",
+    "scrap": 30
+   },
+   {
+    "id": 98,
+    "inputs": [
+     44
+    ],
+    "outputs": [
+     99,
+     100,
+     101
+    ],
+    "item": "smart.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 101,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     34
+    ],
+    "item": "electric.laserdetector",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [
+     101
+    ],
+    "outputs": [],
+    "item": "elevator",
+    "scrap": 60
+   },
+   {
+    "id": 99,
+    "inputs": [
+     98
+    ],
+    "outputs": [],
+    "item": "smart.switch",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     49
+    ],
+    "item": "powered.water.purifier",
+    "scrap": 30
+   },
+   {
+    "id": 49,
+    "inputs": [
+     48
+    ],
+    "outputs": [],
+    "item": "waterpump",
+    "scrap": 30
+   },
+   {
+    "id": 104,
+    "inputs": [
+     44
+    ],
+    "outputs": [],
+    "item": "electric.teslacoil",
+    "scrap": 15
+   },
+   {
+    "id": 33,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     122,
+     123
+    ],
+    "item": "computerstation",
+    "scrap": 30
+   },
+   {
+    "id": 105,
+    "inputs": [
+     57
+    ],
+    "outputs": [
+     45
+    ],
+    "item": "rf.detonator",
+    "scrap": 15
+   },
+   {
+    "id": 57,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     105
+    ],
+    "item": "rf_pager",
+    "scrap": 15
+   },
+   {
+    "id": 45,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     46
+    ],
+    "item": "electric.rf.broadcaster",
+    "scrap": 15
+   },
+   {
+    "id": 103,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "electric.random.switch",
+    "scrap": 15
+   },
+   {
+    "id": 46,
+    "inputs": [
+     45
+    ],
+    "outputs": [
+     33
+    ],
+    "item": "electric.rf.receiver",
+    "scrap": 15
+   },
+   {
+    "id": 50,
+    "inputs": [
+     43
+    ],
+    "outputs": [
+     118
+    ],
+    "item": "searchlight",
+    "scrap": 30
+   },
+   {
+    "id": 118,
+    "inputs": [
+     50
+    ],
+    "outputs": [
+     40
+    ],
+    "item": "electric.furnace",
+    "scrap": 30
+   },
+   {
+    "id": 40,
+    "inputs": [
+     118
+    ],
+    "outputs": [
+     119
+    ],
+    "item": "electric.battery.rechargable.large",
+    "scrap": 30
+   },
+   {
+    "id": 119,
+    "inputs": [
+     40
+    ],
+    "outputs": [
+     52
+    ],
+    "item": "industrial.crafter",
+    "scrap": 30
+   },
+   {
+    "id": 53,
+    "inputs": [
+     122,
+     123
+    ],
+    "outputs": [],
+    "item": "autoturret",
+    "scrap": 120
+   },
+   {
+    "id": 123,
+    "inputs": [
+     33
+    ],
+    "outputs": [
+     53
+    ],
+    "item": "drone",
+    "scrap": 60
+   },
+   {
+    "id": 122,
+    "inputs": [
+     33
+    ],
+    "outputs": [
+     53
+    ],
+    "item": "ptz.cctv.camera",
+    "scrap": 30
+   },
+   {
+    "id": 26,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "piston2",
+    "scrap": 15
+   },
+   {
+    "id": 27,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "sparkplug2",
+    "scrap": 15
+   },
+   {
+    "id": 28,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "valve2",
+    "scrap": 15
+   },
+   {
+    "id": 24,
+    "inputs": [
+     38
+    ],
+    "outputs": [
+     59,
+     61,
+     62,
+     63,
+     65
+    ],
+    "item": "carburetor2",
+    "scrap": 15
+   },
+   {
+    "id": 25,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "crankshaft2",
+    "scrap": 15
+   },
+   {
+    "id": 59,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     60
+    ],
+    "item": "vehicle.1mod.cockpit",
+    "scrap": 60
+   },
+   {
+    "id": 62,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     66
+    ],
+    "item": "vehicle.1mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 63,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     68
+    ],
+    "item": "vehicle.1mod.rear.seats",
+    "scrap": 60
+   },
+   {
+    "id": 61,
+    "inputs": [
+     24
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.engine",
+    "scrap": 60
+   },
+   {
+    "id": 65,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     113
+    ],
+    "item": "vehicle.1mod.taxi",
+    "scrap": 60
+   },
+   {
+    "id": 67,
+    "inputs": [
+     66
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.fuel.tank",
+    "scrap": 60
+   },
+   {
+    "id": 66,
+    "inputs": [
+     62
+    ],
+    "outputs": [
+     64,
+     67
+    ],
+    "item": "vehicle.2mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 60,
+    "inputs": [
+     59
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.cockpit.with.engine",
+    "scrap": 60
+   },
+   {
+    "id": 64,
+    "inputs": [
+     66
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.storage",
+    "scrap": 60
+   },
+   {
+    "id": 38,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ],
+    "item": "modularcarlift",
+    "scrap": 60
+   },
+   {
+    "id": 68,
+    "inputs": [
+     63
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.passengers",
+    "scrap": 60
+   },
+   {
+    "id": 113,
+    "inputs": [
+     65
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.camper",
+    "scrap": 60
+   },
+   {
+    "id": 44,
+    "inputs": [
+     42
+    ],
+    "outputs": [
+     98,
+     104
+    ],
+    "item": "electric.andswitch",
+    "scrap": 15
+   },
+   {
+    "id": 42,
+    "inputs": [
+     102
+    ],
+    "outputs": [
+     44,
+     132
+    ],
+    "item": "electric.counter",
+    "scrap": 30
+   },
+   {
+    "id": 132,
+    "inputs": [
+     42
+    ],
+    "outputs": [],
+    "item": "electric.digitalclock",
+    "scrap": 30
+   },
+   {
+    "id": 52,
+    "inputs": [
+     119
+    ],
+    "outputs": [],
+    "item": "generator.wind.scrap",
+    "scrap": 60
+   },
+   {
+    "id": 127,
+    "inputs": [
+     100
+    ],
+    "outputs": [],
+    "item": "electric.seismicsensor",
+    "scrap": 30
+   },
+   {
+    "id": 100,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     127
+    ],
+    "item": "storage.monitor",
+    "scrap": 30
+   },
+   {
+    "id": 41,
+    "inputs": [],
+    "outputs": [
+     47,
+     57,
+     38
+    ],
+    "item": "electric.battery.rechargable.medium",
+    "scrap": 30
+   },
+   {
+    "id": 51,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.large",
+    "scrap": 30
+   },
+   {
+    "id": 22,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     56,
+     21,
+     16
+    ],
+    "item": "hazmatsuit",
+    "scrap": 60
+   },
+   {
+    "id": 82,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     76
+    ],
+    "item": "longsword",
+    "scrap": 30
+   },
+   {
+    "id": 55,
+    "inputs": [
+     56
+    ],
+    "outputs": [],
+    "item": "largemedkit",
+    "scrap": 30
+   },
+   {
+    "id": 56,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     55
+    ],
+    "item": "syringe.medical",
+    "scrap": 30
+   },
+   {
+    "id": 21,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     14
+    ],
+    "item": "shoes.boots",
+    "scrap": 30
+   },
+   {
+    "id": 23,
+    "inputs": [
+     14
+    ],
+    "outputs": [
+     15,
+     17,
+     19
+    ],
+    "item": "roadsign.jacket",
+    "scrap": 30
+   },
+   {
+    "id": 16,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     13,
+     125,
+     161
+    ],
+    "item": "hoodie",
+    "scrap": 30
+   },
+   {
+    "id": 14,
+    "inputs": [
+     21
+    ],
+    "outputs": [
+     23
+    ],
+    "item": "coffeecan.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 20,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     15,
+     17,
+     19
+    ],
+    "item": "roadsign.kilt",
+    "scrap": 30
+   },
+   {
+    "id": 13,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     20,
+     108
+    ],
+    "item": "roadsign.gloves",
+    "scrap": 15
+   },
+   {
+    "id": 36,
+    "inputs": [
+     78
+    ],
+    "outputs": [
+     79
+    ],
+    "item": "trap.landmine",
+    "scrap": 60
+   },
+   {
+    "id": 78,
+    "inputs": [
+     5
+    ],
+    "outputs": [
+     36
+    ],
+    "item": "shotgun.pump",
+    "scrap": 60
+   },
+   {
+    "id": 79,
+    "inputs": [
+     36
+    ],
+    "outputs": [
+     72,
+     116
+    ],
+    "item": "pistol.semiauto",
+    "scrap": 60
+   },
+   {
+    "id": 72,
+    "inputs": [
+     79
+    ],
+    "outputs": [
+     74,
+     117
+    ],
+    "item": "grenade.f1",
+    "scrap": 30
+   },
+   {
+    "id": 74,
+    "inputs": [
+     72
+    ],
+    "outputs": [
+     155,
+     163,
+     135
+    ],
+    "item": "pistol.python",
+    "scrap": 60
+   },
+   {
+    "id": 155,
+    "inputs": [
+     74
+    ],
+    "outputs": [
+     154
+    ],
+    "item": "batteringram",
+    "scrap": 30
+   },
+   {
+    "id": 163,
+    "inputs": [
+     74
+    ],
+    "outputs": [],
+    "item": "weapon.mod.oilfiltersilencer",
+    "scrap": 15
+   },
+   {
+    "id": 154,
+    "inputs": [
+     155
+    ],
+    "outputs": [
+     152,
+     159,
+     153,
+     149,
+     150,
+     151
+    ],
+    "item": "ballista.static",
+    "scrap": 30
+   },
+   {
+    "id": 152,
+    "inputs": [
+     154
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.pitchfork",
+    "scrap": 30
+   },
+   {
+    "id": 159,
+    "inputs": [
+     154
+    ],
+    "outputs": [
+     158,
+     73,
+     1
+    ],
+    "item": "catapult",
+    "scrap": 60
+   },
+   {
+    "id": 158,
+    "inputs": [
+     159
+    ],
+    "outputs": [
+     157,
+     269
+    ],
+    "item": "catapult.ammo.boulder",
+    "scrap": 30
+   },
+   {
+    "id": 73,
+    "inputs": [
+     159
+    ],
+    "outputs": [
+     70,
+     69,
+     0
+    ],
+    "item": "flamethrower",
+    "scrap": 60
+   },
+   {
+    "id": 157,
+    "inputs": [
+     158
+    ],
+    "outputs": [],
+    "item": "catapult.ammo.incendiary",
+    "scrap": 30
+   },
+   {
+    "id": 69,
+    "inputs": [
+     73
+    ],
+    "outputs": [
+     81
+    ],
+    "item": "weapon.mod.muzzleboost",
+    "scrap": 60
+   },
+   {
+    "id": 81,
+    "inputs": [
+     69
+    ],
+    "outputs": [
+     106
+    ],
+    "item": "smg.2",
+    "scrap": 60
+   },
+   {
+    "id": 76,
+    "inputs": [
+     82
+    ],
+    "outputs": [
+     77
+    ],
+    "item": "axe.salvaged",
+    "scrap": 60
+   },
+   {
+    "id": 70,
+    "inputs": [
+     1,
+     73
+    ],
+    "outputs": [
+     83
+    ],
+    "item": "weapon.mod.muzzlebrake",
+    "scrap": 60
+   },
+   {
+    "id": 83,
+    "inputs": [
+     70
+    ],
+    "outputs": [
+     106,
+     2
+    ],
+    "item": "smg.thompson",
+    "scrap": 60
+   },
+   {
+    "id": 77,
+    "inputs": [
+     76
+    ],
+    "outputs": [
+     95,
+     31,
+     11,
+     160
+    ],
+    "item": "icepick.salvaged",
+    "scrap": 60
+   },
+   {
+    "id": 95,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     96
+    ],
+    "item": "shutter.metal.embrasure.a",
+    "scrap": 15
+   },
+   {
+    "id": 11,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     12
+    ],
+    "item": "wall.frame.cell.gate",
+    "scrap": 30
+   },
+   {
+    "id": 160,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     5
+    ],
+    "item": "metal.shield",
+    "scrap": 60
+   },
+   {
+    "id": 5,
+    "inputs": [
+     160
+    ],
+    "outputs": [
+     78,
+     7
+    ],
+    "item": "ammo.shotgun",
+    "scrap": 30
+   },
+   {
+    "id": 96,
+    "inputs": [
+     95
+    ],
+    "outputs": [
+     97
+    ],
+    "item": "shutter.metal.embrasure.b",
+    "scrap": 15
+   },
+   {
+    "id": 12,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     9,
+     131
+    ],
+    "item": "wall.frame.cell",
+    "scrap": 30
+   },
+   {
+    "id": 31,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     32
+    ],
+    "item": "barricade.concrete",
+    "scrap": 15
+   },
+   {
+    "id": 32,
+    "inputs": [
+     31
+    ],
+    "outputs": [],
+    "item": "barricade.metal",
+    "scrap": 60
+   },
+   {
+    "id": 7,
+    "inputs": [
+     5
+    ],
+    "outputs": [
+     6
+    ],
+    "item": "ammo.shotgun.slug",
+    "scrap": 30
+   },
+   {
+    "id": 6,
+    "inputs": [
+     7
+    ],
+    "outputs": [],
+    "item": "ammo.shotgun.fire",
+    "scrap": 30
+   },
+   {
+    "id": 97,
+    "inputs": [
+     96
+    ],
+    "outputs": [
+     94
+    ],
+    "item": "wall.window.glass.reinforced",
+    "scrap": 30
+   },
+   {
+    "id": 116,
+    "inputs": [
+     79
+    ],
+    "outputs": [],
+    "item": "grenade.molotov",
+    "scrap": 30
+   },
+   {
+    "id": 117,
+    "inputs": [
+     72
+    ],
+    "outputs": [],
+    "item": "grenade.flashbang",
+    "scrap": 30
+   },
+   {
+    "id": 153,
+    "inputs": [
+     154
+    ],
+    "outputs": [],
+    "item": "ballista.mounted",
+    "scrap": 30
+   },
+   {
+    "id": 1,
+    "inputs": [
+     159
+    ],
+    "outputs": [
+     70,
+     0
+    ],
+    "item": "ammo.pistol.hv",
+    "scrap": 60
+   },
+   {
+    "id": 94,
+    "inputs": [
+     97
+    ],
+    "outputs": [],
+    "item": "wall.frame.garagedoor",
+    "scrap": 30
+   },
+   {
+    "id": 131,
+    "inputs": [
+     12
+    ],
+    "outputs": [
+     8
+    ],
+    "item": "handcuffs",
+    "scrap": 30
+   },
+   {
+    "id": 8,
+    "inputs": [
+     131
+    ],
+    "outputs": [
+     37
+    ],
+    "item": "floor.ladder.hatch",
+    "scrap": 60
+   },
+   {
+    "id": 37,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     35
+    ],
+    "item": "locker",
+    "scrap": 30
+   },
+   {
+    "id": 35,
+    "inputs": [
+     37
+    ],
+    "outputs": [
+     71,
+     270
+    ],
+    "item": "furnace.large",
+    "scrap": 60
+   },
+   {
+    "id": 71,
+    "inputs": [
+     35
+    ],
+    "outputs": [],
+    "item": "chainsaw",
+    "scrap": 60
+   },
+   {
+    "id": 270,
+    "inputs": [
+     35
+    ],
+    "outputs": [
+     39
+    ],
+    "item": "cookingworkbench",
+    "scrap": 30
+   },
+   {
+    "id": 39,
+    "inputs": [
+     270
+    ],
+    "outputs": [
+     10
+    ],
+    "item": "small.oil.refinery",
+    "scrap": 30
+   },
+   {
+    "id": 10,
+    "inputs": [
+     39
+    ],
+    "outputs": [
+     110
+    ],
+    "item": "wall.external.high.stone",
+    "scrap": 120
+   },
+   {
+    "id": 110,
+    "inputs": [
+     10
+    ],
+    "outputs": [],
+    "item": "gates.external.high.stone",
+    "scrap": 120
+   },
+   {
+    "id": 9,
+    "inputs": [
+     12
+    ],
+    "outputs": [],
+    "item": "floor.triangle.ladder.hatch",
+    "scrap": 60
+   },
+   {
+    "id": 19,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.pants",
+    "scrap": 60
+   },
+   {
+    "id": 17,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.jacket",
+    "scrap": 60
+   },
+   {
+    "id": 15,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.helmet",
+    "scrap": 60
+   },
+   {
+    "id": 18,
+    "inputs": [
+     15,
+     17,
+     19
+    ],
+    "outputs": [],
+    "item": "nightvisiongoggles",
+    "scrap": 60
+   },
+   {
+    "id": 125,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     136
+    ],
+    "item": "parachute",
+    "scrap": 60
+   },
+   {
+    "id": 136,
+    "inputs": [
+     125
+    ],
+    "outputs": [
+     271
+    ],
+    "item": "skidoo",
+    "scrap": 30
+   },
+   {
+    "id": 161,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     162
+    ],
+    "item": "clothing.mod.armorinsert_asbestos",
+    "scrap": 60
+   },
+   {
+    "id": 162,
+    "inputs": [
+     161
+    ],
+    "outputs": [],
+    "item": "clothing.mod.armorinsert_lead",
+    "scrap": 60
+   },
+   {
+    "id": 108,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     109
+    ],
+    "item": "horse.armor.roadsign",
+    "scrap": 60
+   },
+   {
+    "id": 109,
+    "inputs": [
+     108
+    ],
+    "outputs": [],
+    "item": "horse.shoes.advanced",
+    "scrap": 30
+   },
+   {
+    "id": 269,
+    "inputs": [
+     158
+    ],
+    "outputs": [],
+    "item": "catapult.ammo.bee",
+    "scrap": 30
+   },
+   {
+    "id": 151,
+    "inputs": [
+     154
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.piercer",
+    "scrap": 30
+   },
+   {
+    "id": 150,
+    "inputs": [
+     154
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.incendiary",
+    "scrap": 30
+   },
+   {
+    "id": 149,
+    "inputs": [
+     154
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.hammerhead",
+    "scrap": 30
+   },
+   {
+    "id": 106,
+    "inputs": [
+     81,
+     83
+    ],
+    "outputs": [
+     156
+    ],
+    "item": "grenade.smoke",
+    "scrap": 30
+   },
+   {
+    "id": 156,
+    "inputs": [
+     106
+    ],
+    "outputs": [
+     80,
+     272
+    ],
+    "item": "catapult.ammo.explosive",
+    "scrap": 30
+   },
+   {
+    "id": 80,
+    "inputs": [
+     156
+    ],
+    "outputs": [
+     107,
+     115
+    ],
+    "item": "rifle.semiauto",
+    "scrap": 60
+   },
+   {
+    "id": 107,
+    "inputs": [
+     80
+    ],
+    "outputs": [
+     75,
+     126,
+     133,
+     164
+    ],
+    "item": "weapon.mod.holosight",
+    "scrap": 60
+   },
+   {
+    "id": 115,
+    "inputs": [
+     80
+    ],
+    "outputs": [],
+    "item": "weapon.mod.extendedmags",
+    "scrap": 60
+   },
+   {
+    "id": 164,
+    "inputs": [
+     107
+    ],
+    "outputs": [],
+    "item": "weapon.mod.targetingattachment",
+    "scrap": 60
+   },
+   {
+    "id": 133,
+    "inputs": [
+     107
+    ],
+    "outputs": [],
+    "item": "weapon.mod.gascompressionovedrive",
+    "scrap": 60
+   },
+   {
+    "id": 75,
+    "inputs": [
+     107
+    ],
+    "outputs": [
+     3,
+     4,
+     54
+    ],
+    "item": "rocket.launcher",
+    "scrap": 120
+   },
+   {
+    "id": 4,
+    "inputs": [
+     75
+    ],
+    "outputs": [
+     112
+    ],
+    "item": "ammo.rocket.hv",
+    "scrap": 60
+   },
+   {
+    "id": 54,
+    "inputs": [
+     75
+    ],
+    "outputs": [],
+    "item": "ammo.rocket.sam",
+    "scrap": 30
+   },
+   {
+    "id": 3,
+    "inputs": [
+     75
+    ],
+    "outputs": [],
+    "item": "ammo.rocket.fire",
+    "scrap": 60
+   },
+   {
+    "id": 112,
+    "inputs": [
+     4
+    ],
+    "outputs": [],
+    "item": "submarine.torpedo.straight",
+    "scrap": 30
+   },
+   {
+    "id": 126,
+    "inputs": [
+     107
+    ],
+    "outputs": [
+     124
+    ],
+    "item": "homingmissile.launcher",
+    "scrap": 60
+   },
+   {
+    "id": 124,
+    "inputs": [
+     126
+    ],
+    "outputs": [],
+    "item": "ammo.rocket.seeker",
+    "scrap": 60
+   },
+   {
+    "id": 84,
+    "inputs": [],
+    "outputs": [
+     22,
+     82
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 271,
+    "inputs": [
+     136
+    ],
+    "outputs": [],
+    "item": "smallengine",
+    "scrap": 15
+   },
+   {
+    "id": 0,
+    "inputs": [
+     1,
+     73
+    ],
+    "outputs": [],
+    "item": "ammo.pistol.fire",
+    "scrap": 60
+   },
+   {
+    "id": 2,
+    "inputs": [
+     83
+    ],
+    "outputs": [],
+    "item": "ammo.rifle",
+    "scrap": 60
+   },
+   {
+    "id": 135,
+    "inputs": [
+     74
+    ],
+    "outputs": [],
+    "item": "revolver.hc",
+    "scrap": 60
+   },
+   {
+    "id": 273,
+    "inputs": [
+     272
+    ],
+    "outputs": [],
+    "item": "ammo.mortar.basic",
+    "scrap": 30
+   },
+   {
+    "id": 274,
+    "inputs": [
+     272
+    ],
+    "outputs": [],
+    "item": "ammo.mortar.fragment",
+    "scrap": 30
+   },
+   {
+    "id": 272,
+    "inputs": [
+     156
+    ],
+    "outputs": [
+     273,
+     274
+    ],
+    "item": "mortar.deployable",
+    "scrap": 60
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT2_Primitive",
+  "workbench": 2,
+  "vanilla": false,
+  "eras": [
+   "primitive"
+  ],
+  "nodes": [
+   {
+    "id": 29,
+    "inputs": [],
+    "outputs": [],
+    "item": "metalblade",
+    "scrap": 30
+   },
+   {
+    "id": 30,
+    "inputs": [],
+    "outputs": [],
+    "item": "propanetank",
+    "scrap": 30
+   },
+   {
+    "id": 58,
+    "inputs": [],
+    "outputs": [],
+    "item": "surveycharge",
+    "scrap": 120
+   },
+   {
+    "id": 22,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     56,
+     21,
+     16
+    ],
+    "item": "hazmatsuit",
+    "scrap": 60
+   },
+   {
+    "id": 73,
+    "inputs": [],
+    "outputs": [],
+    "item": "flamethrower",
+    "scrap": 60
+   },
+   {
+    "id": 256,
+    "inputs": [],
+    "outputs": [],
+    "item": "ammo.rocket.sam",
+    "scrap": 30
+   },
+   {
+    "id": 112,
+    "inputs": [],
+    "outputs": [],
+    "item": "submarine.torpedo.straight",
+    "scrap": 30
+   },
+   {
+    "id": 43,
+    "inputs": [
+     103
+    ],
+    "outputs": [
+     50
+    ],
+    "item": "electric.hbhfsensor",
+    "scrap": 30
+   },
+   {
+    "id": 47,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     48,
+     102,
+     103
+    ],
+    "item": "electric.fuelgenerator.small",
+    "scrap": 30
+   },
+   {
+    "id": 102,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     42
+    ],
+    "item": "electrical.memorycell",
+    "scrap": 30
+   },
+   {
+    "id": 98,
+    "inputs": [
+     44
+    ],
+    "outputs": [
+     99,
+     100,
+     101
+    ],
+    "item": "smart.alarm",
+    "scrap": 30
+   },
+   {
+    "id": 101,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     34
+    ],
+    "item": "electric.laserdetector",
+    "scrap": 30
+   },
+   {
+    "id": 34,
+    "inputs": [
+     101
+    ],
+    "outputs": [],
+    "item": "elevator",
+    "scrap": 60
+   },
+   {
+    "id": 99,
+    "inputs": [
+     98
+    ],
+    "outputs": [],
+    "item": "smart.switch",
+    "scrap": 15
+   },
+   {
+    "id": 48,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     49
+    ],
+    "item": "powered.water.purifier",
+    "scrap": 30
+   },
+   {
+    "id": 49,
+    "inputs": [
+     48
+    ],
+    "outputs": [],
+    "item": "waterpump",
+    "scrap": 30
+   },
+   {
+    "id": 104,
+    "inputs": [
+     44
+    ],
+    "outputs": [],
+    "item": "electric.teslacoil",
+    "scrap": 15
+   },
+   {
+    "id": 33,
+    "inputs": [
+     46
+    ],
+    "outputs": [
+     122,
+     123
+    ],
+    "item": "computerstation",
+    "scrap": 30
+   },
+   {
+    "id": 105,
+    "inputs": [
+     57
+    ],
+    "outputs": [
+     45
+    ],
+    "item": "rf.detonator",
+    "scrap": 15
+   },
+   {
+    "id": 57,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     105
+    ],
+    "item": "rf_pager",
+    "scrap": 15
+   },
+   {
+    "id": 45,
+    "inputs": [
+     105
+    ],
+    "outputs": [
+     46
+    ],
+    "item": "electric.rf.broadcaster",
+    "scrap": 15
+   },
+   {
+    "id": 103,
+    "inputs": [
+     47
+    ],
+    "outputs": [
+     43
+    ],
+    "item": "electric.random.switch",
+    "scrap": 15
+   },
+   {
+    "id": 46,
+    "inputs": [
+     45
+    ],
+    "outputs": [
+     33
+    ],
+    "item": "electric.rf.receiver",
+    "scrap": 15
+   },
+   {
+    "id": 50,
+    "inputs": [
+     43
+    ],
+    "outputs": [
+     118
+    ],
+    "item": "searchlight",
+    "scrap": 30
+   },
+   {
+    "id": 118,
+    "inputs": [
+     50
+    ],
+    "outputs": [
+     40
+    ],
+    "item": "electric.furnace",
+    "scrap": 30
+   },
+   {
+    "id": 40,
+    "inputs": [
+     118
+    ],
+    "outputs": [
+     119
+    ],
+    "item": "electric.battery.rechargable.large",
+    "scrap": 30
+   },
+   {
+    "id": 119,
+    "inputs": [
+     40
+    ],
+    "outputs": [
+     52
+    ],
+    "item": "industrial.crafter",
+    "scrap": 30
+   },
+   {
+    "id": 53,
+    "inputs": [
+     122,
+     123
+    ],
+    "outputs": [],
+    "item": "autoturret",
+    "scrap": 120
+   },
+   {
+    "id": 123,
+    "inputs": [
+     33
+    ],
+    "outputs": [
+     53
+    ],
+    "item": "drone",
+    "scrap": 60
+   },
+   {
+    "id": 122,
+    "inputs": [
+     33
+    ],
+    "outputs": [
+     53
+    ],
+    "item": "ptz.cctv.camera",
+    "scrap": 30
+   },
+   {
+    "id": 26,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "piston2",
+    "scrap": 15
+   },
+   {
+    "id": 27,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "sparkplug2",
+    "scrap": 15
+   },
+   {
+    "id": 28,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "valve2",
+    "scrap": 15
+   },
+   {
+    "id": 24,
+    "inputs": [
+     38
+    ],
+    "outputs": [
+     59,
+     61,
+     62,
+     63,
+     65
+    ],
+    "item": "carburetor2",
+    "scrap": 15
+   },
+   {
+    "id": 25,
+    "inputs": [
+     38
+    ],
+    "outputs": [],
+    "item": "crankshaft2",
+    "scrap": 15
+   },
+   {
+    "id": 59,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     60
+    ],
+    "item": "vehicle.1mod.cockpit",
+    "scrap": 60
+   },
+   {
+    "id": 62,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     66
+    ],
+    "item": "vehicle.1mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 63,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     68
+    ],
+    "item": "vehicle.1mod.rear.seats",
+    "scrap": 60
+   },
+   {
+    "id": 61,
+    "inputs": [
+     24
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.engine",
+    "scrap": 60
+   },
+   {
+    "id": 65,
+    "inputs": [
+     24
+    ],
+    "outputs": [
+     113
+    ],
+    "item": "vehicle.1mod.taxi",
+    "scrap": 60
+   },
+   {
+    "id": 66,
+    "inputs": [
+     62
+    ],
+    "outputs": [
+     64,
+     67
+    ],
+    "item": "vehicle.2mod.flatbed",
+    "scrap": 60
+   },
+   {
+    "id": 60,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     162
+    ],
+    "item": "vehicle.1mod.cockpit.with.engine",
+    "scrap": 60
+   },
+   {
+    "id": 64,
+    "inputs": [
+     66
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.storage",
+    "scrap": 60
+   },
+   {
+    "id": 38,
+    "inputs": [
+     41
+    ],
+    "outputs": [
+     24,
+     25,
+     26,
+     27,
+     28
+    ],
+    "item": "modularcarlift",
+    "scrap": 60
+   },
+   {
+    "id": 68,
+    "inputs": [
+     63
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.passengers",
+    "scrap": 60
+   },
+   {
+    "id": 113,
+    "inputs": [
+     65
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.camper",
+    "scrap": 60
+   },
+   {
+    "id": 127,
+    "inputs": [
+     100
+    ],
+    "outputs": [],
+    "item": "electric.seismicsensor",
+    "scrap": 30
+   },
+   {
+    "id": 100,
+    "inputs": [
+     98
+    ],
+    "outputs": [
+     127
+    ],
+    "item": "storage.monitor",
+    "scrap": 30
+   },
+   {
+    "id": 44,
+    "inputs": [
+     42
+    ],
+    "outputs": [
+     98,
+     104
+    ],
+    "item": "electric.andswitch",
+    "scrap": 15
+   },
+   {
+    "id": 42,
+    "inputs": [
+     102
+    ],
+    "outputs": [
+     44,
+     132
+    ],
+    "item": "electric.counter",
+    "scrap": 30
+   },
+   {
+    "id": 132,
+    "inputs": [
+     42
+    ],
+    "outputs": [],
+    "item": "electric.digitalclock",
+    "scrap": 30
+   },
+   {
+    "id": 52,
+    "inputs": [
+     119
+    ],
+    "outputs": [],
+    "item": "generator.wind.scrap",
+    "scrap": 60
+   },
+   {
+    "id": 162,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     163
+    ],
+    "item": "vehicle.1mod.cockpit.armored",
+    "scrap": 60
+   },
+   {
+    "id": 163,
+    "inputs": [
+     162
+    ],
+    "outputs": [
+     154,
+     155,
+     156,
+     157,
+     153
+    ],
+    "item": "vehicle.1mod.passengers.armored",
+    "scrap": 60
+   },
+   {
+    "id": 67,
+    "inputs": [
+     66
+    ],
+    "outputs": [],
+    "item": "vehicle.2mod.fuel.tank",
+    "scrap": 60
+   },
+   {
+    "id": 155,
+    "inputs": [
+     163
+    ],
+    "outputs": [],
+    "item": "piston3",
+    "scrap": 15
+   },
+   {
+    "id": 154,
+    "inputs": [
+     163
+    ],
+    "outputs": [],
+    "item": "crankshaft3",
+    "scrap": 15
+   },
+   {
+    "id": 156,
+    "inputs": [
+     163
+    ],
+    "outputs": [],
+    "item": "sparkplug3",
+    "scrap": 15
+   },
+   {
+    "id": 157,
+    "inputs": [
+     163
+    ],
+    "outputs": [],
+    "item": "valve3",
+    "scrap": 15
+   },
+   {
+    "id": 153,
+    "inputs": [
+     163
+    ],
+    "outputs": [],
+    "item": "carburetor3",
+    "scrap": 15
+   },
+   {
+    "id": 41,
+    "inputs": [],
+    "outputs": [
+     47,
+     57,
+     38
+    ],
+    "item": "electric.battery.rechargable.medium",
+    "scrap": 30
+   },
+   {
+    "id": 51,
+    "inputs": [],
+    "outputs": [],
+    "item": "water.catcher.large",
+    "scrap": 30
+   },
+   {
+    "id": 56,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     55
+    ],
+    "item": "syringe.medical",
+    "scrap": 30
+   },
+   {
+    "id": 21,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     14
+    ],
+    "item": "shoes.boots",
+    "scrap": 30
+   },
+   {
+    "id": 16,
+    "inputs": [
+     22
+    ],
+    "outputs": [
+     13,
+     125
+    ],
+    "item": "hoodie",
+    "scrap": 30
+   },
+   {
+    "id": 55,
+    "inputs": [
+     56
+    ],
+    "outputs": [],
+    "item": "largemedkit",
+    "scrap": 30
+   },
+   {
+    "id": 14,
+    "inputs": [
+     21
+    ],
+    "outputs": [
+     23
+    ],
+    "item": "coffeecan.helmet",
+    "scrap": 30
+   },
+   {
+    "id": 13,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     20,
+     108
+    ],
+    "item": "roadsign.gloves",
+    "scrap": 15
+   },
+   {
+    "id": 136,
+    "inputs": [
+     125
+    ],
+    "outputs": [
+     267
+    ],
+    "item": "skidoo",
+    "scrap": 30
+   },
+   {
+    "id": 108,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     109
+    ],
+    "item": "horse.armor.roadsign",
+    "scrap": 60
+   },
+   {
+    "id": 20,
+    "inputs": [
+     13
+    ],
+    "outputs": [
+     15,
+     17,
+     19
+    ],
+    "item": "roadsign.kilt",
+    "scrap": 30
+   },
+   {
+    "id": 125,
+    "inputs": [
+     16
+    ],
+    "outputs": [
+     136
+    ],
+    "item": "parachute",
+    "scrap": 60
+   },
+   {
+    "id": 23,
+    "inputs": [
+     14
+    ],
+    "outputs": [
+     15,
+     17,
+     19
+    ],
+    "item": "roadsign.jacket",
+    "scrap": 30
+   },
+   {
+    "id": 109,
+    "inputs": [
+     108
+    ],
+    "outputs": [],
+    "item": "horse.shoes.advanced",
+    "scrap": 30
+   },
+   {
+    "id": 15,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.helmet",
+    "scrap": 60
+   },
+   {
+    "id": 17,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.jacket",
+    "scrap": 60
+   },
+   {
+    "id": 19,
+    "inputs": [
+     20,
+     23
+    ],
+    "outputs": [
+     18
+    ],
+    "item": "heavy.plate.pants",
+    "scrap": 60
+   },
+   {
+    "id": 18,
+    "inputs": [
+     15,
+     17,
+     19
+    ],
+    "outputs": [],
+    "item": "nightvisiongoggles",
+    "scrap": 60
+   },
+   {
+    "id": 76,
+    "inputs": [
+     82
+    ],
+    "outputs": [
+     77
+    ],
+    "item": "axe.salvaged",
+    "scrap": 60
+   },
+   {
+    "id": 82,
+    "inputs": [
+     84
+    ],
+    "outputs": [
+     76,
+     258
+    ],
+    "item": "longsword",
+    "scrap": 30
+   },
+   {
+    "id": 77,
+    "inputs": [
+     76
+    ],
+    "outputs": [
+     95,
+     31,
+     11,
+     148
+    ],
+    "item": "icepick.salvaged",
+    "scrap": 60
+   },
+   {
+    "id": 258,
+    "inputs": [
+     82
+    ],
+    "outputs": [
+     259
+    ],
+    "item": "clothing.mod.armorinsert_asbestos",
+    "scrap": 60
+   },
+   {
+    "id": 259,
+    "inputs": [
+     258
+    ],
+    "outputs": [],
+    "item": "clothing.mod.armorinsert_lead",
+    "scrap": 60
+   },
+   {
+    "id": 148,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     116,
+     147
+    ],
+    "item": "metal.shield",
+    "scrap": 60
+   },
+   {
+    "id": 95,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     96
+    ],
+    "item": "shutter.metal.embrasure.a",
+    "scrap": 15
+   },
+   {
+    "id": 11,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     12
+    ],
+    "item": "wall.frame.cell.gate",
+    "scrap": 30
+   },
+   {
+    "id": 31,
+    "inputs": [
+     77
+    ],
+    "outputs": [
+     32
+    ],
+    "item": "barricade.concrete",
+    "scrap": 15
+   },
+   {
+    "id": 32,
+    "inputs": [
+     31
+    ],
+    "outputs": [],
+    "item": "barricade.metal",
+    "scrap": 60
+   },
+   {
+    "id": 12,
+    "inputs": [
+     11
+    ],
+    "outputs": [
+     9,
+     131
+    ],
+    "item": "wall.frame.cell",
+    "scrap": 30
+   },
+   {
+    "id": 9,
+    "inputs": [
+     12
+    ],
+    "outputs": [],
+    "item": "floor.triangle.ladder.hatch",
+    "scrap": 60
+   },
+   {
+    "id": 131,
+    "inputs": [
+     12
+    ],
+    "outputs": [
+     8
+    ],
+    "item": "handcuffs",
+    "scrap": 30
+   },
+   {
+    "id": 96,
+    "inputs": [
+     95
+    ],
+    "outputs": [
+     97
+    ],
+    "item": "shutter.metal.embrasure.b",
+    "scrap": 15
+   },
+   {
+    "id": 116,
+    "inputs": [
+     148
+    ],
+    "outputs": [
+     117
+    ],
+    "item": "grenade.molotov",
+    "scrap": 30
+   },
+   {
+    "id": 147,
+    "inputs": [
+     148
+    ],
+    "outputs": [
+     257
+    ],
+    "item": "trap.landmine",
+    "scrap": 60
+   },
+   {
+    "id": 257,
+    "inputs": [
+     147
+    ],
+    "outputs": [
+     252
+    ],
+    "item": "minicrossbow",
+    "scrap": 30
+   },
+   {
+    "id": 117,
+    "inputs": [
+     116
+    ],
+    "outputs": [
+     106
+    ],
+    "item": "grenade.flashbang",
+    "scrap": 30
+   },
+   {
+    "id": 97,
+    "inputs": [
+     96
+    ],
+    "outputs": [
+     94
+    ],
+    "item": "wall.window.glass.reinforced",
+    "scrap": 30
+   },
+   {
+    "id": 8,
+    "inputs": [
+     131
+    ],
+    "outputs": [
+     37
+    ],
+    "item": "floor.ladder.hatch",
+    "scrap": 60
+   },
+   {
+    "id": 252,
+    "inputs": [
+     257
+    ],
+    "outputs": [
+     254
+    ],
+    "item": "ballista.bolt.pitchfork",
+    "scrap": 30
+   },
+   {
+    "id": 255,
+    "inputs": [
+     254
+    ],
+    "outputs": [
+     253
+    ],
+    "item": "batteringram",
+    "scrap": 30
+   },
+   {
+    "id": 253,
+    "inputs": [
+     255
+    ],
+    "outputs": [
+     140
+    ],
+    "item": "ballista.mounted",
+    "scrap": 30
+   },
+   {
+    "id": 140,
+    "inputs": [
+     253
+    ],
+    "outputs": [
+     139
+    ],
+    "item": "catapult",
+    "scrap": 60
+   },
+   {
+    "id": 250,
+    "inputs": [
+     254
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.incendiary",
+    "scrap": 30
+   },
+   {
+    "id": 251,
+    "inputs": [
+     254
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.piercer",
+    "scrap": 30
+   },
+   {
+    "id": 249,
+    "inputs": [
+     254
+    ],
+    "outputs": [],
+    "item": "ballista.bolt.hammerhead",
+    "scrap": 30
+   },
+   {
+    "id": 138,
+    "inputs": [
+     139
+    ],
+    "outputs": [
+     201
+    ],
+    "item": "catapult.ammo.incendiary",
+    "scrap": 30
+   },
+   {
+    "id": 201,
+    "inputs": [
+     138
+    ],
+    "outputs": [
+     137
+    ],
+    "item": "explosives",
+    "scrap": 120
+   },
+   {
+    "id": 139,
+    "inputs": [
+     140
+    ],
+    "outputs": [
+     138,
+     260
+    ],
+    "item": "catapult.ammo.boulder",
+    "scrap": 30
+   },
+   {
+    "id": 137,
+    "inputs": [
+     201
+    ],
+    "outputs": [],
+    "item": "catapult.ammo.explosive",
+    "scrap": 30
+   },
+   {
+    "id": 260,
+    "inputs": [
+     139
+    ],
+    "outputs": [],
+    "item": "catapult.ammo.bee",
+    "scrap": 30
+   },
+   {
+    "id": 35,
+    "inputs": [
+     37
+    ],
+    "outputs": [
+     261
+    ],
+    "item": "furnace.large",
+    "scrap": 60
+   },
+   {
+    "id": 10,
+    "inputs": [
+     39
+    ],
+    "outputs": [
+     110
+    ],
+    "item": "wall.external.high.stone",
+    "scrap": 120
+   },
+   {
+    "id": 110,
+    "inputs": [
+     10
+    ],
+    "outputs": [],
+    "item": "gates.external.high.stone",
+    "scrap": 120
+   },
+   {
+    "id": 39,
+    "inputs": [
+     261
+    ],
+    "outputs": [
+     10
+    ],
+    "item": "small.oil.refinery",
+    "scrap": 30
+   },
+   {
+    "id": 261,
+    "inputs": [
+     35
+    ],
+    "outputs": [
+     39
+    ],
+    "item": "cookingworkbench",
+    "scrap": 30
+   },
+   {
+    "id": 106,
+    "inputs": [
+     117
+    ],
+    "outputs": [],
+    "item": "grenade.smoke",
+    "scrap": 30
+   },
+   {
+    "id": 94,
+    "inputs": [
+     97
+    ],
+    "outputs": [],
+    "item": "wall.frame.garagedoor",
+    "scrap": 30
+   },
+   {
+    "id": 84,
+    "inputs": [],
+    "outputs": [
+     22,
+     82
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 37,
+    "inputs": [
+     8
+    ],
+    "outputs": [
+     35
+    ],
+    "item": "locker",
+    "scrap": 30
+   },
+   {
+    "id": 254,
+    "inputs": [
+     252
+    ],
+    "outputs": [
+     249,
+     250,
+     251,
+     255
+    ],
+    "item": "ballista.static",
+    "scrap": 30
+   },
+   {
+    "id": 267,
+    "inputs": [
+     136
+    ],
+    "outputs": [],
+    "item": "smallengine",
+    "scrap": 15
+   }
+  ]
+ },
+ {
+  "name": "TechTreeT3",
+  "workbench": 3,
+  "vanilla": true,
+  "eras": [
+   "none",
+   "primitive"
+  ],
+  "nodes": [
+   {
+    "id": 45,
+    "inputs": [],
+    "outputs": [],
+    "item": "gears",
+    "scrap": 60
+   },
+   {
+    "id": 46,
+    "inputs": [],
+    "outputs": [],
+    "item": "metalpipe",
+    "scrap": 60
+   },
+   {
+    "id": 47,
+    "inputs": [],
+    "outputs": [],
+    "item": "roadsigns",
+    "scrap": 30
+   },
+   {
+    "id": 48,
+    "inputs": [],
+    "outputs": [],
+    "item": "sewingkit",
+    "scrap": 30
+   },
+   {
+    "id": 49,
+    "inputs": [],
+    "outputs": [],
+    "item": "metalspring",
+    "scrap": 60
+   },
+   {
+    "id": 37,
+    "inputs": [
+     60
+    ],
+    "outputs": [
+     35,
+     62
+    ],
+    "item": "wall.window.bars.toptier",
+    "scrap": 60
+   },
+   {
+    "id": 32,
+    "inputs": [
+     55
+    ],
+    "outputs": [
+     31
+    ],
+    "item": "ammo.rifle.hv",
+    "scrap": 60
+   },
+   {
+    "id": 31,
+    "inputs": [
+     32
+    ],
+    "outputs": [
+     59
+    ],
+    "item": "ammo.rifle.incendiary",
+    "scrap": 60
+   },
+   {
+    "id": 59,
+    "inputs": [
+     31
+    ],
+    "outputs": [
+     30,
+     38,
+     39
+    ],
+    "item": "smg.mp5",
+    "scrap": 120
+   },
+   {
+    "id": 62,
+    "inputs": [
+     37
+    ],
+    "outputs": [
+     55
+    ],
+    "item": "rifle.sks",
+    "scrap": 60
+   },
+   {
+    "id": 44,
+    "inputs": [],
+    "outputs": [
+     52,
+     53
+    ],
+    "item": "valve3",
+    "scrap": 15
+   },
+   {
+    "id": 43,
+    "inputs": [],
+    "outputs": [
+     52,
+     53
+    ],
+    "item": "sparkplug3",
+    "scrap": 15
+   },
+   {
+    "id": 52,
+    "inputs": [
+     40,
+     41,
+     42,
+     43,
+     44
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.cockpit.armored",
+    "scrap": 60
+   },
+   {
+    "id": 53,
+    "inputs": [
+     40,
+     41,
+     42,
+     43,
+     44
+    ],
+    "outputs": [],
+    "item": "vehicle.1mod.passengers.armored",
+    "scrap": 60
+   },
+   {
+    "id": 42,
+    "inputs": [],
+    "outputs": [
+     52,
+     53
+    ],
+    "item": "piston3",
+    "scrap": 15
+   },
+   {
+    "id": 41,
+    "inputs": [],
+    "outputs": [
+     52,
+     53
+    ],
+    "item": "crankshaft3",
+    "scrap": 15
+   },
+   {
+    "id": 40,
+    "inputs": [],
+    "outputs": [
+     52,
+     53
+    ],
+    "item": "carburetor3",
+    "scrap": 15
+   },
+   {
+    "id": 60,
+    "inputs": [],
+    "outputs": [
+     37
+    ],
+    "group": "Entry"
+   },
+   {
+    "id": 35,
+    "inputs": [
+     37
+    ],
+    "outputs": [
+     34
+    ],
+    "item": "door.hinged.toptier",
+    "scrap": 120
+   },
+   {
+    "id": 34,
+    "inputs": [
+     35
+    ],
+    "outputs": [
+     63,
+     65
+    ],
+    "item": "door.double.hinged.toptier",
+    "scrap": 120
+   },
+   {
+    "id": 55,
+    "inputs": [
+     62
+    ],
+    "outputs": [
+     32
+    ],
+    "item": "weapon.mod.lasersight",
+    "scrap": 60
+   },
+   {
+    "id": 39,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     61
+    ],
+    "item": "metal.plate.torso",
+    "scrap": 120
+   },
+   {
+    "id": 30,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     50
+    ],
+    "item": "ammo.rifle.explosive",
+    "scrap": 60
+   },
+   {
+    "id": 38,
+    "inputs": [
+     59
+    ],
+    "outputs": [
+     61
+    ],
+    "item": "metal.facemask",
+    "scrap": 120
+   },
+   {
+    "id": 61,
+    "inputs": [
+     38,
+     39
+    ],
+    "outputs": [
+     57
+    ],
+    "item": "hmlmg",
+    "scrap": 120
+   },
+   {
+    "id": 57,
+    "inputs": [
+     61
+    ],
+    "outputs": [
+     58
+    ],
+    "item": "rifle.ak",
+    "scrap": 120
+   },
+   {
+    "id": 58,
+    "inputs": [
+     57
+    ],
+    "outputs": [
+     56
+    ],
+    "item": "rifle.bolt",
+    "scrap": 120
+   },
+   {
+    "id": 56,
+    "inputs": [
+     58
+    ],
+    "outputs": [],
+    "item": "weapon.mod.small.scope",
+    "scrap": 60
+   },
+   {
+    "id": 51,
+    "inputs": [
+     50
+    ],
+    "outputs": [
+     33
+    ],
+    "item": "explosive.timed",
+    "scrap": 120
+   },
+   {
+    "id": 33,
+    "inputs": [
+     51
+    ],
+    "outputs": [],
+    "item": "ammo.rocket.basic",
+    "scrap": 60
+   },
+   {
+    "id": 50,
+    "inputs": [
+     30
+    ],
+    "outputs": [
+     51
+    ],
+    "item": "explosives",
+    "scrap": 120
+   },
+   {
+    "id": 63,
+    "inputs": [
+     34
+    ],
+    "outputs": [],
+    "item": "floor.ladder.hatch.toptier",
+    "scrap": 60
+   },
+   {
+    "id": 65,
+    "inputs": [
+     34
+    ],
+    "outputs": [],
+    "item": "floor.triangle.ladder.hatch.toptier",
+    "scrap": 60
+   }
+  ]
+ }
+]

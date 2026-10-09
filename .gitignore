@@ -2,3 +2,8 @@
 /depots/
 /game/
 __pycache__/
+/package/node_modules/
+/package/dist/
+/package/bun.lock
+/new-data/
+notes.md
