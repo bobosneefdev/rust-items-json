@@ -126,7 +126,7 @@ class Game:
         self._by_class = defaultdict(list)
         self.prefabs: dict[str, list[tuple[str | None, str, dict]]] = defaultdict(list)
         for n, f in self.files.items():
-            in_prefabs = n.startswith("BuildPlayer-AssetScene-prefabs")
+            in_prefabs = n.startswith("BuildPlayer-AssetScene-") and not n.endswith(".sharedAssets")
             for pid, o in f.objects.items():
                 if o.type.name != "MonoBehaviour":
                     continue

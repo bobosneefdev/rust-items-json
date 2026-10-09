@@ -75,21 +75,6 @@
      "chance": 0.1
     },
     {
-     "table": "MedievalRoll",
-     "rolls": 3,
-     "chance": 1.0
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 2,
-     "chance": 0.5
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 1,
-     "chance": 0.25
-    },
-    {
      "table": "MetalPlateInsert",
      "rolls": 1,
      "chance": 1.0
@@ -184,21 +169,6 @@
      "table": "minigun with ammo",
      "rolls": 1,
      "chance": 0.1
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 3,
-     "chance": 1.0
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 2,
-     "chance": 0.5
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 1,
-     "chance": 0.25
     },
     {
      "table": "MetalPlateInsert",
@@ -437,10 +407,183 @@
    "scrap": 5,
    "class": "LootContainer"
   },
+  "assets/bundled/prefabs/radtown/crate_cannons.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.MedicalCrate",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.MedicalCrate",
+     "rolls": 1,
+     "chance": 0.33
+    },
+    {
+     "table": "AmmoStandard",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "AmmoStandard",
+     "rolls": 1,
+     "chance": 0.5
+    },
+    {
+     "table": "CannonBalls",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "Tools_Island",
+     "rolls": 1,
+     "chance": 0.33
+    }
+   ],
+   "scrap": 5,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_elite.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "LootSpawn.RadTownElite",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "Collection.Weapons",
+     "rolls": 1,
+     "chance": 0.65
+    },
+    {
+     "table": "MLRSAmmo",
+     "rolls": 1,
+     "chance": 0.2
+    },
+    {
+     "table": "advanceblueprintfragmentlootsingle",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.075
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.1
+    }
+   ],
+   "scrap": 25,
+   "class": "LootContainer"
+  },
   "assets/bundled/prefabs/radtown/crate_mine.prefab": {
    "type": "generic",
    "table": "LootSpawn.MineCrate",
    "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_normal.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "supply.signal",
+     "rolls": 1,
+     "chance": 0.01
+    },
+    {
+     "table": "LargeBackpack",
+     "rolls": 1,
+     "chance": 0.05
+    },
+    {
+     "table": "MetalPlateInsert",
+     "rolls": 1,
+     "chance": 0.05
+    },
+    {
+     "table": "basicblueprintfragmentloot_single",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "WorkbenchUpgrades.Medium",
+     "rolls": 1,
+     "chance": 0.05
+    },
+    {
+     "table": "HeavyFuse",
+     "rolls": 1,
+     "chance": 0.06
+    }
+   ],
+   "scrap": 8,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_normal_2.prefab": {
+   "type": "town",
+   "slots": [
+    {
+     "table": "LootSpawn.Components.Tier2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_1",
+     "rolls": 1,
+     "chance": 0.4
+    },
+    {
+     "table": "Radsuit",
+     "rolls": 1,
+     "chance": 0.04
+    },
+    {
+     "table": "diving",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 0,
+     "chance": 0.04
+    },
+    {
+     "table": "Collection",
+     "rolls": 1,
+     "chance": 0.15
+    },
+    {
+     "table": "WorkbenchUpgrades.Low",
+     "rolls": 1,
+     "chance": 0.025
+    },
+    {
+     "table": "HeavyFuse",
+     "rolls": 1,
+     "chance": 0.03
+    }
+   ],
+   "scrap": 5,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": {
@@ -453,6 +596,12 @@
    "type": "town",
    "table": "DM.LootSpawn.MedicalCrate",
    "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/crate_shore.prefab": {
+   "type": "town",
+   "table": "LootSpawn.FoodBox",
+   "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_tools.prefab": {
@@ -587,6 +736,20 @@
    "rolls": 2,
    "class": "LootContainer"
   },
+  "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Barrel",
+   "rolls": 1,
+   "scrap": 2,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.Barrel",
+   "rolls": 1,
+   "scrap": 2,
+   "class": "LootContainer"
+  },
   "assets/bundled/prefabs/radtown/loot_component_test.prefab": {
    "type": "roadside",
    "table": "LootSpawn.Components.Tier1",
@@ -602,6 +765,12 @@
   "assets/bundled/prefabs/radtown/minecart.prefab": {
    "type": "generic",
    "table": "LootSpawn.MineCrate",
+   "rolls": 1,
+   "class": "LootContainer"
+  },
+  "assets/bundled/prefabs/radtown/oil_barrel.prefab": {
+   "type": "roadside",
+   "table": "LootSpawn.OilBarrel",
    "rolls": 1,
    "class": "LootContainer"
   },
@@ -952,19 +1121,100 @@
      "chance": 0.1
     },
     {
-     "table": "MedievalRoll",
-     "rolls": 3,
+     "table": "MetalPlateInsert",
+     "rolls": 1,
      "chance": 1.0
     },
     {
-     "table": "MedievalRoll",
-     "rolls": 2,
+     "table": "ResourceRoll_Components",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "RifleAmmoCollection",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "HighendRifles",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "advanceblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ItemModsRareChance",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "TurretParts",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "autoturret#2",
+     "rolls": 1,
+     "chance": 0.1
+    },
+    {
+     "table": "LootSpawn.RadTown1",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchTier_2",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "WorkbenchUpgrades.High",
+     "rolls": 1,
+     "chance": 0.125
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.5
+    }
+   ],
+   "class": "HackableLockedCrate"
+  },
+  "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_ghostship.prefab": {
+   "type": "generic",
+   "slots": [
+    {
+     "table": "Workbench_Experiment_Tier_3",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRare",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 0.3
+    },
+    {
+     "table": "aiming.module.mlrs",
+     "rolls": 1,
      "chance": 0.5
     },
     {
-     "table": "MedievalRoll",
+     "table": "minigun with ammo",
      "rolls": 1,
-     "chance": 0.25
+     "chance": 0.1
     },
     {
      "table": "MetalPlateInsert",
@@ -1063,21 +1313,6 @@
      "chance": 0.1
     },
     {
-     "table": "MedievalRoll",
-     "rolls": 3,
-     "chance": 1.0
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 2,
-     "chance": 0.5
-    },
-    {
-     "table": "MedievalRoll",
-     "rolls": 1,
-     "chance": 0.25
-    },
-    {
      "table": "MetalPlateInsert",
      "rolls": 1,
      "chance": 1.0
@@ -1174,6 +1409,72 @@
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
+  },
+  "assets/prefabs/misc/supply drop/supply_drop.prefab": {
+   "type": "airdrop",
+   "slots": [
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRoll",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "GunRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "Ammo",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ResourceRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "ArmorRoll",
+     "rolls": 2,
+     "chance": 1.0
+    },
+    {
+     "table": "GunRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "Ammo",
+     "rolls": 3,
+     "chance": 1.0
+    },
+    {
+     "table": "ToolRoll",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "basicblueprintfragmentloot",
+     "rolls": 1,
+     "chance": 1.0
+    },
+    {
+     "table": "BallisticArmor",
+     "rolls": 1,
+     "chance": 0.25
+    }
+   ],
+   "class": "SupplyDrop"
   },
   "assets/prefabs/misc/xmas/giftbox/giftbox_loot.prefab": {
    "type": "generic",
@@ -1583,6 +1884,22 @@
     }
    ]
   },
+  "AmmoStandard": {
+   "pick": [
+    {
+     "table": "PistolRegular",
+     "weight": 40
+    },
+    {
+     "table": "RifleRegular",
+     "weight": 40
+    },
+    {
+     "table": "Shotgun",
+     "weight": 10
+    }
+   ]
+  },
   "Apple": {
    "items": [
     {
@@ -1695,105 +2012,6 @@
      "item": "arrow.fire",
      "min": 3.0,
      "max": 6.0
-    }
-   ]
-  },
-  "Ballista": {
-   "items": [
-    {
-     "item": "ballista.mounted",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "ballista.bolt.piercer",
-     "min": 3.0,
-     "max": 3.0
-    }
-   ]
-  },
-  "BallistaAmmo": {
-   "pick": [
-    {
-     "table": "BallistaAmmo_Fire",
-     "weight": 100,
-     "extra": 2
-    },
-    {
-     "table": "BallistaAmmo_Piercer",
-     "weight": 100,
-     "extra": 3
-    },
-    {
-     "table": "BallistaAmmo_Pitchfork",
-     "weight": 100,
-     "extra": 2
-    },
-    {
-     "table": "BallistaAmmo_Hammerhead",
-     "weight": 100
-    }
-   ]
-  },
-  "BallistaAmmo_Fire": {
-   "items": [
-    {
-     "item": "ballista.bolt.incendiary",
-     "min": 5.0,
-     "max": 10.0
-    }
-   ]
-  },
-  "BallistaAmmo_Hammerhead": {
-   "items": [
-    {
-     "item": "ballista.bolt.hammerhead",
-     "min": 5.0,
-     "max": 10.0
-    }
-   ]
-  },
-  "BallistaAmmo_Piercer": {
-   "items": [
-    {
-     "item": "ballista.bolt.piercer",
-     "min": 5.0,
-     "max": 10.0
-    }
-   ]
-  },
-  "BallistaAmmo_Pitchfork": {
-   "items": [
-    {
-     "item": "ballista.bolt.pitchfork",
-     "min": 5.0,
-     "max": 10.0
-    }
-   ]
-  },
-  "BallistaStatic": {
-   "items": [
-    {
-     "item": "ballista.static",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "ballista.bolt.piercer",
-     "min": 3.0,
-     "max": 3.0
-    }
-   ]
-  },
-  "Ballistas": {
-   "pick": [
-    {
-     "table": "BallistaStatic",
-     "weight": 60
-    },
-    {
-     "table": "Ballista",
-     "weight": 40
     }
    ]
   },
@@ -1914,20 +2132,6 @@
     }
    ]
   },
-  "BatteringRam": {
-   "items": [
-    {
-     "item": "batteringram",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "metal.refined",
-     "min": 80.0,
-     "max": 200.0
-    }
-   ]
-  },
   "Binoculars": {
    "items": [
     {
@@ -2043,50 +2247,11 @@
     }
    ]
   },
-  "Catapult": {
+  "CannonBalls": {
    "items": [
     {
-     "item": "catapult",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "catapult.ammo.boulder",
+     "item": "cannonball",
      "min": 8.0,
-     "max": 12.0
-    },
-    {
-     "item": "catapult.ammo.incendiary",
-     "min": 2.0,
-     "max": 4.0
-    },
-    {
-     "item": "catapult.ammo.explosive",
-     "min": 2.0,
-     "max": 4.0
-    }
-   ]
-  },
-  "Catapult Ammo": {
-   "items": [
-    {
-     "item": "catapult",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "catapult.ammo.boulder",
-     "min": 15.0,
-     "max": 20.0
-    },
-    {
-     "item": "catapult.ammo.incendiary",
-     "min": 8.0,
-     "max": 10.0
-    },
-    {
-     "item": "catapult.ammo.explosive",
-     "min": 6.0,
      "max": 12.0
     }
    ]
@@ -3991,20 +4156,6 @@
     }
    ]
   },
-  "HorseStuff": {
-   "items": [
-    {
-     "item": "horse.shoes.advanced",
-     "min": 2.0,
-     "max": 3.0
-    },
-    {
-     "item": "horse.armor.roadsign",
-     "min": 1.0,
-     "max": 2.0
-    }
-   ]
-  },
   "IceFences": {
    "items": [
     {
@@ -4111,30 +4262,6 @@
     }
    ]
   },
-  "KnightLoadouts": {
-   "items": [
-    {
-     "item": "minicrossbow",
-     "min": 2.0,
-     "max": 3.0
-    },
-    {
-     "item": "arrow.fire",
-     "min": 10.0,
-     "max": 15.0
-    },
-    {
-     "item": "metal.shield",
-     "min": 1.0,
-     "max": 2.0
-    },
-    {
-     "item": "salvaged.sword",
-     "min": 1.0,
-     "max": 1.0
-    }
-   ]
-  },
   "L96 Scope Ammo": {
    "items": [
     {
@@ -4165,6 +4292,15 @@
      "item": "ammo.rifle",
      "min": 20.0,
      "max": 20.0
+    }
+   ]
+  },
+  "LargeBackpack": {
+   "items": [
+    {
+     "item": "largebackpack",
+     "min": 1.0,
+     "max": 1.0
     }
    ]
   },
@@ -4723,42 +4859,6 @@
      "item": "mace",
      "min": 1.0,
      "max": 1.0
-    }
-   ]
-  },
-  "MedievalRoll": {
-   "pick": [
-    {
-     "table": "Ballistas",
-     "weight": 100
-    },
-    {
-     "table": "BallistaAmmo",
-     "weight": 100
-    },
-    {
-     "table": "HorseStuff",
-     "weight": 100
-    },
-    {
-     "table": "KnightLoadouts",
-     "weight": 100
-    },
-    {
-     "table": "BatteringRam",
-     "weight": 100
-    },
-    {
-     "table": "Catapult",
-     "weight": 100
-    },
-    {
-     "table": "SiegeTower",
-     "weight": 100
-    },
-    {
-     "table": "Catapult Ammo",
-     "weight": 100
     }
    ]
   },
@@ -5457,30 +5557,6 @@
     }
    ]
   },
-  "SiegeTower": {
-   "items": [
-    {
-     "item": "siegetower",
-     "min": 1.0,
-     "max": 1.0
-    },
-    {
-     "item": "wood",
-     "min": 5000.0,
-     "max": 5000.0
-    },
-    {
-     "item": "metal.shield",
-     "min": 3.0,
-     "max": 3.0
-    },
-    {
-     "item": "salvaged.sword",
-     "min": 3.0,
-     "max": 3.0
-    }
-   ]
-  },
   "SirenLight": {
    "items": [
     {
@@ -5800,6 +5876,22 @@
     },
     {
      "table": "stone.pickaxe",
+     "weight": 1
+    }
+   ]
+  },
+  "Tools_Island": {
+   "pick": [
+    {
+     "table": "Hatchet",
+     "weight": 1
+    },
+    {
+     "table": "pickaxe",
+     "weight": 1
+    },
+    {
+     "table": "metal.detector",
      "weight": 1
     }
    ]
@@ -7210,6 +7302,15 @@
      "item": "barricade.woodwire",
      "min": 1.0,
      "max": 1.0
+    }
+   ]
+  },
+  "basicblueprintfragmentloot": {
+   "items": [
+    {
+     "item": "basicblueprintfragment",
+     "min": 2.0,
+     "max": 2.0
     }
    ]
   },

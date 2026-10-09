@@ -104,6 +104,9 @@ def loot(g: Game) -> dict:
                 body["items"] = items
             picks = []
             for e in got.get("subSpawn") or []:
+                # LootSpawn.EnsureFilterUpdated drops sub-tables restricted to other eras.
+                if e.get("restrictedEras") and 0 not in e["restrictedEras"]:
+                    continue
                 loc = g.resolve(f, e["category"])
                 child = table_id(*loc) if loc else None
                 if child:
@@ -124,6 +127,9 @@ def loot(g: Game) -> dict:
             c = {"type": LOOT_SPAWN_TYPES.get(t.get("SpawnType"), t.get("SpawnType"))}
             slots = []
             for s in t["LootSpawnSlots"]:
+                # LootContainer.FillLoot: slots restricted to other eras don't roll on vanilla servers.
+                if s.get("eras") and 0 not in s["eras"]:
+                    continue
                 loc = g.resolve(f, s["definition"])
                 tid = table_id(*loc) if loc else None
                 if tid:

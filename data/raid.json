@@ -49,6 +49,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -137,6 +140,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -216,6 +222,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -289,6 +298,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -362,6 +374,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -446,6 +461,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -535,6 +553,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -614,6 +635,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -687,6 +711,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -759,6 +786,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -845,6 +875,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -933,6 +966,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -1012,6 +1048,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -1085,6 +1124,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -1158,6 +1200,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -1242,6 +1287,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -1331,6 +1379,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -1410,6 +1461,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -1483,6 +1537,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -1555,6 +1612,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -1641,6 +1701,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -1729,6 +1792,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -1808,6 +1874,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -1881,6 +1950,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -1954,6 +2026,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -2038,6 +2113,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -2127,6 +2205,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -2206,6 +2287,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -2279,6 +2363,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -2351,6 +2438,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -2437,6 +2527,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -2525,6 +2618,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -2604,6 +2700,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -2677,6 +2776,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -2750,6 +2852,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -2834,6 +2939,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -2923,6 +3031,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -3002,6 +3113,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -3075,6 +3189,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -3147,6 +3264,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -3233,6 +3353,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -3321,6 +3444,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -3400,6 +3526,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -3473,6 +3602,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -3546,6 +3678,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -3630,6 +3765,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -3719,6 +3857,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -3798,6 +3939,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -3871,6 +4015,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -3943,6 +4090,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -4029,6 +4179,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -4117,6 +4270,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -4196,6 +4352,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -4269,6 +4428,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -4342,6 +4504,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -4426,6 +4591,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -4515,6 +4683,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -4594,6 +4765,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -4667,6 +4841,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -4739,6 +4916,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -4825,6 +5005,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -4913,6 +5096,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -4992,6 +5178,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -5065,6 +5254,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -5138,6 +5330,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -5222,6 +5417,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -5311,6 +5509,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -5390,6 +5591,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -5463,6 +5667,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -5535,6 +5742,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -5621,6 +5831,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -5709,6 +5922,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -5788,6 +6004,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -5861,6 +6080,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -5934,6 +6156,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -6018,6 +6243,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -6107,6 +6335,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -6186,6 +6417,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -6259,6 +6493,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -6332,6 +6569,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 160
    },
+   "cannonball": {
+    "hard": 1981
+   },
    "catapult.ammo.bee": {
     "hard": 10000
    },
@@ -6416,6 +6656,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -6505,6 +6748,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -6584,6 +6830,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -6657,6 +6906,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -6729,6 +6981,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -6814,6 +7069,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -6903,6 +7161,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -6982,6 +7243,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -7055,6 +7319,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -7127,6 +7394,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -7212,6 +7482,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -7301,6 +7574,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -7380,6 +7656,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -7453,6 +7732,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -7525,6 +7807,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -7610,6 +7895,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -7699,6 +7987,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -7778,6 +8069,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -7851,6 +8145,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 80
    },
+   "cannonball": {
+    "hard": 991
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -7923,6 +8220,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 160
+   },
+   "cannonball": {
+    "hard": 1981
    },
    "catapult.ammo.bee": {
     "hard": 10000
@@ -8004,6 +8304,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 35
+   },
+   "cannonball": {
+    "hard": 8
    },
    "catapult.ammo.bee": {
     "hard": 60
@@ -8092,6 +8395,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -8178,6 +8484,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -8266,6 +8575,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -8347,6 +8659,9 @@
    "ballista.bolt.incendiary": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.boulder": {
     "hard": 34
    },
@@ -8424,6 +8739,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 250
+   },
+   "cannonball": {
+    "hard": 7
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -8512,6 +8830,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 200
+   },
    "catapult.ammo.bee": {
     "hard": 2500
    },
@@ -8598,6 +8919,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 75
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 150
@@ -8686,6 +9010,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 125
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -8772,6 +9099,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -8860,6 +9190,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -8947,6 +9280,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -9024,6 +9360,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 14
+   },
+   "cannonball": {
+    "hard": 15
    },
    "catapult.ammo.bee": {
     "hard": 84
@@ -9106,6 +9445,9 @@
    "ballista.bolt.incendiary": {
     "hard": 23
    },
+   "cannonball": {
+    "hard": 7
+   },
    "catapult.ammo.bee": {
     "hard": 40
    },
@@ -9184,6 +9526,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 24
    },
+   "cannonball": {
+    "hard": 300
+   },
    "catapult.ammo.bee": {
     "hard": 3000
    },
@@ -9255,6 +9600,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -9328,6 +9676,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -9399,6 +9750,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 8
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -9472,6 +9826,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 34
    },
@@ -9542,6 +9899,9 @@
     "hard": 112
    },
    "ballista.bolt.hammerhead": {
+    "hard": 3
+   },
+   "cannonball": {
     "hard": 3
    },
    "catapult.ammo.bee": {
@@ -9624,6 +9984,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -9712,6 +10075,9 @@
    "ballista.bolt.incendiary": {
     "hard": 23
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 14
    },
@@ -9798,6 +10164,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 23
+   },
+   "cannonball": {
+    "hard": 7
    },
    "catapult.ammo.bee": {
     "hard": 40
@@ -9886,6 +10255,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -9972,6 +10344,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 250
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -10060,6 +10435,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -10146,6 +10524,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -10234,6 +10615,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -10320,6 +10704,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -10408,6 +10795,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -10494,6 +10884,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -10582,6 +10975,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -10668,6 +11064,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -10756,6 +11155,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -10843,6 +11245,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 125
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -10881,6 +11286,96 @@
    },
    "trap.landmine": {
     "hard": 15
+   }
+  }
+ },
+ {
+  "item": "boatbuildingstation",
+  "health": 500.0,
+  "explosives": {
+   "ammo.grenadelauncher.he": {
+    "hard": 8
+   },
+   "ammo.mortar.basic": {
+    "hard": 6
+   },
+   "ammo.mortar.fragment": {
+    "hard": 14
+   },
+   "ammo.rifle.explosive": {
+    "hard": 100
+   },
+   "ammo.rocket.basic": {
+    "hard": 2
+   },
+   "ammo.rocket.fire": {
+    "hard": 20
+   },
+   "ammo.rocket.hv": {
+    "hard": 12
+   },
+   "ammo.rocket.mlrs": {
+    "hard": 2
+   },
+   "ammo.rocket.seeker": {
+    "hard": 42
+   },
+   "ammo.rocket.smoke": {
+    "hard": 100
+   },
+   "ammo.snowballgun": {
+    "hard": 334
+   },
+   "arrow.fire": {
+    "hard": 50
+   },
+   "ballista.bolt.hammerhead": {
+    "hard": 20
+   },
+   "ballista.bolt.incendiary": {
+    "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
+   },
+   "catapult.ammo.bee": {
+    "hard": 50
+   },
+   "catapult.ammo.boulder": {
+    "hard": 25
+   },
+   "catapult.ammo.explosive": {
+    "hard": 2
+   },
+   "catapult.ammo.incendiary": {
+    "hard": 20
+   },
+   "explosive.satchel": {
+    "hard": 2
+   },
+   "explosive.timed": {
+    "hard": 1
+   },
+   "grenade.beancan": {
+    "hard": 8
+   },
+   "grenade.bee": {
+    "hard": 50
+   },
+   "grenade.f1": {
+    "hard": 9
+   },
+   "grenade.flashbang": {
+    "hard": 50
+   },
+   "grenade.molotov": {
+    "hard": 29
+   },
+   "submarine.torpedo.straight": {
+    "hard": 23
+   },
+   "trap.landmine": {
+    "hard": 10
    }
   }
  },
@@ -10931,6 +11426,9 @@
     "hard": 2
    },
    "ballista.bolt.pitchfork": {
+    "hard": 1
+   },
+   "cannonball": {
     "hard": 1
    },
    "catapult.ammo.bee": {
@@ -11020,6 +11518,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -11106,6 +11607,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -11194,6 +11698,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 15
    },
@@ -11281,6 +11788,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -11353,6 +11863,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 24
    },
+   "cannonball": {
+    "hard": 12
+   },
    "catapult.ammo.boulder": {
     "hard": 24
    },
@@ -11424,6 +11937,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 5
@@ -11512,6 +12028,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 250
    },
+   "cannonball": {
+    "hard": 7
+   },
    "catapult.ammo.bee": {
     "hard": 100
    },
@@ -11598,6 +12117,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -11686,6 +12208,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -11773,6 +12298,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 125
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -11858,6 +12386,9 @@
     "hard": 1
    },
    "ballista.bolt.incendiary": {
+    "hard": 1
+   },
+   "cannonball": {
     "hard": 1
    },
    "catapult.ammo.bee": {
@@ -11947,6 +12478,9 @@
    "ballista.bolt.incendiary": {
     "hard": 1
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 1
    },
@@ -12019,6 +12553,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 15
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -12090,6 +12627,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 75
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -12178,6 +12718,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -12264,6 +12807,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -12352,6 +12898,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -12439,6 +12988,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -12511,6 +13063,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -12567,6 +13122,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -12639,6 +13197,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -12727,6 +13288,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -12813,6 +13377,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -12901,6 +13468,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -12987,6 +13557,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13075,6 +13648,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -13161,6 +13737,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13249,6 +13828,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -13335,6 +13917,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13423,6 +14008,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -13509,6 +14097,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13597,6 +14188,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -13683,6 +14277,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13771,6 +14368,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -13857,6 +14457,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -13945,6 +14548,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -14031,6 +14637,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -14119,6 +14728,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -14205,6 +14817,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -14293,6 +14908,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -14379,6 +14997,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -14467,6 +15088,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -14554,6 +15178,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -14637,6 +15264,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -14722,6 +15352,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 100
    },
@@ -14805,6 +15438,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -14893,6 +15529,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -14979,6 +15618,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -15067,6 +15709,9 @@
    "ballista.bolt.incendiary": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -15153,6 +15798,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 5
@@ -15241,6 +15889,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -15325,6 +15976,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 200
    },
@@ -15400,6 +16054,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -15468,6 +16125,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 50
+   },
+   "cannonball": {
+    "hard": 200
    },
    "catapult.ammo.bee": {
     "hard": 1000
@@ -15546,6 +16206,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 200
@@ -15631,6 +16294,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 200
    },
@@ -15706,6 +16372,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -15775,6 +16444,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -15843,6 +16515,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 50
+   },
+   "cannonball": {
+    "hard": 200
    },
    "catapult.ammo.bee": {
     "hard": 1000
@@ -15921,6 +16596,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 200
@@ -16012,6 +16690,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -16098,6 +16779,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -16186,6 +16870,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -16272,6 +16959,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -16360,6 +17050,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -16432,6 +17125,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -16503,6 +17199,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -16591,6 +17290,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -16677,6 +17379,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -16765,6 +17470,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -16837,6 +17545,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -16908,6 +17619,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -16996,6 +17710,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -17068,6 +17785,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.explosive": {
     "hard": 2
    },
@@ -17139,6 +17859,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -17227,6 +17950,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -17314,6 +18040,9 @@
    "ballista.bolt.incendiary": {
     "hard": 115
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1000
    },
@@ -17385,6 +18114,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -17458,6 +18190,9 @@
    "ballista.bolt.incendiary": {
     "hard": 115
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1000
    },
@@ -17530,6 +18265,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -17601,6 +18339,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 75
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -17689,6 +18430,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -17775,6 +18519,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -17863,6 +18610,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 17
+   },
    "catapult.ammo.bee": {
     "hard": 100
    },
@@ -17950,6 +18700,9 @@
    "ballista.bolt.incendiary": {
     "hard": 115
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1000
    },
@@ -18022,6 +18775,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -18093,6 +18849,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -18181,6 +18940,9 @@
    "ballista.bolt.incendiary": {
     "hard": 115
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1000
    },
@@ -18267,6 +19029,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -18355,6 +19120,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -18442,6 +19210,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -18514,6 +19285,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -18570,6 +19344,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -18642,6 +19419,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -18730,6 +19510,9 @@
    "ballista.bolt.incendiary": {
     "hard": 43
    },
+   "cannonball": {
+    "hard": 38
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -18816,6 +19599,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -18904,6 +19690,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -18976,6 +19765,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -19032,6 +19824,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -19104,6 +19899,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -19192,6 +19990,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -19264,6 +20065,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -19335,6 +20139,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -19423,6 +20230,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -19509,6 +20319,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -19597,6 +20410,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -19683,6 +20499,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -19771,6 +20590,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -19857,6 +20679,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -19945,6 +20770,9 @@
    "ballista.bolt.incendiary": {
     "hard": 343
    },
+   "cannonball": {
+    "hard": 300
+   },
    "catapult.ammo.bee": {
     "hard": 3000
    },
@@ -20019,6 +20847,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 13
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -20100,6 +20931,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -20188,6 +21022,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -20274,6 +21111,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -20362,6 +21202,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -20448,6 +21291,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -20536,6 +21382,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -20622,6 +21471,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -20710,6 +21562,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -20796,6 +21651,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -20884,6 +21742,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -20971,6 +21832,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 15
+   },
    "catapult.ammo.bee": {
     "hard": 188
    },
@@ -21049,6 +21913,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 75
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -21117,6 +21984,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 13
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -21187,6 +22057,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -21255,6 +22128,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 50
+   },
+   "cannonball": {
+    "hard": 200
    },
    "catapult.ammo.bee": {
     "hard": 1000
@@ -21325,6 +22201,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -21394,6 +22273,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -21462,6 +22344,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 50
+   },
+   "cannonball": {
+    "hard": 200
    },
    "catapult.ammo.bee": {
     "hard": 1000
@@ -21543,6 +22428,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -21631,6 +22519,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -21717,6 +22608,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -21805,6 +22699,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -21891,6 +22788,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -21979,6 +22879,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -22065,6 +22968,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -22153,6 +23059,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -22239,6 +23148,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -22327,6 +23239,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -22413,6 +23328,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -22501,6 +23419,9 @@
    "ballista.bolt.incendiary": {
     "hard": 86
    },
+   "cannonball": {
+    "hard": 18
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -22588,6 +23509,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -22666,6 +23590,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 75
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -22737,6 +23664,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 40
+   },
+   "cannonball": {
+    "hard": 167
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -22819,6 +23749,9 @@
    "ballista.bolt.incendiary": {
     "hard": 143
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -22896,6 +23829,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 40
+   },
+   "cannonball": {
+    "hard": 167
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -22977,6 +23913,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 143
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -23065,6 +24004,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -23152,6 +24094,9 @@
    "ballista.bolt.incendiary": {
     "hard": 23
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.bee": {
     "hard": 200
    },
@@ -23229,6 +24174,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 20
+   },
+   "cannonball": {
+    "hard": 250
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -23310,6 +24258,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -23398,6 +24349,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 15
    },
@@ -23484,6 +24438,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -23572,6 +24529,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -23658,6 +24618,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -23746,6 +24709,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -23832,6 +24798,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -23920,6 +24889,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -24006,6 +24978,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 115
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1000
@@ -24094,6 +25069,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -24180,6 +25158,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -24268,6 +25249,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -24354,6 +25338,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -24442,6 +25429,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -24528,6 +25518,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -24616,6 +25609,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -24693,6 +25689,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 75
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 150
@@ -24774,6 +25773,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 86
+   },
+   "cannonball": {
+    "hard": 18
    },
    "catapult.ammo.bee": {
     "hard": 150
@@ -24862,6 +25864,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -24948,6 +25953,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 286
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -25036,6 +26044,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -25123,6 +26134,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -25209,6 +26223,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -25300,6 +26317,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -25386,6 +26406,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -25474,6 +26497,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 15
+   },
    "catapult.ammo.bee": {
     "hard": 188
    },
@@ -25560,6 +26586,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 250
+   },
+   "cannonball": {
+    "hard": 7
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -25648,6 +26677,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -25734,6 +26766,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -25822,6 +26857,9 @@
    "ballista.bolt.incendiary": {
     "hard": 115
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1000
    },
@@ -25908,6 +26946,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -25996,6 +27037,9 @@
    "ballista.bolt.incendiary": {
     "hard": 86
    },
+   "cannonball": {
+    "hard": 18
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -26070,6 +27114,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 30
+   },
+   "cannonball": {
+    "hard": 120
    },
    "catapult.ammo.bee": {
     "hard": 600
@@ -26151,6 +27198,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -26239,6 +27289,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -26326,6 +27379,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -26398,6 +27454,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -26454,6 +27513,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 8
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -26512,6 +27574,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -26568,6 +27633,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 8
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -26642,6 +27710,9 @@
     "hard": 2
    },
    "ballista.bolt.pitchfork": {
+    "hard": 1
+   },
+   "cannonball": {
     "hard": 1
    },
    "catapult.ammo.bee": {
@@ -26734,6 +27805,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 1
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 2
    },
@@ -26824,6 +27898,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 1
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 2
    },
@@ -26910,6 +27987,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 6
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -26998,6 +28078,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -27084,6 +28167,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -27172,6 +28258,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -27258,6 +28347,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -27346,6 +28438,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -27433,6 +28528,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -27505,6 +28603,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -27561,6 +28662,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -27633,6 +28737,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 5
@@ -27717,6 +28824,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 72
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -27805,6 +28915,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 9
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -27891,6 +29004,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -27979,6 +29095,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -28065,6 +29184,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -28153,6 +29275,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -28239,6 +29364,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -28327,6 +29455,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -28414,6 +29545,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -28486,6 +29620,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.boulder": {
     "hard": 40
    },
@@ -28557,6 +29694,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 75
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -28645,6 +29785,9 @@
    "ballista.bolt.incendiary": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -28732,6 +29875,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -28807,6 +29953,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -28875,6 +30024,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 13
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -28956,6 +30108,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -29044,6 +30199,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -29131,6 +30289,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -29212,6 +30373,9 @@
    "ballista.bolt.incendiary": {
     "hard": 11
    },
+   "cannonball": {
+    "hard": 8
+   },
    "catapult.ammo.boulder": {
     "hard": 30
    },
@@ -29289,6 +30453,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 1429
+   },
+   "cannonball": {
+    "hard": 1250
    },
    "catapult.ammo.bee": {
     "hard": 12500
@@ -29377,6 +30544,9 @@
    "ballista.bolt.incendiary": {
     "hard": 1429
    },
+   "cannonball": {
+    "hard": 1250
+   },
    "catapult.ammo.bee": {
     "hard": 12500
    },
@@ -29463,6 +30633,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 9
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -29551,6 +30724,9 @@
    "ballista.bolt.incendiary": {
     "hard": 143
    },
+   "cannonball": {
+    "hard": 125
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -29637,6 +30813,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 150
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 300
@@ -29725,6 +30904,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 175
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 350
    },
@@ -29797,6 +30979,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -29868,6 +31053,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 50
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -29959,6 +31147,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 1
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -30045,6 +31236,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 8
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 13
@@ -30133,6 +31327,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -30219,6 +31416,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -30307,6 +31507,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -30394,6 +31597,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -30480,6 +31686,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -30571,6 +31780,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -30657,6 +31869,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -30745,6 +31960,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -30831,6 +32049,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -30919,6 +32140,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -31005,6 +32229,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -31093,6 +32320,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -31180,6 +32410,9 @@
    "ballista.bolt.incendiary": {
     "hard": 572
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 5000
    },
@@ -31252,6 +32485,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 15
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -31323,6 +32559,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -31411,6 +32650,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -31449,6 +32691,96 @@
    },
    "trap.landmine": {
     "hard": 4
+   }
+  }
+ },
+ {
+  "item": "rhib",
+  "health": 500.0,
+  "explosives": {
+   "ammo.grenadelauncher.he": {
+    "hard": 20
+   },
+   "ammo.mortar.basic": {
+    "hard": 3
+   },
+   "ammo.mortar.fragment": {
+    "hard": 8
+   },
+   "ammo.rifle.explosive": {
+    "hard": 143
+   },
+   "ammo.rocket.basic": {
+    "hard": 3
+   },
+   "ammo.rocket.fire": {
+    "hard": 200
+   },
+   "ammo.rocket.hv": {
+    "hard": 2
+   },
+   "ammo.rocket.mlrs": {
+    "hard": 2
+   },
+   "ammo.rocket.seeker": {
+    "hard": 1
+   },
+   "ammo.rocket.smoke": {
+    "hard": 100
+   },
+   "ammo.snowballgun": {
+    "hard": 16667
+   },
+   "arrow.fire": {
+    "hard": 500
+   },
+   "ballista.bolt.hammerhead": {
+    "hard": 29
+   },
+   "ballista.bolt.incendiary": {
+    "hard": 286
+   },
+   "cannonball": {
+    "hard": 3
+   },
+   "catapult.ammo.bee": {
+    "hard": 2500
+   },
+   "catapult.ammo.boulder": {
+    "hard": 16
+   },
+   "catapult.ammo.explosive": {
+    "hard": 3
+   },
+   "catapult.ammo.incendiary": {
+    "hard": 200
+   },
+   "explosive.satchel": {
+    "hard": 9
+   },
+   "explosive.timed": {
+    "hard": 2
+   },
+   "grenade.beancan": {
+    "hard": 44
+   },
+   "grenade.bee": {
+    "hard": 2500
+   },
+   "grenade.f1": {
+    "hard": 8
+   },
+   "grenade.flashbang": {
+    "hard": 2500
+   },
+   "grenade.molotov": {
+    "hard": 286
+   },
+   "submarine.torpedo.straight": {
+    "hard": 2
+   },
+   "trap.landmine": {
+    "hard": 28
    }
   }
  },
@@ -31497,6 +32829,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -31585,6 +32920,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -31672,6 +33010,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -31710,6 +33051,96 @@
    },
    "trap.landmine": {
     "hard": 2
+   }
+  }
+ },
+ {
+  "item": "rowboat",
+  "health": 400.0,
+  "explosives": {
+   "ammo.grenadelauncher.he": {
+    "hard": 7
+   },
+   "ammo.mortar.basic": {
+    "hard": 2
+   },
+   "ammo.mortar.fragment": {
+    "hard": 4
+   },
+   "ammo.rifle.explosive": {
+    "hard": 80
+   },
+   "ammo.rocket.basic": {
+    "hard": 2
+   },
+   "ammo.rocket.fire": {
+    "hard": 16
+   },
+   "ammo.rocket.hv": {
+    "hard": 1
+   },
+   "ammo.rocket.mlrs": {
+    "hard": 1
+   },
+   "ammo.rocket.seeker": {
+    "hard": 1
+   },
+   "ammo.rocket.smoke": {
+    "hard": 80
+   },
+   "ammo.snowballgun": {
+    "hard": 267
+   },
+   "arrow.fire": {
+    "hard": 40
+   },
+   "ballista.bolt.hammerhead": {
+    "hard": 16
+   },
+   "ballista.bolt.incendiary": {
+    "hard": 23
+   },
+   "cannonball": {
+    "hard": 2
+   },
+   "catapult.ammo.bee": {
+    "hard": 40
+   },
+   "catapult.ammo.boulder": {
+    "hard": 8
+   },
+   "catapult.ammo.explosive": {
+    "hard": 2
+   },
+   "catapult.ammo.incendiary": {
+    "hard": 16
+   },
+   "explosive.satchel": {
+    "hard": 2
+   },
+   "explosive.timed": {
+    "hard": 1
+   },
+   "grenade.beancan": {
+    "hard": 7
+   },
+   "grenade.bee": {
+    "hard": 40
+   },
+   "grenade.f1": {
+    "hard": 4
+   },
+   "grenade.flashbang": {
+    "hard": 40
+   },
+   "grenade.molotov": {
+    "hard": 23
+   },
+   "submarine.torpedo.straight": {
+    "hard": 1
+   },
+   "trap.landmine": {
+    "hard": 8
    }
   }
  },
@@ -31758,6 +33189,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -31846,6 +33280,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -31932,6 +33369,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 10
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 18
@@ -32020,6 +33460,9 @@
    "ballista.bolt.incendiary": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 18
    },
@@ -32106,6 +33549,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 10
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 18
@@ -32194,6 +33640,9 @@
    "ballista.bolt.incendiary": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 18
    },
@@ -32280,6 +33729,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 10
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 18
@@ -32368,6 +33820,9 @@
    "ballista.bolt.incendiary": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 18
    },
@@ -32454,6 +33909,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 10
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 18
@@ -32542,6 +34000,9 @@
    "ballista.bolt.incendiary": {
     "hard": 10
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 18
    },
@@ -32628,6 +34089,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 286
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -32716,6 +34180,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -32802,6 +34269,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 41
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -32890,6 +34360,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -32976,6 +34449,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 40
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -33064,6 +34540,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -33150,6 +34629,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -33238,6 +34720,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -33324,6 +34809,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -33412,6 +34900,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -33496,6 +34987,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 7
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -33572,6 +35066,9 @@
     "hard": 112
    },
    "ballista.bolt.hammerhead": {
+    "hard": 3
+   },
+   "cannonball": {
     "hard": 3
    },
    "catapult.ammo.bee": {
@@ -33654,6 +35151,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 86
+   },
+   "cannonball": {
+    "hard": 75
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -33742,6 +35242,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -33828,6 +35331,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 150
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 300
@@ -33916,6 +35422,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -34002,6 +35511,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 286
+   },
+   "cannonball": {
+    "hard": 250
    },
    "catapult.ammo.bee": {
     "hard": 2500
@@ -34090,6 +35602,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 250
+   },
    "catapult.ammo.bee": {
     "hard": 2500
    },
@@ -34176,6 +35691,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -34264,6 +35782,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 250
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -34350,6 +35871,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -34438,6 +35962,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -34524,6 +36051,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -34612,6 +36142,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -34698,6 +36231,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -34786,6 +36322,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -34872,6 +36411,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -34960,6 +36502,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -35046,6 +36591,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -35134,6 +36682,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -35220,6 +36771,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -35308,6 +36862,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -35394,6 +36951,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -35482,6 +37042,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -35568,6 +37131,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -35656,6 +37222,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -35742,6 +37311,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 40
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -35830,6 +37402,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -35916,6 +37491,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 100
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -36004,6 +37582,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 750
    },
@@ -36090,6 +37671,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -36178,6 +37762,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -36264,6 +37851,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 750
@@ -36352,6 +37942,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -36438,6 +38031,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 40
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -36526,6 +38122,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -36612,6 +38211,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -36700,6 +38302,9 @@
    "ballista.bolt.incendiary": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 125
    },
@@ -36786,6 +38391,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 286
+   },
+   "cannonball": {
+    "hard": 10
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -36874,6 +38482,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 75
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -36960,6 +38571,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -37048,6 +38662,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 15
    },
@@ -37134,6 +38751,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -37222,6 +38842,9 @@
    "ballista.bolt.incendiary": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 15
    },
@@ -37308,6 +38931,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 3
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 5
@@ -37396,6 +39022,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -37482,6 +39111,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -37570,6 +39202,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -37656,6 +39291,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -37744,6 +39382,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -37830,6 +39471,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -37918,6 +39562,9 @@
    "ballista.bolt.incendiary": {
     "hard": 86
    },
+   "cannonball": {
+    "hard": 25
+   },
    "catapult.ammo.bee": {
     "hard": 150
    },
@@ -38002,6 +39649,9 @@
    "ballista.bolt.incendiary": {
     "hard": 43
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 300
    },
@@ -38074,6 +39724,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -38130,6 +39783,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 5
    },
    "catapult.ammo.explosive": {
     "hard": 1
@@ -38202,6 +39858,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -38290,6 +39949,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -38376,6 +40038,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 25
@@ -38464,6 +40129,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 150
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 300
    },
@@ -38550,6 +40218,9 @@
    },
    "ballista.bolt.pitchfork": {
     "hard": 150
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 300
@@ -38638,6 +40309,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -38724,6 +40398,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -38812,6 +40489,9 @@
    "ballista.bolt.incendiary": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 5
    },
@@ -38884,6 +40564,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 1
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -38955,6 +40638,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -39043,6 +40729,9 @@
    "ballista.bolt.incendiary": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 3
    },
@@ -39130,6 +40819,9 @@
    "ballista.bolt.incendiary": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 125
    },
@@ -39202,6 +40894,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -39273,6 +40968,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -39361,6 +41059,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -39447,6 +41148,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -39535,6 +41239,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -39621,6 +41328,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 2
+   },
+   "cannonball": {
+    "hard": 1
    },
    "catapult.ammo.bee": {
     "hard": 3
@@ -39709,6 +41419,9 @@
    "ballista.bolt.incendiary": {
     "hard": 58
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -39747,6 +41460,186 @@
    },
    "trap.landmine": {
     "hard": 8
+   }
+  }
+ },
+ {
+  "item": "submarineduo",
+  "health": 700.0,
+  "explosives": {
+   "ammo.grenadelauncher.he": {
+    "hard": 13
+   },
+   "ammo.mortar.basic": {
+    "hard": 3
+   },
+   "ammo.mortar.fragment": {
+    "hard": 9
+   },
+   "ammo.rifle.explosive": {
+    "hard": 94
+   },
+   "ammo.rocket.basic": {
+    "hard": 2
+   },
+   "ammo.rocket.fire": {
+    "hard": 280
+   },
+   "ammo.rocket.hv": {
+    "hard": 2
+   },
+   "ammo.rocket.mlrs": {
+    "hard": 2
+   },
+   "ammo.rocket.seeker": {
+    "hard": 1
+   },
+   "ammo.snowballgun": {
+    "hard": 4667
+   },
+   "arrow.fire": {
+    "hard": 700
+   },
+   "ballista.bolt.hammerhead": {
+    "hard": 19
+   },
+   "ballista.bolt.incendiary": {
+    "hard": 400
+   },
+   "ballista.bolt.pitchfork": {
+    "hard": 350
+   },
+   "cannonball": {
+    "hard": 4
+   },
+   "catapult.ammo.bee": {
+    "hard": 700
+   },
+   "catapult.ammo.boulder": {
+    "hard": 18
+   },
+   "catapult.ammo.explosive": {
+    "hard": 2
+   },
+   "catapult.ammo.incendiary": {
+    "hard": 280
+   },
+   "explosive.satchel": {
+    "hard": 6
+   },
+   "explosive.timed": {
+    "hard": 1
+   },
+   "grenade.beancan": {
+    "hard": 26
+   },
+   "grenade.bee": {
+    "hard": 778
+   },
+   "grenade.f1": {
+    "hard": 7
+   },
+   "grenade.flashbang": {
+    "hard": 700
+   },
+   "grenade.molotov": {
+    "hard": 400
+   },
+   "submarine.torpedo.straight": {
+    "hard": 2
+   },
+   "trap.landmine": {
+    "hard": 18
+   }
+  }
+ },
+ {
+  "item": "submarinesolo",
+  "health": 500.0,
+  "explosives": {
+   "ammo.grenadelauncher.he": {
+    "hard": 10
+   },
+   "ammo.mortar.basic": {
+    "hard": 3
+   },
+   "ammo.mortar.fragment": {
+    "hard": 7
+   },
+   "ammo.rifle.explosive": {
+    "hard": 67
+   },
+   "ammo.rocket.basic": {
+    "hard": 2
+   },
+   "ammo.rocket.fire": {
+    "hard": 200
+   },
+   "ammo.rocket.hv": {
+    "hard": 1
+   },
+   "ammo.rocket.mlrs": {
+    "hard": 1
+   },
+   "ammo.rocket.seeker": {
+    "hard": 1
+   },
+   "ammo.snowballgun": {
+    "hard": 3334
+   },
+   "arrow.fire": {
+    "hard": 500
+   },
+   "ballista.bolt.hammerhead": {
+    "hard": 14
+   },
+   "ballista.bolt.incendiary": {
+    "hard": 286
+   },
+   "ballista.bolt.pitchfork": {
+    "hard": 250
+   },
+   "cannonball": {
+    "hard": 3
+   },
+   "catapult.ammo.bee": {
+    "hard": 500
+   },
+   "catapult.ammo.boulder": {
+    "hard": 13
+   },
+   "catapult.ammo.explosive": {
+    "hard": 2
+   },
+   "catapult.ammo.incendiary": {
+    "hard": 200
+   },
+   "explosive.satchel": {
+    "hard": 4
+   },
+   "explosive.timed": {
+    "hard": 1
+   },
+   "grenade.beancan": {
+    "hard": 19
+   },
+   "grenade.bee": {
+    "hard": 556
+   },
+   "grenade.f1": {
+    "hard": 5
+   },
+   "grenade.flashbang": {
+    "hard": 500
+   },
+   "grenade.molotov": {
+    "hard": 286
+   },
+   "submarine.torpedo.straight": {
+    "hard": 1
+   },
+   "trap.landmine": {
+    "hard": 13
    }
   }
  },
@@ -39795,6 +41688,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -39883,6 +41779,9 @@
    "ballista.bolt.incendiary": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 13
    },
@@ -39969,6 +41868,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -40060,6 +41962,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 9
    },
+   "cannonball": {
+    "hard": 1
+   },
    "catapult.ammo.bee": {
     "hard": 9
    },
@@ -40132,6 +42037,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -40203,6 +42111,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -40291,6 +42202,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 138
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 275
    },
@@ -40378,6 +42292,9 @@
    "ballista.bolt.incendiary": {
     "hard": 1715
    },
+   "cannonball": {
+    "hard": 68
+   },
    "catapult.ammo.bee": {
     "hard": 15000
    },
@@ -40450,6 +42367,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 2
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -40521,6 +42441,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 6
    },
    "catapult.ammo.bee": {
     "hard": 50
@@ -40609,6 +42532,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -40687,6 +42613,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 100
    },
+   "cannonball": {
+    "hard": 1238
+   },
    "catapult.ammo.bee": {
     "hard": 6250
    },
@@ -40752,6 +42681,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 8
    },
    "catapult.ammo.boulder": {
     "hard": 15
@@ -40824,6 +42756,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 29
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 250
@@ -40912,6 +42847,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -40999,6 +42937,9 @@
    "ballista.bolt.incendiary": {
     "hard": 143
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -41077,6 +43018,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -41148,6 +43092,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 40
+   },
+   "cannonball": {
+    "hard": 167
    },
    "catapult.ammo.bee": {
     "hard": 1250
@@ -41230,6 +43177,9 @@
    "ballista.bolt.incendiary": {
     "hard": 143
    },
+   "cannonball": {
+    "hard": 100
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -41308,6 +43258,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 167
+   },
    "catapult.ammo.bee": {
     "hard": 1250
    },
@@ -41376,6 +43329,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 15
+   },
+   "cannonball": {
+    "hard": 60
    },
    "catapult.ammo.bee": {
     "hard": 300
@@ -41446,6 +43402,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 60
+   },
    "catapult.ammo.bee": {
     "hard": 300
    },
@@ -41514,6 +43473,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -41584,6 +43546,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 3
    },
+   "cannonball": {
+    "hard": 15
+   },
    "catapult.ammo.bee": {
     "hard": 75
    },
@@ -41652,6 +43617,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 30
+   },
+   "cannonball": {
+    "hard": 120
    },
    "catapult.ammo.bee": {
     "hard": 600
@@ -41722,6 +43690,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 100
    },
@@ -41791,6 +43762,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 100
    },
@@ -41859,6 +43833,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 4
+   },
+   "cannonball": {
+    "hard": 20
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -41944,6 +43921,9 @@
    "ballista.bolt.pitchfork": {
     "hard": 13
    },
+   "cannonball": {
+    "hard": 3
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -42028,6 +44008,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 500
    },
@@ -42106,6 +44089,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 60
    },
+   "cannonball": {
+    "hard": 743
+   },
    "catapult.ammo.bee": {
     "hard": 3750
    },
@@ -42178,6 +44164,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 8
    },
+   "cannonball": {
+    "hard": 34
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -42249,6 +44238,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 16
+   },
+   "cannonball": {
+    "hard": 67
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -42331,6 +44323,9 @@
    "ballista.bolt.incendiary": {
     "hard": 286
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -42409,6 +44404,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 40
    },
+   "cannonball": {
+    "hard": 496
+   },
    "catapult.ammo.bee": {
     "hard": 2500
    },
@@ -42480,6 +44478,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 40
+   },
+   "cannonball": {
+    "hard": 496
    },
    "catapult.ammo.bee": {
     "hard": 2500
@@ -42562,6 +44563,9 @@
    "ballista.bolt.incendiary": {
     "hard": 72
    },
+   "cannonball": {
+    "hard": 50
+   },
    "catapult.ammo.bee": {
     "hard": 625
    },
@@ -42639,6 +44643,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 28
+   },
+   "cannonball": {
+    "hard": 347
    },
    "catapult.ammo.bee": {
     "hard": 1750
@@ -42720,6 +44727,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -42808,6 +44818,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -42894,6 +44907,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -42982,6 +44998,9 @@
    "ballista.bolt.incendiary": {
     "hard": 6
    },
+   "cannonball": {
+    "hard": 2
+   },
    "catapult.ammo.bee": {
     "hard": 10
    },
@@ -43068,6 +45087,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 40
    },
    "catapult.ammo.bee": {
     "hard": 500
@@ -43156,6 +45178,9 @@
    "ballista.bolt.incendiary": {
     "hard": 15
    },
+   "cannonball": {
+    "hard": 5
+   },
    "catapult.ammo.bee": {
     "hard": 25
    },
@@ -43242,6 +45267,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 18
+   },
+   "cannonball": {
+    "hard": 4
    },
    "catapult.ammo.bee": {
     "hard": 30
@@ -43330,6 +45358,9 @@
    "ballista.bolt.incendiary": {
     "hard": 12
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 20
    },
@@ -43416,6 +45447,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 9
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 15
@@ -43504,6 +45538,9 @@
    "ballista.bolt.incendiary": {
     "hard": 172
    },
+   "cannonball": {
+    "hard": 150
+   },
    "catapult.ammo.bee": {
     "hard": 1500
    },
@@ -43591,6 +45628,9 @@
    "ballista.bolt.incendiary": {
     "hard": 18
    },
+   "cannonball": {
+    "hard": 4
+   },
    "catapult.ammo.bee": {
     "hard": 30
    },
@@ -43668,6 +45708,9 @@
    },
    "ballista.bolt.hammerhead": {
     "hard": 28
+   },
+   "cannonball": {
+    "hard": 347
    },
    "catapult.ammo.bee": {
     "hard": 1750
@@ -43749,6 +45792,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10
@@ -43837,6 +45883,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -43923,6 +45972,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -44011,6 +46063,9 @@
    "ballista.bolt.incendiary": {
     "hard": 5
    },
+   "cannonball": {
+    "hard": 30
+   },
    "catapult.ammo.bee": {
     "hard": 375
    },
@@ -44097,6 +46152,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 5
+   },
+   "cannonball": {
+    "hard": 30
    },
    "catapult.ammo.bee": {
     "hard": 375
@@ -44185,6 +46243,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 6
+   },
    "catapult.ammo.bee": {
     "hard": 50
    },
@@ -44271,6 +46332,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 286
+   },
+   "cannonball": {
+    "hard": 250
    },
    "catapult.ammo.bee": {
     "hard": 2500
@@ -44359,6 +46423,9 @@
    "ballista.bolt.incendiary": {
     "hard": 429
    },
+   "cannonball": {
+    "hard": 375
+   },
    "catapult.ammo.bee": {
     "hard": 3750
    },
@@ -44431,6 +46498,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 20
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.boulder": {
     "hard": 20
    },
@@ -44502,6 +46572,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 12
+   },
+   "cannonball": {
+    "hard": 3
    },
    "catapult.ammo.bee": {
     "hard": 20
@@ -44590,6 +46663,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -44677,6 +46753,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -44749,6 +46828,9 @@
    "ballista.bolt.hammerhead": {
     "hard": 4
    },
+   "cannonball": {
+    "hard": 10
+   },
    "catapult.ammo.explosive": {
     "hard": 1
    },
@@ -44820,6 +46902,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 58
+   },
+   "cannonball": {
+    "hard": 12
    },
    "catapult.ammo.bee": {
     "hard": 100
@@ -44908,6 +46993,9 @@
    "ballista.bolt.incendiary": {
     "hard": 29
    },
+   "cannonball": {
+    "hard": 20
+   },
    "catapult.ammo.bee": {
     "hard": 250
    },
@@ -44994,6 +47082,9 @@
    },
    "ballista.bolt.incendiary": {
     "hard": 6
+   },
+   "cannonball": {
+    "hard": 2
    },
    "catapult.ammo.bee": {
     "hard": 10

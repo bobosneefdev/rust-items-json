@@ -155,6 +155,19 @@
   "minRadius": 0
  },
  {
+  "item": "cannonball",
+  "prefab": "assets/prefabs/deployable/boatbuilding/cannon/cannonball.prefab",
+  "class": "TimedExplosive",
+  "damage": {
+   "antiVehicle": 50.0,
+   "bullet": 100.0,
+   "blunt": 100.0,
+   "cannon": 50.0
+  },
+  "radius": 3.0,
+  "minRadius": 0.5
+ },
+ {
   "item": "catapult.ammo.bee",
   "prefab": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_bee.prefab",
   "class": "BeeGrenade",
