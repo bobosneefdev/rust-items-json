@@ -165,7 +165,10 @@ def main(server: Path, client: Path, out: Path):
 
     items_bundle = Bundle(client / "items.preload.bundle")
     items = items_bundle.serialized()
-    plain = {p.stem: json.loads(p.read_text()) for p in (server / "Bundles" / "items").glob("*.json")}
+    plain = {}
+    for p in (server / "Bundles" / "items").glob("*.json"):
+        j = json.loads(p.read_text())
+        plain[j["itemid"]] = j
 
     assets = item_assets(items)
     by_pid = {}
@@ -181,12 +184,13 @@ def main(server: Path, client: Path, out: Path):
         if not d:
             continue
         sn = d["shortname"]
-        j = plain.get(sn, {})
+        j = plain.get(d["itemid"], {})
         rec = {
             "id": d["itemid"],
             "shortname": sn,
-            "name": d["displayName"]["legacyEnglish"],
-            "description": d["displayDescription"]["legacyEnglish"],
+            # The plain item JSON has the localized English text; legacyEnglish is often stale.
+            "name": j.get("Name") or d["displayName"]["legacyEnglish"],
+            "description": j.get("Description") or d["displayDescription"]["legacyEnglish"],
             "category": j.get("Category"),
             "stackable": d["stackable"],
             "rarity": j.get("rarity"),
