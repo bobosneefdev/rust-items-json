@@ -3132,7 +3132,7 @@
  {
   "id": -219005627,
   "shortname": "barricade.sandbags.half",
-  "name": "#barricade.sandbags.half",
+  "name": "Half Height Sandbag Barricade",
   "description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
   "category": "Construction",
   "stackable": 10,
@@ -3170,8 +3170,8 @@
  {
   "id": -1088645302,
   "shortname": "barricade.sandbags.pillbox",
-  "name": "#barricade.sandbags.pillbox",
-  "description": "#barricade.sandbags.pillbox.desc",
+  "name": "Sandbag Pillbox",
+  "description": "A protective barricade made out of Sand Bags with a reinforced firing window.",
   "category": "Construction",
   "stackable": 10,
   "rarity": "Common",
@@ -3208,7 +3208,7 @@
  {
   "id": 2141654944,
   "shortname": "barricade.sandbags.three.quarter",
-  "name": "#barricade.sandbags.three.quarter",
+  "name": "Three Quarter Height Sandbag Barricade",
   "description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
   "category": "Construction",
   "stackable": 10,
@@ -7186,8 +7186,8 @@
  {
   "id": -606898372,
   "shortname": "clothing.mannequin",
-  "name": "#clothingmannequin",
-  "description": "#clothing.mannequin.desc",
+  "name": "Clothing Mannequin",
+  "description": "Clothing Mannequin",
   "category": "Attire",
   "stackable": 1,
   "rarity": "Rare",

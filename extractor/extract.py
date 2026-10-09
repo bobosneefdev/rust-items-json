@@ -157,6 +157,10 @@ def icons(items: SerializedFile, textures: list[Bundle], refs: dict[str, dict], 
     return done
 
 
+def english(localized: str | None, legacy: str) -> str:
+    return localized if localized and not localized.startswith("#") else legacy
+
+
 def main(server: Path, client: Path, out: Path):
     shared = server / "Bundles" / "shared"
     content = Bundle(shared / "content.bundle")
@@ -189,8 +193,9 @@ def main(server: Path, client: Path, out: Path):
             "id": d["itemid"],
             "shortname": sn,
             # The plain item JSON has the localized English text; legacyEnglish is often stale.
-            "name": j.get("Name") or d["displayName"]["legacyEnglish"],
-            "description": j.get("Description") or d["displayDescription"]["legacyEnglish"],
+            # Untranslated entries come through as "#token"; fall back to legacyEnglish for those.
+            "name": english(j.get("Name"), d["displayName"]["legacyEnglish"]),
+            "description": english(j.get("Description"), d["displayDescription"]["legacyEnglish"]),
             "category": j.get("Category"),
             "stackable": d["stackable"],
             "rarity": j.get("rarity"),
