@@ -1,0 +1,3 @@
+regex:^Bundles/items/.*\.json$
+Bundles/shared/content.bundle
+Bundles/shared/assetscenes.bundle

@@ -1,0 +1,2 @@
+Bundles/shared/items.preload.bundle
+regex:^Bundles/shared/textures\.[0-9]+\.bundle$

@@ -1,0 +1,4 @@
+/.venv/
+/depots/
+/game/
+__pycache__/
