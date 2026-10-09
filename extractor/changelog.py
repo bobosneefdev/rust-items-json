@@ -52,7 +52,7 @@ def changelog(old: Path, new: Path, build: str) -> str:
         sections.append("### Items\n\n" + "\n".join(items))
     others = [
         n
-        for n in ("techtree.json", "recyclers.json", "loot.json", "vending.json", "building.json", "explosives.json", "raid.json")
+        for n in sorted({p.name for d in (old, new) for p in d.glob("*.json")} - {"items.json", "meta.json"})
         if _load(old, n) != _load(new, n)
     ]
     if others:

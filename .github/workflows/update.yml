@@ -1,12 +1,12 @@
 name: Update data
 
 on:
+  push:
+    branches: [master]
+    paths: ["extractor/**", "tests/**", "scripts/**", "pyproject.toml", "uv.lock", ".github/workflows/update.yml"]
   schedule:
-    # Thursday 12:07 America/Los_Angeles, Friday 12:07 as a backup in case a patch slips.
-    # GitHub cron is UTC, so both PDT (19:07) and PST (20:07) are listed and the job keeps the one
-    # that is actually 12:07 in Los Angeles.
-    - cron: "7 19 * * 4,5"
-    - cron: "7 20 * * 4,5"
+    # Cheap build checks every six hours; downloads happen only after a build/code change.
+    - cron: "7 */6 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -26,28 +26,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Only run at 12:07 Los Angeles time
-        if: github.event_name == 'schedule'
-        id: clock
-        run: |
-          if [ "$(TZ=America/Los_Angeles date +%H)" = "12" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; fi
-
       - uses: actions/checkout@v5
-        if: steps.clock.outputs.go != 'false'
 
       - name: Check Rust build
-        if: steps.clock.outputs.go != 'false'
         id: build
         run: |
           build=$(curl -sf https://api.steamcmd.net/v1/info/252490 | jq -r '.data["252490"].depots.branches.public.buildid')
           [ -n "$build" ] && [ "$build" != "null" ] || { echo "could not read build id"; exit 1; }
           last=$(jq -r '.build // empty' data/meta.json 2>/dev/null || true)
           echo "build=$build" >> "$GITHUB_OUTPUT"
-          if [ "$build" != "$last" ] || [ "${{ inputs.force }}" = "true" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+          if [ "$build" != "$last" ] || [ "${{ inputs.force }}" = "true" ] || [ "${{ github.event_name }}" = "push" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
           echo "Rust build $build (last extracted: ${last:-none})"
 
       - uses: astral-sh/setup-uv@v6
         if: steps.build.outputs.changed == 'true'
+
+      - name: Test extractors
+        if: steps.build.outputs.changed == 'true'
+        run: uv run python -m unittest discover -s tests
 
       - name: Free disk space
         if: steps.build.outputs.changed == 'true'
@@ -80,6 +76,7 @@ jobs:
         if: steps.build.outputs.changed == 'true'
         run: |
           uv run extractor/main.py game/server game/client/Bundles/shared new-data
+          uv run extractor/validate.py new-data
           uv run extractor/changelog.py data new-data "${{ steps.build.outputs.build }}" > notes.md
           rm -rf data/icons && mkdir -p data && cp -r new-data/. data/
           if [ -s notes.md ]; then
@@ -87,7 +84,6 @@ jobs:
           fi
 
       - name: Record check
-        if: steps.clock.outputs.go != 'false'
         run: |
           mkdir -p data
           jq -n --arg build "${{ steps.build.outputs.build }}" --arg checked "$(date -u +%FT%TZ)" \
@@ -95,7 +91,6 @@ jobs:
             '$prev + {build: $build, checked: $checked} + (if $changed == "true" then {updated: $checked} else {} end)' > data/meta.json
 
       - name: Commit
-        if: steps.clock.outputs.go != 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
