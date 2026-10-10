@@ -14,6 +14,7 @@ import items as items_mod
 import raid
 import world
 from game import Game
+import monuments
 
 
 def write(out: Path, name: str, data):
@@ -29,6 +30,7 @@ def main(server: Path, client: Path, out: Path):
 
     rarity = {r["shortname"]: r["rarity"] for r in records}
     write(out, "techtree.json", world.techtree(g, rarity))
+    write(out, "monuments.json", monuments.extract(g))
     write(out, "recyclers.json", world.recyclers(g))
     write(out, "loot.json", world.loot(g))
     write(out, "vending.json", world.vending(g))

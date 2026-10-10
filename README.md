@@ -14,6 +14,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
 | `data/raid.json` | How many of each explosive destroys each building block, door and wall, hard and soft side |
 | `data/meta.json` | The Rust build the data came from, when it last changed and when it was last checked |
+| `data/monuments.json` | Monument hierarchies: weighted spawn groups/points, respawn settings, facilities, CCTV codes, radiation volumes, puzzle connections and reverse entity locations |
 | `CHANGELOG.md` | What changed in each Rust update |
 
 Everything is keyed by item `shortname` (and `id` in `items.json`), so files join cleanly.
@@ -52,12 +53,13 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
+- **Monuments** use prefab paths as join keys; positions/rotations are relative to the monument root, with row-major 3×4 affine matrices for transformed geometry. Component IDs are local to the extracted build. Spawn `chance` is the base weighted choice for one draw, not a guarantee about final populations; caps, occupied points, duplicate prevention, server population and puzzle resets affect actual spawns. Infinite respawn intervals become null. Missing prefab references remain explicit as null plus their GUID and activity state in `unresolvedSpawns`; their probability is not redistributed. Radiation exports tier/override and collider geometry rather than inventing a single monument-wide exposure value. Puzzle connections describe serialized wiring, not an authored walkthrough. Procedural layouts and runtime-created entities are outside this static dataset.
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
 - **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
 
 ## How it updates
 
-A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch day), with a backup run Friday at the same time. It checks the current Rust build and only re-extracts when it changed:
+A GitHub Action checks the Rust build every **six hours** and re-extracts after build changes, extractor changes merged into master, or a forced manual run:
 
 1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
 2. Reads them with [UnityPy](https://github.com/K0lb3/UnityPy). Bundles are read by byte range, so the 6–7 GB texture bundles never load into memory.

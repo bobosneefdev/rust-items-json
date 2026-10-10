@@ -41,6 +41,7 @@ INDEXED = {
     "BuildingGrade",
     "ProtectionProperties",
     "RecyclerConfig",
+    "MonumentInfo",
 }
 
 

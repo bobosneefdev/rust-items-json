@@ -180,6 +180,51 @@ export interface Files {
   "explosives.json": Explosive[];
   "raid.json": RaidTarget[];
   "meta.json": Meta;
+  "monuments.json": Monuments;
+}
+
+export interface MonumentLocation {
+  /** Build-local component ID for relationships within this file. */
+  id: string;
+  path: string;
+  position: [number, number, number];
+  rotation: [number, number, number, number];
+  /** Row-major 3x4 affine transform, including nonuniform scale/shear. */
+  matrix: number[];
+  active: boolean;
+}
+
+export interface MonumentBounds { m_Center: { x: number; y: number; z: number }; m_Extent: { x: number; y: number; z: number } }
+
+export interface Monument {
+  name: string;
+  type: string;
+  tierMask: number;
+  bounds: MonumentBounds;
+  safeZone: boolean;
+  minWorldSize: number;
+  allowPatrolHeliCrash: boolean;
+  hasDungeonLink: boolean;
+  areas: (MonumentLocation & { name: string; bounds: MonumentBounds; safeZone: boolean })[];
+  spawns: (MonumentLocation & { class: string; candidates: { prefab: string | null; unresolvedGuid?: string; weight: number; chance: number; mobile: boolean }[];
+    populationLimit: number; perTick?: { min: number; max: number }; respawn: { min: number; max: number } | null;
+    points: { position: [number, number, number]; class: string; active: boolean }[]; initialSpawn?: boolean;
+    preventDuplicates?: boolean; enabled?: boolean; resetBehavior?: number })[];
+  facilities: (MonumentLocation & { class: string; shop?: string })[];
+  cameras: (MonumentLocation & { code: string; hasPTZ: boolean })[];
+  radiation: (MonumentLocation & { tier: number; amountOverride: number; bypassArmor: boolean; falloff: number;
+    colliders: { type: string; Enabled?: boolean; Center?: { x: number; y: number; z: number };
+      Size?: { x: number; y: number; z: number }; Radius?: number; Height?: number; Direction?: number }[] })[];
+  puzzles: (MonumentLocation & { class: string; accessLevel?: number; accessDuration?: number; timeBetweenResets?: number;
+    playersBlockReset?: boolean; scaleWithServerPopulation?: boolean; pauseUntilLooted?: boolean; spawnGroups?: string[];
+    resetEntities?: string[]; outputs?: { name: string; target: string; slot: number }[] })[];
+  placedEntities: (MonumentLocation & { prefab: string; class: string })[];
+}
+
+export interface Monuments {
+  monuments: Record<string, Monument>;
+  entities: Record<string, { monument: string; spawn?: string; instance?: string; chance?: number }[]>;
+  unresolvedSpawns: { monument: string; spawn: string; guid: string; active: boolean }[];
 }
 
 export interface Options {
@@ -224,3 +269,5 @@ export const explosives = (opts?: Options) => load("explosives.json", opts);
 export const raid = (opts?: Options) => load("raid.json", opts);
 
 export const meta = (opts?: Options) => load("meta.json", opts);
+
+export const monuments = (opts?: Options) => load("monuments.json", opts);
