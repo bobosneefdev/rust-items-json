@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 import items as items_mod
+import item_properties
 import raid
 import world
 from game import Game
@@ -26,6 +27,7 @@ def main(server: Path, client: Path, out: Path):
 
     records = items_mod.extract(g, out)
     write(out, "items.json", records)
+    write(out, "item-properties.json", item_properties.extract(g, records))
 
     rarity = {r["shortname"]: r["rarity"] for r in records}
     write(out, "techtree.json", world.techtree(g, rarity))

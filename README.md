@@ -5,6 +5,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | File | What's in it |
 | --- | --- |
 | `data/items.json` | Every item: id, shortname, name, description, category, stack size, rarity, condition, plus **IO wiring**, **crafting**, **research cost** and **recycling yield** |
+| `data/item-properties.json` | Properties keyed by shortname: food/medical effects, armor coverage/protection, weapon/ammo stats, electrical settings, gathering, repair and despawn settings |
 | `data/icons/<shortname>.webp` | The in-game inventory icon (256×256), decoded from the game's own textures |
 | `data/techtree.json` | Workbench tech trees: nodes, unlock paths and scrap costs |
 | `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
@@ -49,6 +50,8 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## Notes on the data
 
+- **Item properties** are serialized base settings, without attachments, player skills, server convars or dynamic state. Missing electrical consumption means the value is implemented in game code rather than serialized; it does not mean zero. Battery capacity is Rust watt-seconds. Repair recipes follow the game's component substitution; multiply amounts by `0.2 * (1 - condition / maxCondition)` and round each up. Despawn exports quick/rarity settings rather than inventing a timer independent of server settings.
+
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
@@ -57,7 +60,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## How it updates
 
-A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch day), with a backup run Friday at the same time. It checks the current Rust build and only re-extracts when it changed:
+A GitHub Action checks the Rust build every **six hours** and re-extracts after build changes, extractor changes merged into master, or a forced manual run:
 
 1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
 2. Reads them with [UnityPy](https://github.com/K0lb3/UnityPy). Bundles are read by byte range, so the 6–7 GB texture bundles never load into memory.
