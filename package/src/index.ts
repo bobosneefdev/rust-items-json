@@ -199,13 +199,51 @@ export interface Explosive {
 }
 
 export interface RaidTarget {
+  protection?: Protection | null;
+  softSide?: Protection | null;
   /** Building blocks have prefab + grade; deployables (doors, walls...) have item. */
   prefab?: string;
   grade?: Grade;
   item?: Shortname;
   health: number;
   /** Explosives needed to destroy the target. `soft` is only present when it differs. */
-  explosives: Record<Shortname, { hard?: number; soft?: number }>;
+  explosives: Record<Shortname, { hard?: number; soft?: number; hardDamage?: number; softDamage?: number }>;
+}
+
+export interface CombatTarget {
+  prefab: string;
+  item?: Shortname;
+  grade?: Grade;
+  class: string;
+  health: number;
+  protection: Protection | null;
+  softSide: Protection | null;
+  meleeOverride?: boolean;
+}
+
+export interface CombatAttack {
+  item: Shortname;
+  weapon?: Shortname;
+  kind: "explosive" | "projectile" | "melee" | "thrown";
+  damage: Partial<Record<DamageType, number>>;
+  deployableDamage?: Partial<Record<DamageType, number>>;
+  radial?: { damage: Partial<Record<DamageType, number>>; radius: number; ignoreHitObject: boolean; onlyDoors: boolean };
+  repeatDelay?: number;
+  reloadTime?: number;
+  magazine?: number;
+  fractionalReload?: boolean;
+  reloadStart?: number;
+  reloadFraction?: number;
+  reloadEnd?: number;
+  fuse?: { min: number; max: number };
+  canStick?: boolean;
+  radius?: number;
+  minRadius?: number;
+}
+
+export interface Combat {
+  targets: Record<string, CombatTarget>;
+  attacks: Record<string, CombatAttack>;
 }
 
 export interface Meta {
@@ -226,6 +264,7 @@ export interface Files {
   "building.json": BuildingBlock[];
   "explosives.json": Explosive[];
   "raid.json": RaidTarget[];
+  "combat.json": Combat;
   "meta.json": Meta;
 }
 
@@ -273,5 +312,9 @@ export const building = (opts?: Options) => load("building.json", opts);
 export const explosives = (opts?: Options) => load("explosives.json", opts);
 
 export const raid = (opts?: Options) => load("raid.json", opts);
+
+export const combat = (opts?: Options) => load("combat.json", opts);
+
+export { raidDamage, raidHits, raidPlan, rawMaterialCost } from "./combat.js";
 
 export const meta = (opts?: Options) => load("meta.json", opts);

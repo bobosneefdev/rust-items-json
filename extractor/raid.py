@@ -10,6 +10,7 @@ full damage list, i.e. a hit at the centre of the blast.
 import math
 
 from game import Game
+from hierarchy import prefab_nodes
 
 DAMAGE_TYPES = [
     "generic", "hunger", "thirst", "cold", "drowned", "heat", "bleeding", "poison", "suicide",
@@ -29,7 +30,7 @@ def _protection(g: Game, f: str, ref: dict) -> dict | None:
     if not got:
         return None
     _f, _p, t = got
-    amounts = {DAMAGE_TYPES[i]: round(v, 4) for i, v in enumerate(t["amounts"]) if v and i < len(DAMAGE_TYPES)}
+    amounts = {DAMAGE_TYPES[i]: v for i, v in enumerate(t["amounts"]) if v and i < len(DAMAGE_TYPES)}
     return {"name": t["m_Name"], "amounts": amounts}
 
 
@@ -52,10 +53,15 @@ def _apply(damage: dict[str, float], *protections: dict | None) -> float:
 
 
 def _direction(g: Game, prefab: str) -> dict | None:
-    for cls, f, t in g.prefabs.get(prefab, []):
-        if cls == "DirectionProperties" and t.get("extraProtection"):
-            return _protection(g, f, t["extraProtection"])
-    return None
+    protections = [p for node in prefab_nodes(g, prefab) for cls, f, t in node["components"]
+                   if cls == "DirectionProperties" and (p := _protection(g, f, t["extraProtection"]))]
+    if not protections:
+        return None
+    amounts = {}
+    for p in protections:
+        for damage, protection in p["amounts"].items():
+            amounts[damage] = 1 - (1 - amounts.get(damage, 0)) * (1 - max(-1, min(1, protection)))
+    return {"name": "+".join(p["name"] for p in protections), "amounts": amounts}
 
 
 def building(g: Game) -> list[dict]:
@@ -113,7 +119,8 @@ def deployables(g: Game, entity_of: dict[str, str]) -> list[dict]:
             prot = _protection(g, f, t["baseProtection"])
             if not prot:
                 continue
-            out.append({"item": sn, "prefab": prefab, "class": cls, "health": t["startHealth"], "protection": prot, "softSide": _direction(g, prefab)})
+            out.append({"item": sn, "prefab": prefab, "class": cls, "health": t["startHealth"], "protection": prot, "softSide": _direction(g, prefab),
+                        "meleeOverride": "timePlaced" in t and cls not in {"Door", "SimpleBuildingBlock", "LootContainer"}})
             break
     out.sort(key=lambda x: x["item"])
     return out
@@ -193,10 +200,12 @@ def raid(blocks: list[dict], deploys: list[dict], booms: list[dict]) -> list[dic
             entry = {}
             if hard > 0.01:
                 entry["hard"] = math.ceil(health / hard - 1e-9)
+                entry["hardDamage"] = hard
             if soft and weak > 0.01 and weak != hard:
                 entry["soft"] = math.ceil(health / weak - 1e-9)
+                entry["softDamage"] = weak
             if entry:
                 costs[e["item"]] = entry
         if costs:
-            out.append({**target, "health": health, "explosives": costs})
+            out.append({**target, "health": health, "protection": prot, "softSide": soft, "explosives": costs})
     return out

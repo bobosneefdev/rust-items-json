@@ -14,6 +14,7 @@ import item_properties
 import items as items_mod
 import loot_stats
 import raid
+import combat
 import world
 from game import Game
 
@@ -50,6 +51,7 @@ def main(server: Path, client: Path, out: Path):
     write(out, "building.json", blocks)
     write(out, "explosives.json", booms)
     write(out, "raid.json", raid.raid(blocks, deploys, booms))
+    write(out, "combat.json", combat.extract(g, records, blocks, deploys, booms))
 
     print(
         f"{len(records)} items ({sum('io' in r for r in records)} with IO, {sum('icon' in r for r in records)} icons), "
