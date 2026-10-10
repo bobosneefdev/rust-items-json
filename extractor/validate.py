@@ -14,19 +14,20 @@ def validate(root: Path):
         raise ValueError("items must be nonempty with unique shortnames and IDs")
     tables = data["loot.json"]["tables"]
 
-    def walk(value, path):
+    def walk(value, path, available_tables=tables):
         if isinstance(value, dict):
+            available_tables = value.get("tables", available_tables)
             for key, child in value.items():
                 if key in {"item", "sell", "currency"} and not isinstance(child, (dict, list)) and (not isinstance(child, str) or child not in names):
                     raise ValueError(f"{path}.{key}: unknown item {child!r}")
-                if key == "table" and not isinstance(child, (dict, list)) and child not in tables:
+                if key == "table" and not isinstance(child, (dict, list)) and child not in available_tables:
                     raise ValueError(f"{path}.table: unknown loot table {child!r}")
                 if key in {"chance", "probability"} and (not isinstance(child, (int, float)) or not 0 <= child <= 1):
                     raise ValueError(f"{path}.{key}: probability outside [0, 1]")
-                walk(child, f"{path}.{key}")
+                walk(child, f"{path}.{key}", available_tables)
         elif isinstance(value, list):
             for i, child in enumerate(value):
-                walk(child, f"{path}[{i}]")
+                walk(child, f"{path}[{i}]", available_tables)
         elif isinstance(value, float) and not math.isfinite(value):
             raise ValueError(f"{path}: non-finite number")
 

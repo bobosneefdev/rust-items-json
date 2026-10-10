@@ -11,8 +11,8 @@ import sys
 from pathlib import Path
 
 import items as items_mod
-import combat
 import raid
+import combat
 import world
 from game import Game
 

@@ -50,12 +50,11 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## Notes on the data
 
-- **Combat** preserves damage per hit and target protections, including hard-side attributes on child GameObjects. `combat()`, `raidDamage()`, `raidHits()` and `raidPlan()` support weapon-specific damage, current health, soft sides and ordered mixed attacks. `rawMaterialCost()` expands crafting recipes into per-unit materials, excluding craft-batch rounding and weapon acquisition. Timing estimates assume full magazines and uninterrupted attacks; unavailable/fractional-reload timings return null. Damage assumes point-blank hits without attachments, splash obstruction, fire ticks, skills, special entity overrides or server modifiers. Explosion distance falloff is available through `raidDamage(..., blastDistance)`; fire-producing items describe impact damage only.
-
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
+- **Combat** preserves damage per hit and target protections, including hard-side attributes on child GameObjects. `combat()`, `raidDamage()`, `raidHits()` and `raidPlan()` support weapon-specific damage, current health, soft sides and ordered mixed attacks. `rawMaterialCost()` expands crafting recipes into per-unit materials, excluding craft-batch rounding and weapon acquisition. Timing estimates assume full magazines and uninterrupted attacks; unavailable/fractional-reload timings return null. Damage assumes point-blank hits without attachments, splash obstruction, fire ticks, skills, special entity overrides or server modifiers. Explosion distance falloff is available through `raidDamage(..., blastDistance)`; fire-producing items describe impact damage only.
 - **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
 
 ## How it updates
