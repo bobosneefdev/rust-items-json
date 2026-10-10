@@ -10,8 +10,8 @@ import json
 import sys
 from pathlib import Path
 
-import items as items_mod
 import item_properties
+import items as items_mod
 import raid
 import world
 from game import Game
