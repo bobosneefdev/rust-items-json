@@ -1,5 +1,7 @@
 """recyclers.json, techtree.json, loot.json, vending.json: data that isn't per item."""
 
+import math
+
 from game import Game
 
 RECYCLER_TYPES = {0: "green", 1: "yellow", 2: "red"}
@@ -126,6 +128,10 @@ def loot(g: Game, npc_sources=()) -> dict:
             if "lootDefinition" not in t or "LootSpawnSlots" not in t:
                 continue
             c = {"type": LOOT_SPAWN_TYPES.get(t.get("SpawnType"), t.get("SpawnType"))}
+            lo, hi = t["minSecondsBetweenRefresh"], t["maxSecondsBetweenRefresh"]
+            c["refresh"] = {"min": lo, "max": hi} if 0 < lo <= hi and math.isfinite(hi) else None
+            c["initialLootSpawn"] = bool(t["initialLootSpawn"])
+            c["destroyOnEmpty"] = bool(t["destroyOnEmpty"])
             slots = []
             for s in t["LootSpawnSlots"]:
                 # LootContainer.FillLoot: slots restricted to other eras don't roll on vanilla servers.

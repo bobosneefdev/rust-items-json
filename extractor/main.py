@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 import items as items_mod
+import loot_stats
 import raid
 import world
 import world_entities
@@ -31,7 +32,15 @@ def main(server: Path, client: Path, out: Path):
     rarity = {r["shortname"]: r["rarity"] for r in records}
     write(out, "techtree.json", world.techtree(g, rarity))
     write(out, "recyclers.json", world.recyclers(g))
-    write(out, "loot.json", world.loot(g))
+    loot = world.loot(g)
+    write(out, "loot.json", loot)
+    conditions = {}
+    for sn, components in g.items().items():
+        condition = components["ItemDefinition"]["condition"]
+        if condition["enabled"]:
+            found = condition["foundCondition"]
+            conditions[sn] = {"min": found["fractionMin"], "max": found["fractionMax"]}
+    write(out, "loot-probabilities.json", loot_stats.calculate(loot, conditions))
     write(out, "vending.json", world.vending(g))
     write(out, "world.json", world_entities.extract(g))
 
