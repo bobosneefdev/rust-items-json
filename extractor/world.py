@@ -127,11 +127,14 @@ def loot(g: Game, npc_sources=()) -> dict:
         for cls, f, t in comps:
             if "lootDefinition" not in t or "LootSpawnSlots" not in t:
                 continue
-            c = {"type": LOOT_SPAWN_TYPES.get(t.get("SpawnType"), t.get("SpawnType"))}
-            lo, hi = t["minSecondsBetweenRefresh"], t["maxSecondsBetweenRefresh"]
-            c["refresh"] = {"min": lo, "max": hi} if 0 < lo <= hi and math.isfinite(hi) else None
-            c["initialLootSpawn"] = bool(t["initialLootSpawn"])
-            c["destroyOnEmpty"] = bool(t["destroyOnEmpty"])
+            spawn_type = t.get("SpawnType", 0)
+            c = {"type": LOOT_SPAWN_TYPES.get(spawn_type, spawn_type)}
+            if "minSecondsBetweenRefresh" in t:
+                lo, hi = t["minSecondsBetweenRefresh"], t["maxSecondsBetweenRefresh"]
+                c["refresh"] = {"min": lo, "max": hi} if 0 < lo <= hi and math.isfinite(hi) else None
+            for field in ("initialLootSpawn", "destroyOnEmpty"):
+                if field in t:
+                    c[field] = bool(t[field])
             slots = []
             for s in t["LootSpawnSlots"]:
                 # LootContainer.FillLoot: slots restricted to other eras don't roll on vanilla servers.
