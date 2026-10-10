@@ -13,6 +13,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
 | `data/raid.json` | How many of each explosive destroys each building block, door and wall, hard and soft side |
+| `data/combat.json` | Target protections and damage primitives for weapon/ammo combinations, melee, thrown projectiles and explosions |
 | `data/meta.json` | The Rust build the data came from, when it last changed and when it was last checked |
 | `CHANGELOG.md` | What changed in each Rust update |
 
@@ -49,6 +50,8 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## Notes on the data
 
+- **Combat** preserves damage per hit and target protections, including hard-side attributes on child GameObjects. `combat()`, `raidDamage()`, `raidHits()` and `raidPlan()` support weapon-specific damage, current health, soft sides and ordered mixed attacks. `rawMaterialCost()` expands crafting recipes into per-unit materials, excluding craft-batch rounding and weapon acquisition. Timing estimates assume full magazines and uninterrupted attacks; unavailable/fractional-reload timings return null. Damage assumes point-blank hits without attachments, splash obstruction, fire ticks, skills, special entity overrides or server modifiers. Explosion distance falloff is available through `raidDamage(..., blastDistance)`; fire-producing items describe impact damage only.
+
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
@@ -57,7 +60,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## How it updates
 
-A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch day), with a backup run Friday at the same time. It checks the current Rust build and only re-extracts when it changed:
+A GitHub Action checks the Rust build every **six hours** and re-extracts after build changes, extractor changes merged into master, or a forced manual run:
 
 1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
 2. Reads them with [UnityPy](https://github.com/K0lb3/UnityPy). Bundles are read by byte range, so the 6–7 GB texture bundles never load into memory.
