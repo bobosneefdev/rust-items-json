@@ -9,6 +9,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/techtree.json` | Workbench tech trees: nodes, unlock paths and scrap costs |
 | `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
 | `data/loot.json` | Loot containers (barrels, crates, airdrops...) and the weighted loot tables they roll |
+| `data/loot-probabilities.json` | Per-container drop chances, expected quantities, possible totals, condition ranges, and reverse item-to-container lookup |
 | `data/vending.json` | NPC shops (outpost, bandit camp, fishing villages): what they sell and for how much |
 | `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
@@ -56,6 +57,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 - **Monuments** use prefab paths as join keys; positions/rotations are relative to the monument root, with row-major 3×4 affine matrices for transformed geometry. Component IDs are local to the extracted build. Spawn `chance` is the base weighted choice for one draw, not a guarantee about final populations; caps, occupied points, duplicate prevention, server population and puzzle resets affect actual spawns. Infinite respawn intervals become null. Missing prefab references remain explicit as null plus their GUID and activity state in `unresolvedSpawns`; their probability is not redistributed. Radiation exports tier/override and collider geometry rather than inventing a single monument-wide exposure value. Puzzle connections describe serialized wiring, not an authored walkthrough. Procedural layouts and runtime-created entities are outside this static dataset.
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
 - **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
+- **Loot probabilities** model vanilla table rolls before inventory-capacity limits and game-mode modifiers. `chance` means at least one item; `expectedAmount` includes unsuccessful rolls. Rust rolls varying amounts as floats and truncates them to integers, so raw table maxima differ from possible integer totals. `refresh` is contents refresh, not monument/entity respawn. Condition ranges apply to roadside/town loot; other container types receive full condition.
 
 ## How it updates
 
