@@ -9,6 +9,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/techtree.json` | Workbench tech trees: nodes, unlock paths and scrap costs |
 | `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
 | `data/loot.json` | Loot containers (barrels, crates, airdrops...) and the weighted loot tables they roll |
+| `data/loot-probabilities.json` | Per-container drop chances, expected quantities, possible totals, condition ranges, and reverse item-to-container lookup |
 | `data/vending.json` | NPC shops (outpost, bandit camp, fishing villages): what they sell and for how much |
 | `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
@@ -56,6 +57,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
 - **Combat** preserves damage per hit and target protections, including hard-side attributes on child GameObjects. `combat()`, `raidDamage()`, `raidHits()` and `raidPlan()` support weapon-specific damage, current health, soft sides and ordered mixed attacks. `rawMaterialCost()` expands crafting recipes into per-unit materials, excluding craft-batch rounding and weapon acquisition. Timing estimates assume full magazines and uninterrupted attacks; unavailable/fractional-reload timings return null. Damage assumes point-blank hits without attachments, splash obstruction, fire ticks, skills, special entity overrides or server modifiers. Explosion distance falloff is available through `raidDamage(..., blastDistance)`; fire-producing items describe impact damage only.
 - **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
+- **Loot probabilities** model vanilla table rolls before inventory-capacity limits and game-mode modifiers. `chance` means at least one item; `expectedAmount` includes unsuccessful rolls. Rust rolls varying amounts as floats and truncates them to integers, so raw table maxima differ from possible integer totals. `refresh` is contents refresh, not monument/entity respawn. Condition ranges apply to roadside/town loot; other container types receive full condition.
 
 ## How it updates
 
