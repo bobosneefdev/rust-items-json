@@ -50,10 +50,9 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## Notes on the data
 
-- **World data** uses prefab paths as stable join keys. Harvesting amounts and fuel rates are base asset settings before tools, skills or server modifiers. NPC loot includes nested death-state tables used by newer AI, with loadout-conditional drops published separately; `default` means unconditional slots, not an average across loadouts. Dynamic NPC equipment drops and procedural vehicle configurations are not inferred. Resource and corpse harvest pools are listed separately from inventory loot.
-
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
+- **World data** uses prefab paths as stable join keys. Harvesting amounts and fuel rates are base asset settings before tools, skills or server modifiers. NPC loot includes nested death-state tables used by newer AI, with loadout-conditional drops published separately; `default` means unconditional slots, not an average across loadouts. Dynamic NPC equipment drops and procedural vehicle configurations are not inferred. Resource and corpse harvest pools are listed separately from inventory loot.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
 - **Loot**: a table either spawns all its `items` (amount in [min, max]) or picks one weighted sub-table. A container rolls each of its `slots` (`rolls` times at `chance`), or its `table` `rolls` times.
