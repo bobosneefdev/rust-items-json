@@ -2,6 +2,12 @@
  "containers": {
   "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-1.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Barrel",
    "rolls": 1,
    "scrap": 2,
@@ -9,6 +15,12 @@
   },
   "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-2.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Barrel",
    "rolls": 1,
    "scrap": 2,
@@ -16,12 +28,21 @@
   },
   "assets/bundled/prefabs/autospawn/resource/loot/trash-pile-1.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 900.0,
+    "max": 1800.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.TrashPile",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/modding/asset_store/hiddenhackablecrate.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -48,6 +69,9 @@
   },
   "assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_min_build_radius.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -144,6 +168,9 @@
   },
   "assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_no_build_radius.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -240,6 +267,12 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_basic.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "WorkbenchTier_0",
@@ -257,6 +290,12 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_elite.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.RadTown1",
@@ -284,6 +323,12 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -306,6 +351,12 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier2",
@@ -343,18 +394,36 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2_food.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.FoodCrate",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_normal_2_medical.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.MedicalCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_crate_tools.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.BlackBox",
    "rolls": 1,
    "scrap": 5,
@@ -362,12 +431,24 @@
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_foodbox.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 900.0,
+    "max": 1800.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodBox",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/modding/lootables/invisible/invisible_lootable_prefabs/invisible_vehicle_parts.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "EngineComponents",
    "rolls": 2,
    "scrap": 8,
@@ -375,6 +456,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_basic.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "WorkbenchTier_0",
@@ -392,6 +479,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_basic_jungle.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.CrateJungle",
@@ -409,6 +502,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_cannons.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.MedicalCrate",
@@ -446,6 +545,9 @@
   },
   "assets/bundled/prefabs/radtown/crate_elite.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.RadTown1",
@@ -488,12 +590,24 @@
   },
   "assets/bundled/prefabs/radtown/crate_mine.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.MineCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_normal.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -541,6 +655,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_normal_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier2",
@@ -588,24 +708,48 @@
   },
   "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.FoodCrate",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.MedicalCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_shore.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodBox",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/crate_tools.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.BlackBox",
    "rolls": 1,
    "scrap": 5,
@@ -613,6 +757,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_underwater_advanced.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier1",
@@ -645,6 +795,12 @@
   },
   "assets/bundled/prefabs/radtown/crate_underwater_basic.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier1",
@@ -672,72 +828,144 @@
   },
   "assets/bundled/prefabs/radtown/dmloot/dm ammo.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.AmmoCrate",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm c4.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "explosive.timed",
    "rolls": 4,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm construction resources.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.ConstructionResources",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm construction tools.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.ConstructionTools",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm food.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.FoodCrate",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm medical.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.MedicalCrate",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm res.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.ConstructionResourcesAlt",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm tier1 lootbox.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.T1",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm tier2 lootbox.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.T2",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/dmloot/dm tier3 lootbox.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.T3",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/foodbox.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 900.0,
+    "max": 1800.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodBox",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Barrel",
    "rolls": 1,
    "scrap": 2,
@@ -745,6 +973,12 @@
   },
   "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Barrel",
    "rolls": 1,
    "scrap": 2,
@@ -752,36 +986,69 @@
   },
   "assets/bundled/prefabs/radtown/loot_component_test.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 1800.0,
+    "max": 3600.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Components.Tier1",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/loot_trash.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Components.Tier0",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/minecart.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.MineCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/oil_barrel.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 1800.0,
+    "max": 3600.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.OilBarrel",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_ammunition.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "Ammo",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_elite.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.RadTown1",
@@ -824,30 +1091,60 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_food_1.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCrate",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_food_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodBox",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_fuel.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.OilBarrel",
    "rolls": 2,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_medical.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.MedicalCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_normal.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -880,6 +1177,12 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_normal_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier2",
@@ -927,6 +1230,12 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/crate_tools.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.BlackBox",
    "rolls": 1,
    "scrap": 5,
@@ -934,6 +1243,12 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/tech_parts_1.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.Components.Tier2",
    "rolls": 2,
    "scrap": 8,
@@ -941,6 +1256,12 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/tech_parts_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.Components.Tier3",
    "rolls": 2,
    "scrap": 8,
@@ -948,6 +1269,12 @@
   },
   "assets/bundled/prefabs/radtown/underwater_labs/vehicle_parts.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "EngineComponents",
    "rolls": 2,
    "scrap": 8,
@@ -955,6 +1282,12 @@
   },
   "assets/bundled/prefabs/radtown/vehicle_parts.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "EngineComponents",
    "rolls": 2,
    "scrap": 8,
@@ -962,6 +1295,12 @@
   },
   "assets/bundled/prefabs/radtown/vehicle_parts_advanced.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "EngineComponents.Advanced",
    "rolls": 2,
    "scrap": 8,
@@ -969,60 +1308,93 @@
   },
   "assets/content/props/roadsigns/roadsign1.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign2.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign3.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign4.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign5.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign6.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign7.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign8.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/props/roadsigns/roadsign9.prefab": {
    "type": "roadside",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.Roadsign",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -1045,6 +1417,12 @@
   },
   "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier2",
@@ -1082,18 +1460,33 @@
   },
   "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2_food.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.FoodCrate",
    "rolls": 3,
    "class": "LootContainer"
   },
   "assets/content/vehicles/trains/wagons/subents/wagon_crate_normal_2_medical.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DM.LootSpawn.MedicalCrate",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -1190,6 +1583,9 @@
   },
   "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_ghostship.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -1286,6 +1682,9 @@
   },
   "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_oilrig.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "Workbench_Experiment_Tier_3",
@@ -1382,36 +1781,69 @@
   },
   "assets/prefabs/misc/food cache/food_cache_001.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/food cache/food_cache_002.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/food cache/food_cache_003.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/food cache/food_cache_004.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/food cache/food_cache_005.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LootSpawn.FoodCache",
    "rolls": 6,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/supply drop/supply_drop.prefab": {
    "type": "airdrop",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "ResourceRoll",
@@ -1478,12 +1910,21 @@
   },
   "assets/prefabs/misc/xmas/giftbox/giftbox_loot.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "WorldGiftBox",
    "rolls": 5,
    "class": "LootContainer"
   },
   "assets/prefabs/misc/xmas/sleigh/presentdrop.prefab": {
    "type": "airdrop",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "ResourceRoll",
@@ -1520,30 +1961,45 @@
   },
   "assets/prefabs/misc/xmas/stockings/stocking_large_deployed.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": false,
+   "destroyOnEmpty": false,
    "table": "SUPERStocking",
    "rolls": 3,
    "class": "Stocking"
   },
   "assets/prefabs/misc/xmas/stockings/stocking_small_deployed.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": false,
+   "destroyOnEmpty": false,
    "table": "SmallStocking",
    "rolls": 2,
    "class": "Stocking"
   },
   "assets/prefabs/missions/entities/deepseatreasuremission_box.prefab": {
    "type": "generic",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "DeepSeaTreasureSpawn_ArmorPlates",
    "rolls": 1,
    "class": "SingleUseMissionStorageContainer"
   },
   "assets/prefabs/missions/entities/logstash.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "LogSpawn",
    "rolls": 1,
    "class": "WhitelistLootContainer"
   },
   "assets/prefabs/missions/entities/missionlootbox_basic.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -1566,18 +2022,30 @@
   },
   "assets/prefabs/missions/entities/missionstash.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "BottleSpawn",
    "rolls": 1,
    "class": "WhitelistLootContainer"
   },
   "assets/prefabs/missions/entities/tacklebox.prefab": {
    "type": "town",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "TackleSpawn",
    "rolls": 1,
    "class": "WhitelistLootContainer"
   },
   "assets/prefabs/missions/portal/proceduraldungeon/xmastunnels/loot/xmastunnellootbox.prefab": {
    "type": "town",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "LootSpawn.Components.Tier3",
@@ -1610,6 +2078,12 @@
   },
   "assets/prefabs/missions/tutorialisland/crate_elite_tutorial.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "slots": [
     {
      "table": "LootSpawn.TutorialHiddenCrate",
@@ -1621,6 +2095,12 @@
   },
   "assets/prefabs/missions/tutorialisland/loot-barrel-tutorial.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.BarrelTutorial",
    "rolls": 1,
    "scrap": 2,
@@ -1628,6 +2108,9 @@
   },
   "assets/prefabs/npc/m2bradley/bradley_crate.prefab": {
    "type": "crashsite",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "HighEndWeapons",
@@ -1669,24 +2152,42 @@
   },
   "assets/prefabs/npc/patrol helicopter/heli_crate.prefab": {
    "type": "crashsite",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "HeliLoot",
    "rolls": 1,
    "class": "LockedByEntCrate"
   },
   "assets/prefabs/resource/diesel barrel/diesel_barrel_world.prefab": {
    "type": "roadside",
+   "refresh": {
+    "min": 1800.0,
+    "max": 3600.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.OilBarrel",
    "rolls": 1,
    "class": "LootContainer"
   },
   "assets/prefabs/resource/natural beehive/beehive.natural.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": false,
    "table": "LootSpawn.NaturalBeehive",
    "rolls": 1,
    "class": "NaturalBeehive"
   },
   "assets/prefabs/satellitecrash/crates/satellite_crate_1.entity.prefab": {
    "type": "crashsite",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "SatelliteCrashLoot",
@@ -1703,6 +2204,9 @@
   },
   "assets/prefabs/satellitecrash/crates/satellite_crate_2.entity.prefab": {
    "type": "crashsite",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "SatelliteCrashLoot",
@@ -1719,6 +2223,9 @@
   },
   "assets/prefabs/satellitecrash/crates/satellite_crate_3.entity.prefab": {
    "type": "crashsite",
+   "refresh": null,
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "slots": [
     {
      "table": "SatelliteCrashLoot",
@@ -1735,6 +2242,12 @@
   },
   "assets/scripts/entity/misc/visualstoragecontainer/visualshelvestest.prefab": {
    "type": "generic",
+   "refresh": {
+    "min": 3600.0,
+    "max": 7200.0
+   },
+   "initialLootSpawn": true,
+   "destroyOnEmpty": true,
    "table": "HeliLoot",
    "rolls": 2,
    "class": "VisualStorageContainer"

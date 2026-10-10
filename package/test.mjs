@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { dataUrl, iconUrl, load } from "./dist/index.js";
+import { dataUrl, iconUrl, load, lootProbabilities } from "./dist/index.js";
 
 const local = (path) => readFileSync(new URL(`../data/${path}`, import.meta.url), "utf8");
 const fetch = async (url) => ({ ok: true, json: async () => JSON.parse(local(url.split("/data/")[1])) });
@@ -28,4 +28,11 @@ test("raid costs match well-known values", async () => {
   assert.equal(wall("metal")["explosive.timed"].hard, 4);
   assert.equal(wall("armored")["explosive.timed"].hard, 8);
   assert.equal(wall("stone")["ammo.rocket.basic"].hard, 4);
+});
+
+test("loot probabilities include matching reverse item sources", async () => {
+  const stats = await lootProbabilities({ fetch });
+  const source = stats.items["rifle.ak"].find((s) => s.container.endsWith("/codelockedhackablecrate.prefab"));
+  assert.ok(source.chance > 0.28 && source.chance < 0.29);
+  assert.equal(stats.containers[source.container].find((d) => d.item === "rifle.ak").chance, source.chance);
 });

@@ -119,6 +119,10 @@ export interface LootTable {
 }
 
 export interface LootContainer {
+  /** Contents refresh interval in seconds; not the monument's entity respawn interval. */
+  refresh?: { min: number; max: number } | null;
+  initialLootSpawn?: boolean;
+  destroyOnEmpty?: boolean;
   type: "generic" | "player" | "town" | "airdrop" | "crashsite" | "roadside";
   class: string;
   /** Each slot rolls `rolls` times, spawning its table with probability `chance`. */
@@ -133,6 +137,22 @@ export interface LootContainer {
 export interface Loot {
   containers: Record<string, LootContainer>;
   tables: Record<string, LootTable>;
+}
+
+export interface LootProbability {
+  /** Probability of receiving at least one, 0..1. */
+  chance: number;
+  expectedAmount: number;
+  /** Possible total amount including zero; varying float quantities are truncated by Rust. */
+  min: number;
+  max: number;
+  /** Fraction of maximum item durability, 0..1. */
+  condition?: { min: number; max: number };
+}
+
+export interface LootProbabilities {
+  containers: Record<string, (LootProbability & { item: Shortname })[]>;
+  items: Record<Shortname, (LootProbability & { container: string })[]>;
 }
 
 export interface VendingOrder {
@@ -201,6 +221,7 @@ export interface Files {
   "recyclers.json": Recycler[];
   "techtree.json": TechTree[];
   "loot.json": Loot;
+  "loot-probabilities.json": LootProbabilities;
   "vending.json": Shop[];
   "building.json": BuildingBlock[];
   "explosives.json": Explosive[];
@@ -242,6 +263,8 @@ export const recyclers = (opts?: Options) => load("recyclers.json", opts);
 export const techtree = (opts?: Options) => load("techtree.json", opts);
 
 export const loot = (opts?: Options) => load("loot.json", opts);
+
+export const lootProbabilities = (opts?: Options) => load("loot-probabilities.json", opts);
 
 export const vending = (opts?: Options) => load("vending.json", opts);
 
