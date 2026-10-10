@@ -16,6 +16,7 @@ import loot_stats
 import raid
 import combat
 import world
+import world_entities
 from game import Game
 
 
@@ -44,6 +45,7 @@ def main(server: Path, client: Path, out: Path):
             conditions[sn] = {"min": found["fractionMin"], "max": found["fractionMax"]}
     write(out, "loot-probabilities.json", loot_stats.calculate(loot, conditions))
     write(out, "vending.json", world.vending(g))
+    write(out, "world.json", world_entities.extract(g))
 
     blocks = raid.building(g)
     deploys = raid.deployables(g, {r["shortname"]: r["entity"] for r in records if "entity" in r})

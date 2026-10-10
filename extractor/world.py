@@ -70,7 +70,7 @@ def techtree(g: Game, rarity: dict[str, str | None]) -> list[dict]:
     return out
 
 
-def loot(g: Game) -> dict:
+def loot(g: Game, npc_sources=()) -> dict:
     """Loot tables and the containers that use them, mirroring LootSpawn / LootContainer.
 
     A table either lists `items` (each spawned with an amount in [min, max]) or `pick`s one
@@ -122,15 +122,19 @@ def loot(g: Game) -> dict:
         return ids[key]
 
     containers = {}
-    for name, comps in g.prefabs.items():
+    sources = list(g.prefabs.items()) + [(name, [(cls, f, {**t, "lootDefinition": {"m_FileID": 0, "m_PathID": 0}, "maxDefinitionsToSpawn": 0})]) for name, cls, f, t in npc_sources]
+    for name, comps in sources:
         for cls, f, t in comps:
             if "lootDefinition" not in t or "LootSpawnSlots" not in t:
                 continue
-            c = {"type": LOOT_SPAWN_TYPES.get(t.get("SpawnType"), t.get("SpawnType"))}
-            lo, hi = t["minSecondsBetweenRefresh"], t["maxSecondsBetweenRefresh"]
-            c["refresh"] = {"min": lo, "max": hi} if 0 < lo <= hi and math.isfinite(hi) else None
-            c["initialLootSpawn"] = bool(t["initialLootSpawn"])
-            c["destroyOnEmpty"] = bool(t["destroyOnEmpty"])
+            spawn_type = t.get("SpawnType", 0)
+            c = {"type": LOOT_SPAWN_TYPES.get(spawn_type, spawn_type)}
+            if "minSecondsBetweenRefresh" in t:
+                lo, hi = t["minSecondsBetweenRefresh"], t["maxSecondsBetweenRefresh"]
+                c["refresh"] = {"min": lo, "max": hi} if 0 < lo <= hi and math.isfinite(hi) else None
+            for field in ("initialLootSpawn", "destroyOnEmpty"):
+                if field in t:
+                    c[field] = bool(t[field])
             slots = []
             for s in t["LootSpawnSlots"]:
                 # LootContainer.FillLoot: slots restricted to other eras don't roll on vanilla servers.
@@ -139,7 +143,10 @@ def loot(g: Game) -> dict:
                 loc = g.resolve(f, s["definition"])
                 tid = table_id(*loc) if loc else None
                 if tid:
-                    slots.append({"table": tid, "rolls": s["numberToSpawn"], "chance": round(s["probability"], 4)})
+                    slot = {"table": tid, "rolls": s["numberToSpawn"], "chance": s["probability"]}
+                    if s.get("onlyWithLoadoutNamed"):
+                        slot["loadout"] = s["onlyWithLoadoutNamed"]
+                    slots.append(slot)
             if slots:
                 c["slots"] = slots
             else:

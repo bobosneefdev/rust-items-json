@@ -12,6 +12,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/loot.json` | Loot containers (barrels, crates, airdrops...) and the weighted loot tables they roll |
 | `data/loot-probabilities.json` | Per-container drop chances, expected quantities, possible totals, condition ranges, and reverse item-to-container lookup |
 | `data/vending.json` | NPC shops (outpost, bandit camp, fishing villages): what they sell and for how much |
+| `data/world.json` | Animals, NPCs, vehicles, collectables and resources; health, harvesting, attacks, fuel/storage settings, NPC loot and reverse item sources |
 | `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
 | `data/raid.json` | How many of each explosive destroys each building block, door and wall, hard and soft side |
@@ -56,6 +57,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
+- **World data** uses prefab paths as stable join keys. Harvesting amounts and fuel rates are base asset settings before tools, skills or server modifiers. NPC loot includes nested death-state tables used by newer AI, with loadout-conditional drops published separately; `default` means unconditional slots, not an average across loadouts. Dynamic NPC equipment drops and procedural vehicle configurations are not inferred. Resource and corpse harvest pools are listed separately from inventory loot.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
 - **Raid counts** assume every hit lands at the centre of the blast, follow the game's damage pipeline (`BaseCombatEntity.Hurt`), and use vanilla server settings. `soft` is listed only when the soft side takes more damage.
 - **Combat** preserves damage per hit and target protections, including hard-side attributes on child GameObjects. `combat()`, `raidDamage()`, `raidHits()` and `raidPlan()` support weapon-specific damage, current health, soft sides and ordered mixed attacks. `rawMaterialCost()` expands crafting recipes into per-unit materials, excluding craft-batch rounding and weapon acquisition. Timing estimates assume full magazines and uninterrupted attacks; unavailable/fractional-reload timings return null. Damage assumes point-blank hits without attachments, splash obstruction, fire ticks, skills, special entity overrides or server modifiers. Explosion distance falloff is available through `raidDamage(..., blastDistance)`; fire-producing items describe impact damage only.
