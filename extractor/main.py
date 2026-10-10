@@ -18,6 +18,7 @@ import combat
 import world
 import world_entities
 from game import Game
+import monuments
 
 
 def write(out: Path, name: str, data):
@@ -34,6 +35,7 @@ def main(server: Path, client: Path, out: Path):
 
     rarity = {r["shortname"]: r["rarity"] for r in records}
     write(out, "techtree.json", world.techtree(g, rarity))
+    write(out, "monuments.json", monuments.extract(g))
     write(out, "recyclers.json", world.recyclers(g))
     loot = world.loot(g)
     write(out, "loot.json", loot)
