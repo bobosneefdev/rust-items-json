@@ -60,6 +60,31 @@ export interface Item {
   icon?: string;
 }
 
+export interface ItemProperties {
+  consumable?: { amount: number; effects: { type: string; amount: number; seconds: number; healthThreshold: number }[];
+    modifiers: { type: number; source: number; value: number; duration: number }[] };
+  spoiling?: { hours: number; item?: Shortname };
+  wearable?: { protection: Protection | null; areas: string[]; blocksAiming: boolean; preventsMounting: boolean };
+  projectile?: { ammoType: number; count: number; velocity: number; spread: number; damage: Partial<Record<DamageType, number>>;
+    drag?: number; gravity?: number; damageDistances?: { x: number; y: number }; damageMultipliers?: { x: number; y: number };
+    radial?: { damage: Partial<Record<DamageType, number>>; radius: number; ignoreHitObject: boolean; onlyDoors: boolean } };
+  condition?: { repairable: boolean; found: { min: number; max: number } };
+  /** Multiply ingredients by costFraction * (1 - condition / maxCondition), then ceil each amount. */
+  repair?: { ingredients: ItemAmount[]; costFraction: number; maxConditionLost: number;
+    refill?: { workbench: number; conditionLost: number; canUseRepairBench: boolean } };
+  /** Asset settings; actual timers depend on server convars and contained items. */
+  despawn: { quick: boolean; rarity: number };
+  weapon?: { class: string; magazine: number; ammoTypes: number; repeatDelay?: number; reloadTime?: number; deployDelay?: number;
+    damageScale?: number; velocityScale?: number; aimCone?: number; hipAimCone?: number; automatic?: number;
+    fractionalReload?: number; reloadStart?: number; reloadFraction?: number; reloadEnd?: number };
+  gathering?: Record<"tree" | "ore" | "flesh", { damage: number; destroyFraction: number; conditionLost: number }>;
+  melee?: { damage: Partial<Record<DamageType, number>>; deployableDamage: Partial<Record<DamageType, number>>; range: number; repeatDelay: number };
+  medical?: { selfSeconds?: number; otherSeconds?: number; reviveSeconds?: number };
+  electrical?: { class: string; maxOutput?: number; capacityWattSeconds?: number; chargeEfficiency?: number;
+    maximumInboundEnergyRatio?: number; solarMaxOutput?: number; windMaxOutput?: number; generatorOutput?: number;
+    fuelOutput?: number; fuelPerSecond?: number; consumption?: number };
+}
+
 export interface Recycler {
   type: "green" | "yellow" | "red";
   efficiency: number;
@@ -192,6 +217,7 @@ export interface Meta {
 
 export interface Files {
   "items.json": Item[];
+  "item-properties.json": Record<Shortname, ItemProperties>;
   "recyclers.json": Recycler[];
   "techtree.json": TechTree[];
   "loot.json": Loot;
@@ -229,6 +255,8 @@ export async function load<K extends keyof Files>(file: K, opts: Options = {}): 
 }
 
 export const items = (opts?: Options) => load("items.json", opts);
+
+export const itemProperties = (opts?: Options) => load("item-properties.json", opts);
 
 export const recyclers = (opts?: Options) => load("recyclers.json", opts);
 

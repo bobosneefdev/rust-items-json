@@ -5,6 +5,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | File | What's in it |
 | --- | --- |
 | `data/items.json` | Every item: id, shortname, name, description, category, stack size, rarity, condition, plus **IO wiring**, **crafting**, **research cost** and **recycling yield** |
+| `data/item-properties.json` | Properties keyed by shortname: food/medical effects, armor coverage/protection, weapon/ammo stats, electrical settings, gathering, repair and despawn settings |
 | `data/icons/<shortname>.webp` | The in-game inventory icon (256×256), decoded from the game's own textures |
 | `data/techtree.json` | Workbench tech trees: nodes, unlock paths and scrap costs |
 | `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
@@ -49,6 +50,8 @@ https://raw.githubusercontent.com/bobosneefdev/rust-items-json/master/data/icons
 Each Rust update is also published as a [release](https://github.com/bobosneefdev/rust-items-json/releases) tagged `build-<id>`, with the full `data/` folder attached as a zip.
 
 ## Notes on the data
+
+- **Item properties** are serialized base settings, without attachments, player skills, server convars or dynamic state. Missing electrical consumption means the value is implemented in game code rather than serialized; it does not mean zero. Battery capacity is Rust watt-seconds. Repair recipes follow the game's component substitution; multiply amounts by `0.2 * (1 - condition / maxCondition)` and round each up. Despawn exports quick/rarity settings rather than inventing a timer independent of server settings.
 
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
