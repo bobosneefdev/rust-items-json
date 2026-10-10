@@ -13,6 +13,7 @@ from pathlib import Path
 import items as items_mod
 import raid
 import world
+import world_entities
 from game import Game
 
 
@@ -32,6 +33,7 @@ def main(server: Path, client: Path, out: Path):
     write(out, "recyclers.json", world.recyclers(g))
     write(out, "loot.json", world.loot(g))
     write(out, "vending.json", world.vending(g))
+    write(out, "world.json", world_entities.extract(g))
 
     blocks = raid.building(g)
     deploys = raid.deployables(g, {r["shortname"]: r["entity"] for r in records if "entity" in r})

@@ -97,7 +97,7 @@ export interface LootContainer {
   type: "generic" | "player" | "town" | "airdrop" | "crashsite" | "roadside";
   class: string;
   /** Each slot rolls `rolls` times, spawning its table with probability `chance`. */
-  slots?: { table: string; rolls: number; chance: number }[];
+  slots?: { table: string; rolls: number; chance: number; loadout?: string }[];
   /** Used when there are no slots: the table is spawned `rolls` times. */
   table?: string;
   rolls?: number;
@@ -123,6 +123,37 @@ export interface VendingOrder {
 export interface Shop {
   name: string;
   orders: VendingOrder[];
+}
+
+export interface WorldEntity {
+  type: "animal" | "npc" | "vehicle" | "collectable" | "resource";
+  classes: string[];
+  name: string;
+  health?: number;
+  protection?: Protection | null;
+  harvest?: { type: string; items: ItemAmount[]; finishBonus: ItemAmount[] }[];
+  pickup?: ItemAmount[];
+  attacks?: { class: string; damage: Partial<Record<DamageType, number>> }[];
+  fuelPerSecond?: number;
+  storage?: { class: string; prefab?: string; slots: number }[];
+  corpse?: string;
+  loot?: string;
+  loadouts?: { name: string; items: ItemAmount[]; belt: ItemAmount[]; main: ItemAmount[]; wear: ItemAmount[] }[];
+}
+
+export interface WorldDrop {
+  chance: number;
+  expectedAmount: number;
+  min: number;
+  max: number;
+}
+
+export interface World {
+  entities: Record<string, WorldEntity>;
+  loot: Loot;
+  /** Variants keyed by loadout name; "default" includes only unconditional slots. */
+  drops: Record<string, Record<string, (WorldDrop & { item: Shortname })[]>>;
+  sources: Record<Shortname, (WorldDrop & { entity: string; loadout?: string })[]>;
 }
 
 export type DamageType = string;
@@ -176,6 +207,7 @@ export interface Files {
   "techtree.json": TechTree[];
   "loot.json": Loot;
   "vending.json": Shop[];
+  "world.json": World;
   "building.json": BuildingBlock[];
   "explosives.json": Explosive[];
   "raid.json": RaidTarget[];
@@ -216,6 +248,8 @@ export const techtree = (opts?: Options) => load("techtree.json", opts);
 export const loot = (opts?: Options) => load("loot.json", opts);
 
 export const vending = (opts?: Options) => load("vending.json", opts);
+
+export const world = (opts?: Options) => load("world.json", opts);
 
 export const building = (opts?: Options) => load("building.json", opts);
 

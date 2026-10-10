@@ -10,6 +10,7 @@ Game data for [Rust](https://rust.facepunch.com/), extracted straight from the g
 | `data/recyclers.json` | Recycler tiers (green, yellow, red): efficiency, speed, powergrid bonuses |
 | `data/loot.json` | Loot containers (barrels, crates, airdrops...) and the weighted loot tables they roll |
 | `data/vending.json` | NPC shops (outpost, bandit camp, fishing villages): what they sell and for how much |
+| `data/world.json` | Animals, NPCs, vehicles, collectables and resources; health, harvesting, attacks, fuel/storage settings, NPC loot and reverse item sources |
 | `data/building.json` | Building blocks per grade: health, cost, damage protection, soft-side protection |
 | `data/explosives.json` | Everything that explodes: damage by type and blast radius |
 | `data/raid.json` | How many of each explosive destroys each building block, door and wall, hard and soft side |
@@ -49,6 +50,8 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## Notes on the data
 
+- **World data** uses prefab paths as stable join keys. Harvesting amounts and fuel rates are base asset settings before tools, skills or server modifiers. NPC loot includes nested death-state tables used by newer AI, with loadout-conditional drops published separately; `default` means unconditional slots, not an average across loadouts. Dynamic NPC equipment drops and procedural vehicle configurations are not inferred. Resource and corpse harvest pools are listed separately from inventory loot.
+
 - **IO positions** are 3D plug positions on the model, in metres.
 - **Recycling** yields are per item at efficiency 1.0. Multiply by a recycler's `efficiency` from `recyclers.json` (green 0.5, yellow 0.4, red 0.75). Fractions are rolled as chances in game.
 - **Research and tech tree costs** are vanilla, without server tax. Tech trees marked `"vanilla": false` only appear on primitive-era or game-mode servers.
@@ -57,7 +60,7 @@ Each Rust update is also published as a [release](https://github.com/bobosneefde
 
 ## How it updates
 
-A GitHub Action runs every **Thursday at 12:07 Los Angeles time** (Rust's patch day), with a backup run Friday at the same time. It checks the current Rust build and only re-extracts when it changed:
+A GitHub Action checks the Rust build every **six hours** and re-extracts after build changes, extractor changes merged into master, or a forced manual run:
 
 1. Downloads the dedicated server bundles (anonymous) and the client's item and texture bundles (an account that owns Rust) with [DepotDownloader](https://github.com/SteamRE/DepotDownloader).
 2. Reads them with [UnityPy](https://github.com/K0lb3/UnityPy). Bundles are read by byte range, so the 6–7 GB texture bundles never load into memory.
